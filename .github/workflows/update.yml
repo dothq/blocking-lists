@@ -1,0 +1,23 @@
+name: Node.js CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Installing dependencies...
+        run: yarn
+      - name: Generate...
+        run: yarn gen
+      - name: Upload changes...
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_email: dothq-robot@users.noreply.github.com
+          name: Dot HQ
+          message: '🍱 Update database'
