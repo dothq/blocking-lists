@@ -10,6 +10,8 @@ enum TokenType {
   CSS_SEPARATOR, // ##
   EXEMPT_CSS_SEPARATOR, // #@#
   HIDING_CSS_SEPARATOR, // #?#
+  SNIPPET_SEPARATOR, // #$#
+  CHAR,
   EOF,
 }
 

@@ -49,17 +49,6 @@ class Scanner {
         this.addToken(TokenType.EQUALS)
         break
 
-      case '@':
-        if (this.match('@')) {
-          this.addToken(TokenType.EXEMPTION)
-        } else {
-          throw new Error(
-            this.line + ': The token @ is not recognized as a single token'
-          )
-        }
-
-        break
-
       case '!':
         while (this.peek() != '\n' && !this.isAtEnd()) this.advance()
         break
@@ -75,15 +64,62 @@ class Scanner {
           this.addToken(TokenType.CSS_SEPARATOR)
         } else if (nextChar === '@') {
           if (this.match('#')) this.addToken(TokenType.EXEMPT_CSS_SEPARATOR)
-          else throw new Error(`${this.line}: Unknown token here, expected '#'`)
+          else {
+            const peek = this.peek()
+            let context = ''
+
+            for (let index = 0; index < 15; index++) {
+              context += this.advance()
+            }
+
+            throw new Error(
+              `${this.line}: Unknown token here, expected '#' got ${peek}. Context: \n ${context}`
+            )
+          }
         } else if (nextChar === '?') {
           if (this.match('#')) this.addToken(TokenType.HIDING_CSS_SEPARATOR)
-          else throw new Error(`${this.line}: Unknown token here, expected '#'`)
+          else {
+            const peek = this.peek()
+            let context = ''
+
+            for (let index = 0; index < 15; index++) {
+              context += this.advance()
+            }
+
+            throw new Error(
+              `${this.line}: Unknown token here, expected '#' got ${peek}. Context: \n ${context}`
+            )
+          }
+        } else if (nextChar === '$') {
+          if (this.match('#')) this.addToken(TokenType.SNIPPET_SEPARATOR)
+          else {
+            this.addToken(TokenType.CHAR, '$')
+            this.addToken(TokenType.SEPARATOR)
+          }
         }
         break
 
+      case '@':
+        if (this.match('@')) {
+          this.addToken(TokenType.EXEMPTION)
+        } else {
+          this.addToken(TokenType.CHAR, '@')
+        }
+
+        break
+
+      case ' ':
+      case '\r':
+      case '\t':
+        // Ignore whitespace
+        break
+
+      case '\n':
+        this.line++
+        break
+
       default:
-        console.error(`${this.line}: Unexpected character ${c}`)
+        this.addToken(TokenType.CHAR, c)
         break
     }
   }

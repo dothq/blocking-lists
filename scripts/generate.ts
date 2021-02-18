@@ -1,8 +1,9 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { adsAndTrackers, cachePath } from './sources'
+import Scanner from './tokeniser/scanner'
 
-let adsAndTrackersBlocks = []
+let adsAndTrackersBlocks = ''
 
 const phishingAndMalware = []
 let phishingAndMalwareBlocks = []
@@ -65,16 +66,54 @@ const parseFile = (file: string) => {
   // Ads and trackers
   for (const list in adsAndTrackers) {
     console.log(adsAndTrackers[list][1])
-    adsAndTrackersBlocks = [
-      ...parseFile(
-        readFileSync(
-          `${join(cachePath, adsAndTrackers[list][1])}.txt`
-        ).toString()
-      ),
-      ...adsAndTrackersBlocks,
-    ]
+    adsAndTrackersBlocks += readFileSync(
+      `${join(cachePath, adsAndTrackers[list][1])}.txt`
+    ).toString()
   }
 
+  // Remove annoying % signs, #@?#, #$?#, #@$#
+  adsAndTrackersBlocks = adsAndTrackersBlocks
+    .split('\n')
+    .map((s) => {
+      if (s.includes('%')) {
+        return '!' + s
+      } else {
+        return s
+      }
+    })
+    .map((s) => {
+      if (s.includes('#@?#')) {
+        return '!' + s
+      } else {
+        return s
+      }
+    })
+    .map((s) => {
+      if (s.includes('#$?#')) {
+        return '!' + s
+      } else {
+        return s
+      }
+    })
+    .map((s) => {
+      if (s.includes('#@$#')) {
+        return '!' + s
+      } else {
+        return s
+      }
+    })
+    .join('\n')
+
+  const scanner = new Scanner(adsAndTrackersBlocks)
+  console.log('Parsing')
+
+  const parsed = scanner.scanTokens()
+
+  console.log('Stringifying')
+
+  const data = JSON.stringify(parsed)
+  console.log('Saving files')
+
   // Write to json files
-  writeFileSync('./adsAndTrackers.json', JSON.stringify(adsAndTrackers))
+  writeFileSync('./adsAndTrackers.json', data)
 })()
