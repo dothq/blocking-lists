@@ -1,10 +1,7 @@
-import axios from 'axios'
-import { writeFileSync } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
+import { join } from 'path'
+import { adsAndTrackers, cachePath } from './sources'
 
-const adsAndTrackers = [
-  'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt',
-  'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt',
-]
 let adsAndTrackersBlocks = []
 
 const phishingAndMalware = []
@@ -67,9 +64,13 @@ const parseFile = (file: string) => {
 ;(async () => {
   // Ads and trackers
   for (const list in adsAndTrackers) {
-    console.log(adsAndTrackers[list])
+    console.log(adsAndTrackers[list][1])
     adsAndTrackersBlocks = [
-      ...parseFile((await axios.get(adsAndTrackers[list])).data),
+      ...parseFile(
+        readFileSync(
+          `${join(cachePath, adsAndTrackers[list][1])}.txt`
+        ).toString()
+      ),
       ...adsAndTrackersBlocks,
     ]
   }

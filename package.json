@@ -7,7 +7,8 @@
   "license": "MPL",
   "private": true,
   "scripts": {
-    "gen": "ts-node scripts/generate.ts"
+    "gen": "ts-node scripts/generate.ts",
+    "download": "ts-node scripts/download.ts"
   },
   "devDependencies": {
     "@types/node": "^14.14.28",
