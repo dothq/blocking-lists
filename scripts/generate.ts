@@ -111,7 +111,7 @@ const parseFile = (file: string) => {
 
   console.log('Stringifying')
 
-  const data = JSON.stringify(parsed.slice(0, 1000)
+  const data = JSON.stringify(parsed.slice(0, 1000))
   console.log('Saving files')
 
   // Write to json files
