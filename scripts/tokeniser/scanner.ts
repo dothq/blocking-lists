@@ -23,18 +23,15 @@ class Scanner {
 
     let newTokens = []
     let currentToken: boolean | Token = false
-    let lastToken: Token
 
     this.tokens.forEach((token) => {
       if (token.type !== TokenType.CHAR) {
         if (currentToken instanceof Token) {
           newTokens.push(currentToken)
-          lastToken = currentToken
           currentToken = false
         }
 
         newTokens.push(token)
-        lastToken = token
       } else {
         // Is a string
         if (!(currentToken instanceof Token)) {
