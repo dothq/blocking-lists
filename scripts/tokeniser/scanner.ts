@@ -20,7 +20,32 @@ class Scanner {
     }
 
     this.tokens.push(new Token(TokenType.EOF, '', null, this.line))
-    return this.tokens
+
+    let newTokens = []
+    let currentToken: boolean | Token = false
+    let lastToken: Token
+
+    this.tokens.forEach((token) => {
+      if (token.type !== TokenType.CHAR) {
+        if (currentToken instanceof Token) {
+          newTokens.push(currentToken)
+          lastToken = currentToken
+          currentToken = false
+        }
+
+        newTokens.push(token)
+        lastToken = token
+      } else {
+        // Is a string
+        if (!(currentToken instanceof Token)) {
+          currentToken = new Token(TokenType.NEW_LINE, '', '', token.line)
+        }
+
+        currentToken.literal += token.literal as string
+      }
+    })
+
+    return newTokens
   }
 
   scanToken() {
@@ -93,7 +118,7 @@ class Scanner {
         } else if (nextChar === '$') {
           if (this.match('#')) this.addToken(TokenType.SNIPPET_SEPARATOR)
           else {
-            this.addToken(TokenType.CHAR, '$')
+            this.addToken(TokenType.CHAR, '#')
             this.addToken(TokenType.SEPARATOR)
           }
         }
@@ -116,6 +141,7 @@ class Scanner {
 
       case '\n':
         this.line++
+        this.addToken(TokenType.NEW_LINE)
         break
 
       default:

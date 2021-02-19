@@ -12,6 +12,8 @@ enum TokenType {
   HIDING_CSS_SEPARATOR, // #?#
   SNIPPET_SEPARATOR, // #$#
   CHAR,
+  NEW_LINE, // \n
+  STRING,
   EOF,
 }
 
