@@ -35,14 +35,17 @@ class Scanner {
       } else {
         // Is a string
         if (!(currentToken instanceof Token)) {
-          currentToken = new Token(TokenType.NEW_LINE, '', '', token.line)
+          currentToken = new Token(TokenType.STRING, '', '', token.line)
         }
 
         currentToken.literal += token.literal as string
       }
     })
 
-    return newTokens
+    return newTokens.map((token, i) => {
+      token.index = i
+      return token
+    })
   }
 
   scanToken() {
