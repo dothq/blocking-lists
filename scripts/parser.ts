@@ -1,10 +1,25 @@
-import { match } from 'assert'
-import Token from '../tokeniser/token'
-import TokenType from '../tokenType'
+import Token from './tokeniser/token'
+import TokenType from './tokenType'
 
 enum ParserState {
   BLOCKED_DOMAIN,
   PASS,
+}
+
+export interface BlockItemOption {
+  key: string
+  value?: string
+  exclude: boolean
+}
+
+export interface BlockItem {
+  url: string
+  options: BlockItemOption[]
+  exact: boolean
+}
+
+export interface ParserResponse {
+  blockList: BlockItem[]
 }
 
 class Parser {
@@ -15,8 +30,8 @@ class Parser {
     this.tokens = tokens
   }
 
-  parse() {
-    let blockList = []
+  parse(): ParserResponse {
+    let blockList: BlockItem[] = []
 
     while (this.tokenId < this.tokens.length) {
       let state: ParserState
@@ -41,13 +56,17 @@ class Parser {
           break
 
         case ParserState.BLOCKED_DOMAIN:
-          const url = this.nextValue()
+          const url = this.nextValue() as string
 
-          // Note: Separators aren't needed for exact paths, although I would prefer them
-          if (this.peekNextToken().type === TokenType.SEPARATOR)
+          let exact = true
+
+          // If seperators aren't there, it is an exact path. Record that
+          if (this.peekNextToken().type === TokenType.SEPARATOR) {
+            exact = false
             this.nextToken()
+          }
 
-          let options = []
+          let options: BlockItemOption[] = []
 
           // If there are additional options, retrieve it
           if (this.peekNextToken().type === TokenType.OPTION_SEPARATOR) {
@@ -55,21 +74,19 @@ class Parser {
             options = this.parseOptions()
           }
 
-          console.log(`${url} ${options}`)
+          // console.log(`${url} ${options}`)
+          blockList.push({ url, options, exact })
 
           break
       }
 
       this.tokenId++
     }
+
+    return { blockList }
   }
 
-  parseOptions(): {
-    key: string
-    value?: string
-    exclude: boolean
-    valueExclude?: boolean
-  }[] {
+  parseOptions(): BlockItemOption[] {
     let options = []
 
     options.push(this.parseOption())
@@ -86,12 +103,7 @@ class Parser {
     return options
   }
 
-  parseOption(): {
-    key: string
-    value?: string
-    exclude: boolean
-    valueExclude?: boolean
-  } {
+  parseOption(): BlockItemOption {
     let exclude = false
     // Check if this value is excluded or not
     if (this.peekNextToken().type == TokenType.EXCLUDE) {
@@ -110,18 +122,15 @@ class Parser {
     const key = keyToken.literal as string
 
     let value: string
-    let valueExclude
 
     // Check if it is a key-value assignment
     if (this.peekNextToken().type == TokenType.EQUALS) {
-      valueExclude = false
-
       // Consume equals character
       this.nextToken()
 
       // Check if this value is excluded or not
       if (this.peekNextToken().type == TokenType.EXCLUDE) {
-        valueExclude = true
+        exclude = true
         // Consume token
         this.nextToken()
       }
@@ -139,7 +148,7 @@ class Parser {
       value = valueToken.literal as string
     }
 
-    return { key, value, valueExclude, exclude }
+    return { key, value, exclude }
   }
 
   currentToken(): Token {

@@ -21,7 +21,7 @@ class Scanner {
 
     this.tokens.push(new Token(TokenType.EOF, '', null, this.line))
 
-    let newTokens = []
+    let newTokens: Token[] = []
     let currentToken: boolean | Token = false
 
     this.tokens.forEach((token) => {

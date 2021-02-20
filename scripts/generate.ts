@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
-import parser from './parser/parser'
-import Parser from './parser/parser'
+import Parser from './parser'
+import prepare from './prepare'
 import { adsAndTrackers, cachePath } from './sources'
 import Scanner from './tokeniser/scanner'
 
@@ -54,16 +54,20 @@ let adsAndTrackersBlocks = ''
 
   timeStart('Tokenizing')
   const scanner = new Scanner(adsAndTrackersBlocks)
-  const parsed = scanner.scanTokens()
+  const tokens = scanner.scanTokens()
   timeEnd('Tokenizing')
 
   timeStart('Parsing')
-  const parser = new Parser(parsed)
-  parser.parse()
+  const parser = new Parser(tokens)
+  const parsed = parser.parse()
   timeEnd('Parsing')
 
+  timeStart('Preparing')
+  const prepared = prepare(parsed)
+  timeEnd('Preparing')
+
   timeStart('Converting to JSON')
-  const data = JSON.stringify(parsed.slice(10000, 20000))
+  const data = JSON.stringify(prepared)
   timeEnd('Converting to JSON')
 
   // Write to json files
