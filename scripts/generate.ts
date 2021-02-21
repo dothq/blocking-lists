@@ -11,25 +11,25 @@ let adsAndTrackersBlocks = ''
 const process = (contents: string) =>
   contents
     .split('\n')
-    .filter((str) => str.includes('0.0.0.0'))
+    .filter((str) => str.includes('0.0.0.0') || str.includes('127.0.0.1'))
     .map((str) => str.split(' ')[1] || '')
     .filter((str) => str !== '')
     .filter((str) => str !== '0.0.0.0')
     .map((str) => `*://*.${str}/*`)
 
-const file = (cacheFile: string, outFile: string) => {
+const file = (cacheFile: string) => {
   timeStart(cacheFile)
   const fileContents = readFileSync(
     join(cachePath, `${cacheFile}.txt`)
   ).toString()
   const data = process(fileContents)
-  writeFileSync(outFile, JSON.stringify({ blocked: data }))
+  writeFileSync(`./out/${cacheFile}.json`, JSON.stringify({ blocked: data }))
   timeEnd(cacheFile)
 }
 
 ;(async () => {
-  file('ADS_TRACKERS', './ADS_TRACKERS.json')
-  file('FAKE_NEWS', './FAKE_NEWS.json')
-  file('GAMBLING', './GAMBLING.json')
-  file('SOCIAL', './SOCIAL.json')
+  file('ADS_TRACKERS')
+  file('FAKE_NEWS')
+  file('GAMBLING')
+  file('SOCIAL')
 })()
