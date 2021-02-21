@@ -3,75 +3,33 @@ import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
 import Parser from './parser'
 import prepare from './prepare'
-import { adsAndTrackers, cachePath } from './sources'
+import { cachePath } from './sources'
 import Scanner from './tokeniser/scanner'
 
 let adsAndTrackersBlocks = ''
 
-;(async () => {
-  timeStart('Loading data')
-  // Ads and trackers
-  for (const list in adsAndTrackers) {
-    adsAndTrackersBlocks += readFileSync(
-      `${join(cachePath, adsAndTrackers[list][1])}.txt`
-    ).toString()
-  }
-
-  // Remove annoying % signs, #@?#, #$?#, #@$#
-  adsAndTrackersBlocks = adsAndTrackersBlocks
+const process = (contents: string) =>
+  contents
     .split('\n')
-    .map((s) => {
-      if (s.includes('%')) {
-        return '!' + s
-      } else {
-        return s
-      }
-    })
-    .map((s) => {
-      if (s.includes('#@?#')) {
-        return '!' + s
-      } else {
-        return s
-      }
-    })
-    .map((s) => {
-      if (s.includes('#$?#')) {
-        return '!' + s
-      } else {
-        return s
-      }
-    })
-    .map((s) => {
-      if (s.includes('#@$#')) {
-        return '!' + s
-      } else {
-        return s
-      }
-    })
-    .join('\n')
+    .filter((str) => str.includes('0.0.0.0'))
+    .map((str) => str.split(' ')[1] || '')
+    .filter((str) => str !== '')
+    .filter((str) => str !== '0.0.0.0')
+    .map((str) => `*://*.${str}/*`)
 
-  timeEnd('Loading data')
+const file = (cacheFile: string, outFile: string) => {
+  timeStart(cacheFile)
+  const fileContents = readFileSync(
+    join(cachePath, `${cacheFile}.txt`)
+  ).toString()
+  const data = process(fileContents)
+  writeFileSync(outFile, JSON.stringify({ blocked: data }))
+  timeEnd(cacheFile)
+}
 
-  timeStart('Tokenizing')
-  const scanner = new Scanner(adsAndTrackersBlocks)
-  const tokens = scanner.scanTokens()
-  timeEnd('Tokenizing')
-
-  timeStart('Parsing')
-  const parser = new Parser(tokens)
-  const parsed = parser.parse()
-  timeEnd('Parsing')
-
-  timeStart('Preparing')
-  const prepared = prepare(parsed)
-  timeEnd('Preparing')
-
-  timeStart('Converting to JSON')
-  const data = JSON.stringify(prepared)
-  timeEnd('Converting to JSON')
-
-  // Write to json files
-  timeStart('Saving files')
-  writeFileSync('./adsAndTrackers.json', data)
-  timeEnd('Saving files')
+;(async () => {
+  file('ADS_TRACKERS', './ADS_TRACKERS.json')
+  file('FAKE_NEWS', './FAKE_NEWS.json')
+  file('GAMBLING', './GAMBLING.json')
+  file('SOCIAL', './SOCIAL.json')
 })()
