@@ -28,8 +28,6 @@ const file = (cacheFile: string) => {
 }
 
 ;(async () => {
-  mkdirSync('./out')
-
   file('ADS_TRACKERS')
   file('FAKE_NEWS')
   file('GAMBLING')
