@@ -4,6 +4,10 @@ export const cachePath = join(__dirname, '..', 'cache')
 
 export const ADS_TRACKERS = [
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',
+  'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
+  'https://blocklistproject.github.io/Lists/ads.txt',
+  'https://blocklistproject.github.io/Lists/malware.txt',
+  'https://blocklistproject.github.io/Lists/tracking.txt',
 ]
 
 export const FAKE_NEWS = [
