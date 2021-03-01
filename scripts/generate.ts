@@ -1,10 +1,10 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
-import Parser from './parser'
-import prepare from './prepare'
+// import Parser from './parser'
+// import prepare from './prepare'
 import { cachePath } from './sources'
-import Scanner from './tokeniser/scanner'
+// import Scanner from './tokeniser/scanner'
 
 let adsAndTrackersBlocks = ''
 

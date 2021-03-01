@@ -6,31 +6,39 @@ import { ADS_TRACKERS, cachePath, FAKE_NEWS, GAMBLING, SOCIAL } from './sources'
 ;(async () => {
   mkdirSync(cachePath)
 
+  let file: string
+
   timeStart('Ads and trackers')
-  writeFileSync(
-    `${join(cachePath, 'ADS_TRACKERS')}.txt`,
-    (await axios.get(ADS_TRACKERS)).data
-  )
+  file = await (
+    await Promise.all(
+      ADS_TRACKERS.map(async (url) => (await axios.get(url)).data)
+    )
+  ).join('\n')
+
+  writeFileSync(`${join(cachePath, 'ADS_TRACKERS')}.txt`, file)
   timeEnd('Ads and trackers')
 
   timeStart('Fake News')
-  writeFileSync(
-    `${join(cachePath, 'FAKE_NEWS')}.txt`,
-    (await axios.get(FAKE_NEWS)).data
-  )
+  file = await (
+    await Promise.all(FAKE_NEWS.map(async (url) => (await axios.get(url)).data))
+  ).join('\n')
+
+  writeFileSync(`${join(cachePath, 'FAKE_NEWS')}.txt`, file)
   timeEnd('Fake News')
 
   timeStart('Gambling')
-  writeFileSync(
-    `${join(cachePath, 'GAMBLING')}.txt`,
-    (await axios.get(GAMBLING)).data
-  )
+  file = await (
+    await Promise.all(GAMBLING.map(async (url) => (await axios.get(url)).data))
+  ).join('\n')
+
+  writeFileSync(`${join(cachePath, 'GAMBLING')}.txt`, file)
   timeEnd('Gambling')
 
   timeStart('Social')
-  writeFileSync(
-    `${join(cachePath, 'SOCIAL')}.txt`,
-    (await axios.get(SOCIAL)).data
-  )
+  file = await (
+    await Promise.all(SOCIAL.map(async (url) => (await axios.get(url)).data))
+  ).join('\n')
+
+  writeFileSync(`${join(cachePath, 'SOCIAL')}.txt`, file)
   timeEnd('Social')
 })()
