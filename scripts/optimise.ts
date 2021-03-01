@@ -1,7 +1,10 @@
 import { readdirSync, readFileSync, writeFileSync } from 'fs'
 
 const optimise = (json: string[]) =>
-  json.filter((c, i: number) => json.indexOf(c) === i)
+  json.filter((c, i: number) => {
+    console.log(i)
+    return json.indexOf(c) === i
+  })
 
 readdirSync('./out').forEach((file) => {
   console.time(file)

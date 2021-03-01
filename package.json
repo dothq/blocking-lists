@@ -9,7 +9,7 @@
   "scripts": {
     "gen": "ts-node scripts/generate.ts",
     "download": "rm -rf cache && ts-node scripts/download.ts",
-    "optimise": "ts-node scripts/optimise.ts"
+    "optimise": "cd ./scripts/optimize/ && cargo run --release"
   },
   "devDependencies": {
     "@types/node": "^14.14.28",
