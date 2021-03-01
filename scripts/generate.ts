@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
 // import Parser from './parser'
@@ -28,6 +28,8 @@ const file = (cacheFile: string) => {
 }
 
 ;(async () => {
+  mkdirSync('./out')
+
   file('ADS_TRACKERS')
   file('FAKE_NEWS')
   file('GAMBLING')
