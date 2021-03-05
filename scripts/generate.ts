@@ -15,7 +15,7 @@ const process = (contents: string) =>
     .map((str) => str.split(' ')[1] || '')
     .filter((str) => str !== '')
     .filter((str) => str !== '0.0.0.0')
-    .filter(str => str.indexOf('localhost') === -1)
+    .filter(str => !str.includes('localhost'))
     .map((str) => `*://*.${str}/*`)
 
 const file = (cacheFile: string) => {
