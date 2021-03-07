@@ -8,6 +8,9 @@ export const ADS_TRACKERS = [
 //  'https://blocklistproject.github.io/Lists/ads.txt',
   'https://blocklistproject.github.io/Lists/malware.txt',
   'https://blocklistproject.github.io/Lists/tracking.txt',
+  'https://winhelp2002.mvps.org/hosts.txt',
+  'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt'
+  'https://raw.githubusercontent.com/StevenBlack/hosts/master/data/adaway.org/hosts'
 ]
 
 export const FAKE_NEWS = [
