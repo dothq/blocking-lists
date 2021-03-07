@@ -12,7 +12,8 @@ export const ADS_TRACKERS = [
   'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt',
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/data/adaway.org/hosts',
   'https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/hosts.txt',
-  'https://block.energized.pro/unified/formats/hosts.txt'
+  'https://block.energized.pro/unified/formats/hosts.txt',
+  'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0'
 ]
 
 export const FAKE_NEWS = [
