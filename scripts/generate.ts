@@ -8,24 +8,45 @@ import { cachePath } from './sources'
 
 let adsAndTrackersBlocks = ''
 
-const process = (contents: string) =>
+const processHosts = (contents: string) =>
   contents
     .split('\n')
     .filter((str) => str.includes('0.0.0.0') || str.includes('127.0.0.1'))
     .map((str) => str.split(' ')[1] || '')
     .filter((str) => str !== '')
     .filter((str) => str !== '0.0.0.0')
-    .filter(str => !str.includes('localhost'))
+    .filter((str) => !str.includes('localhost'))
     .map((str) => `*://*.${str}/*`)
 
+const processPaths = (contents: string) =>
+  contents
+    .split('\n')
+    .map((str) => str.split('#')[0])
+    .filter((str) => str == '')
+    .map((str) => ``)
+
 const file = (cacheFile: string) => {
-  timeStart(cacheFile)
-  const fileContents = readFileSync(
-    join(cachePath, `${cacheFile}.txt`)
+  let data = {}
+
+  timeStart(`${cacheFile} hosts`)
+
+  const hostContents = readFileSync(
+    join(cachePath, `${cacheFile}_HOSTS.txt`)
   ).toString()
-  const data = process(fileContents)
+  data = processHosts(hostContents)
+
+  timeEnd(`${cacheFile} hosts`)
+
+  timeStart(`${cacheFile} paths`)
+
+  const fileContents = readFileSync(
+    join(cachePath, `${cacheFile}_PATHS.txt`)
+  ).toString()
+  data = process(fileContents)
+
+  timeEnd(`${cacheFile} paths`)
+
   writeFileSync(`./out/${cacheFile}.json`, JSON.stringify({ blocked: data }))
-  timeEnd(cacheFile)
 }
 
 ;(async () => {

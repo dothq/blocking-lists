@@ -2,7 +2,13 @@ import axios from 'axios'
 import { mkdirSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
-import { ADS_TRACKERS, cachePath, FAKE_NEWS, GAMBLING, SOCIAL } from './sources'
+import {
+  ADS_TRACKERS_HOSTS,
+  cachePath,
+  FAKE_NEWS_HOSTS,
+  GAMBLING_HOSTS,
+  SOCIAL_HOSTS,
+} from './sources'
 ;(async () => {
   mkdirSync(cachePath)
 
@@ -11,34 +17,40 @@ import { ADS_TRACKERS, cachePath, FAKE_NEWS, GAMBLING, SOCIAL } from './sources'
   timeStart('Ads and trackers')
   file = await (
     await Promise.all(
-      ADS_TRACKERS.map(async (url) => (await axios.get(url)).data)
+      ADS_TRACKERS_HOSTS.map(async (url) => (await axios.get(url)).data)
     )
   ).join('\n')
 
-  writeFileSync(`${join(cachePath, 'ADS_TRACKERS')}.txt`, file)
+  writeFileSync(`${join(cachePath, 'ADS_TRACKERS_HOSTS')}.txt`, file)
   timeEnd('Ads and trackers')
 
   timeStart('Fake News')
   file = await (
-    await Promise.all(FAKE_NEWS.map(async (url) => (await axios.get(url)).data))
+    await Promise.all(
+      FAKE_NEWS_HOSTS.map(async (url) => (await axios.get(url)).data)
+    )
   ).join('\n')
 
-  writeFileSync(`${join(cachePath, 'FAKE_NEWS')}.txt`, file)
+  writeFileSync(`${join(cachePath, 'FAKE_NEWS_HOSTS')}.txt`, file)
   timeEnd('Fake News')
 
   timeStart('Gambling')
   file = await (
-    await Promise.all(GAMBLING.map(async (url) => (await axios.get(url)).data))
+    await Promise.all(
+      GAMBLING_HOSTS.map(async (url) => (await axios.get(url)).data)
+    )
   ).join('\n')
 
-  writeFileSync(`${join(cachePath, 'GAMBLING')}.txt`, file)
+  writeFileSync(`${join(cachePath, 'GAMBLING_HOSTS')}.txt`, file)
   timeEnd('Gambling')
 
   timeStart('Social')
   file = await (
-    await Promise.all(SOCIAL.map(async (url) => (await axios.get(url)).data))
+    await Promise.all(
+      SOCIAL_HOSTS.map(async (url) => (await axios.get(url)).data)
+    )
   ).join('\n')
 
-  writeFileSync(`${join(cachePath, 'SOCIAL')}.txt`, file)
+  writeFileSync(`${join(cachePath, 'SOCIAL_HOSTS')}.txt`, file)
   timeEnd('Social')
 })()
