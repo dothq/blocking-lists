@@ -5,7 +5,6 @@ export const cachePath = join(__dirname, '..', 'cache')
 export const ADS_TRACKERS = [
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',
   'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
-//  'https://blocklistproject.github.io/Lists/ads.txt',
   'https://blocklistproject.github.io/Lists/malware.txt',
   'https://blocklistproject.github.io/Lists/tracking.txt',
   'https://winhelp2002.mvps.org/hosts.txt',
@@ -13,7 +12,7 @@ export const ADS_TRACKERS = [
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/data/adaway.org/hosts',
   'https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/hosts.txt',
   'https://block.energized.pro/unified/formats/hosts.txt',
-  'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0'
+  'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0',
 ]
 
 export const FAKE_NEWS = [
