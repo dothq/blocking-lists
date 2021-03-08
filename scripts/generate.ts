@@ -8,7 +8,7 @@ import { cachePath } from './sources'
 
 let adsAndTrackersBlocks = ''
 
-const processHosts = (contents: string) =>
+const processHosts = (contents: string): string[] =>
   contents
     .split('\n')
     .filter((str) => str.includes('0.0.0.0') || str.includes('127.0.0.1'))
@@ -23,30 +23,29 @@ const processPaths = (contents: string) =>
     .split('\n')
     .map((str) => str.split('#')[0])
     .filter((str) => str == '')
-    .map((str) => ``)
 
 const file = (cacheFile: string) => {
-  let data = {}
+  let toBlock: string[] = []
 
   timeStart(`${cacheFile} hosts`)
 
   const hostContents = readFileSync(
     join(cachePath, `${cacheFile}_HOSTS.txt`)
   ).toString()
-  data = processHosts(hostContents)
+  toBlock = [...toBlock, ...processHosts(hostContents)]
 
   timeEnd(`${cacheFile} hosts`)
 
   timeStart(`${cacheFile} paths`)
 
-  const fileContents = readFileSync(
+  const pathContents = readFileSync(
     join(cachePath, `${cacheFile}_PATHS.txt`)
   ).toString()
-  data = processPaths(fileContents)
+  toBlock = [...toBlock, ...processPaths(pathContents)]
 
   timeEnd(`${cacheFile} paths`)
 
-  writeFileSync(`./out/${cacheFile}.json`, JSON.stringify({ blocked: data }))
+  writeFileSync(`./out/${cacheFile}.json`, JSON.stringify({ blocked: toBlock }))
 }
 
 ;(async () => {
