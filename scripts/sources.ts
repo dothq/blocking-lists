@@ -1,6 +1,7 @@
 import { join } from 'path'
 
 export const cachePath = join(__dirname, '..', 'cache')
+export const localPath = join(__dirname, '..', 'local')
 
 export const ADS_TRACKERS_HOSTS = [
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',
@@ -34,3 +35,16 @@ export const FAKE_NEWS_PATHS: string[] = []
 export const GAMBLING_PATHS: string[] = []
 
 export const SOCIAL_PATHS: string[] = []
+
+export default {
+  ADS_TRACKERS_HOSTS,
+  cachePath,
+  localPath,
+  FAKE_NEWS_HOSTS,
+  GAMBLING_HOSTS,
+  SOCIAL_HOSTS,
+  ADS_TRACKERS_PATHS,
+  FAKE_NEWS_PATHS,
+  GAMBLING_PATHS,
+  SOCIAL_PATHS,
+}

@@ -42,7 +42,7 @@ const file = (cacheFile: string) => {
   const fileContents = readFileSync(
     join(cachePath, `${cacheFile}_PATHS.txt`)
   ).toString()
-  data = process(fileContents)
+  data = processPaths(fileContents)
 
   timeEnd(`${cacheFile} paths`)
 
