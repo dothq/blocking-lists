@@ -33,3 +33,4 @@ The following person has made gambling blocking easier on Dot Shield:
 The following person has made the elimination of social trackers easier on Dot Shield:
 
 - **Steven Black** > [GitHub](https://github.com/StevenBlack/), [Source](https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/sinfonietta/hosts)
+- **Energized Social** > [Source](https://block.energized.pro/extensions/social/formats/hosts.txt)

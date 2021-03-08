@@ -26,6 +26,7 @@ export const GAMBLING_HOSTS = [
 
 export const SOCIAL_HOSTS = [
   'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/social/sinfonietta/hosts',
+  'https://block.energized.pro/extensions/social/formats/hosts.txt',
 ]
 
 export const ADS_TRACKERS_PATHS: string[] = []
