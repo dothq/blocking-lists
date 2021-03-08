@@ -22,7 +22,7 @@ const processPaths = (contents: string) =>
   contents
     .split('\n')
     .map((str) => str.split('#')[0])
-    .filter((str) => str == '')
+    .filter((str) => str != '')
 
 const file = (cacheFile: string) => {
   let toBlock: string[] = []
@@ -41,7 +41,8 @@ const file = (cacheFile: string) => {
   const pathContents = readFileSync(
     join(cachePath, `${cacheFile}_PATHS.txt`)
   ).toString()
-  toBlock = [...toBlock, ...processPaths(pathContents)]
+  const pathFile = processPaths(pathContents)
+  toBlock = [...toBlock, ...pathFile]
 
   timeEnd(`${cacheFile} paths`)
 
