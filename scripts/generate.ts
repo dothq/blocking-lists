@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { timeEnd, timeStart } from './logger'
 // import Parser from './parser'
@@ -24,6 +24,14 @@ const processPaths = (contents: string) =>
     .map((str) => str.split('#')[0])
     .filter((str) => str != '')
 
+const prepareDomains = (contents: string) =>
+  contents
+    .split('\n')
+    .map((str) => str.split('#')[0])
+    .filter((str) => str != '')
+    .map((str) => `0.0.0.0 ${str}`)
+    .join('\n')
+
 const file = (cacheFile: string) => {
   let toBlock: string[] = []
 
@@ -42,6 +50,12 @@ const file = (cacheFile: string) => {
     join(cachePath, `${cacheFile}_PATHS.txt`)
   ).toString()
   const pathFile = processPaths(pathContents)
+  toBlock = [...toBlock, ...pathFile]
+
+  const domainContents = readFileSync(
+    join(cachePath, `${cacheFile}_PATHS.txt`)
+  ).toString()
+  const domainFile = processHosts(prepareDomains(domainContents))
   toBlock = [...toBlock, ...pathFile]
 
   timeEnd(`${cacheFile} paths`)
