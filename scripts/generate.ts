@@ -53,7 +53,7 @@ const file = (cacheFile: string) => {
   toBlock = [...toBlock, ...pathFile]
 
   const domainContents = readFileSync(
-    join(cachePath, `${cacheFile}_PATHS.txt`)
+    join(cachePath, `${cacheFile}_DOMAINS.txt`)
   ).toString()
   const domainFile = processHosts(prepareDomains(domainContents))
   toBlock = [...toBlock, ...pathFile]
