@@ -14,7 +14,7 @@ export const ADS_TRACKERS_HOSTS = [
   'https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/hosts.txt',
   'https://block.energized.pro/unified/formats/hosts.txt',
   'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0',
-'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt'
+  'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt'
 ]
 
 export const FAKE_NEWS_HOSTS = [
