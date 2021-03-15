@@ -56,7 +56,7 @@ const file = (cacheFile: string) => {
     join(cachePath, `${cacheFile}_DOMAINS.txt`)
   ).toString()
   const domainFile = processHosts(prepareDomains(domainContents))
-  toBlock = [...toBlock, ...pathFile]
+  toBlock = [...toBlock, ...domainFile]
 
   timeEnd(`${cacheFile} paths`)
 
