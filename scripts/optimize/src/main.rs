@@ -18,7 +18,7 @@ fn main() {
         let mut res: BlockList = serde_json::from_str(&data).expect("Unable to parse");
         
         // Note that rust requires a vec to be sorted before it can be deduped
-        res.blocked.sort();
+//         res.blocked.sort();
         res.blocked.dedup();
 
         fs::write(path, serde_json::to_string(&res).unwrap()).unwrap();
