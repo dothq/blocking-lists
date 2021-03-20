@@ -68,4 +68,5 @@ const file = (cacheFile: string) => {
   file('FAKE_NEWS')
   file('GAMBLING')
   file('SOCIAL')
+  file('IP_LOGGER_HOSTS')
 })()
