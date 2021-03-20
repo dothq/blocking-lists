@@ -30,6 +30,8 @@ export const SOCIAL_HOSTS = [
   'https://block.energized.pro/extensions/social/formats/hosts.txt',
 ]
 
+export const IP_LOGGER_HOSTS = []
+
 export const ADS_TRACKERS_PATHS: string[] = []
 
 export const FAKE_NEWS_PATHS: string[] = []
@@ -63,4 +65,5 @@ export default {
   FAKE_NEWS_DOMAINS,
   GAMBLING_DOMAINS,
   SOCIAL_DOMAINS,
+  IP_LOGGER_HOSTS
 }
