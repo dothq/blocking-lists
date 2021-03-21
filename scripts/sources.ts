@@ -30,9 +30,7 @@ export const SOCIAL_HOSTS = [
   'https://block.energized.pro/extensions/social/formats/hosts.txt',
 ]
 
-export const IP_LOGGER_HOSTS = [
-  'https://raw.githubusercontent.com/ejaz4/hosts/main/IP%20loggers.txt',
-]
+export const IP_LOGGER_HOSTS = []
 
 export const ADS_TRACKERS_PATHS: string[] = []
 
