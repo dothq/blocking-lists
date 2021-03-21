@@ -10,14 +10,17 @@ const download = async (
     | 'FAKE_NEWS_HOSTS'
     | 'GAMBLING_HOSTS'
     | 'SOCIAL_HOSTS'
+    | 'IP_LOGGER_HOSTS'
     | 'ADS_TRACKERS_PATHS'
     | 'FAKE_NEWS_PATHS'
     | 'GAMBLING_PATHS'
     | 'SOCIAL_PATHS'
+    | 'IP_LOGGER_PATHS'
     | 'ADS_TRACKERS_DOMAINS'
     | 'FAKE_NEWS_DOMAINS'
     | 'GAMBLING_DOMAINS'
     | 'SOCIAL_DOMAINS'
+    | 'IP_LOGGER_DOMAINS'
 ) => {
   timeStart(key)
 
@@ -53,16 +56,19 @@ const download = async (
   await download('FAKE_NEWS_HOSTS')
   await download('GAMBLING_HOSTS')
   await download('SOCIAL_HOSTS')
+  await download('IP_LOGGER_HOSTS')
 
   // Paths
   await download('ADS_TRACKERS_PATHS')
   await download('FAKE_NEWS_PATHS')
   await download('GAMBLING_PATHS')
   await download('SOCIAL_PATHS')
+  await download('IP_LOGGER_PATHS')
 
   // Domains
   await download('ADS_TRACKERS_DOMAINS')
   await download('FAKE_NEWS_DOMAINS')
   await download('GAMBLING_DOMAINS')
   await download('SOCIAL_DOMAINS')
+  await download('IP_LOGGER_DOMAINS')
 })()
