@@ -40,8 +40,6 @@ export const GAMBLING_PATHS: string[] = []
 
 export const SOCIAL_PATHS: string[] = []
 
-export const IP_LOGGER_PATHS: string[] = []
-
 export const ADS_TRACKERS_DOMAINS: string[] = [
   'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt',
 ]
@@ -52,27 +50,20 @@ export const GAMBLING_DOMAINS: string[] = []
 
 export const SOCIAL_DOMAINS: string[] = []
 
-export const IP_LOGGER_DOMAINS: string[] = []
-
 export default {
   ADS_TRACKERS_HOSTS,
+  cachePath,
+  localPath,
   FAKE_NEWS_HOSTS,
   GAMBLING_HOSTS,
   SOCIAL_HOSTS,
-  IP_LOGGER_HOSTS,
-
   ADS_TRACKERS_PATHS,
   FAKE_NEWS_PATHS,
   GAMBLING_PATHS,
   SOCIAL_PATHS,
-  IP_LOGGER_PATHS,
-
   ADS_TRACKERS_DOMAINS,
   FAKE_NEWS_DOMAINS,
   GAMBLING_DOMAINS,
   SOCIAL_DOMAINS,
-  IP_LOGGER_DOMAINS,
-
-  cachePath,
-  localPath,
+  IP_LOGGER_HOSTS
 }
