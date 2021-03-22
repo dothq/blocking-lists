@@ -5,8 +5,6 @@ use std::{
     io::{self, Write},
 };
 
-extern crate yaml_rust;
-
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
