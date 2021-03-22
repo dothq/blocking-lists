@@ -1,5 +1,4 @@
 use std::{
-    borrow::BorrowMut,
     env,
     error::Error,
     fs::{self, create_dir, File},
@@ -9,7 +8,6 @@ use std::{
 extern crate yaml_rust;
 
 use serde::Deserialize;
-use yaml_rust::YamlLoader;
 
 #[derive(Debug, Deserialize)]
 struct Lists {
