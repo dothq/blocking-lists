@@ -1,6 +1,7 @@
 use std::{
     env,
     error::Error,
+    fmt::format,
     fs::{self, create_dir, File},
     io::{self, Write},
 };
@@ -8,24 +9,19 @@ use std::{
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
-struct Lists {
-    trackers: Vec<String>,
+struct List {
+    abp: Vec<String>,
 }
 
 #[derive(Debug, Deserialize)]
 struct Config {
-    lists: Lists,
+    trackers: List,
 }
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     // Welcome
     println!("ShieldDB updating...");
-
-    // Create the cache path
-    // if !folder_exist(".cache")? {
-    //     create_dir("./.cache")?;
-    // }
 
     // Create the out path
     if !folder_exist("out")? {
@@ -36,18 +32,25 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     // Read the config file for shieldDB
     let config_str = fs::read_to_string("config.yml")?;
-    let docs: Config = serde_yaml::from_str(&config_str)?;
+    let config: Config = serde_yaml::from_str(&config_str)?;
 
-    let trackers_list = download_lists(docs.lists.trackers).await?;
+    list(config.trackers, "trackers").await?;
+
+    Ok(())
+}
+
+async fn list(list: List, name: &str) -> Result<(), Box<dyn Error>> {
+    println!("Downloading lists...");
+    let trackers_list = download_abp(list.abp).await?;
 
     println!("Saving...");
-    let mut file = File::create("out/trackers.txt")?;
+    let mut file = File::create(&format!("out/{}.txt", name))?;
     file.write_all(&trackers_list.join("\n").as_bytes())?;
 
     Ok(())
 }
 
-async fn download_lists(lists: Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
+async fn download_abp(lists: Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
     // Download files and store them in a scripts
     let mut list = Vec::new();
     for file in lists {
