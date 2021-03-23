@@ -19,6 +19,7 @@ struct Config {
     social: List,
     fake_news: List,
     gambling: List,
+    ip_grabbers: List,
 }
 
 #[tokio::main]
