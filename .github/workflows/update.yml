@@ -12,17 +12,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Installing dependencies...
-        run: yarn
-      - name: Download lists...
-        run: yarn download
-      - name: Generate...
-        run: yarn gen
-      - name: Optimize...
-        run: yarn optimise
+      - name: Setting up caches...
+        uses: Swatinem/rust-cache@v1.2.0
+      - name: Compile and run
+        run: cargo run --release
       - name: Upload changes...
         uses: EndBug/add-and-commit@v7
         with:
           author_email: dothq-robot@users.noreply.github.com
-          name: Dot HQ
-          message: '🍱 Update database'
+          message: '👽 Update database'

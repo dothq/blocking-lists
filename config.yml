@@ -1,0 +1,26 @@
+trackers:
+  abp:
+    - 'https://easylist.to/easylist/easylist.txt'
+    - 'https://easylist.to/easylist/easyprivacy.txt'
+    - 'https://hosts.netlify.app/Pro/adblock.txt'
+    - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/ultimate.txt'
+
+  hosts: []
+
+social:
+  abp:
+    - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/social.txt'
+
+  hosts: []
+
+fake_news:
+  abp: []
+
+  hosts:
+    - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
+
+gambling:
+  abp: []
+
+  hosts:
+    - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/gambling/hosts'
