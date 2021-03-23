@@ -41,6 +41,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     list(config.social, "social").await?;
     list(config.fake_news, "fake_news").await?;
     list(config.gambling, "gambling").await?;
+    list(config.ip_grabbers, "ip_grabbers").await?;
 
     Ok(())
 }
