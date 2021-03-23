@@ -17,7 +17,9 @@ jobs:
       - name: Compile and run
         run: cargo run --release
       - name: Upload changes...
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v6
         with:
           author_email: dothq-robot@users.noreply.github.com
+          author_name: dothq-robot
+          token: ${{ secrets.ROBOT_TOKEN }}
           message: '👽 Update database'
