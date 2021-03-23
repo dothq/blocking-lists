@@ -16,6 +16,7 @@ struct List {
 #[derive(Debug, Deserialize)]
 struct Config {
     trackers: List,
+    social: Lists,
 }
 
 #[tokio::main]
@@ -35,6 +36,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let config: Config = serde_yaml::from_str(&config_str)?;
 
     list(config.trackers, "trackers").await?;
+    list(config.social, "social").await?;
 
     Ok(())
 }
