@@ -99,6 +99,7 @@ async fn list(
         let mut list = parse_abp(download);
         full_list.append(&mut list);
 
+        // Update progress bar
         progress.inc_and_draw(&bar, 1);
     }
 
@@ -108,12 +109,14 @@ async fn list(
         let mut list = parse_host(download);
         full_list.append(&mut list);
 
+        // Update progress bar
         progress.inc_and_draw(&bar, 1);
     }
 
     full_list.sort();
     full_list.dedup();
 
+    // Update progress bar
     progress.inc_and_draw(&bar, 1);
 
     let file_contents = format!(
@@ -128,6 +131,7 @@ async fn list(
     let mut file = File::create(&format!("{}/{}.txt", out, name))?;
     file.write_all(&file_contents.as_bytes())?;
 
+    // Update progress bar
     progress.inc_and_draw(&bar, 1);
 
     Ok(())
