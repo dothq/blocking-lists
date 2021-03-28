@@ -27,7 +27,6 @@ struct Config {
 
     // Header configs
     header: Option<HeaderConfig>,
-    custom_header: Option<String>,
 
     // Lists
     lists: Vec<List>,
@@ -51,27 +50,17 @@ async fn main() -> Result<(), Box<dyn Error>> {
     // Create header template string
     let mut header_template = String::new();
 
-    if config.header.is_some() && config.custom_header.is_some() {
-        panic!("You cannot have both header and custom_header specified!");
-    }
-
-    if config.header.is_none() && config.custom_header.is_none() {
-        panic!("You must specified header or custom_header!");
-    }
-
-    if let Some(custom_header) = config.custom_header {
-        header_template = fs::read_to_string(custom_header)?;
-    } else if let Some(header) = config.header {
+    if let Some(header) = config.header {
         header_template =
             format!(
 "This is an automatically generated blocklist based on a number of third-party sources.
 These sources have their own copyright and license. This list was generated for {} by {}
 
-The list $list_name$ includes:$n$$list_sources$$n$", header.product, header.creator)
-    }
+The list $list_name$ includes:$n$$list_sources$$n$", header.product, header.creator);
 
-    header_template = header_template.replace("\n", "\n! ").replace("$n$", "\n");
-    header_template = format!("! {}", header_template);
+        header_template = header_template.replace("\n", "\n! ").replace("$n$", "\n");
+        header_template = format!("! {}", header_template);
+    }
 
     // Create the progress manager
     let mut progress = Progress::new();
