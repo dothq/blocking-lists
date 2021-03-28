@@ -1,7 +1,9 @@
 name: Binary builds
 
 on:
-  push: [main]
+  push:
+    branches:
+    - main
 
 jobs:
   check:
