@@ -58,7 +58,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: https://github.com/dothq-extensions/shield-db/releases/tag/latest
+          upload_url: https://api.github.com/repos/dothq-extensions/shield-db/releases/40593079/assets
           asset_path: ./linux
           asset_name: linux-bin
           asset_content_type: application/octet-stream

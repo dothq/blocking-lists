@@ -84,7 +84,9 @@ async fn list(
     out: &str,
     header_template: &str,
 ) -> Result<(), Box<dyn Error>> {
+    // Give the name its own separate variable
     let name = &list.name;
+    // Create the vec that all of the lists will be added to
     let mut full_list = Vec::new();
     let total_lists = list.abp.len() + list.hosts.len() + 2; // We add the extra one for deduping and saving
 
