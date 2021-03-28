@@ -9,18 +9,12 @@ use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
 struct List {
+    name: String,
     abp: Vec<String>,
     hosts: Vec<String>,
 }
 
-#[derive(Debug, Deserialize)]
-struct Config {
-    trackers: List,
-    social: List,
-    fake_news: List,
-    gambling: List,
-    ip_grabbers: List,
-}
+type Config = Vec<List>;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
@@ -38,17 +32,17 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let config_str = fs::read_to_string("config.yml")?;
     let config: Config = serde_yaml::from_str(&config_str)?;
 
-    list(config.trackers, "trackers").await?;
-    list(config.social, "social").await?;
-    list(config.fake_news, "fake_news").await?;
-    list(config.gambling, "gambling").await?;
-    list(config.ip_grabbers, "ip_grabbers").await?;
+    for list_config in config {
+        list(list_config).await?;
+    }
 
     Ok(())
 }
 
-async fn list(list: List, name: &str) -> Result<(), Box<dyn Error>> {
-    println!("Downloading lists...");
+async fn list(list: List) -> Result<(), Box<dyn Error>> {
+    let name = list.name;
+
+    println!("Downloading list {}...", name);
     let mut trackers_list = download_abp(list.abp).await?;
     let mut host_list = download_hosts(list.hosts).await?;
     trackers_list.append(&mut host_list);

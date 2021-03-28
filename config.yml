@@ -1,4 +1,4 @@
-trackers:
+- name: trackers
   abp:
     - 'https://easylist.to/easylist/easylist.txt'
     - 'https://easylist.to/easylist/easyprivacy.txt'
@@ -8,26 +8,26 @@ trackers:
 
   hosts: []
 
-social:
+- name: social
   abp:
     - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/social.txt'
 
   hosts: []
 
-fake_news:
+- name: fake_news
   abp: []
 
   hosts:
     - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
 
-gambling:
+- name: gambling
   abp: []
 
   hosts:
     - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/gambling/hosts'
 
-ip_grabbers:
+- name: ip_grabbers
   abp: []
-  
+
   hosts:
     - 'https://raw.githubusercontent.com/ejaz4/hosts/main/IP%20loggers.txt'
