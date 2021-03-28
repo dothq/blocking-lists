@@ -14,21 +14,27 @@ struct List {
     abp: Vec<String>,
     hosts: Vec<String>,
 }
+#[derive(Debug, Deserialize)]
+struct HeaderConfig {
+    creator: String,
+    product: String,
+}
 
 #[derive(Debug, Deserialize)]
 struct Config {
     name: String,
     out: String,
+
+    // Header configs
+    header: Option<HeaderConfig>,
+    custom_header: Option<String>,
+
+    // Lists
     lists: Vec<List>,
 }
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    // Create the out path
-    if !folder_exist("out")? {
-        create_dir("./out")?;
-    }
-
     // Read the config file for shieldDB
     let config_str = fs::read_to_string("config.yml")?;
     let config: Config = serde_yaml::from_str(&config_str)?;
@@ -37,6 +43,36 @@ async fn main() -> Result<(), Box<dyn Error>> {
     println!("{}", config.name);
     println!("===============");
 
+    // Create the out path
+    if !folder_exist(&config.out)? {
+        create_dir(&config.out)?;
+    }
+
+    // Create header template string
+    let mut header_template = String::new();
+
+    if config.header.is_some() && config.custom_header.is_some() {
+        panic!("You cannot have both header and custom_header specified!");
+    }
+
+    if config.header.is_none() && config.custom_header.is_none() {
+        panic!("You must specified header or custom_header!");
+    }
+
+    if let Some(custom_header) = config.custom_header {
+        header_template = fs::read_to_string(custom_header)?;
+    } else if let Some(header) = config.header {
+        header_template =
+            format!(
+"This is an automatically generated blocklist based on a number of third-party sources.
+These sources have their own copyright and license. This list was generated for {} by {}
+
+The list $list_name$ includes:$n$$list_sources$$n$", header.product, header.creator)
+    }
+
+    header_template = header_template.replace("\n", "\n! ").replace("$n$", "\n");
+    header_template = format!("! {}", header_template);
+
     // Create the progress manager
     let mut progress = Progress::new();
     // Create the total list progress file
@@ -44,7 +80,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     // Loop through all of the lists
     for list_config in config.lists {
         // Parse the list
-        list(&list_config, &mut progress, &config.out).await?;
+        list(&list_config, &mut progress, &config.out, &header_template).await?;
         // Increment total progress bar
         progress.inc_and_draw(&total_lists, 1);
     }
@@ -52,7 +88,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-async fn list(list: &List, progress: &mut Progress, out: &str) -> Result<(), Box<dyn Error>> {
+async fn list(
+    list: &List,
+    progress: &mut Progress,
+    out: &str,
+    header_template: &str,
+) -> Result<(), Box<dyn Error>> {
     let name = &list.name;
     let mut full_list = Vec::new();
     let total_lists = list.abp.len() + list.hosts.len() + 2; // We add the extra one for deduping and saving
@@ -80,12 +121,35 @@ async fn list(list: &List, progress: &mut Progress, out: &str) -> Result<(), Box
 
     progress.inc_and_draw(&bar, 1);
 
-    let mut file = File::create(&format!("{}/{}.txt", name, out))?;
-    file.write_all(&full_list.join("\n").as_bytes())?;
+    let file_contents = format!(
+        "{}\n{}",
+        header_template.replace("$list_name$", name).replace(
+            "$list_sources$",
+            &generate_sources_string(&list.abp, &list.hosts)
+        ),
+        full_list.join("\n")
+    );
+
+    let mut file = File::create(&format!("{}/{}.txt", out, name))?;
+    file.write_all(&file_contents.as_bytes())?;
 
     progress.inc_and_draw(&bar, 1);
 
     Ok(())
+}
+
+fn generate_sources_string(abp: &Vec<String>, hosts: &Vec<String>) -> String {
+    let mut final_str = String::new();
+
+    for list in abp {
+        final_str.push_str(&format!("! - {}", list));
+    }
+
+    for host in hosts {
+        final_str.push_str(&format!("! - {}", host));
+    }
+
+    final_str
 }
 
 fn parse_abp(file: String) -> Vec<String> {
