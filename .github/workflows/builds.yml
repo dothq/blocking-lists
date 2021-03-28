@@ -75,9 +75,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setting up caches...
-        uses: Swatinem/rust-cache@v1.2.0
-
       - name: Download and run...
         run: |
           wget https://github.com/dothq-extensions/shield-db/releases/download/latest/linux
@@ -101,9 +98,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Setting up caches...
-        uses: Swatinem/rust-cache@v1.2.0
 
       - name: Download and run...
         run: |

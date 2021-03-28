@@ -119,6 +119,7 @@ async fn list(
     // Update progress bar
     progress.inc_and_draw(&bar, 1);
 
+    // Add header template
     let file_contents = format!(
         "{}\n{}",
         header_template.replace("$list_name$", name).replace(
@@ -128,6 +129,7 @@ async fn list(
         full_list.join("\n")
     );
 
+    // Save to the disk
     let mut file = File::create(&format!("{}/{}.txt", out, name))?;
     file.write_all(&file_contents.as_bytes())?;
 
