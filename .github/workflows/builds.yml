@@ -55,7 +55,7 @@ jobs:
       - name: Delete last release
         uses: ame-yu/action-delete-latest-release@v2
         with:
-          github_token: ${{ secrets.ROBOT_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: ncipollo/release-action@v1
         with:
@@ -63,7 +63,7 @@ jobs:
           name: 'latest'
           tag: 'latest'
           body: 'This is the latest binary from the CI'
-          token: ${{ secrets.ROBOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   update_without_rebuild:
     name: Update the database when db-core doesn't need to be recompiled
