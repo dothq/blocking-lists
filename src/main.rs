@@ -88,6 +88,7 @@ async fn list(
     let mut full_list = Vec::new();
     let total_lists = list.abp.len() + list.hosts.len() + 2; // We add the extra one for deduping and saving
 
+    // Create a progress bar for this list
     let bar = progress.bar(total_lists, format!("List: {}", name));
 
     for list in &list.abp {

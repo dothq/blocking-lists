@@ -3,7 +3,7 @@ name: Binary builds
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   check:
@@ -52,8 +52,13 @@ jobs:
       - name: Rename...
         run: mv ./target/release/shield-db ./linux
 
-      - name: Update release
-        uses: johnwbyrd/update-release@v1
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          asset: ./linux
+          upload_url: https://github.com/dothq-extensions/shield-db/releases/tag/latest
+          asset_path: ./linux
+          asset_name: linux-bin
+          asset_content_type: application/octet-stream
