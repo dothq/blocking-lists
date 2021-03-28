@@ -14,6 +14,7 @@ struct List {
     abp: Vec<String>,
     hosts: Vec<String>,
 }
+
 #[derive(Debug, Deserialize)]
 struct HeaderConfig {
     creator: String,
