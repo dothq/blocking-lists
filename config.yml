@@ -1,33 +1,41 @@
-trackers:
-  abp:
-    - 'https://easylist.to/easylist/easylist.txt'
-    - 'https://easylist.to/easylist/easyprivacy.txt'
-    - 'https://hosts.netlify.app/Pro/adblock.txt'
-    - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/ultimate.txt'
-    - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/ads.txt'
+name: ShieldDB
+out: out
 
-  hosts: []
+header:
+  creator: Dot HQ
+  product: Dot Shield (adblocker)
 
-social:
-  abp:
-    - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/social.txt'
+lists:
+  - name: trackers
+    abp:
+      - 'https://easylist.to/easylist/easylist.txt'
+      - 'https://easylist.to/easylist/easyprivacy.txt'
+      - 'https://hosts.netlify.app/Pro/adblock.txt'
+      - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/ultimate.txt'
+      - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/ads.txt'
 
-  hosts: []
+    hosts: []
 
-fake_news:
-  abp: []
+  - name: social
+    abp:
+      - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/social.txt'
 
-  hosts:
-    - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
+    hosts: []
 
-gambling:
-  abp: []
+  - name: fake_news
+    abp: []
 
-  hosts:
-    - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/gambling/hosts'
+    hosts:
+      - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
 
-ip_grabbers:
-  abp: []
-  
-  hosts:
-    - 'https://raw.githubusercontent.com/ejaz4/hosts/main/IP%20loggers.txt'
+  - name: gambling
+    abp: []
+
+    hosts:
+      - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/gambling/hosts'
+
+  - name: ip_grabbers
+    abp: []
+
+    hosts:
+      - 'https://raw.githubusercontent.com/ejaz4/hosts/main/IP%20loggers.txt'
