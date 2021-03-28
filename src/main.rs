@@ -91,6 +91,7 @@ async fn list(
     // Create a progress bar for this list
     let bar = progress.bar(total_lists, format!("List: {}", name));
 
+    // Loop through the adblockplus lists
     for list in &list.abp {
         let download = reqwest::get(list).await?.text().await?;
         let mut list = parse_abp(download);
@@ -99,6 +100,7 @@ async fn list(
         progress.inc_and_draw(&bar, 1);
     }
 
+    // Loop through the hosts lists
     for list in &list.hosts {
         let download = reqwest::get(list).await?.text().await?;
         let mut list = parse_host(download);

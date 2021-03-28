@@ -29,11 +29,11 @@ jobs:
           do
             echo $file
             if [[ $file != src/* ]]; then
-              echo "This modified file is not under the 'src' folder."
               echo "::set-output name=run_job::false"
-              break
             else
+              echo "This modified file is under the 'src' folder."
               echo "::set-output name=run_job::true"
+              break
             fi
           done < files.txt
 
