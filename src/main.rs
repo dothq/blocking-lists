@@ -95,6 +95,7 @@ async fn list(
 
     // Loop through the adblockplus lists
     for list in &list.abp {
+        // Download and parse
         let download = reqwest::get(list).await?.text().await?;
         let mut list = parse_abp(download);
         full_list.append(&mut list);
@@ -105,6 +106,7 @@ async fn list(
 
     // Loop through the hosts lists
     for list in &list.hosts {
+        // Download and parse
         let download = reqwest::get(list).await?.text().await?;
         let mut list = parse_host(download);
         full_list.append(&mut list);
@@ -113,6 +115,7 @@ async fn list(
         progress.inc_and_draw(&bar, 1);
     }
 
+    // Sort and dedup for perfmance
     full_list.sort();
     full_list.dedup();
 
