@@ -1,4 +1,4 @@
-name: Binary builds
+name: CI
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
             fi
           done < files.txt
 
-  job_for_db:
+  compile:
     name: Compile to binary
     needs: check
     if: needs.check.outputs.run_job == 'true'
@@ -55,7 +55,7 @@ jobs:
       - name: Delete last release
         uses: ame-yu/action-delete-latest-release@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ROBOT_TOKEN }}
 
       - uses: ncipollo/release-action@v1
         with:
@@ -63,4 +63,59 @@ jobs:
           name: 'latest'
           tag: 'latest'
           body: 'This is the latest binary from the CI'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ROBOT_TOKEN }}
+
+  update_without_rebuild:
+    name: Update the database when db-core doesn't need to be recompiled
+    runs-on: ubuntu-latest
+
+    needs: check
+    if: needs.check.outputs.run_job == 'false'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setting up caches...
+        uses: Swatinem/rust-cache@v1.2.0
+
+      - name: Download and run...
+        run: |
+          wget https://github.com/dothq-extensions/shield-db/releases/download/latest/linux
+          chmod +x ./linux
+          ./linux
+          rm ./linux
+
+      - name: Upload changes...
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_email: dothq-robot@users.noreply.github.com
+          author_name: dothq-robot
+          token: ${{ secrets.ROBOT_TOKEN }}
+          message: '👽 Update database'
+
+  update_with_rebuild:
+    name: Update the database once recompile
+    runs-on: ubuntu-latest
+
+    needs: compile
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setting up caches...
+        uses: Swatinem/rust-cache@v1.2.0
+
+      - name: Download and run...
+        run: |
+          wget https://github.com/dothq-extensions/shield-db/releases/download/latest/linux
+          chmod +x ./linux
+          ./linux
+          rm ./linux
+
+      - name: Upload changes...
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_email: dothq-robot@users.noreply.github.com
+          author_name: dothq-robot
+          token: ${{ secrets.ROBOT_TOKEN }}
+          message: '👽 Update database'
