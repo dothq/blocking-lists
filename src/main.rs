@@ -5,6 +5,7 @@ use std::{
     io::{self, Write},
 };
 
+use linya::Progress;
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
@@ -14,101 +15,103 @@ struct List {
     hosts: Vec<String>,
 }
 
-type Config = Vec<List>;
+#[derive(Debug, Deserialize)]
+struct Config {
+    name: String,
+    lists: Vec<List>,
+}
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    // Welcome
-    println!("ShieldDB updating...");
-
     // Create the out path
     if !folder_exist("out")? {
         create_dir("./out")?;
     }
 
-    println!("Loading config...");
-
     // Read the config file for shieldDB
     let config_str = fs::read_to_string("config.yml")?;
     let config: Config = serde_yaml::from_str(&config_str)?;
 
-    for list_config in config {
-        list(list_config).await?;
+    // Log a welcome message
+    println!("{}", config.name);
+    println!("===============");
+
+    // Create the progress manager
+    let mut progress = Progress::new();
+    // Create the total list progress file
+    let total_lists = progress.bar(config.lists.len(), "All lists");
+    // Loop through all of the lists
+    for list_config in config.lists {
+        // Parse the list
+        list(&list_config, &mut progress).await?;
+        // Increment total progress bar
+        progress.inc_and_draw(&total_lists, 1);
     }
 
     Ok(())
 }
 
-async fn list(list: List) -> Result<(), Box<dyn Error>> {
-    let name = list.name;
+async fn list(list: &List, progress: &mut Progress) -> Result<(), Box<dyn Error>> {
+    let name = &list.name;
+    let mut full_list = Vec::new();
+    let total_lists = list.abp.len() + list.hosts.len() + 2; // We add the extra one for deduping and saving
 
-    println!("Downloading list {}...", name);
-    let mut trackers_list = download_abp(list.abp).await?;
-    let mut host_list = download_hosts(list.hosts).await?;
-    trackers_list.append(&mut host_list);
+    let bar = progress.bar(total_lists, format!("List: {}", name));
 
-    println!("Deduping...");
-    trackers_list.sort();
-    trackers_list.dedup();
+    for list in &list.abp {
+        let download = reqwest::get(list).await?.text().await?;
+        let mut list = parse_abp(download);
+        full_list.append(&mut list);
 
-    println!("Saving...");
+        progress.inc_and_draw(&bar, 1);
+    }
+
+    for list in &list.hosts {
+        let download = reqwest::get(list).await?.text().await?;
+        let mut list = parse_host(download);
+        full_list.append(&mut list);
+
+        progress.inc_and_draw(&bar, 1);
+    }
+
+    full_list.sort();
+    full_list.dedup();
+
+    progress.inc_and_draw(&bar, 1);
+
     let mut file = File::create(&format!("out/{}.txt", name))?;
-    file.write_all(&trackers_list.join("\n").as_bytes())?;
+    file.write_all(&full_list.join("\n").as_bytes())?;
+
+    progress.inc_and_draw(&bar, 1);
 
     Ok(())
 }
 
-async fn download_abp(lists: Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
-    // Download files and store them in a scripts
-    let mut list = Vec::new();
-    for file in lists {
-        let downloaded = reqwest::get(&file).await?.text().await?;
-
-        let split: Vec<&str> = downloaded.split('\n').collect();
-
-        let mut split = split
-            .iter()
-            .map(|s| s.split('!').collect::<Vec<&str>>()[0])
-            .filter(|s| s != &"")
-            .filter(|s| {
-                !s.contains('<') && !s.contains(' ') && !s.contains('>') && !s.contains('\u{0009}')
-            }) // Why is there html in this list
-            .map(|s| s.to_string())
-            .collect();
-
-        list.append(&mut split);
-
-        println!("Downloaded: '{}'", &file);
-    }
-
-    Ok(list)
+fn parse_abp(file: String) -> Vec<String> {
+    file.split('\n')
+        .collect::<Vec<&str>>()
+        .iter()
+        .map(|s| s.split('!').collect::<Vec<&str>>()[0])
+        .filter(|s| s != &"")
+        .filter(|s| {
+            !s.contains('<') && !s.contains(' ') && !s.contains('>') && !s.contains('\u{0009}')
+        }) // Why is there html in this list
+        .map(|s| s.to_string())
+        .collect()
 }
 
-async fn download_hosts(lists: Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
-    // Download files and store them in a scripts
-    let mut list = Vec::new();
-    for file in lists {
-        let downloaded = reqwest::get(&file).await?.text().await?;
-
-        let split: Vec<&str> = downloaded.split('\n').collect();
-
-        let mut split = split
-            .iter()
-            .map(|s| s.split('#').collect::<Vec<&str>>()[0])
-            .filter(|s| s != &"")
-            .filter(|s| s != &"0.0.0.0")
-            .filter(|s| !s.contains("localhost"))
-            .map(|s| str::replace(s, "0.0.0.0 ", ""))
-            .map(|s| str::replace(&s, "127.0.0.1 ", ""))
-            .map(|s| format!("||{}^", s))
-            .collect();
-
-        list.append(&mut split);
-
-        println!("Downloaded: '{}'", &file);
-    }
-
-    Ok(list)
+fn parse_host(file: String) -> Vec<String> {
+    file.split('\n')
+        .collect::<Vec<&str>>()
+        .iter()
+        .map(|s| s.split('#').collect::<Vec<&str>>()[0])
+        .filter(|s| s != &"")
+        .filter(|s| s != &"0.0.0.0")
+        .filter(|s| !s.contains("localhost"))
+        .map(|s| str::replace(s, "0.0.0.0 ", ""))
+        .map(|s| str::replace(&s, "127.0.0.1 ", ""))
+        .map(|s| format!("||{}^", s))
+        .collect()
 }
 
 fn folder_exist(name: &str) -> io::Result<bool> {
