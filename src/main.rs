@@ -157,7 +157,7 @@ fn generate_sources_string(abp: &Vec<String>, hosts: &Vec<String>) -> String {
 }
 
 fn parse_abp(file: String) -> Vec<String> {
-    file.split('\n')
+    file.replace("\r\n", "\n").split('\n')
         .collect::<Vec<&str>>()
         .iter()
         .map(|s| s.split('!').collect::<Vec<&str>>()[0])
@@ -170,7 +170,7 @@ fn parse_abp(file: String) -> Vec<String> {
 }
 
 fn parse_host(file: String) -> Vec<String> {
-    file.split('\n')
+    file.replace("\r\n", "\n").split('\n')
         .collect::<Vec<&str>>()
         .iter()
         .map(|s| s.split('#').collect::<Vec<&str>>()[0])
