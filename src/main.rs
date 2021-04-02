@@ -2,7 +2,7 @@ use std::{
     env,
     error::Error,
     fs::{self, create_dir, File},
-    io::{self, Write},
+    io::{self, Read, Write},
 };
 
 use linya::Progress;
@@ -68,11 +68,20 @@ The list $list_name$ includes:$n$$list_sources$$n$", header.product, header.crea
     // Create the total list progress file
     let total_lists = progress.bar(config.lists.len(), "All lists");
     // Loop through all of the lists
-    for list_config in config.lists {
+    for list_config in &config.lists {
         // Parse the list
-        list(&list_config, &mut progress, &config.out, &header_template).await?;
+        list(list_config, &mut progress, &config.out, &header_template).await?;
         // Increment total progress bar
         progress.inc_and_draw(&total_lists, 1);
+    }
+
+    // Create the compression progress file
+    let compress = progress.bar(config.lists.len(), "Compressing");
+    // Compress all of the lists
+    for list_config in config.lists {
+        // Compress this list
+        compress_file(&list_config.name, &config.out)?;
+        progress.inc_and_draw(&compress, 1);
     }
 
     Ok(())
@@ -115,7 +124,7 @@ async fn list(
         progress.inc_and_draw(&bar, 1);
     }
 
-    // Sort and dedup for perfmance
+    // Sort and dedup for performance
     full_list.sort();
     full_list.dedup();
 
@@ -146,18 +155,19 @@ fn generate_sources_string(abp: &Vec<String>, hosts: &Vec<String>) -> String {
     let mut final_str = String::new();
 
     for list in abp {
-        final_str.push_str(&format!("! - {}", list));
+        final_str.push_str(&format!("! - {}\n", list));
     }
 
     for host in hosts {
-        final_str.push_str(&format!("! - {}", host));
+        final_str.push_str(&format!("! - {}\n", host));
     }
 
     final_str
 }
 
 fn parse_abp(file: String) -> Vec<String> {
-    file.replace("\r\n", "\n").split('\n')
+    file.replace("\r\n", "\n")
+        .split('\n')
         .collect::<Vec<&str>>()
         .iter()
         .map(|s| s.split('!').collect::<Vec<&str>>()[0])
@@ -170,7 +180,8 @@ fn parse_abp(file: String) -> Vec<String> {
 }
 
 fn parse_host(file: String) -> Vec<String> {
-    file.replace("\r\n", "\n").split('\n')
+    file.replace("\r\n", "\n")
+        .split('\n')
         .collect::<Vec<&str>>()
         .iter()
         .map(|s| s.split('#').collect::<Vec<&str>>()[0])
@@ -181,6 +192,22 @@ fn parse_host(file: String) -> Vec<String> {
         .map(|s| str::replace(&s, "127.0.0.1 ", ""))
         .map(|s| format!("||{}^", s))
         .collect()
+}
+
+fn compress_file(name: &str, out: &str) -> Result<(), Box<dyn Error>> {
+    let mut file = File::open(&format!("{}/{}.txt", out, name))?;
+    let mut contents = String::new();
+
+    file.read_to_string(&mut contents)?;
+
+    let contents = contents.as_bytes();
+    let compressed = miniz_oxide::deflate::compress_to_vec(contents, 6);
+
+    // Save to the disk
+    let mut file = File::create(&format!("{}/{}.shielddb", out, name))?;
+    file.write_all(&compressed)?;
+
+    Ok(())
 }
 
 fn folder_exist(name: &str) -> io::Result<bool> {
