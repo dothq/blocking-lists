@@ -5,6 +5,7 @@ use std::{
     io::{self, Read, Write},
 };
 
+use compression::prelude::*;
 use linya::Progress;
 use serde::Deserialize;
 
@@ -201,7 +202,7 @@ fn compress_file(name: &str, out: &str) -> Result<(), Box<dyn Error>> {
     file.read_to_string(&mut contents)?;
 
     let contents = contents.as_bytes();
-    let compressed = miniz_oxide::deflate::compress_to_vec(contents, 6);
+    let compressed = contents.into_iter().clone().encode(&mut BZip2Encoder::new(9), Action::Finish).collect::<Result<Vec<_>,_>().unwrap();
 
     // Save to the disk
     let mut file = File::create(&format!("{}/{}.shielddb", out, name))?;
