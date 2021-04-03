@@ -201,8 +201,13 @@ fn compress_file(name: &str, out: &str) -> Result<(), Box<dyn Error>> {
 
     file.read_to_string(&mut contents)?;
 
-    let contents = contents.as_bytes();
-    let compressed = contents.into_iter().clone().encode(&mut BZip2Encoder::new(9), Action::Finish).collect::<Result<Vec<_>,_>().unwrap();
+    let contents = contents.as_bytes().to_owned();
+    let compressed = contents
+        .into_iter()
+        .clone()
+        .encode(&mut BZip2Encoder::new(9), Action::Finish)
+        .collect::<Result<Vec<_>, _>>()
+        .unwrap();
 
     // Save to the disk
     let mut file = File::create(&format!("{}/{}.shielddb", out, name))?;
