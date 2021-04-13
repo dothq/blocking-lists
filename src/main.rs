@@ -5,7 +5,6 @@ use std::{
     io::{self, Read, Write},
 };
 
-use compression::prelude::*;
 use linya::Progress;
 use serde::Deserialize;
 
@@ -74,15 +73,6 @@ The list $list_name$ includes:$n$$list_sources$$n$", header.product, header.crea
         list(list_config, &mut progress, &config.out, &header_template).await?;
         // Increment total progress bar
         progress.inc_and_draw(&total_lists, 1);
-    }
-
-    // Create the compression progress file
-    let compress = progress.bar(config.lists.len(), "Compressing");
-    // Compress all of the lists
-    for list_config in config.lists {
-        // Compress this list
-        compress_file(&list_config.name, &config.out)?;
-        progress.inc_and_draw(&compress, 1);
     }
 
     Ok(())
@@ -193,27 +183,6 @@ fn parse_host(file: String) -> Vec<String> {
         .map(|s| str::replace(&s, "127.0.0.1 ", ""))
         .map(|s| format!("||{}^", s))
         .collect()
-}
-
-fn compress_file(name: &str, out: &str) -> Result<(), Box<dyn Error>> {
-    let mut file = File::open(&format!("{}/{}.txt", out, name))?;
-    let mut contents = String::new();
-
-    file.read_to_string(&mut contents)?;
-
-    let contents = contents.as_bytes().to_owned();
-    let compressed = contents
-        .into_iter()
-        .clone()
-        .encode(&mut BZip2Encoder::new(9), Action::Finish)
-        .collect::<Result<Vec<_>, _>>()
-        .unwrap();
-
-    // Save to the disk
-    let mut file = File::create(&format!("{}/{}.shielddb", out, name))?;
-    file.write_all(&compressed)?;
-
-    Ok(())
 }
 
 fn folder_exist(name: &str) -> io::Result<bool> {
