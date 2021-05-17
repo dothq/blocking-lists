@@ -33,6 +33,18 @@ lists:
     hosts:
       - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
 
+  - name: annoyances
+    abp:
+      - 'https://secure.fanboy.co.nz/fanboy-cookiemonster.txt'
+      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt'
+      
+    hosts: []
+
+  - name: clean_web
+    abp:
+      - 'https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt'      
+    hosts: []
+
   - name: gambling
     abp: []
 
