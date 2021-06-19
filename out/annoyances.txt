@@ -4145,6 +4145,7 @@
 ###enablecookies
 ###enedue_cookieBox
 ###enhanced-privacy-popup
+###ensConsentWidget
 ###ensModalWrapper[aria-labelledby*="Consent"]
 ###ensNotifyBanner
 ###ens_pr_mini.ens_pr_mini
@@ -9905,7 +9906,6 @@
 ##.eu-cookie
 ##.eu-cookie-banner
 ##.eu-cookie-bar-notification
-##.eu-cookie-compliance-banner
 ##.eu-cookie-compliance-banner-info
 ##.eu-cookie-compliance-banner:not(body):not(html)
 ##.eu-cookie-compliance-popup-open
@@ -13006,7 +13006,7 @@ $$amp-embed[type="zen"]
 /cookie-prompt.
 /cookie-reglement.
 /cookie-richtlinie.
-/cookie-script.
+/cookie-script.$domain=~cookie-script.com
 /cookie-service/*
 /cookie-terms.
 /cookie-warning.
@@ -13887,6 +13887,7 @@ $$amp-embed[type="zen"]
 3suisses.fr#%#
 419.consulting,europeanresolverpolicy.com##.widget-cookie-banner
 44.ua##.exp-line
+4900.co.jp###ouibounce-modal
 4brain.ru###brmrk_pup
 4clik.com,arlestourisme.com,brain-magazine.fr,cer-eau.fr,colissimo.fr,edcom.fr,enmark2.com,feuvert.fr,gentside.com,gretel-box.com,jackpot-des-experts.fr,jules.com,laposte.fr,logistafrance.fr,lumiglobal.fr,maxisciences.com,my-meteo.com,mybiclighter.com,ohmymag.com,secu-independants.fr,showroomprive.com,solutions-numeriques.com,tourtel-twist.fr,ville-ideale.com,ville-ideale.fr,viously.com###cookies
 4fresh.ru##.botSub
@@ -14309,6 +14310,7 @@ $$amp-embed[type="zen"]
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=giga.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvspielfilm.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=utopia.de
+@@||cdn.privacy-mgmt.com^$app=de.lineas.lit.ntv.android
 @@||cdn.privacy-mgmt.com^$domain=demorgen.be|volkskrant.nl|trouw.nl|parool.nl
 @@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk
 @@||cdn.privacy-mgmt.com^$domain=giga.de
@@ -14719,6 +14721,7 @@ $$amp-embed[type="zen"]
 @@||jn.pt^$generichide
 @@||journalstar.com^$generichide
 @@||kalaydo.de^*/cookie-consent.jsc.js$domain=kalaydo.de
+@@||kansas.com^$generichide
 @@||karar.com/assets/default/js/adsbygoogle.js
 @@||kaspersky.com/content/en-global/about/stories/transparency/news/GDPR.json
 @@||kdn.cdnserv.pw/cnads.js
@@ -16819,6 +16822,7 @@ bio-hoflieferant.de###cookies_acceptance
 bio-oil.com##.bo--notification-banner
 bioapotheke.de###landing_page_popup
 biobellinda.com.tr##.kvk-cookie
+biod.ro##.seopress-user-consent
 biohotels.info###popunder
 biohotels.info##div[id^="cms-module-tracking-codes-"]
 biomet.fr,closermag.fr,illicopharma.com###fancybox-overlay
@@ -17849,7 +17853,7 @@ correiobraziliense.com.br##.revue-embed
 correos.es###myCookies
 correosexpress.com#@#.cookie-wrapper
 correosexpress.com,puzzels.ad.nl,puzzels.bd.nl,puzzels.bndestem.nl,puzzels.destentor.nl,puzzels.ed.nl,puzzels.gelderlander.nl,puzzels.parool.nl,puzzels.pzc.nl,puzzels.trouw.nl,puzzels.tubantia.nl,puzzels.volkskrant.nl,statestreet.com,travelchannel.co.uk#@#.cookie-wrapper
-corriere.it,video.gazzetta.it#%#AG_onLoad(function(){if(
+corriere.it,gazzetta.it#%#AG_onLoad(function(){if(
 corrierecomunicazioni.it##.cookie-body-background
 corso-saunamanufaktur.com,schaeffler.com###dataprotection
 coruhaksa.com,firataksa.com,firatedas.com.tr,coruhedas.com.tr,aksadogalgaz.com.tr##.cerezDiv
@@ -19930,6 +19934,7 @@ gazetevatan.com,milliyet.com.tr##.cerez
 gazin.com.br##div[class^="styles__CookiesWarning-"]
 gazin.com.br##div[class^="styles__WhatsAppWrap-"]
 gazin.com.br##section[class^="styles__SectionNewsletterPromocoes-"]
+gazzetta.it##.bck-tile-newsletter
 gberardi.com#@##cookie_message
 gcorelabs.com##.confirmed_cookie
 gdansk.pl#@##cookies[role="dialog"]
@@ -23050,6 +23055,7 @@ minsknews.by##.telegram-promo
 minsknews.by##.video-subscribe-header
 minsknews.by##.zen-block-wrapper
 minval.az###facebook_subscribe
+mir24.tv##a[href="https://t.me/mir24tv"][target="_blank"]
 mir74.ru###adblock_top_reminder
 miraeassetmf.co.in##.mangeingCookies
 mirfactov.com,howtogeek.com##.email-subscribe
@@ -24405,6 +24411,7 @@ penstore.nl##.center-notice
 penzavzglyad.ru##.subscribe_form
 penzvero.hu##.cookie-info-container
 people.cn###shengmingTip
+people.com##.sitewide-alerts
 peoplematters.in##.newsletter-sub-fixed
 peoplematters.in##.w-news-stand
 peoplesworld.org###popupModal
@@ -25726,6 +25733,7 @@ scribd.com###overlay[class=""]
 scribd.com##.auto__doc_page_webpack_view_in_store_promo
 scribd.com##.auto__pdfs_lightboxes_exclusive_trial_lightbox
 scribd.com##.exclusive_trial_mode
+scribd.com##div[class*="doc_page_body_document_useful"]
 scroll.in###GDPRAlertBanner
 sculpteo.com,emerald.com,clevershuttle.de,myefe.ru###cookies-consent
 scuolerimini.it###upper_div
@@ -28839,10 +28847,11 @@ zeit.de###data-protection-overlay
 zelena-kava.info###eu-container
 zelka.org##.blocker-form
 zelka.org##div[onclick^="$('.blocker-form')"]
-zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua###yabro-strip-element
-zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua##.app-button
-zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua##.article-footer__subscribe
-zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua##.call-to-action-bar
+zen.yandex.*###yabro-strip-element
+zen.yandex.*##.app-button
+zen.yandex.*##.article-footer__subscribe
+zen.yandex.*##.call-to-action-bar
+zen.yandex.*##.desktop-interview-modal
 zend.com##.ui-resizable
 zentralplus.ch##.chrampfe
 zentralplus.ch##.grid-box-notification_info
@@ -30047,6 +30056,7 @@ zysk.com.pl###pageUpperInfo
 ||milfzr.com/sw.js
 ||milotree.com^$third-party
 ||mir-avto-moto.ru^$domain=spec-komp.com
+||mir24.tv/uploaded/resources/Telegramm_1200x90.jpg
 ||mirror.co.uk/service-worker.js
 ||mirsmart.com.ua/image/catalog/bg/bg-sh-xiaomi-vivo.jpg
 ||missouristatebears.com/components/js/components/adblock-modal.js
