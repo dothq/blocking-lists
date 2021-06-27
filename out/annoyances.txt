@@ -6639,6 +6639,7 @@
 ##.Cookie
 ##.Cookie--base
 ##.Cookie--bottom
+##.Cookie--ibe
 ##.Cookie-Consent
 ##.Cookie-Consent--show
 ##.Cookie-banner
@@ -6999,6 +7000,7 @@
 ##.alert-cookie-notice
 ##.alert-cookie-notice-container
 ##.alert-cookies
+##.alert-cookies-backdrop
 ##.alert-cookies-banner
 ##.alert-cookies-bar
 ##.alert-cookiewarning
@@ -12208,6 +12210,7 @@
 ##.wbu_cookie-wrapper
 ##.wcc-cookie-policy
 ##.wd-cookies
+##.wd-cookies-popup
 ##.wd_cookie
 ##.we-cookie-banner
 ##.we-use-cookie
@@ -14613,6 +14616,7 @@ $$amp-embed[type="zen"]
 @@||gamesqa.ru/wp-content/themes/gamesqa/advertising.js
 @@||gawex.pl/assets/js/cookieinfo.js
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=nettivuokraus.com
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=pickmypostcode.com
@@ -18087,6 +18091,8 @@ damngeeky.com##.google-trending
 danbolig.dk,finanzen.ch#@##cookie-overlay
 danbolig.dk,mega.io,skuola.net#@#.cookie-dialog
 dansdeals.com##.wp_subscribe
+danskebank.fi#@##cookie-text
+danskebank.fi#@#.cookie-consent-banner
 daodu.tech##.alert-success.alert-dismissable
 darckrepacks.com#@#.adsbygoogle
 darkos.club###noty_bottomRight_layout_container
@@ -21040,6 +21046,7 @@ imobie.com##.fixedbot
 imobie.com##.sprtadv
 imobiliare.ro###notificare-cookies
 imobiliare.ro##.modal-backdrop
+imobiliare.ro#@##modalCookies
 imoradar24.ro#@##modal-cookies
 imp.webike.net###popup.pu_community
 imp.webike.net,news.webike.net###popup_overlay
@@ -23894,7 +23901,8 @@ nordbayern.de###privacyBanner
 nordiskradio.se###cookieWindow
 nordkurier.de###nk-cookie-consent
 nordlb.de,letyshops.com##.b-cookie-banner
-nordot.app,this.kiji.is##.page__gdpr
+nordot.app##.js-page__gdpr
+nordot.app##.page__gdpr
 nordpass.com##.ReactModalPortal
 nordpass.com##.fixed.bg-grey-darkest
 nordvpn.com##div[id^="popup_"]
@@ -26639,6 +26647,7 @@ studocu.com##.bottom-bar-enter-active
 studocu.com##div[class^="banner-wrapper-"]
 studycheck.de#%#AG_onLoad(function(){-1==document.cookie.indexOf("uc")&&setTimeout(function(){document.querySelector("#usercentrics-root").shadowRoot.querySelector('button[data-testid="uc-accept-all-button"]').click()},1000)});
 studytonight.com###liveToast
+stundin.is##.bottom-banner
 stuttgarter-zeitung.de##.container-stz-popup
 stuttgarter-zeitung.de##a[href^="http://www.stuttgarter-zeitung.de/inhalt.stz-newsletter-"]
 styl.pl##.mobile-topbar-container
@@ -30179,6 +30188,7 @@ zysk.com.pl###pageUpperInfo
 ||mirror.co.uk/service-worker.js
 ||mirsmart.com.ua/image/catalog/bg/bg-sh-xiaomi-vivo.jpg
 ||missouristatebears.com/components/js/components/adblock-modal.js
+||misumi-ec.com/operation/floating_bnr/
 ||mms.cmpsky.com^
 ||mobitorg.phonet.com.ua/public/widget/call-catcher/
 ||mobzon.ru/adbp/adbp.js
