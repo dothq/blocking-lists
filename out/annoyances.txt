@@ -2356,6 +2356,7 @@
 ###cookieOpacity
 ###cookieOptIn
 ###cookieOptInBarWrapper
+###cookieOptionsFooter
 ###cookieOut
 ###cookieOuter
 ###cookieOuterContainer
@@ -7774,7 +7775,7 @@
 ##.consent-panel
 ##.consent-popover
 ##.consent-popup
-##.consent-summary-shown
+##.consent-summary-shown:not(body)
 ##.consent-toast
 ##.consent-toolbar
 ##.consent-ui--banner
@@ -16162,6 +16163,7 @@ anime2enjoy.com##.notice-board
 anime7.download,telekritika.ua###custom_html-3
 animeforce.org,chip.de,main-echo.de###cookieChoiceInfo
 animeindo.moe##iframe[src*="/animeindo/chat.php"]
+animejp.net##.halim-film-notice
 animeland.us##iframe[src^="/dontuse"]
 animesorion.tv##div[id^="yb_"]
 animeworld.tv###cookieAcceptBar
@@ -18088,6 +18090,7 @@ cpomagazine.com,smallstep.com###clym-widget-privacy-frame
 cpu-world.com##div[class="ab_w9"]
 cpygames.com##.afc_popup
 crackberry.com##.swal-overlay
+crackevil.com###pop-ad-wrap
 cracking.org##.adblock_floating_message
 cracks4win.com##.blocker-notice
 cracks4win.com##.blocker-overlay
@@ -18755,6 +18758,7 @@ drei-zinnen.info##div[class^="cookie-banner-tm"]
 dress-for-less.de###DFLCookieConsent
 dressupmix.com###adblock_popup
 drewag.de,enso.de,lvbet.pl,proglib.io#@#.cookie-visible
+drhoelter.de##div[class^="eightworks-cookie"]
 drimsim.com##.cookie[data-ix="cookie-close"]
 drive-image.com,r-studio.com###pp-info
 drive.be###cnilZone
@@ -20268,6 +20272,7 @@ gelbeseiten.de##.gs-cookie-message
 gelbeseiten.de##.mod-CookieMessage
 geleidehond.nl#@#.js-cookie-alert
 geliebte-katze.de###zs_next_article
+gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
 generacionretro.net###makingdifferentpopup
 general-anzeiger-bonn.de,aachener-nachrichten.de,aachener-zeitung.de,rp-online.de,saarbruecker-zeitung.de,volksfreund.de,wz.de##.park-snackbar-cookies
 generali.com.tr##.kvk-footer
@@ -21874,6 +21879,7 @@ jsps.go.jp##.notepanelWrap
 judge.me##.jm-cookie-bar
 juedische-allgemeine.de##.cc
 juedische-allgemeine.de##section.cc
+jugendhilfeportal.de,volksbund.de###ig-cookie-simple
 jukegames.com,n-mobile.net###overbox3
 jula.no##.g-cookie
 jungle.world###block-adblocker
@@ -23024,6 +23030,7 @@ makeup.com.ua##.footer-subscribe
 makeup.com.ua##.pwa-notice
 makeup.ru##.header-subscribe
 makeup.ru,skin.ru##.popup-cookies
+makeuseof.com###newsletter-from
 makeuseof.com##.itunes
 makeuseof.com##.playstore
 makeuseof.com##.single-post-newsletter
@@ -23142,6 +23149,7 @@ masrawy.com,ciasex.com.br##.notification
 masreyhan.com#%#
 massivum.de##.cn_box
 masterskayafanstranic.com.ua##div[id^="custom_fan_gate_overlay"]
+mastersportal.com###CookieWall
 masvision.es###lycok
 matchtv.ru##.cookie-notice
 math-prosto.ru###requestShutOfBlocker
@@ -26393,7 +26401,6 @@ sfera.fm##.banner_aside
 sfera.fm##.img_r
 sfera.fm##.img_r2
 sg-weber.de##.flash-info
-sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
 shaanig.se##.alert-bottom
 shab.ch##agb-bar
 shadertoy.com###compliance
@@ -28680,7 +28687,6 @@ volga.lutsk.ua##div[class$="Baner"]
 volia.com##.agreeCookie\.component__cookieWrapper
 volia.com##div[class="agreeCookie.component__cookieWrapper"]
 volksbankeg.de#@#.cookie-consent:not(body):not(html)
-volksbund.de###ig-cookie-simple
 volksfreund.de##.park-floating-bell
 volksfreund.de,rp-online.de#%#AG_onLoad(function(){if(
 volkswagen-classic-parts.de##.dataProtection
@@ -29690,7 +29696,7 @@ zysk.com.pl###pageUpperInfo
 ||aquarepush.com^$third-party
 ||arabseed.*/sw.js
 ||arc.io/widget.*js$third-party
-||arca.live/api/bywiki.json$domain=namu.wiki|arca.live
+||arca.live/api/bywiki.json$domain=arca.live
 ||archdaily.com/auth/js/kenneth.js^
 ||arcticlab.ru/arcticmodal/
 ||arianelab.com^$third-party
@@ -30733,6 +30739,8 @@ zysk.com.pl###pageUpperInfo
 ||n1goserch.com^$third-party
 ||nalivay-ka.ru/wp-content/themes/sm/js/jquery-semanticwp-modal-
 ||nallihanhaber.com/wp-content/uploads/2020/09/nallihansondakika-min.gif
+||namu.wiki/i/*?type=arca&title=$domain=namu.wiki
+||namu.wiki/i/*?type=news&title=$domain=namu.wiki
 ||nanosystems.it/js/nanoGDPR.min.js
 ||nation-news.ru/assets/js/likebox.js
 ||nation-news.ru/assets/js/user.js
@@ -31126,6 +31134,7 @@ zysk.com.pl###pageUpperInfo
 ||sapo.pt/api/molecule/newsletter
 ||sb.by/upload/banners/tg-sub.jpg
 ||sbx-cdn.com/*/no-SB-banner.pmin.js
+||scintillatingsilver.com^$third-party
 ||sckxppzdm.com^$third-party
 ||script.boerse-online.de/Content/Scripts/web-push^
 ||script.finanz.ru/Content/Scripts/web-push/init.min.js
@@ -31291,6 +31300,7 @@ zysk.com.pl###pageUpperInfo
 ||sud.ua/js/jquery.arcticmodal*.min.js
 ||sueddeutsche.de/assets/js/szpagelayout-sourcepoint
 ||suedkurier.de/_fWS/jsoninplainout/script/shift-2017_private-mode.js
+||sulkycook.com^$third-party
 ||sumo.com^$third-party
 ||suntory.co.jp/softdrink/craftboss/flash/assets/img/mouse.gif
 ||suntory.co.jp/softdrink/craftboss/flash/assets/js/main.js
