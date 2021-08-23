@@ -8736,6 +8736,7 @@
 ##.cookieNotes
 ##.cookieNoti
 ##.cookieNotice
+##.cookieNotice--isVisible
 ##.cookieNotice2
 ##.cookieNotice:not(body):not(html)
 ##.cookieNoticeA
@@ -11542,6 +11543,7 @@
 ##.popup-alert-notice
 ##.popup-aviso-cookies
 ##.popup-box[class*="cookies"]
+##.popup-choose-cookies
 ##.popup-cookie
 ##.popup-cookie-2018
 ##.popup-cookie-background
@@ -12104,6 +12106,7 @@
 ##.top-alert--cookie-message
 ##.top-cookie-info
 ##.top-cookie-notification
+##.top-header-gdpr
 ##.top-info-cookie
 ##.top-message[data-vcv-top-banner]
 ##.top-row[data-container="cookiebox"]
@@ -12857,6 +12860,7 @@ $$amp-embed[type="zen"]
 /?spu_action=*spu_load&
 /?tx_z7cookiemanager
 /AjaxStyleJamHeaderCookiesMessage?
+/Amasty_GdprCookie/*
 /AsyncChatWithUs.*.min.*$script,stylesheet,domain=footshop.ua
 /CheckCookie.
 /Common/Api/Scripts/funding_choices.js$domain=ynet.co.il|ynetnews.com
@@ -14101,6 +14105,7 @@ $$amp-embed[type="zen"]
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
 @@.php?f=js/*.js,js$script,domain=undicom.pl
 @@.tv/javascript/adwords.js$domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
+@@/Amasty_GdprCookie/*$domain=eckeroline.fi
 @@/Resources/Public/JavaScript/CookieBar.js$~third-party
 @@/Themes/SamsungShop/Scripts/shop/cookie-notice.js$domain=shop.samsung.com
 @@/ads/ads.js|$domain=nltimes.nl
@@ -14162,6 +14167,7 @@ $$amp-embed[type="zen"]
 @@||acdn.adnxs.com/ast/static/*/ast.js$domain=outlook.live.com
 @@||ad.71i.de/somtag/loader/loader.js$domain=dtm.com|sportdeutschland.tv
 @@||adb.arcadeitalia.net/core/include_3rd/jquery.cookiesdirective.min.js
+@@||adblockplus.org/img/cookie-notice.svg$~third-party
 @@||adengine.snigelweb.com/aternos.org/*/adngin.js$domain=aternos.org
 @@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||ads.rubiconproject.com/ad/*$domain=diynetwork.com,important
@@ -17001,6 +17007,7 @@ bestflyparkingorio.it###oriobigpark_cookie_advice
 bestfree.ru###mine
 bestfree.ru##.distribution_bottom
 bestlivecamsites.com##.ntfc-bar
+bestofcebuislandhopping.com##.penci-rltpopup-left
 bestradio.fm##.adb
 bestreviews.net###contact-form
 bestsimilar.com###privacy-fixed-bottom
@@ -17561,6 +17568,7 @@ burton.fr###cookiesReglement
 business-class.su##.remove
 business.bt.com##.cmp-cookie-notification
 business.financialpost.com##.widget_postmedia_layouts_ad
+business.nikkei.com###slideIn
 business.ru##iframe[src^="https://www.business.ru/files/widgets/VKwidget"]
 businessht.bloomberght.com,showtv.com.tr##.showtvPushOverlay
 businessht.com.tr##.showtvPushOverlay
@@ -18124,7 +18132,7 @@ com-magazin.de##w-div[role$="dialog"]
 comicbook.com###newsletterModal
 comicbunch.com##.footer_comics_ad
 comicsbox.it,jnjmedical.it,linkem.com,ondarock.it,spaziorock.it###bottom-banner
-comitatoparalimpico.it,coni.it,federnuoto.it,fise.it###privacy-wrapper
+comitatoparalimpico.it,coni.it,federnuoto.it,federscherma.it,fise.it###privacy-wrapper
 comlaude.com###cookiesPolicy
 comma-store.de##div[data-cid="DATA_PRIVACY_BAR"]
 commaful.com##.bottom-section-signup
@@ -23363,6 +23371,7 @@ macxdvd.com##.usernotice_pop
 macys.com###tinybox
 macys.com###tinymask
 mad-daily.com##.cp-info-bar-container
+madalinliviu.ro,samsonite.ro##.cookies
 madamecoco.com##.vl-popup-container
 madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
 made.com##div[data-newsletter-signup]
@@ -23373,9 +23382,10 @@ maedchenmannschaft.net##.widget_eu_cookie_law_widget
 maersk.com##div[data-r-ds="NewsletterCallout"]
 mafengwo.cn###float-pannel-gloable
 mag.auto.ru##.jrnl-article-subscription
-mag2.com###text-18
+mag2.com##.header_text_ad
 mag2.com##.in_alm
 mag2.com##.pf_relatedpost
+mag2.com##.sidebar_text_ad
 magadanmedia.ru###social_modalblock
 magadanmedia.ru##.prima-pic-a.a-standart
 magazin.com,manufactum.de##div[data-test-sell-cookie-banner]
@@ -26681,7 +26691,6 @@ samfw.com###block-mess
 samlab.ws##iframe[src^="https://yoomoney.ru/"]
 sammic.fr##.noty_message
 samsonite.de,finalokullari.com.tr,larousse.fr,reebok.com##.ui-widget-overlay
-samsonite.ro##.cookies
 samsung.com##.chats
 samsung.com##.cm-cookie-geo__msg-wrap
 samsung.com##.gb-gnb__notice-bar
@@ -30089,6 +30098,7 @@ youporn.com,youporngay.com###js_euCookieModal
 youporngay.com###adblock_1
 yourdictionary.com##.GDPR
 yourdictionary.com#@##onetrust-consent-sdk
+yourdigitalrights.org##.react-cookie-law-dialog
 youreporter.it###gdpr_modal
 yourlifeupdated.net###nibirumail_cookie_advice
 youronlinechoices.com##.p15
@@ -31735,7 +31745,7 @@ zysk.com.pl###pageUpperInfo
 ||pubtech.ai^$third-party
 ||puffypull.com^$third-party
 ||puk.com/typo3conf/ext/dp_cookieconsent/Resources/Public/JavaScript/dp_cookieconsent.js
-||punosy.best^$third-party
+||punosy.best^$third-party,domain=~ouo.today
 ||puntocellulare.it/push/push_modal.asp
 ||purchacade.info^$third-party
 ||purechat.com^$third-party
