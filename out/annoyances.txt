@@ -2571,6 +2571,7 @@
 ###cookie_aviso
 ###cookie_aviso_box
 ###cookie_b
+###cookie_background
 ###cookie_balk_top
 ###cookie_bandeau
 ###cookie_baner
@@ -8828,7 +8829,7 @@
 ##.cookieUsageAlertMainContainer
 ##.cookieUseWarning
 ##.cookieUserAgreement
-##.cookieVisible
+##.cookieVisible:not(body)
 ##.cookieWallWrapper
 ##.cookieWarning
 ##.cookieWarningBackground
@@ -9795,6 +9796,7 @@
 ##.dentro-cookie
 ##.depo-cookies
 ##.desktop_cookie_block
+##.despre-cookie-info
 ##.devsite-notification-eu-cookie
 ##.dfc-cookie-info-bar-container
 ##.dft-cookies.open
@@ -13639,6 +13641,7 @@ $$amp-embed[type="zen"]
 /mod_cookiesaccept/*
 /mod_cookiesaccept/*$~stylesheet
 /mod_jbcookies/*
+/modal-gdpr.
 /motchat/design/defaulttheme/js/widgetv*/index.js$domain=incredibleindia.org
 /mpc_cookie_
 /mq_cookieconsent/*
@@ -13702,6 +13705,7 @@ $$amp-embed[type="zen"]
 /privacy-templates.js?
 /privacy/bundle-modern.js
 /privacy/cookie.
+/privacy/optanon/*
 /privacy/popup.js$domain=cdaction.pl|pcformat.pl
 /privacyPopup/*
 /privacy_cookie.
@@ -16729,7 +16733,7 @@ autostat.ru##a[data-yacounter-click^="banner_zen"]
 autotask.com##.alertbar
 autotrader.co.uk###js-cookie-alert
 autotrader.co.za,speedtest.net##.notification-container
-autotrader.com,jsonquerytool.com,remove.bg##.fixed-bottom
+autotrader.com,g2g.com,jsonquerytool.com,remove.bg##.fixed-bottom
 autotrader.nl###ATASBAR
 autotraveler.ru##.floater.mt-5
 autoua.net##a[href="https://insurance.autoua.net/ru/osago/"]
@@ -17172,7 +17176,7 @@ bing.com##.mt-edge-extension
 bing.com##.opal_serpftrc
 bing.com##div[data-cookie]
 bing.com#@##cc_container
-bing.com,czuczu.pl,experian.com,supertennis.tv#@#.cc-container
+bing.com,czuczu.pl,experian.com,ibs.it,supertennis.tv#@#.cc-container
 bio-hoflieferant.de###cookies_acceptance
 bio-oil.com##.bo--notification-banner
 bioapotheke.de###landing_page_popup
@@ -21709,6 +21713,7 @@ idi.it##.pure-cookies-notice-container
 idnes.cz##.ads-popup
 idntimes.com###videoPlaylistPlugId.convertoFloatClass
 idoctors.it##.privacy_bottom
+idolmaster.jp#@#.policy-box
 idp.funktionstjanster.se#@##cookieinfo
 idp.funktionstjanster.se#@#.cookieContainer
 idtube.me,idxx1.net,185.224.130.67,idxx1.rocks,103.194.171.75#@#.adBanner
@@ -26338,6 +26343,7 @@ rai.it,rainews.it#@#.as-oil[data-qa="oil-Layer"]
 raider.io##.cookie-footer--wrapper
 raikaritten.it##.bottom_note
 rail.cc###eucookiebox
+rakko.tools##.rakkoma-widget-iframe
 rallye-magazin.de###banner_billboard
 rallye-magazin.de###billboardattention
 rallye-magazin.de###inj_nl_form
