@@ -1536,6 +1536,7 @@
 ###cookie-band
 ###cookie-banner
 ###cookie-banner--popup-wrapper
+###cookie-banner-backdrop
 ###cookie-banner-bespoke
 ###cookie-banner-container
 ###cookie-banner-container:not(html):not(body)
@@ -3944,6 +3945,7 @@
 ###divCookieAcceptance
 ###divCookieAgreement
 ###divCookieAlert
+###divCookieBanner
 ###divCookieChoiceInfo
 ###divCookieCompliance
 ###divCookieConfirm
@@ -6779,6 +6781,7 @@
 ##.CookiesBar
 ##.CookiesConsent
 ##.CookiesConsent_root
+##.CookiesHinweisOuter
 ##.CookiesInfo
 ##.CookiesInfoMain
 ##.CookiesLayer
@@ -8625,6 +8628,7 @@
 ##.cookieBannerText
 ##.cookieBannerWrapper
 ##.cookieBar-filler
+##.cookieBar-new-style
 ##.cookieBar:not(body)
 ##.cookieBar:not(body):not(html)
 ##.cookieBarAniIn
@@ -9267,12 +9271,6 @@
 ##.cookies-back-body
 ##.cookies-bandeau
 ##.cookies-banner
-##.cookies-banner-component
-##.cookies-banner-container
-##.cookies-banner-enabled
-##.cookies-banner-shown
-##.cookies-banner-wrap
-##.cookies-banner__container
 ##.cookies-bar
 ##.cookies-bar-new
 ##.cookies-bloc
@@ -11777,6 +11775,7 @@
 ##.react-reveal[class*="cookie-banner"]
 ##.readcookie
 ##.recocliv2
+##.rectangleCookies
 ##.recurly-gdpr
 ##.redhat-cookie-banner
 ##.region-cookie-ban
@@ -12636,6 +12635,7 @@
 ##div[class^="cookieBanner-"]
 ##div[class^="cookieBanner_"]
 ##div[class^="cookieBlock"]
+##div[class^="cookies-banner"]
 ##div[class^="cookiesAgreement"]
 ##div[class^="cookiesAlert_"]
 ##div[class^="gdpr_banner_"]
@@ -13192,6 +13192,7 @@ $$amp-embed[type="zen"]
 /cookieAgree.
 /cookieBan.
 /cookieBanner/*
+/cookieBannerTop.
 /cookieBox.js
 /cookieCallout.
 /cookieCompliance.js
@@ -16066,7 +16067,7 @@ airleben.de,datafox.de##.popup-banner
 airlinecheckins.com##.layout-row
 airly.eu##div[class^="cookies-alert__Wrapper"]
 airmail.news##.newsletter-signup
-airnewzealand.eu,arlingtoncemetery.mil,arthrex.com,axminster.co.uk,daf.be,daf.co.uk,daf.com,daf.fr,daf.global,daf.nl,daf.ru,daf.se,daftrucks.de,daftrucks.dk,daftrucks.it,daftrucks.pl,daftrucks.sk,ferratum.co.uk,fiveguys.co.uk,kon-boot.com,lam.co.mz,medtronic.com,primaresearch.org,qv.co.nz##.modal-backdrop
+airnewzealand.eu,arlingtoncemetery.mil,arthrex.com,axminster.co.uk,daf.be,daf.co.uk,daf.com,daf.fr,daf.global,daf.nl,daf.ru,daf.se,daftrucks.de,daftrucks.dk,daftrucks.it,daftrucks.pl,daftrucks.sk,ferratum.co.uk,fiveguys.co.uk,flipsnack.com,kon-boot.com,lam.co.mz,medtronic.com,primaresearch.org,qv.co.nz##.modal-backdrop
 airnewzealand.eu,przekroj.pl,qv.co.nz,thelittleboxoffice.com##.modal
 airport-nuernberg.de###cookies_hint
 airproducts.co.uk##.eu-dp
@@ -16331,6 +16332,7 @@ ancient.eu##.shop_promo
 anderzorg.nl###cookieWallBar
 andinet.de##.coo
 andoveradvertiser.co.uk,asianimage.co.uk,banburycake.co.uk,barryanddistrictnews.co.uk,basildonstandard.co.uk,basingstokegazette.co.uk,bicesteradvertiser.net,borehamwoodtimes.co.uk,braintreeandwithamtimes.co.uk,brentwoodlive.co.uk,bridportnews.co.uk,bromsgroveadvertiser.co.uk,bucksfreepress.co.uk,burytimes.co.uk,campaignseries.co.uk,chelmsfordweeklynews.co.uk,chorleycitizen.co.uk,clactonandfrintongazette.co.uk,cotswoldjournal.co.uk,cravenherald.co.uk,croydonguardian.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,droitwichadvertiser.co.uk,dudleynews.co.uk,ealingtimes.co.uk,echo-news.co.uk,enfieldindependent.co.uk,eppingforestguardian.co.uk,epsomguardian.co.uk,eveningtimes.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,freepressseries.co.uk,gazette-news.co.uk,gazetteherald.co.uk,gazetteseries.co.uk,greenocktelegraph.co.uk,guardian-series.co.uk,halesowennews.co.uk,halsteadgazette.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,harwichandmanningtreestandard.co.uk,heraldscotland.com,heraldseries.co.uk,herefordtimes.com,hillingdontimes.co.uk,ilkleygazette.co.uk,keighleynews.co.uk,kidderminstershuttle.co.uk,knutsfordguardian.co.uk,lancashiretelegraph.co.uk,ledburyreporter.co.uk,leighjournal.co.uk,ludlowadvertiser.co.uk,maldonandburnhamstandard.co.uk,malverngazette.co.uk,messengernewspapers.co.uk,middlewichguardian.co.uk,milfordmercury.co.uk,newsshopper.co.uk,northwichguardian.co.uk,northyorkshireadvertiser.co.uk,oxfordmail.co.uk,oxfordtimes.co.uk,penarthtimes.co.uk,prestwichandwhitefieldguide.co.uk,redditchadvertiser.co.uk,richmondandtwickenhamtimes.co.uk,romseyadvertiser.co.uk,runcornandwidnesworld.co.uk,salisburyjournal.co.uk,smallholder.co.uk,southendstandard.co.uk,southwalesargus.co.uk,southwalesguardian.co.uk,southwestfarmer.co.uk,stalbansreview.co.uk,sthelensstar.co.uk,stourbridgenews.co.uk,surreycomet.co.uk,suttonguardian.co.uk,swindonadvertiser.co.uk,tewkesburyadmag.co.uk,theargus.co.uk,theboltonnews.co.uk,thenational.scot,thenorthernecho.co.uk,theoldhamtimes.co.uk,thescottishfarmer.co.uk,thetelegraphandargus.co.uk,thetottenhamindependent.co.uk,thewestmorlandgazette.co.uk,thurrockgazette.co.uk,times-series.co.uk,tivysideadvertiser.co.uk,wandsworthguardian.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,wearvalleyadvertiser.co.uk,westerntelegraph.co.uk,wharfedaleobserver.co.uk,wilmslowguardian.co.uk,wiltsglosstandard.co.uk,wiltshiretimes.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.cta-component-half-width
+andreaminini.com,ecoage.it,edilvetta.it,naegele.it,nigiara.it,okpedia.it##.privacy
 andreaminini.com,rbc.ua##.privacy
 andro-news.com##img[title="telegram__banner.png"]
 andro-news.com,zooplus.de##.app__banner
@@ -16518,7 +16520,7 @@ aptoide.com###news
 aptoide.com##.cookie-notification-holder
 aptoide.com##div[class^="containers__SearchInstallerContainer"]
 aqua-medic.de###privacy-info
-aquacard.co.uk,demarko-trailers.com,genmab.com###popup
+aquacard.co.uk,demarko-trailers.com,genmab.com,weathersa.co.za###popup
 aquaphor.ru###modal-kuki
 aquariumline.com###banner_ck_policy
 aquasana.com##.notice__banner
@@ -19414,7 +19416,6 @@ echo.msk.ru##div.first[style]
 echo.msk.ru##div[id]:empty
 eckovation.com##.mo-has-name-email
 eco-systemes.fr,ffr.fr,midilibre.fr,quelpneu.com,sudouest.fr,tv7.com##.cookie
-ecoage.it,edilvetta.it,naegele.it,nigiara.it,okpedia.it##.privacy
 ecodallecitta.it###contenuto_consenso
 ecommerce-platforms.com##.ep-cookie-consent
 ecommerce.it##.twcc__notice
@@ -20725,6 +20726,7 @@ gamepix.com##.CookieNotice
 gameplay.pl##div[class^="cookie-alert"]
 gamer.com.tw##.goAPP
 gamer.hu###cookie_block
+gamer.nl#@##cookie-wall
 gamerant.com##.w-newsletter-signup
 gamerant.com,therichest.com###js-gdprForm
 gamerant.ru,zirochka.ua##.widget-subscribe
@@ -21416,7 +21418,7 @@ handelsblatt.com##.vhb-registerlayer
 handelsjournal.de,b17.ru,sporx.com##.stick_block_layer
 handelsjournal.de,b17.ru,sporx.com##.stick_container
 handies.com,cepport.com.tr,realhomes.com.tr,calitte.com,digikitz.net,uygunpencere.com##.woodmart-cookies-popup
-handies.com,referencerecordings.com,studio100.it,taxelocale6.ro,tko.pl#@#.pum[data-popmake*="cookies"]
+handies.com,ligurianautica.com,referencerecordings.com,studio100.it,taxelocale6.ro,tko.pl#@#.pum[data-popmake*="cookies"]
 handlfh.org###nq_cookie_notice
 handnews.fr##.rgpd-bar
 handwritter.ru##.donate_alert
@@ -25602,7 +25604,7 @@ openweathermap.org##.stick-footer-panel
 openwrt.org##.cookielaw-banner
 oper-wuppertal.de##.ci-container
 opera.com##.get-opera
-operasanfrancesco.it###avviso
+operasanfrancesco.it,tuttostoria.net###avviso
 opetfuchs.com.tr,opetkart.com.tr,opet.com.tr##.fixed_cerez
 opindia.com,downloadhub.host,burakyeni.com##form[action="https://feedburner.google.com/fb/a/mailverify"]
 opinie24.pl##.side-box-container.box-size
@@ -30387,6 +30389,7 @@ wikihow.com###article_courses_banner
 wikihow.com###contribute_footer
 wikihow.com###contribute_footer_wrap
 wikihow.com###hp_newsletter
+wikihow.it###gdpr
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
 wikipedia.org##.cn-fundraising
@@ -32872,6 +32875,7 @@ zysk.com.pl###pageUpperInfo
 ||teleskop-by.org/wp-content/uploads/2020/09/youtube5.jpg
 ||telia.se/.resources/telia-sitewide-resources/website-cookie-consent/
 ||tempersonic.com^$third-party
+||termly.io^$third-party
 ||terthoreper.ru^$third-party
 ||tetori.link/share/js/scenario.js
 ||theankarapost.com/js/glowCookies.js
