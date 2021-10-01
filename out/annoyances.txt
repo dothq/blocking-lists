@@ -4668,6 +4668,7 @@
 ###happycookies
 ###hardloop-cookie-notice
 ###have-a-cookie
+###haveacookie
 ###hays-cookie-notice
 ###hb-cc-wrap
 ###hbCookieConsentDialog
@@ -11066,6 +11067,7 @@
 ##.mmcookiepref-plugin
 ##.mms-cookielayer
 ##.mmui-cookie-disclaimer
+##.mnd-cookie-bar
 ##.mnd-cookies
 ##.mo-sitePriv
 ##.moc-cookie-container
@@ -14123,6 +14125,7 @@ $$amp-embed[type="zen"]
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.Tooltip
 6play.fr##.app__banner
 6play.fr,play.rtl.hr,rtlplay.be##.banner--gdpr
+6pm.com##a[href^="/subscriptions/signup?"]
 6tzen.fr,clinique-veterinaire.fr##.alert
 720hd.club###fancybox-overlay
 720hd.club##.fancybox-wrap
@@ -14481,14 +14484,11 @@ $$amp-embed[type="zen"]
 @@||cdn.opencmp.net^$domain=tz.de
 @@||cdn.parkiet.com/cmp/cmp.min.js
 @@||cdn.privacy-mgmt.com/consent/
-@@||cdn.privacy-mgmt.com/index.html$domain=berliner-kurier.de
 @@||cdn.privacy-mgmt.com/index.html$domain=bold.dk
 @@||cdn.privacy-mgmt.com/index.html$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
-@@||cdn.privacy-mgmt.com/mms/choice_action_response$domain=berliner-kurier.de
 @@||cdn.privacy-mgmt.com/mms/choice_action_response$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/mms/choice_select
-@@||cdn.privacy-mgmt.com/wrapper/$domain=berliner-kurier.de
 @@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=computerbild.de
@@ -14499,7 +14499,6 @@ $$amp-embed[type="zen"]
 @@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=autobild.de
-@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=berliner-kurier.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=computerbild.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=cyberport.de
@@ -14511,6 +14510,7 @@ $$amp-embed[type="zen"]
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvspielfilm.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=utopia.de
 @@||cdn.privacy-mgmt.com^$app=de.lineas.lit.ntv.android
+@@||cdn.privacy-mgmt.com^$domain=berliner-kurier.de
 @@||cdn.privacy-mgmt.com^$domain=demorgen.be|volkskrant.nl|trouw.nl|parool.nl
 @@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk
 @@||cdn.privacy-mgmt.com^$domain=giga.de
@@ -15308,6 +15308,7 @@ $$amp-embed[type="zen"]
 @@||quantcast.mgr.consensu.org/tcfv2^
 @@||quantcast.mgr.consensu.org^$domain=fly4free.pl
 @@||quantcast.mgr.consensu.org^$domain=gamesradar.com
+@@||quantcast.mgr.consensu.org^$domain=jn.pt
 @@||quantcast.mgr.consensu.org^$domain=livescience.com
 @@||quantcast.mgr.consensu.org^$domain=pcgamer.com
 @@||quantcast.mgr.consensu.org^$domain=standard.co.uk
@@ -16088,7 +16089,7 @@ airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,ai
 airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-panel
 airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn,gamewatcher.com,pekao.com.pl#@#.gdpr-modal
 airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn,myfitnesspal.com#@#.gdpr-container
-airfrance.am,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.com,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.eg,airfrance.com.hk,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.es,airfrance.fr,airfrance.gf,airfrance.gp,airfrance.ht,airfrance.hu,airfrance.id,airfrance.it,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.ru,airfrance.sa,airfrance.sg,airfrance.si,airfrance.tg,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-container
+airfrance.com.tr,airfrance.am,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.com,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.eg,airfrance.com.hk,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.es,airfrance.fr,airfrance.gf,airfrance.gp,airfrance.ht,airfrance.hu,airfrance.id,airfrance.it,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.ru,airfrance.sa,airfrance.sg,airfrance.si,airfrance.tg,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-container
 airhdx.com,javengsub.com,vabstutorials.com,stiffgamerdown.com,televall.website,animeshouse.net,dzelectronic.com,hxload.io,animeunity.it,droidtk.com,themeslide.com,orangespotlight.com,magdyman.com,topflix.tv,sportsio.xyz,blackavelic.com,irisbuddies.ml,poisonous-raspberry-fields.blogspot.com,mangarock.com,redirdx.in,tmofans.com,thememazing.com,baan-series.com,baixarfilmetorrent.net,baixarfilmetorrent.com,mega-infonews1a.club,portaldoinvestidor.club,wikidoplaneta.club,kawanfilm21.pro,yourupload.com,hulkpop.top,wikitechy.com,windes.com.es,freecourser.com,audioreview.m1001.coreserver.jp,portalwrc.pl,newtoki51.com,themeslide.com#%#window.addEventListener("contextmenu",function(a){a.stopPropagation()},
 airindia.in##.popupGDPR
 airleben.de,datafox.de##.popup-banner
@@ -17808,6 +17809,7 @@ businessinsider.in###corona-stage
 businessinsider.in###newsletter_rhs_widget
 businessinsider.in###newsletter_stick_widget
 businessinsider.in###recommended-panel-right
+businessinsider.in##.grx-wdgt
 businessmens.ru##.uac
 businessoffashion.com##.navbar-notification
 businesstech.co.za##.float-newsletter-bar
@@ -17949,6 +17951,7 @@ caravanistan.com###notification-69111
 carbonite.com,housemethod.com,theverge.com###notice
 cardgames.io###gdpr-notice
 cardiff.gov.uk##.cookie_policy_holder
+cardmarket.com###CookiesConsent
 cardsmobile.ru##.cm-m_c-w
 cardsmobile.ru,etorazvesex.ru##div[data-storage-item^="t886cookiename_"]
 care2.com###wp_newsletter
@@ -19298,7 +19301,6 @@ drivetraffic.jp##.contentsBnr1
 drivetribe.com##.sc-epGmkI
 drohnen.de#@##cookie-law-info-bar
 droidchart.com,routerchart.com###cw
-droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 drony.net,gadzetomania.pl,komorkomania.pl,otabletach.pl###cop
 dropbox.com###top-notification-bar-container
 dropcatch.com##.dc_dc_alert
@@ -20049,6 +20051,7 @@ fahrradbook.de,einrichtungsradar.de,heimkinoheld.de,foodlux.de###kb-cookie-banne
 fahrradmagazin.net,hundefutter-tests.net###gdprpatronInfoleiste
 fairbinaryoptions.com##.popup-banner.overlay.normal
 fairmondo.de##.l-news-header
+fairobserver.com##.n-email-popup
 fakeemail.de,amway.ru,wizaz.pl##.disclaimer-container
 faketaxi.com,girlfriends.xxx##.catfish-banner
 fakt.pl,medonet.pl##.facebookLikePopup
@@ -20080,7 +20083,7 @@ farfor.ru##.agreementPopup
 fark.com###abPleaBar
 fark.com##.newsletter_callout
 farklifarkli.com##.g1-slideup-newsletter
-farmacieaperte.it###warning-popup
+farmacieaperte.it,sexedchat.com###warning-popup
 farmacja.pl,mgr.farm#@#.rodo-modal
 farmasave.it##.wrapper-newsletter
 farmasiint.org###st_notification_2
@@ -20580,6 +20583,7 @@ foxsports.com###legal-message-tou-pp
 foxtons.co.uk#@##cookie_consent
 foxtrot.com.ua##.subscribe-container
 fpv24.com#@##cookieModal
+fr.de,innsalzach24.de,bgland24.de#@#div[id^="traffective-ad-"]
 fr12.nl#@##cookies
 frag-mutti.de###mobile-nl-form
 frag-mutti.de##.intext-newsletter
@@ -20642,7 +20646,6 @@ freesoft.ru##.telegramim_button
 freesoft.ru##a[href="https://t.me/freesoftru"]
 freetone.info,iblitzmods.ru,rufllmi.online,kinoby.ru,heedbook.com##.message-alert
 freetutsdownload.net###thongbaob
-freetutsdownload.net##.jnews-cookie-law-policy
 freeupscmaterials.org###ez-feature-top-container-wrap
 freewaresys.com##.FloatingContainer
 freewebsitetemplates.com,wilderssecurity.com##.Notices
@@ -20785,6 +20788,8 @@ gameguru.ru##.V7-social-buttons
 gamehouse.com,phonemore.com,plati.ru,sputniknewslv.com,sputniknews.*,kosmogadka.pl,zwsoft.com,guneygundemi.com,spacex.com.pl,balen.com.tr,navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,sydsvenskan.se,theatlas.com##.gdpr
 gameinformer.com##.gi5-social-share
 gamekings.tv##.addblocker-detected
+gameleaks.org##.rss-table
+gameleaks.org##.rss-widget
 gameleap.com##.ng-trigger-appLoad.ng-tns-c1-1
 gamelink.com###bottomAlert
 gameloft.com##.fancybox-overlay
@@ -22247,7 +22252,6 @@ inmyroom.ru##.c-subscribe-form
 inmyroom.ru##.c-subscribe-popup
 innovaphone.com###disableBackground
 innovationaus.com##.fade-bg
-innsalzach24.de,bgland24.de#@#div[id^="traffective-ad-"]
 inoreader.com##.landing_promo_banner_top
 inpost.pl##.app-screen
 inpost.pl,aipa551.com,aipa552.com,vivre.eu##.app-banner
@@ -23239,6 +23243,7 @@ laurentwillen.be###overlay-bg
 lauritz.com,qxl.de,qxl.dk,qxl.fi,qxl.no,qxl.se#@##cookie-container
 lauritz.com,qxl.de,qxl.dk,qxl.fi,qxl.no,qxl.se#@##cookie-wrapper
 lauritz.com,qxl.de,qxl.dk,qxl.fi,qxl.no,qxl.se#@#.cookie.row
+lauttakyla.fi##.modalElement
 lavenir.net###box_cookie_advert
 lavenir.net##.cookie-advert
 lavorar.it##.headerline2
@@ -23282,6 +23287,7 @@ leddiszkont.hu###sutidoboz
 leech360.com###cookie-required
 leechall.com#%#
 legacy.speedtest.net##.alert-container
+legadodamarvel.com.br,legadodadc.com.br,freetutsdownload.net,technuws.com,victor-mochere.com,h4cktimes.com,bitcoinegypt.news,dunyahaberleri.net,eczagundem.com,graphicux.com,guide-online.it,kriptofoni.com,metaforya.com,forumusa.com,techgistafrica.com,burdurgazetesi.com,cybernews.com,artdogistanbul.com,freetuts.download,gradown.com,teachthought.com,techacrobat.com##.jnews-cookie-law-policy
 legalstart.fr###pop
 legea.it###infobarDiv
 legend.az#?#div[class$="block"][-ext-has='a[href^="/?do=feedback"]']
@@ -24532,6 +24538,7 @@ mobzik.ru,tv-vybor.ru,diakov.net##.subscr-lazydev
 mod-wot.ru##div[class^="chp_ads_blocker"]
 mod.io###achtung-overlay
 modagamers.com##.wa__btn_popup
+modbrix.de,droniq.de,hallesaale.shop,ossiladen.de,autoscheibenwischer24.com,objekteunserertage.com,schuhbeck.de,direktvomfeld.eu,kliemannsland.de,lanakk.com,catalea.de,mm-germany.com,rollei.de,oderso.cool,shop.autorenwelt.de,healthmask.de###banner-wrapper
 modehaus.de###solbox
 modellbau-berlinski.de#@##cookie-modal
 modellbau-berlinski.de#@#.cookie-modal
@@ -25117,6 +25124,7 @@ new-retail.ru##.subpro_forma_wrapper
 new.talktalk.co.uk#@#.cookie-banner:not(body):not(html)
 newatlas.com###NewsletterSubscribe
 newbalance.*###discount-popup-container
+newbalance.com###discount-popup-nb-reward-container
 newbalance.com##div[id^="cdev-email-lightbox-"]
 newbalance.com.sa##.ait-newsletter-popup
 newbalance.gr,intersport.gr##.x-cookie-acceptance
@@ -26416,7 +26424,6 @@ praxistipps.chip.de###js-Vertical__Flyin
 praxistipps.chip.de##.Article__Promo
 praxisvita.de##.newsletter_subscribe
 predesto.com###consent-wrapper
-prefix.com.tr,drnilgunturhan.com,c4ddownload.com,pastebr.xyz,textbin.net,shwoghk14.blogspot.com,ustreamy.co,premier-odessa.com.ua,dr.com.tr,idefix.com###cookieConsentContainer
 preis24.de#@##bottomAd
 preisvergleich.de###truendo_container
 prelex.it##.rstboxes
@@ -28044,7 +28051,6 @@ sonyentertainmentnetwork.com,my.account.sony.com###js-SIEWS1lib-header
 soo.cool###PageOver[onclick="CloseDialog('ideaPopupExitOffer');"]
 soo.cool###ideaPopupExitOffer
 sora-nishiki.com#@##privacypolicy
-sos-flugverspaetung.de,wattstunde.de,servicepoint.de,lubinus-stiftung.de##.contao-cookiebar
 sos.sk,soselectronic.com,soselectronic.cz,soselectronic.de,soselectronic.es,soselectronic.hu,soselectronic.it,soselectronic.pl,soselectronic.ro###cookies-usage-message
 sos.sk,soselectronic.com,soselectronic.cz,soselectronic.de,soselectronic.es,soselectronic.hu,soselectronic.it,soselectronic.pl,soselectronic.ro##.col-footer-newsletter
 sosfanta.calciomercato.com###gdpr-law
@@ -28357,6 +28363,7 @@ storytel.ae,storytel.com.tr,storytel.dk,storytel.es,storytel.fi,storytel.in,stor
 strabag-pfs.de###dsgvo
 straganzdrowia.pl###box_newsletter
 straganzdrowia.pl#@##cookie-law-info-bar
+straight.com##.box--social--newsletter
 strana.ua###openModal
 strandhotel.se###mb_modules_popups_Container
 strato.de,strato.nl###eu-cookie-guideline
@@ -28674,7 +28681,6 @@ tech-faq.com#@#.adsbygoogle
 tech.ssut.me,lsm.lv,biservis.com.tr,bigmag.ua,instyle.ru,blog.jetbrains.com,zr.ru,channelsstack.com,news.ifmo.ru,chita.ru,esquire.ru,liga.net,makeuseof.com,stopgame.ru##.subscribe-form
 techbang.com###idle-container
 techbang.com##.notify_stickie
-techbang.com,fivethirtyeight.com,eschuhe.de,kotaku.com.au,gizmodo.com.au,finanzen100.de##.newsletter-subscribe
 techbeacon.com###block-techb-right-rail-article-subscribe-to-techbeacon
 techbeacon.com###mf-generic-cookie-popup
 techblogng.com##.mailmunch-scrollbox
@@ -28707,7 +28713,6 @@ technologyreview.com,barstoolsports.com,newsday.com##.newsletterSignup
 technologywindow.com##.widget_feedburnerformwidget
 technologzywnosciradzi.pl##.pum-overlay[data-popmake*='"slug":"facebook"']
 technopoint.ru,dns-shop.ru##.main-footer__subscription
-technuws.com##.jnews-cookie-law-policy
 techobest.com$$script[tag-content="adback_configuration"][min-length="100000"][max-length="360000"]
 techobserver.in##.tdn_block_newsletter_subscribe
 techobserver.in##form[id^="ewf_subscriptionForm"]
@@ -29170,6 +29175,7 @@ tim.com.br##.tim-gcc-notification
 tim.it###gld_cookie_flag
 timberland.de##.COMPONENT-ESPOT-OVERLAY
 time.com##.newsletter-inline-signup
+time.com,techbang.com,fivethirtyeight.com,eschuhe.de,kotaku.com.au,gizmodo.com.au,finanzen100.de##.newsletter-subscribe
 timeanddate.com###privacybanner
 timeanddate.com,timeanddate.de###mpo
 timefmtoronto.com###guacBg2
@@ -29448,11 +29454,13 @@ trovi.com,trovigo.com###n-popup-cookies
 trovit.ae,trovit.be,trovit.ca,trovit.ch,trovit.cl,trovit.co.cr,trovit.co.id,trovit.co.in,trovit.co.ke,trovit.co.nz,trovit.co.uk,trovit.co.ve,trovit.co.za,trovit.com,trovit.com.br,trovit.com.co,trovit.com.ec,trovit.com.hk,trovit.com.kw,trovit.com.mx,trovit.com.pa,trovit.com.pe,trovit.com.pk,trovit.com.qa,trovit.com.sg,trovit.com.tr,trovit.com.tw,trovit.com.uy,trovit.com.vn,trovit.cz,trovit.dk,trovit.es,trovit.fr,trovit.hu,trovit.ie,trovit.it,trovit.jp,trovit.lu,trovit.ma,trovit.my,trovit.ng,trovit.nl,trovit.no,trovit.ph,trovit.pl,trovit.pt,trovit.ro,trovit.se,trovitargentina.com.ar##.alertBox
 troyhunt.com###floating_subscribe
 trt1.com.tr,naxi.com.br##.cookieConsentContainer
+trtavaz.com.tr###sectionGPDR
 trthaber.com##.app-buttons-container
 trthaber.com##.insta
 trthaber.com##.social-icons-container-ftr
 trthaber.com##.timelinesoc
 trthaber.com,trtspor.com.tr,calik.com,telekom.hu##.cookie-policy-container
+trtkurdi.com.tr,trtturk.com.tr,trtmuzik.net.tr,radyo.trt.net.tr,prefix.com.tr,drnilgunturhan.com,c4ddownload.com,pastebr.xyz,textbin.net,shwoghk14.blogspot.com,ustreamy.co,premier-odessa.com.ua,dr.com.tr,idefix.com###cookieConsentContainer
 trtmarket.com,gundogdumobilya.com.tr,modalife.com##.policyPopupContainer
 truckscout24.de###consent-mgmt-banner
 truckscout24.de###cookieInfoLayer
@@ -30035,7 +30043,6 @@ vice.com#@#.ad-placement
 vichy.com.tr###popinVichy2016
 victor-mochere.com###elementor-library-7
 victor-mochere.com,cdkeyit.it,cdkeynl.*,allkeyshop.com,thetechedvocate.org,architekturvideo.de,gadgetstouse.com,cifrosvit.com,asistanaliz.com,bordoklavyeli.net,dropgalaxy.com,digitalmusicnews.com##.widget_mc4wp_form_widget
-victor-mochere.com,h4cktimes.com,bitcoinegypt.news,dunyahaberleri.net,eczagundem.com,graphicux.com,guide-online.it,kriptofoni.com,metaforya.com,forumusa.com,techgistafrica.com,burdurgazetesi.com,cybernews.com,artdogistanbul.com,freetuts.download,gradown.com,teachthought.com,techacrobat.com##.jnews-cookie-law-policy
 videacesky.cz###barAgreeWithCookies
 videam.party##.ads
 video-shoper.ru##.wrap_cookie_site
@@ -30219,6 +30226,7 @@ vpnmentor.com##.share-blog-modal
 vpnmentor.com##.side-follow-wrap
 vpnranks.com###hb-strip
 vprok.ru##.fo-cookies-policy
+vr-payment.de,sos-flugverspaetung.de,wattstunde.de,servicepoint.de,lubinus-stiftung.de##.contao-cookiebar
 vr.com.br##.lumis-service-privacyterm
 vrbankeg.de#@#.cookie-consent:not(body):not(html)
 vrbankfulda.de,diebank.de#@#.cookie-consent:not(body):not(html)
@@ -30475,6 +30483,7 @@ werkzeugstore24.de##.e3n_cookiebanner
 weser-kurier.de##div[class^="webBanner"]
 wesh.com##iframe[src="https://link.watchstitch.com/join/5ed/signup-box-embed"]
 west-games.com#@##cookie-law-info-bar
+westermann.de##.component-cookie-banner
 westernstandardonline.com##.widget_mailchimpsf_widget
 westfalia.de##.cookieConsentLayer
 westjet.com##.wj-header-usercookies
@@ -30836,6 +30845,7 @@ yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afis
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.dist-popup
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-default-search
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-popup_js_inited
+yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-popup_location_right-bottom
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-smartbanner
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.footer_type_distro
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.media-promo
@@ -31084,6 +31094,8 @@ zobakit.com##.subcribe-box
 zoll-karriere.de,airbus.com,ncoi.nl,richardmille.com,scheidegger.nl##.c-cookies
 zomato.com##.gdbr_banner_wrapper
 zona.media##.js-subscribe
+zona.media##.mz-agent-banner__link
+zona.media##.mz-agent-banner__text
 zona.media##.mz-push-banner
 zona.media##.tools__container
 zona.mobi###zona-android
