@@ -12502,6 +12502,7 @@
 ##[data-target="coockie"]
 ##[data-test-id="cookie-consent-banner"]
 ##[data-test="cookie-banner"]
+##[data-test="gdpr-modal"]
 ##[data-testid="cookienotice-container"]
 ##[data-testid="main-cookies-banner-container"]
 ##[data-token="gdpr_cookie_notice"]
@@ -14396,7 +14397,9 @@ $$amp-embed[type="zen"]
 @@||cdn.cloudu.de/cs/advert.js
 @@||cdn.concert.io/lib/concert-ads/*-latest/concert_ads.js$domain=vox.com
 @@||cdn.consentmanager.mgr.consensu.org/delivery/*.js$domain=infranken.de
+@@||cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css$domain=nwzonline.de
 @@||cdn.consentmanager.mgr.consensu.org/delivery/cmp_de.min.js$domain=kicker.de
+@@||cdn.consentmanager.mgr.consensu.org/delivery/cmp_de.min.js$domain=nwzonline.de
 @@||cdn.consentmanager.mgr.consensu.org/delivery/cmp_ru.min.js$domain=nwzonline.de
 @@||cdn.consentmanager.mgr.consensu.org/delivery/customcss
 @@||cdn.consentmanager.mgr.consensu.org/delivery/customdata/*$domain=kicker.de
@@ -20896,6 +20899,7 @@ gazetapolska.pl,gpcodziennie.pl###swsoverlay
 gazetapraca.pl###overlayJS
 gazete32.com.tr###sidebar_twitter_reklam_alan
 gazeteciler.com##.fr
+gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 gazetevatan.com###KisiselVerilerinKorunmasi
 gazetevatan.com###divPnot
 gazetevatan.com##a[href="https://www.facebook.com/sampiy10"]
@@ -22339,6 +22343,7 @@ internedservices.nl##.ccdiv
 internet-access-guide.com##.tve_wp_shortcode
 internet-law.ru###fab-enabled
 internet-technologies.ru###popup-subscribe
+internethaber.com##.google-news_wrapper
 internetpatika.hu##.tygh-top-cookies
 internetsorunlari.com##.adsWidgetSidebar
 internxt.com,xlhome.co.id,expres.online,baza.io,newbalance.cz,singulart.com,aoc.com,rss.com,sigortacini.com.tr,bauprofessor.de,privatbank.ua,techmagic.co,tavyatirimholding.com,tse.jus.br,danwood.de,skillbox.ru,sas.am,321-weg.de,ver-television.online,medaboutme.ru,advstreet.ru,nedir.org,testfiltering.com,totalexpress.com.br,ebay.it,food.vkusvill.ru,hatsukimanga.com,anticor.hse.ru,classguru.ru,efeeme.com,auto10.com,bitfinex.com,homepedia.com.br,technolove.ru,itkkit.ru,leroymerlin.com.br,calameo.com,planeta.ru,orientsigorta.com.tr,play.pl,bocchi.com.tr,belarus24.by,compendium.com.ua,city-story.ru,gartic.io,telekom-dienste.de,iqos.com,d3o.com,dnews.dn.ua,befirst.info,eblocker.com,parapolitika.gr,makandracards.com,webtekno.com,2plus2.ua,unian.info,unian.net,unian.ua,cinemacity.hu,pepco.hu,pepco.pl,pepco.eu,pepco.sk,pepco.cz,pepco.ro,pepco.hr,pepco.lt,pepco.si,pepco.lv,pepco.ee,pepco.bg,1plus1.ua,otus.ru,astonmartin.com,sapphiretech.com,cbreaker.net,glavred.info,abarta.pl,alo.com.pl,universiteitleiden.nl,pap.pl,fly4free.pl,store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
@@ -23039,7 +23044,6 @@ komtv.org,wpbakery.com##.stb-container
 komus.ru##.online_call
 komyounity.com##div[style="height:100px"]:empty
 konarzewski.com.pl,unicode.org#@#div[data-nconvert-cookie]
-konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 konkolnieruchomosci.pl,pani-teresa.com.pl,rw2010.pl,sprezyny-strozyk.pl,szlakpiastowski.com.pl,telewizjapolska24.pl##.head-page-information
 konsbud-hifi.com.pl##.sticky-footer
 kontrast.at###wpca-bar
@@ -23555,6 +23559,8 @@ livejournal.com##.js-anon-suggestion-block
 livelaw.in###news_on_exit
 livelaw.in###playstore_items_links
 livelaw.in##.pop-box-wrapper
+livelib.ru###popup-mail
+livelib.ru##.prm-block
 livelib.ru,nabory.kprm.gov.pl###cookies-agree
 livemaster.ru###email-subscribe-block
 livemaster.ru##.js-special-utp
@@ -24489,6 +24495,7 @@ mixroliki.ru##a[href^="http://dertikas.ru/"]
 mixsoft.org###footer-widgets
 mixsoft.org###slidebox
 miyav.com.tr,dontorrent.to##.cookie-bubble
+mizugigurabia.com##.ad3
 mizuno.com.br###newUserPopUp
 mizuno.com.br##div[class^="vitrio-Cookiesbar_"]
 mjamjam-petfood.de##.allover
@@ -25451,6 +25458,7 @@ nw.de###nl-box
 nw.de###paywall-footer-slider
 nw10.ru###ipsLayout_header
 nwzonline.de##div[data-tb-region="Newsletter"]
+nwzonline.de#%#AG_onLoad(function(){if(
 nyaa.net###cookie-warning
 nydailynews.com##.nws-cnt
 nydailynews.com##.pb-f-utilities-lead-art
