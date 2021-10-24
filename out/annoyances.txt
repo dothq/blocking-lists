@@ -11121,6 +11121,7 @@
 ##.mod_cookieconfirmation
 ##.mod_cookies
 ##.mod_privacy_optin
+##.modal--cookie
 ##.modal--cookies
 ##.modal--cookies-backdrop
 ##.modal-accept-cookies
@@ -13941,7 +13942,7 @@ $$amp-embed[type="zen"]
 /wp-tarteaucitron-
 /wpmaster-cookie/*
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
-/wrapperMessagingWithoutDetection.js
+/wrapperMessagingWithoutDetection.js$domain=~nu.nl
 /wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de
 /wx-cookie-
 /x_cookie_
@@ -14520,6 +14521,7 @@ $$amp-embed[type="zen"]
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=computerbild.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=giga.de
+@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=m.faz.net
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=owlcation.com
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=radio.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=techbook.de
@@ -14601,7 +14603,6 @@ $$amp-embed[type="zen"]
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=omroepwest.nl
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
-@@||cmp.nu.nl/wrapperMessagingWithoutDetection.js$script,domain=nu.nl
 @@||cmp.tech426.com/latest/sncmp.min.js$domain=aternos.org
 @@||cmpv2.cookist.it/embed2/rmi/1.2.5|$subdocument
 @@||cmpv2.fanpage.it/embed2/rmi/1.2.5|$subdocument
@@ -14858,6 +14859,7 @@ $$amp-embed[type="zen"]
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=nettivuokraus.com
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
+@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=freundin.de
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=pickmypostcode.com
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=weeronline.nl
@@ -14865,6 +14867,8 @@ $$amp-embed[type="zen"]
 @@||gdpr.internetbrands.com/*/ibeugdpr.min.js$domain=airlinepilotforums.com
 @@||gdpr.internetbrands.com/v*/ibeugdpr.min.js$domain=pprune.org
 @@||gdpr.privacymanager.io/1/gdpr.bundle.js$domain=geenstijl.nl
+@@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=freundin.de
+@@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=wienerin.at
 @@||gearbest.com/static/dist/minjs/jcookie.js
 @@||gelbeseiten.de/*/js/components/*.js
 @@||genesisowners.com/hyundai-genesis-forum/abp/adblock_detector.js
@@ -15138,6 +15142,7 @@ $$amp-embed[type="zen"]
 @@||newsobserver.com^$generichide
 @@||nexusmods.com/contents/Scripts/ad*.js
 @@||ngolos.com/assets/js/adsense.js
+@@||nitropay.com/1.gif?$image,third-party
 @@||niuhuskies.com/components/js/analytics.js$domain=niuhuskies.com
 @@||noen.at/ads.html
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
@@ -16047,7 +16052,7 @@ aecom.com###aecomCookieNotificationBar
 aeesuisse.ch,bluesnews.de##.ce_rsce_oneo_fixed_note
 aeg.de#@#.CookieConsent
 aegon.hu###AEGONCookieLine
-aeo.it,archimagazine.com,bookingaltoadige.com,camionsupermarket.it,cattoliciogginotizie.it,chiesi.com,citroen-club.it,confidisystema.com,enistation.com,esselunga.it,esselungajob.it,exprivia.it,extramagazine.eu,famila.it,giornaledicalabria.it,ildolomiti.it,kolping.it,messinaline.it,miabolzano.it,miamerano.it,mtonauticastore.it,mymercato.it,negozi.fastweb.it,orologi4you.it,pallacanestrovarese.it,primocanale.it,radiociao.com,rimini.com,sace.it,sanfrancescopatronoditalia.it,spesati.it,storiadeifilm.it,tecnocasa.it,wd40.it###cookie
+aeo.it,archimagazine.com,bookingaltoadige.com,camionsupermarket.it,cattoliciogginotizie.it,chiesi.com,citroen-club.it,confidisystema.com,enistation.com,esselunga.it,esselungajob.it,exprivia.it,extramagazine.eu,famila.it,giornaledicalabria.it,ildolomiti.it,kolping.it,messinaline.it,miabolzano.it,miamerano.it,mtonauticastore.it,mymercato.it,negozi.fastweb.it,orologi4you.it,pallacanestrovarese.it,primocanale.it,radiociao.com,rimini.com,sace.it,sanfrancescopatronoditalia.it,sassari.tv,spesati.it,storiadeifilm.it,tecnocasa.it,wd40.it###cookie
 aeon.co##div[class*="NewsletterSign"]
 aeon.co##div[class^="Banner__BannerWrapper"]
 aeon.co##div[class^="NewsletterPopup__NewsletterPopupWrapper"]
@@ -22610,6 +22615,7 @@ issuu.com##.js-smart-banner
 issuu.com##.msgbox-CookieConsent
 istockphoto.com##.affiliate-promo-code-notification-banner
 istockphoto.com##.banner.warning
+istockphoto.com##.global-notification-container
 istockphoto.com##.notification-list
 istockphoto.com##.slide-up-fade-in
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
@@ -23477,6 +23483,7 @@ lenovozone.pl##.social-right-widget
 lenta.com##.cookie-usage-notice
 lenta.ru##.b-header__russia
 lenta.ru##.js-custom-push-notifications
+lenta.ru##.telegram-day
 lenta.ru##a[class*="b-redline"][target="_blank"]
 lenta.ru##div.b-topic__favorite-tooltip
 lenta.ru##div[class^="announce-pop-200"]
@@ -23731,6 +23738,7 @@ livexlive.com##.tos-footer
 livingathome.de##.htmlNlWidget
 livingproof.com###ssmi_get_an_email_container
 livingproof.com###ssmi_overlay
+livorno-effettovenezia.it##.zaki_pch_banner
 liyayazilim.com###cookiemaster
 lizenzking.de##.modulesden-cookies-bar
 ljutkeunvpn.blogspot.com#%#
@@ -24576,6 +24584,7 @@ milliyet.com.tr###ramazanCountDown
 milliyet.com.tr##.hadi-bilgi-yarismasi
 milliyet.com.tr##.socialBox
 milliyetemlak.com##.cookiesPolicy
+mimikama.at##.test-adblock-overlay
 mindbodygreen.com###freeMeditationModal
 mindfactory-city.de,vibuonline.de,mindfactory.de###cookieModalOverlay
 mindigtv.hu#@#.cookie-box
@@ -27476,6 +27485,7 @@ rtlxl.nl#%#AG_onLoad(function(){if(
 rtlxl.nl#@##onetrust-consent-sdk
 rtp.pt###rtpgeralcookiecontent
 rtp.pt###rtpprivacycontent
+rtrp.jp##.btnApp
 rts.ch##.rts-cookie-warning
 rtvdrenthe.nl,rtvnoord.nl##iframe#cmp-faktor-io
 rtvi.com##.podpis
@@ -29672,6 +29682,7 @@ treinaweb.com.br##.c_show
 trello.com##.gdpr-cookie-consent-banner
 trend.at#@#.optanon-alert-box-wrapper
 trendblog.euronics.de##.trendblog-subscription-card
+trendmicro.com###content-policy
 trendmicro.com##.cookie_verif
 trendsales.dk##.iyAkJq.sc-TFwJa
 trendsmap.com###header_message
@@ -30046,6 +30057,7 @@ union-bulletin.com,timescall.com##.Mg2-connext.bottom
 uniqlo.com##.h-modal-cookie
 uniqlo.com##.newsletterOverlayOverride
 uniqlo.com##.newsletterPopupWrapperContainer
+unique-top.online##.use-cookie
 unirc.it##.content
 uniroyal.pl#@#.js-cookie-banner
 uniroyal.pl#@#.privacyhint
@@ -30204,6 +30216,7 @@ vayamo.ch##.cookies_overlay_wrapper
 vbee.vn##.banner-fix
 vc.ru###dpir-startup-generator
 vc.ru##.events_widget
+vc.ru##.halloween-card
 vc.ru##.island--company_entries
 vc.ru##.microsoft-ticker-special
 vc.ru##.psb-tax-teaser
@@ -32783,6 +32796,7 @@ zysk.com.pl###pageUpperInfo
 ||nicoad.nicovideo.jp/v1/contents/video/*/thanks?
 ||niewygodne.info.pl/pierwsza.htm
 ||nim.ru/i/1920_1101/banner/
+||nitropay.com/1.gif?$image,third-party,redirect=1x1-transparent.gif,important
 ||niuhuskies.com/components/js/analytics.js$script,redirect=nooptext,important,domain=niuhuskies.com
 ||nnmclub.ch/forum/new_year/newyear2019g.js
 ||nnmclub.ch/forum/new_year/style2019e.css
