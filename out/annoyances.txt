@@ -7686,6 +7686,8 @@
 ##.cin_cookie_notification
 ##.cipBackgroundOverlay
 ##.cipCookieOverlay
+##.civic_cookie__banner
+##.civic_cookie__overlay
 ##.ciyashop-cookies-info
 ##.ck-notiz
 ##.ck_banner
@@ -10145,6 +10147,7 @@
 ##.fm-cookieBanner
 ##.fnn-cookiemanager
 ##.fo-cookies-policy
+##.followit--follow-form-container
 ##.fond_bandeau_coockies
 ##.fool_text_cookie
 ##.footer-cnil
@@ -14340,6 +14343,7 @@ $$amp-embed[type="zen"]
 @@||assets.bwbx.io/s3/fence/*/app.bundle.js$domain=bloomberg.com
 @@||assets.digitalocean.com/cookieConsent/$script,stylesheet
 @@||assets.jimstatic.com/cookieControl.js$domain=olivenholz-rauen.de
+@@||assets.jimstatic.com/cookieControl.js$domain=steuerkreuz.net
 @@||assets.nowloading.co/js/vendor/advertising.js^
 @@||assets.purch.com/ramp/js/Advertisement/advertisement.js
 @@||assets.travix.com/client/cookie-banner-container-*.js$domain=vliegwinkel.nl
@@ -14681,6 +14685,7 @@ $$amp-embed[type="zen"]
 @@||construction21.org/france/libsrc/jquery/jquery.cookiesdirective.explicit.min.js
 @@||cookie-bar.eu^
 @@||cookie-cdn.cookiepro.com^$script,stylesheet,xmlhttprequest,domain=api.newsguardtech.com|giochi.it
+@@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookiebot.com/uc.js$domain=adac-shop.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
@@ -14770,6 +14775,7 @@ $$amp-embed[type="zen"]
 @@||druckerchannel.de/werbung/ads.js
 @@||ds.bitpit.xyz/ad-top/advertise.js
 @@||ds.bitpit.xyz/advertise.js
+@@||duemmer.de/typo3conf/ext/xskeleton/Resources/Public/Js/50_jquery.divascookies-0.6.min.js
 @@||dw.cbsimg.net/js/cbsi/ds.js$domain=last.fm
 @@||e.mail.ru^$generichide
 @@||easygreenenergy.at/js/lib/cookieconsent.js$script,~third-party
@@ -17297,6 +17303,7 @@ bfstrms.xyz##.modal-backdrop
 bfstrms.xyz##div[id^="webmodal"]
 bgasecurity.com###call-maillist
 bgr.com#@##adBanner
+bhavishya.raftaar.in##.followus
 bhg.com.au##.Newsletter-Overlay
 bhub.com.ua##.policy-cookies
 bibb.de##.fr-cookie-bar
@@ -17785,6 +17792,7 @@ britannica.com##.marketing-INLINE_SUBSCRIPTION
 britannica.com##.marketing-slider
 britannica.com##.md-newsletter-promo
 britannica.com##.newsletter-c
+britishairways.com###cookieToast
 britishairways.com#@##cookieModal
 britishcouncil.org.tr,britishcouncil.org###bc-cookie-banner
 britva11.ru###active-popup
@@ -18502,6 +18510,7 @@ comparegames.com.au$$span[tag-content="Advert"]
 comparethemarket.com#@#.cookie-consent:not(body):not(html)
 comparitech.com##.ct-cookie-consent-pop
 compartiendofull.net#%#
+compass.education##.cookieconsentcomponent
 compendium.com.ua##.apps
 compgramotnost.ru##.postSubscribe
 complex.com###eucn
@@ -18749,6 +18758,7 @@ cultuga.com.br##.cultu-servicos
 culturagay.it###GPP
 culture.leclerc,hightech.leclerc###popupdescookies
 culture.ru##.c-subscription-widget
+culture.ru##.notify-bar
 culture.ru,seat.dk##.notify-bar
 culturemeter.od.ua##.extendedwopts-hide[id^="text-"]
 cumhuriyet.com.tr##.google-news
@@ -18762,6 +18772,7 @@ currenttime.tv##.banner
 currenttime.tv##.media-block-wrapper.slide-in-widget
 cursbnr.ro###avert_all_page
 cursorinfo.co.il##.footer_bar_people
+cursr.app##.ant-bottom-left
 customsearch.ai,thesimsresource.com###consent-banner
 cvent.com##.block-notifications-block
 cw.choice.faktor.io#%#AG_onLoad(function(){if(window.self
@@ -19022,6 +19033,9 @@ derwesten.de##.ad
 descargatelotodo.com###wnb-bar
 desdesoria.es##.wrapperMensajeCookie
 design-3000.de,geschenke.de##.bar--cookienote
+design-homes.ru##.b-zen
+design-homes.ru##.politika
+design-homes.ru##a[href="https://zen.yandex.ru/design-homes.ru"]
 design-s.de,bobit.de##.cc-blockingScreen
 designhill.com##.bottom_popup_container
 designhill.com##.dhBlog-graphic
@@ -20094,6 +20108,7 @@ experts-exchange.com##.adBanner-comment
 experts-exchange.com##.ctaSolutionStickyWrapper
 experts-exchange.com##.interceptBackgroundBlocker
 experttur.com###parent_popup
+expertulbanilor.ro,imobiliare.ro##.modal-backdrop
 explosm.net###email_signup_2
 expozdrowie.pl###alert_popup
 expres.cz##.nabirac-in-art
@@ -20326,6 +20341,7 @@ filesmonster.com##.accept-privacypolicy
 film.lafa.site###qs_form_div
 filmcompanion.in##.email-subscribe-wrapper-fcn
 filmehd.se##.box-subscribe
+filmelier.com,wizard.com.br##.lgpd
 filmes-torrent-baixar.blogspot.com###fundopop
 filmesonlinex.co##.ArevicoModal
 filmesonlinex.co##.ArevicoModal-bg
@@ -22220,7 +22236,6 @@ immoscout24.ch##.idStQs
 imobie.com##.fixedbot
 imobie.com##.sprtadv
 imobiliare.ro###notificare-cookies
-imobiliare.ro##.modal-backdrop
 imobiliare.ro#@##modalCookies
 imoradar24.ro#@##modal-cookies
 imoulife.com,mg.co.uk##.header-cookie
@@ -22930,7 +22945,6 @@ kanzler-style.ru##.retailrocket-notify-widget
 kaper.pro##.telegram-widget
 kaplunoff.com##.block__subscibe
 karaca.com.tr##.cerezbilgi
-karakartal.com,sporx.com,superfb.com,webaslan.com##.cookie-text
 karar.com###subscribe-box.subscribe
 karen.pl###showCookieInfo
 kargomsende.com,aboneturkuvaz.com,omroepbrabant.nl,tdp.com.tr,turkuvazabone.com,turkuvazmatbaacilik.com##.sticky-footer
@@ -23261,6 +23275,7 @@ ktomalek.pl##.ui-dialog[aria-describedby="cookies"]
 ktomalek.pl##.ui-widget-overlay.ui-front
 ku.de###dv-t3-consent-management-modal
 kube.no###cookie
+kubnews.ru##.subscribe-channel
 kuehne.com.tr##.kue-cookie-notification
 kugeln.io,nurxxx.mobi##.msgCookie
 kult-portal.com##.infobar
@@ -23278,7 +23293,7 @@ kurier.at##.siteCookie
 kurierwysmaz.pl,ddwloclawek.pl##.hey-outer.hejhej
 kursfinder.de###emg-cookie
 kurumaerabi.com##.modal_common.modal_inquiry_easy
-kurzgesagt.org,arcor.de,thedodo.com,thrillist.com##.gdpr-cookie-notice
+kusmitea.com##.veil
 kuspazari.com,kedipet.com##.cookieizin
 kutahyalilar.com.tr###cookie_iagree
 kutahyaporselen.com.tr###mcTopTooltip
@@ -25034,6 +25049,8 @@ mycs.com##.Home__newsletterContainer
 mycs.com##.NewsletterFormBanner__newsletter
 mycujoo.tv##div[class^="CookiesNotification_"]
 mydays.de###topbanner
+mydealz.de##.js-newsletter-widget
+mydealz.de##div[data-t-c*="cookiesMessage"]
 mydealz.de#@#.cookies-message
 mydealz.de,preisjaeger.at###softMessages-list
 mydpd.at#@##cookieModal
@@ -27455,7 +27472,6 @@ rougier-ple.fr###attentionCookies
 roussillhotel.com#@##cookie-banner
 routledge.com###cconsent-pop
 rover.com##.global-announcement-bar
-royalenfield.com,oplata.info,gamehouse.com,phonemore.com,plati.ru,sputniknewslv.com,sputniknews.*,kosmogadka.pl,zwsoft.com,guneygundemi.com,spacex.com.pl,balen.com.tr,navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,sydsvenskan.se,theatlas.com##.gdpr
 rozetka.com.ua##.lang-switcher-popup
 rozwojowiec.pl###fixedBar
 rp-online.de##.park-snackbar-cookies
@@ -27646,6 +27662,7 @@ sapo.ao##.bsu-v2-ntfs
 sardegna1.tv###dcb-black-screen
 sarenza.de##.notif-bar
 sarenza.de,beymen.com##.cookies-band
+sarsilmaz.com,karakartal.com,sporx.com,superfb.com,webaslan.com##.cookie-text
 sarvgyan.com##div[class^="sgn-top-bar"]
 satakunnanautotalo.fi##.AVS-evasteseloste-container
 satechi.net###popup-newsletter
@@ -27675,6 +27692,7 @@ sbs.com.au##a[data-target="newsletter-signup"]
 sc.com###alert_info_new
 scalemates.com###prv
 scaleway.com##.gLLeaT
+scaleway.com##.grLfBi.didiff-hide
 scaleway.com##.sc-AxjAm.pdqDT.sc-kcRExk.dhjYCX
 scamadviser.com##.newsletter__row
 scambieuropei.info##.box--newsletter
@@ -27908,6 +27926,7 @@ sfd.pl##.wrapper-banner
 sfera.fm##.banner_aside
 sfera.fm##.img_r
 sfera.fm##.img_r2
+sfr.fr###CkC
 sg-weber.de##.flash-info
 shaanig.se##.alert-bottom
 shab.ch##agb-bar
@@ -29898,6 +29917,7 @@ tvoytrener.com###nogi
 tvp.info,tvp.pl##.tvp-cookie-overlay
 tvp.pl##.module-cookies
 tvplusnewtab.com##.chromeStoreBadge
+tvprime.ig.com.br###message_lgpd
 tvr.by###flybox
 tvr.by##.bx-composite-btn-fixed
 tvr.by##.middle-banner-row
@@ -30136,6 +30156,7 @@ userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
 userstyles.org##.overlay_background
 userstyles.org##.walking
+userway.org,royalenfield.com,oplata.info,gamehouse.com,phonemore.com,plati.ru,sputniknewslv.com,sputniknews.*,kosmogadka.pl,zwsoft.com,guneygundemi.com,spacex.com.pl,balen.com.tr,navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,sydsvenskan.se,theatlas.com##.gdpr
 usnews.com###sailthru-overlay-container
 usnews.com###zm_survey-prompt
 usnews.com##.coronaviruspromo
@@ -30895,7 +30916,6 @@ wix.com###POPUPS_ROOT
 wix.com###cookieNotificationBannerWrapper
 wix.com##div[data-hook="ccsu-banner-wrapper"]
 wix.com##wix-image[data-image-info*="Make_an_Impact_Online"]
-wizard.com.br##.lgpd
 wizards.com##.css-3wNos.css-1CyK8
 wizards.com##.wiz-block-sticky-inline
 wizaz.pl###forum-gad-video
@@ -31857,8 +31877,6 @@ zysk.com.pl###pageUpperInfo
 ||chat.whatsappx.xyz^$third-party
 ||chat24.io^$third-party
 ||chatbot.lifecell.ua^
-||chatbro.com/embed.js$third-party,important
-||chatbro.com/embed_chats/
 ||chatinator.com^$third-party
 ||chatra.io^$third-party
 ||chats.novait.com.ua^$third-party
