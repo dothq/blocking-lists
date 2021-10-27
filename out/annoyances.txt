@@ -1274,6 +1274,7 @@
 ###cmp-faktor-io-brand-consent-notice
 ###cmp-faktor-io-parent
 ###cmp-iframe
+###cmp-modal
 ###cmp-ui-iframe
 ###cmpBackdrop
 ###cmpBanner
@@ -6684,6 +6685,7 @@
 ##.ConfirmCookieMessageBox
 ##.ConsentCookie
 ##.ConsentPanel
+##.ConsentsBannerOverlay
 ##.Container--cookies
 ##.ContainerCookies
 ##.Cookie
@@ -14053,6 +14055,7 @@ $$amp-embed[type="zen"]
 23andme.com,tunnelbear.com##.banner-wrap
 24.hu###stickyMobileNotification
 24.hu###webPushPopup
+24.hu##.fb-exit-popup-container
 24h-pflege-check.de,baden-wuerttemberg.de,discounto.de,eichendorff21.de,elektroaktivisten.de,fotocommunity.de,hallo-minden.de,mantel.com,newhome.ch,stylevamp.de,tchncs.de##.alert
 24h.m.pchome.com.tw#@##smartbanner.ios
 24news.com.ua,akillitelefon.com,instinctcoder.com##div[id^="ppsPopup"]
@@ -14418,6 +14421,7 @@ $$amp-embed[type="zen"]
 @@||cdn-ukwest.onetrust.com/scripttemplates/*/otBannerSdk.js$domain=nintendolife.com
 @@||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js$domain=nintendolife.com
 @@||cdn.almamedia.fi/almacmp/$script,domain=iltalehti.fi
+@@||cdn.ampproject.org/v0/amp-consent-*.*.js$domain=ingame.de
 @@||cdn.androidrepublic.org/js/siropu/am/ads.min.js
 @@||cdn.appconsent.io/*.js$domain=commentcamarche.net
 @@||cdn.appconsent.io/*.js$domain=sante.journaldesfemmes.fr|linternaute.com
@@ -14512,6 +14516,7 @@ $$amp-embed[type="zen"]
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=puls4.com
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=satoshimonster.com|satoshihero.com
 @@||cdn.opencmp.net/tcf-v2/amp/cmp.html$domain=www-kreiszeitung-de.cdn.ampproject.org
+@@||cdn.opencmp.net^$domain=ingame.de
 @@||cdn.opencmp.net^$domain=stimme.de
 @@||cdn.opencmp.net^$domain=tz.de
 @@||cdn.parkiet.com/cmp/cmp.min.js
@@ -15953,6 +15958,7 @@ academy.deutsche-boerse.com##.sxcookie
 academy.mixer.com##div[aria-label="banner"]
 acall.fr,domaine-errekalde.fr,sophrologierelaxation.fr##._2fUqY
 acapellas.eu###cookies-m-c
+acast.com##.MuiSnackbar-anchorOriginBottomRight
 acast.com,builds.gg,checkyourmath.com,codementor.io##.consent
 acc.cv.ua###facebookLikeBox
 accademiacivicadigitale.org##.elementor-popup-modal
@@ -16521,6 +16527,7 @@ answers.microsoft.com##.rail-banner
 answers.yahoo.com##.ginsuAd
 antena3.ro,webtekno.com##.push-notification
 antenne.at,de.vanguard,hw-zuschuss.daimler.com,meine-bankid.de,teambank.de,townsmith.de##.cdk-overlay-container
+antenne.de,t3n.de##.c-newsletterbox
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
 anti-malware.ru###parent_popup_ank
 anti-malware.ru##.dialog-social-fb
@@ -17182,6 +17189,7 @@ beermoneyforum.com##.notices--block
 beermoneyforum.com#%#
 beerwulf.com#@##cookiemessage
 befestigungsfuchs.de,baumberger.shop##.cookie_info_wrapper
+befirst.info##.p-cookies
 beforeitsnews.com###ad-message
 beforeitsnews.com###fancybox-content
 beforeitsnews.com###fancybox-overlay
@@ -17528,6 +17536,9 @@ blog.livedoor.com##a[href="http://blog.livedoor.com/guide/blog_reader"]
 blog.livedoor.com##a[href="http://blog.livedoor.com/influencernews/"]
 blog.livedoor.jp##div[style="margin:0px;padding:0px;line-height:1.4;width:100%;background-color:#ddf4e1;"]
 blog.livedoor.jp,duellinks.doorblog.jp,dragonquestwalk.blog.jp##.rss
+blog.masmovil.es##.webslots
+blog.masmovil.es,blog.grupomasmovil.com#?#.gmm-cookies
+blog.masmovil.es,energo.by,thelocalproject.com.au,cointelegraph.com##.subscription-form
 blog.mercedes-benz-passion.com###cb-bg-to
 blog.netwrix.com###subscribe-modal
 blog.prepscholar.com###free-sat-tips
@@ -17604,6 +17615,7 @@ bmw.de##.cc-consentdrawer
 bmw.hu##.ds2-cookiedisclaimer
 bmwautoclubitalia.it##.t657__wrapper
 bmwfaq.org#?#.Notices[-ext-has='a[href="//www.bmwfaq.org/help/cookies"]']
+bnext.com.tw##.IdleBox
 bnf.fr##.block-bnf-cookies
 bnl.it###cookielaw-popup-wrapper
 bnpparibas.pl###kg_cookie_content
@@ -17707,6 +17719,7 @@ boston.com#@#.postad
 bostonglobe.com##amp-subscriptions-dialog
 bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general
 botanichka.ru###subscribeForm
+botanichka.ru###subscribeslide
 botify.com##.pin-b.pin-l.fixed
 botrans.eu###c_tlo
 bournemouthecho.co.uk###adBlockBanner
@@ -17828,8 +17841,8 @@ budsgunshop.com##.popupboxnewoffer
 budsgunshop.com,godealla.pl##.overlay
 budujemydom.pl###avt-cookie-popup
 budujemydom.pl###newsBoxLeft
-budzma.by##.subscriber
-budzma.by##.top-baner
+budzma.org##.subscriber
+budzma.org##.top-baner
 buecher-bender.buchhandlung.de,pustet.de,heymann-buecher.de#%#AG_onLoad(function(){if("undefined"
 buecher.de###klaro
 buero-bedarf-thueringen.de###bbtCookieBG
@@ -17920,7 +17933,6 @@ buzip.net###linkerBanner
 buzz.be.com###text-35
 buzzfeed.com##.buzzblock-newsletter
 buzzfeed.com##div[id^="mod-privacy-policy-banner"]
-buzzfeed.de##.id-StoryElement-embed--newsletter
 buzzfeednews.com##.bfp-newsletter-signup-container
 buzzfeednews.com##.newsblock-promo-popup
 buzzfeednews.com##.newsblock-support-cta
@@ -17978,6 +17990,7 @@ calcsbox.com###noticeWindow
 calkalasutasayrani.com##.bs-example-modal-lg
 callofwar.com,supremacy1914.com###cookieNotificationMain
 calovo.de##.ga-opt-in
+calvinklein.co.uk#@#.cookie-notice:not(body):not(html)
 calvinklein.de#@#.cookie-notice:not(body):not(html)
 cam4.com###Cam4DialogContainer
 cam4.com###disclaimerModal
@@ -19833,7 +19846,6 @@ eneba.com##.xmbBPq
 energiedirect.nl###wall
 energienutricao.com.br,922tp.com,itshokunin.cc,omaske.ru,animesrbija.com,adbuff.com###ppsPopupBgOverlay
 energienutricao.com.br,922tp.com,itshokunin.cc,omaske.ru,animesrbija.com,adbuff.com##.ppsPopupShell
-energo.by,thelocalproject.com.au,cointelegraph.com##.subscription-form
 energy.de###attention_cookies
 enerji-dunyasi.com,helpsetup.ru,qumo.ru,glenatbd.com,tesisat.com.tr##.sb-overlay
 enerji-dunyasi.com,helpsetup.ru,qumo.ru,tesisat.com.tr##.subscribe-me
@@ -20130,6 +20142,7 @@ expresszuschnitt.de###cookie_hinweis
 extrahw.com###cfooter
 extramovies.*#%#
 extramovies.org##a[href^="http://m.onelink.me/"]
+extratipp.com,buzzfeed.de##.id-StoryElement-embed--newsletter
 extreme.cnews.ru##.modal-book-offer
 extremetech.com##.widget_email_signup
 extremetech.com,ign.com##.privacy-content
@@ -20806,6 +20819,7 @@ fromagesuisse.ch###legalnotice
 fromatob.de##.the-cookie-banner
 fromdoctopdf.com###DLP_eu_cookie_disclosureOverlay
 fromsmash.com##.cgu-container
+fromsmash.com##.cgu-cookie-overlay-shadow
 fromsmash.com##.cgu-overlay-shadow
 frontify.com##.cookieBannerWrapper
 frontlineshop.com##.cookiespopup
@@ -20930,6 +20944,7 @@ gameleaks.org##.rss-widget
 gameleap.com##.ng-trigger-appLoad.ng-tns-c1-1
 gamelink.com###bottomAlert
 gameloft.com##.fancybox-overlay
+gamemonkey.fi##.lightbox-backdrop
 gamenet.ru###push-cookies
 gamenguide.com##.at_nwletters
 gameost.net##.apsc-floating-sidebar
@@ -21251,6 +21266,7 @@ global.llbean.com##.subscribe-modal
 global.llbean.com##.ui-widget-overlay
 globaldata.pt,infojobs.com.br##.modal-backdrop
 globalhungerindex.org###ckpolicy
+globalize.lifepepper.co.jp##div[id^="signupFormContainer_"]
 globallogic.com###ac-wrapper
 globalnews.ca##.ab-detect
 globalnews.ca#@#.ad-placeholder
@@ -22383,6 +22399,7 @@ ing.com.tr,ingbank.com.tr##.kvk-footer-warning
 ing.nl###cookieCheck-app
 ing.nl,t-mobile.nl##.overlay
 ing.pl##.js-cookie-policy-box
+ingame.de#@#amp-consent
 ingbank.cz,kafelanka.cz,vypocitejto.cz##.cookies
 ingdirect.it##.topalertbanner
 ingemecanica.com##.encabez
@@ -23545,6 +23562,9 @@ letoile.ru##.b-section_subscription
 letras.com,ouvirmusica.com.br,letras.mus.br##.modalLGPD
 levashove.ru,mywebpc.ru##.telegramim_button
 leverageedu.com##.expertbutton
+leverageedu.com##.footer-subscribe
+leverageedu.com##.navbar-follow-button
+leverageedu.com##.uniconnectmodal
 leverageedu.com##.whatsappclass
 levi.com##.opt-in-email-signup-drawer
 lewento.de#@##cliSettingsPopup
@@ -23758,6 +23778,7 @@ liyayazilim.com###cookiemaster
 lizenzking.de##.modulesden-cookies-bar
 ljutkeunvpn.blogspot.com#%#
 lk.megafon.ru##div[class^="lk_banner"]
+lk.rt.ru##.site-footer-cookies
 lk.ukliga.ru##.cookies-notice-wrapper
 lkhg-thueringen.de###cookiedisallow-wrap
 lloyd.com###globalerror
@@ -24023,6 +24044,7 @@ m.zara.com,godmode-trader.de###cookies-container
 m24.ru###AndroidMobileAppBanner
 m24.ru##.n_subscribe_wdgt
 ma-calculatrice.fr###manger-des-gateaux
+maaseuduntulevaisuus.fi##.nav-link--notification-handler
 mabanque.bnpparibas##.popin-cache
 mac-forums.com##.tloom-lb
 macbooster.net##.floatlayer
@@ -25936,6 +25958,7 @@ openuserjs.org,oses.com.tr,turklab.com.tr,sanalmagaza.droetker.com.tr,discounto.
 openweather.co.uk###stick-footer-panel
 openweathermap.org###stick-footer-panel
 openweathermap.org##.stick-footer-panel
+openworldnews.net###headline
 openwrt.org##.cookielaw-banner
 oper-wuppertal.de##.ci-container
 opera.com##.get-opera
@@ -25995,6 +26018,8 @@ osnmedia.ru##a[href^="https://yandex.ru/news/?favid="]
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-notifications
 ostseebad-insel-poel.de##.stoerer_footer
 osvita.ua##.js-likebox
+otakumix.doorblog.jp###rss1
+otakumix.doorblog.jp##iframe[src="http://otakumix.doorblog.jp/testrss.html"]
 otakumode.com##.guest-mail
 otelo.de##.GlobalConsentBar
 otelo.de##.GlobalNotification
@@ -28734,6 +28759,7 @@ superjob.ru##.topNotification
 supermercadonow.com##.gyEkXD
 supermicro.com,supermicro.com.tw###alert-container
 supernordicskipass.it##.infPr
+superprof.es##.cta-online
 supertv.it##.generic-text-wrap
 superzarabotki.com###jeapie-prompt-widget
 support-uber.com##.lc-gdpr
@@ -28841,7 +28867,6 @@ t.pia.jp###tg_pia-adFloating
 t3n.de##.ab-notice
 t3n.de##.c-cookienotice
 t3n.de##.c-native-newsletterbox
-t3n.de##.c-newsletterbox
 t3n.de##a[href="https://t3n.de/store/mediadaten/"]
 t3n.de#@##adsbox
 t4.ai###consentPopup
@@ -29874,6 +29899,7 @@ tutu.ru,tutu.travel##.style__disclaimer
 tutudao.net##a[href="/app/download/"]
 tv-phone.wixsite.com##.tpagw0
 tv.golfnetwork.co.jp##.code-mc-container-panel
+tv.telia.fi##div[ng-show^="model.notifications"]
 tv.yandex.ru,tv.yandex.ua,tv.yandex.by,tv.yandex.kz##.recommended-ott
 tv.yandex.ru,tv.yandex.ua,tv.yandex.by,tv.yandex.kz##.teaser_hd
 tv2.dk##.CookieWarning_container__1Lmss
@@ -30464,6 +30490,7 @@ vliegwinkel.nl#@#.cookie-banner:not(body):not(html)
 vm.ru##.subscribe--container
 vmg.pl###_rodo
 vmmotori.it###ll_banner
+vmware.com##.ot-sdk-show-settings
 vnexpress.net##.box_vne_app_pin
 voat.co##.eppnotice
 vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru##.smartbanner
@@ -30624,8 +30651,10 @@ washingtonpost.com###qa-modal-body
 washingtonpost.com###wall-bottom-drawer
 washingtonpost.com##.newsletter-unit
 washingtonpost.com##.pb-f-page-newsletter-inLine
+washingtonpost.com##.softwall-overlay
 washingtonpost.com##div[data-qa="newsletter"]
 washingtonpost.com##div[id^="softwall-intl-"]
+washingtonpost.com##div[style="min-height:220px"][data-qa="right-rail-item"]
 washingtonpost.com#@#.ADBox
 washingtonpost.com#@#.AD_area
 washingtonpost.com#@#.gdpr-consent
@@ -31145,13 +31174,16 @@ yam.com###sns-mob
 yam.com##a[href^="https://donate.yam.com/dq/Donateinfo"]
 yandex.*###bk-container
 yandex.*##.CbirPanel-OboardingDrag
+yandex.*##._view_advertisement
 yandex.*##.advert-js
+yandex.*##.business-card-title-view__advert
 yandex.*##.desk-notif-card__teaser-item
 yandex.*##.dist-overlay__popup
 yandex.*##.distr-promo-head
 yandex.*##.distr-smartbanner-loader
 yandex.*##.fixed_widget-feedback
 yandex.*##.lc-gdpr
+yandex.*##.search-business-snippet-view__badge
 yandex.*##.small-promo__content
 yandex.*##.smart-banner_browser
 yandex.*##.smart-banner_yabro
@@ -31166,6 +31198,7 @@ yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afis
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.desk-notif-card_zen_yes
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.dist-popup
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-default-search
+yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-popup.distr-popup_type_landing
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-popup_js_inited
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-popup_location_right-bottom
 yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua,~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~afisha.yandex.ua,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~avia.yandex.ua,~bilet.yandex.com.tr,~flights.yandex.com,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.kz,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.com,~mail.yandex.com.tr,~music.yandex.ru,~music.yandex.ua,~music.yandex.by,~music.yandex.kz,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~rabota.yandex.ua,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~radio.yandex.ua,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~realty.yandex.ua,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~tv.yandex.ua,~yadi.sk,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru,~zen.yandex.ua,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~docviewer.yandex.ua,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~rasp.yandex.ua##.distr-smartbanner
@@ -31182,7 +31215,6 @@ yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru##.ins
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.business-card-view__advert
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.business-card-view__offers
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.card-offer-media-view
-yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.card-offer-view
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.lg-cc
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.maillist-form-view
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.promo-banner
@@ -33366,6 +33398,7 @@ zysk.com.pl###pageUpperInfo
 ||suntory.co.jp/softdrink/craftboss/flash/assets/js/main.js
 ||superfb.com/_img/banner/sfb*.png
 ||superfb.com/_img/mobil_imaj.png
+||superprof.es/apuntes/wp-content/themes/sp_ressources/dist/videos/apprenez-a-la-maison-desktop.m4v
 ||superzarabotki.com/notify/
 ||support-widget.nakanohito.jp^$domain=jre-travel.com
 ||surveygizmobeacon.s3.amazonaws.com^$domain=support.mozilla.org
