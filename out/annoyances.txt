@@ -9225,6 +9225,7 @@
 ##.cookieoptin
 ##.cookieoptions
 ##.cookieoverlay
+##.cookieoverlay-x
 ##.cookiepanel
 ##.cookiepermissionprompt
 ##.cookieplus
@@ -13940,7 +13941,7 @@ $$amp-embed[type="zen"]
 /wp-content/plugins/wp-content-copy-protection/assets/*
 /wp-content/plugins/wp-gdpr-compliance/*
 /wp-content/plugins/zigcookie/*
-/wp-content/themes/Newspaper-child/*$~stylesheet,domain=~dyvys.info|~capital.de
+/wp-content/themes/Newspaper-child/*$~stylesheet,domain=~dyvys.info|~capital.de|~inside-digital.de
 /wp-content/uploads/*/*.js$domain=48idol.tv|paragezegeni.com|androidexplained.com|borodavsem.ru|czechavfree.com|karaokes.com.ar|magazeta.com|mur.tv|o365info.com|proswift.ru|sovetolog.com|tehnobzor.ru|thelongdark.ru|thewindowsclub.thewindowsclubco.netdna-cdn.com|windowstechblog.nl|xiaomitech.net
 /wp-cookie-allow/*$script,stylesheet
 /wp-gdpr-
@@ -14159,6 +14160,7 @@ $$amp-embed[type="zen"]
 699pic.com##.springtime-floatLink
 699pic.com##.springtime-pop
 699pic.com##.winpopbg
+6abc.com##.inline-newsletter
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.Tooltip
 6play.fr##.app__banner
 6play.fr,play.rtl.hr,rtlplay.be##.banner--gdpr
@@ -14911,10 +14913,12 @@ $$amp-embed[type="zen"]
 @@||google-analytics.com/analytics.js$domain=aternos.org
 @@||google-analytics.com/analytics.js$domain=webupd8.org
 @@||googleads.g.doubleclick.net/pagead/$domain=maxedtech.com
+@@||googleads.g.doubleclick.net/pagead/ads$domain=androidacy.com
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/ff.js$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/id?slf_rd=1$domain=texture-packs.com
 @@||googleads.g.doubleclick.net/pagead/id|$domain=texture-packs.com
+@@||googletagmanager.com/gtag/js$domain=androidacy.com
 @@||googletagmanager.com/gtag/js?id=$domain=thehouseofportable.com
 @@||googletagmanager.com/gtm.js$domain=freenet-funk.de
 @@||googletagmanager.com/gtm.js$domain=redbull.com
@@ -15265,6 +15269,7 @@ $$amp-embed[type="zen"]
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl_with_ama_fy2019.js$domain=thehouseofportable.com
 @@||pagead2.googlesyndication.com/pcs/activeview$domain=allmovie.com|allmusic.com
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
+@@||partner.googleadservices.com/gampad/$domain=androidacy.com
 @@||paywall.production.ippen.space/js/dfp.min.js
 @@||pc-builds.com/wp-content/themes/Newspaper-child/js/calculatorInitV2.js
 @@||pcforum.biz/abp/adblock_detector.js
@@ -16026,7 +16031,7 @@ adex.com,ralabs.org,socioinform.com##.t886
 adguard-vpn.com,adguard.com##.sticky-bar--cookie
 adguard.com##.email-collector
 adguard.com##.gh-subscribe
-adguard.com##div.sidebar__qr-wrap--download
+adguard.com##.sidebar__qr-wrap--download
 adidas.com.tr##div[class^="footer_newsletter"]
 adidas.ru###snapins_invite
 adindex.ru##div[class^="PUBnr"]
@@ -18159,6 +18164,7 @@ ccleaner.com##.top-banner
 cda.pl###box_info
 cda.pl##.bx-info-cookie
 cdaction.pl,deccoria.pl,direct.money.pl,fishki.pl,interia.pl,maxmodels.pl,money2money.com.pl,okazjum.pl,pcformat.pl,poboczem.pl,pomponik.pl,rmf.fm,rmf24.pl,rmfclassic.pl,rmfon.pl,smaker.pl,styl.pl,totalmoney.pl##.rodo-popup
+cdek.market##.cp-df-moove-to-bottom
 cdek.ru##.mobileApp-wrap
 cdiscount.com###_ghostery-message-row
 cdkeyit.it,allkeyshop.com##.bg-link-left
@@ -18716,6 +18722,7 @@ crello.com##.footerNotificationWrapper___18I_O
 crello.com##div[class^="footerNotificationWrapper_"]
 crfashionbook.com#@##onetrust-consent-sdk
 cricbuzz.com###feedback-bar
+cricbuzz.com##.feedback-bar
 crimrxiv.com,pubpub.org##.legal-banner-component
 crisisgroup.org##.c-cta-block
 crisisgroup.org##.s-cookie
@@ -19130,7 +19137,6 @@ diariodeleon.es###LegalCookies
 diariodenavarra.es###aviso-cookie
 diariodenavarra.es#@##AdBanner
 diariodenavarra.es#@#.Ad-Container
-diariosanrafael.com.ar##.et_bloom_optin
 diariosanrafael.com.ar##.toppersecond
 diatribe.org##.newsletter-featured
 dic.academic.ru###skidki
@@ -19176,6 +19182,7 @@ digitalcameraworld.com#@#.googleAd
 digitalcameraworld.com,gamesradar.com##.box.newsletter-signup
 digitalcitizen.life###block-next-amp-user-notification-eu-cookies-consent
 digitalfoundry.net#@#.optanon-alert-box-wrapper
+digitalic.it,diariosanrafael.com.ar##.et_bloom_optin
 digitalland.de###ccm
 digitalo.de#@##cookie_consent
 digitalo.de#@#.cookie_consent:not(body):not(html)
@@ -20474,7 +20481,7 @@ flame.az##.facebook-bg
 flame.az##.facebook-window
 flanco.ro###cc-wrapper
 flashgames.ru##.game-page-sidebar
-flashscore.co.uk,flashscore.com##.otPlaceholder
+flashscore.co.uk,flashscore.com,soccerstand.com##.otPlaceholder
 flashscore.it##.otPlaceholder
 flaticon.com###banner-guest
 flaticon.com###campaign-christmas-landing
@@ -22280,6 +22287,7 @@ inc42.com##.plus-bottom-bar
 incident-wo.com###custom_html-35
 incident-wo.com##.blogroll-wrapper
 incrussia.ru##.lolkek
+incrypted.net##.incrypted-cookie-bar
 indaily.com.au##.CampaignType--floating
 indebuurt.nl#@##cookieContainer
 indebuurt.nl,tweakers.net#@##cookieContainer
@@ -22440,6 +22448,7 @@ inshokuten.com##.articleDetailPage__textAdTitle
 inshokuten.com##.articleDetailPage__textAds
 inshokuten.com##.mailMagazineArea
 inshorts.com##.hide-on-med-and-down
+inside-digital.de,sanalbasin.com##.push-wrapper
 inside.bahn.de##.db-popup-unique
 inside.bahn.de##.dbs-newsletter
 insideevs.com,motor1.com##.m1-footer-messages
@@ -22871,6 +22880,7 @@ journeyman.tv,ev.org.br,whatfontis.com###cookies_alert
 journo.com.tr##.herald-single-sticky
 jovo.tech,accounts.kaleido.ai,unscreen.com,remove.bg##.banner
 joy.hu##.subscribeForMagazineButton
+joybuy.com##.cookie-guide-wrapper
 joygame.com###push-container
 joyhints.com##div[data-styleslug="join-channel"]
 joyn.de##div[data-test-id="CookieNotification"]
@@ -22890,6 +22900,7 @@ judge.me##.jm-cookie-bar
 juedische-allgemeine.de##.cc
 juedische-allgemeine.de##section.cc
 juedische-allgemeine.de#%#document.cookie="ubCmpSettings=eyJnZW1laW5kZW5fc2VsZWN0ZWRfdmFsdWUiOnRydWUsImdvb2dsZV9hbmFseXRpY3MiOmZhbHNlLCJhZF90cmFja2luZyI6ZmFsc2UsInNvY2lhbF9lbWJlZHMiOnRydWV9;path=/;";
+juejin.cn##.app-download-sidebar-block
 juenpetmarket.com,maximiles.com.tr###divAcceptCookie
 jugendhilfeportal.de,volksbund.de###ig-cookie-simple
 jukegames.com,n-mobile.net###overbox3
@@ -23220,6 +23231,7 @@ kompravda.eu,kp.ru,kp.by,kp.kg,kp.kz,kp.md###popapIsBlockedAd
 komputerswiat.pl##.cookies-eu
 komtv.org###stb-overlay
 komtv.org,wpbakery.com##.stb-container
+komus.ru##.new-subscribe
 komus.ru##.online_call
 komyounity.com##div[style="height:100px"]:empty
 konarzewski.com.pl,unicode.org#@#div[data-nconvert-cookie]
@@ -24799,6 +24811,7 @@ monde-diplomatique.fr###box_alert_tracking
 mondeoklubpolska.pl###navbar_notice_12
 mondi.com.tr,bellona.com.tr,istikbal.com.tr###kvkk_overlay
 mondi.com.tr,bellona.com.tr,istikbal.com.tr###kvkk_popup
+mondo.me##.footer-promo-banner
 monedo.pl##.NotificationBar
 monenergie.be###PopUpCookie
 monese.com#@#.cookie-banner:not(body):not(html)
@@ -26134,6 +26147,7 @@ papadon.com.ua##.t886
 papara.com###smart
 paper.li###info_banner
 papergeek.fr###notification-bar-top
+paperpaper.ru##.socials
 papierkannmehr.de##.m-cookies
 papiroom.net##.HDO_wrapApp
 paquetaesportes.com.br##.whatsapp-contact
@@ -26303,6 +26317,7 @@ pesc.ru##.deal-cookie
 pesdb.net###friendly_sites
 petburada.com###mobileAppNotify
 petcim.com##.cerezpop
+peterburgregiongaz.ru###jQueryCookieDisclaimer
 peterhahn.de##.cookiebar-container
 peth-wetz.com,impresa.italia.it##cookie-law-banner
 petit-mag.com###sticknav
@@ -27011,6 +27026,7 @@ rabota.ua##.show-news-modal.slide-right
 racecamp-events.de#@##tx_cookies
 racedepartment.com##.Notice.DismissParent
 racefans.net##.ui-dialog[aria-labelledby="ui-id-1"]
+rachfeed.com,vernetzt-wachsen.de,planetanim.fr##.cli-modal-backdrop
 racketboy.com###rb-newsletter
 racquetballwarehouse.com,rogerfederer.com,tenniswarehouse-europe.com###data_protection
 radarbox.com###ads
@@ -27488,6 +27504,7 @@ rossmann.com.tr###mnm-cookies-agreement
 rossmann.de##.rm-cookie
 rossolimone.com#@##cookiesplus-basic
 rosuchebnik.ru##.b-cookie-notification
+rotadasbandeiras.com.br###Lbanner
 rotadasbandeiras.com.br##.alertaLGPD
 rotadasbandeiras.com.br##.boxAlertas
 rotary.de###checkCookieOkBox
@@ -27654,7 +27671,6 @@ samsungstore.ru##.feedback
 samsungstore.ru##.mango-callback
 samsungstore.ru,psm7.com##.b-subscribe
 samuraisoccer.doorblog.jp##.bt-rss
-sanalbasin.com##.push-wrapper
 sanalbasin.com##.row-reklam
 sanalyer.com##.content-bottom
 sandiegosymphony.org##.popup-announcement
@@ -30318,7 +30334,6 @@ vergleichen-und-sparen.de###vs-cookiehinweis
 veritas-shop.com##div[style="background:#dfeff7;"]
 veritasbooksonline.com##.notice-wrap
 verktygsboden.se##.sd-object-if.sd-object.NORMAL
-vernetzt-wachsen.de,planetanim.fr##.cli-modal-backdrop
 veronika-kaiser.de##.bst-panel
 versandapo.de###landing_page_popup
 versii.if.ua###lightb_fb_page_like_baner
@@ -31257,6 +31272,7 @@ yggtorrent.nz##.ad-alert-wrapper
 yggtorrent.si##.ad-alert-wrapper
 yhteiso.telia.fi###yhteiso-evasteet
 yirmidort.tv##.bizitakipet
+yk.kz##.main_carousel
 yock.games##.spin-drawer
 yock.games#@#.adBanner
 yodiz.com###footMsgYodiz
@@ -31584,6 +31600,7 @@ zysk.com.pl###pageUpperInfo
 ||analytics-consent-manager.azureedge.net^
 ||ancientact.com^$third-party
 ||android-win-reward.com^
+||androidacy.com/mift5b*/$script,domain=androidacy.com
 ||androidheadlines.com/wp-content/uploads/2019/07/AH-TechDeals-300x150.jpg
 ||androidheadlines.com/wp-content/uploads/2020/04/AH-Latest-Tech-Deals-Wide.jpg
 ||androidmods.net/wp-content/plugins/hustle/assets/hustle-ui/js/hustle-ui.min.js
