@@ -949,6 +949,7 @@
 ###better-cookie-bar
 ###bf-cookie-notice
 ###bfg-cookie-policy-banner
+###bg_cookies
 ###bgee_privacy_banner
 ###bgon-cookie-bar
 ###bib_CookieBox
@@ -11459,6 +11460,8 @@
 ##.opinarywidget
 ##.opl-cookie-control
 ##.optanon-alert-box-wrapper
+##.optanon-show-settings
+##.optanon-toggle-display
 ##.optin-stats
 ##.optinCookie
 ##.or-cookie__banner
@@ -14658,7 +14661,7 @@ $$amp-embed[type="zen"]
 @@||cloudfront.net/*/latest/cmp_shim.js$domain=macworld.com
 @@||cloudfront.net/a/ads/ad-block/ad/adblocker.js$domain=ispot.tv
 @@||cloudfront.net/js/cookie-banner-gdpr/app.min.js?$script,domain=cn.nytimes.com
-@@||cloudfront.net/mw/lib.f-cookie-banner.$script,domain=justeat.it
+@@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=justeat.it
 @@||cmp-cdn.cookielaw.org^$domain=adshrink.it
 @@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
 @@||cmp.dmgmediaprivacy.co.uk^$domain=metro.co.uk
@@ -14759,7 +14762,7 @@ $$amp-embed[type="zen"]
 @@||cookieinfoscript.com/js/cookieinfo.min.js$domain=cookieinfoscript.com
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||cookielaw.org/consent/cmp.stub.js$domain=reuters.com
-@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|crunchyroll.com|cypress.io|epicgames.com|eurogamer.net|geizhals.de|gmx.com|gq-magazine.co.uk|kawasaki.com|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdnet.com
+@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|crunchyroll.com|cypress.io|epicgames.com|eurogamer.net|geizhals.de|gmx.com|gq-magazine.co.uk|kawasaki.com|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdf.de|zdnet.com
 @@||cookielaw.org^$domain=cookielaw.org
 @@||cookielaw.org^$third-party,domain=popsugar.co.uk
 @@||cookielawinfo.com^$~third-party
@@ -16423,7 +16426,7 @@ altabadia.org##div[class^="mw-dsgvo-"]
 altaposten.no###hr-cookies--container
 altaprofits.com,aujourdhui.com###notification
 alterexit.info###pop
-alternative-zu.de,baskets-jena.de,bauernzeitung.ch,bookingsuedtirol.com,burg-lindenfels.de,die-glocke.de,essentraextrusion.de,filati.cc,gebag.de,goldankauf123.de,lvr.de,mallorca.de,ruhrbarone.de,shop-apotheke.com###cookie
+alternative-zu.de,baskets-jena.de,bauernzeitung.ch,bookingsuedtirol.com,burg-lindenfels.de,die-glocke.de,essentraextrusion.de,filati.cc,gebag.de,goldankauf123.de,lvr.de,mallorca.de,prosenectute.ch,ruhrbarone.de,shop-apotheke.com###cookie
 altinbas.com##.vnotify-container
 altincicadde.com###privacy_modal
 altium.com##.altium-privacy-bar
@@ -20286,7 +20289,7 @@ eurobuch.de###consentBanner1
 eurocash.pl###info
 eurocirc.org###msgBox_error
 eurogamer.de##.mobile-mpu-wrapper
-eurogamer.it,eurogamer.pl,eurogamer.pt,geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,uefa.com,usgamer.net,zdnet.com#@##onetrust-consent-sdk
+eurogamer.it,eurogamer.pl,eurogamer.pt,geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,uefa.com,usgamer.net,zdf.de,zdnet.com#@##onetrust-consent-sdk
 eurogamer.net###newsletter-promo
 eurogamer.net,eurogamer.pt,metabomb.net,nintendolife.com,usgamer.net,vg247.com##.cookie-gdpr
 euroinvision.ru###fancybox-overlay
@@ -21392,7 +21395,7 @@ geeksultd.com###tie-newsletter-3
 geekwire.com###newsletter-subscribe-sidebar
 geekwire.com##.flyover-email-cta
 gefako.de###cookie-optin
-geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,uefa.com,zdnet.com#@##onetrust-banner-sdk
+geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,uefa.com,zdf.de,zdnet.com#@##onetrust-banner-sdk
 gekkan-fukugyou.jp###custom_html-7
 gekkan-fukugyou.jp###footer-fix-banner
 gekkan-fukugyou.jp###modal-content
@@ -23701,6 +23704,8 @@ kurashiru.com##.header-app-banner
 kurier.at##.siteCookie
 kurierwysmaz.pl,ddwloclawek.pl##.hey-outer.hejhej
 kurs.com.ua###popup-wrapper
+kurs.com.ua###popupConsent
+kurs.com.ua##.background-popup
 kursfinder.de###emg-cookie
 kurumaerabi.com##.modal_common.modal_inquiry_easy
 kusmitea.com##.veil
@@ -29396,6 +29401,7 @@ suedtirol.info###js-cybot-cookiebot-placeholder
 suedtirol.info##.nl-popup
 sugargang.com,sugardad.eu##.modal--newsletter
 sugarlandskeeters.com###consent-slide
+sugi9532.com##.c-infoBar
 suhorukov.com###block-simplenews-0
 sukabumiupdate.com##.modal
 sukabumiupdate.com##.notification-wrapper
