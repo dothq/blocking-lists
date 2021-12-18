@@ -6720,6 +6720,8 @@
 ##.CookieBanner2
 ##.CookieBanner:not(body):not(html)
 ##.CookieBannerDiv
+##.CookieBannerOfMw
+##.CookieBannerOfPc
 ##.CookieBar
 ##.CookieBar:not(body)
 ##.CookieBox
@@ -14118,6 +14120,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 24ur.com##onl-breaking-news
 24ur.com##onl-subscribe
 26-2.ru##.subscribeInside
+2captcha.com##.app-level-notifications
 2ch.hk,2ch.pm###mobile-plashque
 2ch.hk,2ch.pm###plashque
 2ch.hk,2ch.pm##.moneymoneymoney
@@ -15789,6 +15792,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||transip.*/services/cookie-consent/
 @@||translate.googleusercontent.com^$generichide
 @@||trevisoairport.it^*/jquery.divascookies-$script
+@@||trib.com^$generichide
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tsf.pt^$generichide
@@ -16183,7 +16187,7 @@ aeriagames.com###dp2018dialog
 aerobaticteams.net##.cookies-agreement
 aeroespacial.sener###cookies_yb
 aeroport-de-tunis-carthage.com##ins[id^="aswift_"]
-aeroporto.catania.it,aeroportoditorino.it,botfactory.info,credem.it,dynamicasrl.com,emi.it,giunti.it,inpgi.it,mauroblasi.it,missingvideo.com,pampers.it,peugeot.it,telepace.it,unaparolaalgiorno.it##.cookie
+aeroporto.catania.it,aeroportoditorino.it,botfactory.info,credem.it,dynamicasrl.com,emi.it,giunti.it,inpgi.it,mauroblasi.it,missingvideo.com,pampers.it,peugeot.it,regione.puglia.it,telepace.it,unaparolaalgiorno.it##.cookie
 aeroporto.catania.it,bapr.it,saverioriotto.it###policy_id
 aerotelegraph.com##.widget--newsletter
 aerztezeitung.de,bbv-net.de,ruhrnachrichten.de,tagblatt.de###fi-cookieconsent
@@ -17113,6 +17117,7 @@ avid.com##.fancybox-opened
 avid.com##.fancybox-overlay
 avid.com#?#.fancybox-wrap:has(div[data-alert-cookie-name])
 avid.com,editus.lu##.fancybox-overlay
+avisautonoleggio.it,qvc.it,gap.eu,disneyplusdayroom.com,sites.prh.com,khaleejtimes.com,tealium.com,robeco.com,totalenergies.de,centrum24.pl,hsbc.com,newbalance.*,sick.com,aktion-mensch.de,diesel.com,totalenergies.com,zurich.de,cineworld.co.uk,otterbox.de,dropbox.com,penguinrandomhouse.com,familienratgeber.de,barclaycard.co.uk,tuicruises.com,bahia-principe.com,open-telekom-cloud.com,t-systems.com,nh-hotels.de,magentasport.de,goertz.de,stepstone.de,smarthome.de,nuernberger.de,cloud.telekom-dienste.de,tui.com,france.tv,opendns.com,victoriassecret.com,huawei.com,argos.co.uk,tealiumiq.com,ti.com,disney.de,ups.com,macys.com,rakuten.de,telekom.de,trendmicro.com,epson.com,3m.com.tr,command.com.tr,virginmedia.com,francetvinfo.fr,greenmangaming.com,logitech.com,logitechg.com,webex.com###__tealiumGDPRecModal
 avito.ru##.banner-apps
 avito.ru##.common-banner
 avito.ru##div[class^="main-banner-root-"]
@@ -18512,6 +18517,7 @@ chroniclelive.co.uk,mirror.co.uk##.mod-cookiepolicy
 chsu.ru##.cookies-message-box
 cht.com.tw,specialized.com,kinda.media,gavlekonserthus.se,gavlesymfoniorkester.se,medimagazin.com.tr,tvr.co.uk##.cookie-wrap
 chubbyparade.com###regp_bg
+cian.ru##div[data-name="CookiesNotification"]
 ciapc.com.br##.fancybox-overlay
 ciasex.com.br##.notification-backdrop
 cicicee.com,reviews.org##.snp-builder
@@ -18615,7 +18621,6 @@ club.panasonic.ru##.motivation_popup
 clubcard.cz##.ucks
 cluber.com.ua##.popup-bg
 clubheldvanhetjaar.nl###did376362
-clubhotelsera.com.tr,isimkayit.com,aksa.com,dsmart.com.tr##.kvkk
 clutch.ua##.btn-ms
 cm.com##.s-cookie-popup
 cmjornal.pt,jornaldenegocios.pt###termos
@@ -19266,6 +19271,7 @@ delcastellano.com##.footer-post-cta
 delfi.ee###ab--notification-ribbon
 delfi.ee###cookie_ribbon
 delfi.ee##.newsletter-cta
+delfi.ee##div[class^="C-modal"]
 delfi.ee#@#.ad-banner
 delfi.ee#@#.patronad
 delfi.lt###newsletter-container
@@ -21490,6 +21496,7 @@ gelbeseiten.de,gasag.de,sipgate.de,sipgatebasic.de,sipgateteam.de,sipgatetrunkin
 geleidehond.nl#@#.js-cookie-alert
 geliebte-katze.de###zs_next_article
 gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
+geminiadvisory.io,icons8.com##.cookies-widget
 generacionretro.net###makingdifferentpopup
 general-anzeiger-bonn.de,aachener-nachrichten.de,aachener-zeitung.de,rp-online.de,saarbruecker-zeitung.de,volksfreund.de,wz.de##.park-snackbar-cookies
 generali.com.tr##.kvk-footer
@@ -21993,6 +22000,7 @@ haber365.com.tr##.modalx
 haber46.com.tr,cnn.co.jp###my-notification
 haber7.com##.notification-box
 haberarsiviyiz.com,ozelkuvvet.com,sarizeybekhaber.com.tr,tcmakale.com###cerezsorgula
+haberay.com.tr,halktv.com.tr,61trabzonhaber.com,isilanlarikariyer.com,bolgegundem.com,neoldu.com###cm-cookie-policy
 haberci-gazete.de##.gdpr_infobar_postion_bottom
 haberdairesi.com##.sagaltreklam
 haberglobal.com.tr##.open-in-application
@@ -22042,7 +22050,6 @@ hai-sya.com###js_follow_footer
 haier.com##.swiper-slide-img-txt
 hairlife.ru##.panel_subscribe
 halkbank.com.tr###cookieCT
-halktv.com.tr,61trabzonhaber.com,isilanlarikariyer.com,bolgegundem.com,neoldu.com###cm-cookie-policy
 hallhuber.com#@#.cookie-box:not(body):not(html)
 hamburg.de###cookieChoiceInfo
 hampel-auctions.com###consentmanager
@@ -22193,6 +22200,7 @@ heroku.com###heroku-cookie-banner
 herokuapp.com#@#.adsbygoogle
 herold.at###popupCookie
 herrenausstatter.de##.ce-container
+hertz.it###light-box-1
 hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lbContainer
 hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lb_overlay
 hertz247.de##.lbContainer
@@ -22555,7 +22563,6 @@ ichip.ru,playboyrussia.com,ivd.ru,lisa.ru##.disclamer
 ichkoche.at##.newsletterSlideIn
 ici.tou.tv##.cookiesUsageMessage
 icl-group.de###drkf5_overlay
-icons8.com##.cookies-widget
 icourse163.org##div[id*="activity"][id*="Banner"]
 icq.com##.ca_wrap
 icq.com##div[data-block="cookie"]
@@ -24335,6 +24342,7 @@ logicconcept.eu###mc_top_bar
 login.concord.christianscience.com###cookieConsentPopup
 login.yahoo.co.jp###ads
 login.yahoo.co.jp###appAndroid
+logout.hu###rules_accept
 lojadomecanico.com.br##.box-termo-lgpd
 lojasrenner.com.br##div[class^="ReactFooterCivilMark_notification"]
 lojistiknews.com,yenimuhalefet.com###yanilgi
@@ -25380,6 +25388,7 @@ monenergie.be###PopUpCookie
 monese.com#@#.cookie-banner:not(body):not(html)
 monetizemore.com##.form-mailbox-main
 money.cnn.com###notice_banner
+money.com.tr,clubhotelsera.com.tr,isimkayit.com,aksa.com,dsmart.com.tr##.kvkk
 moneycontrol.com###download_app_banner_btn
 moneycontrol.com##.app_btn_container
 moneycontrol.com##.fixed_downapp
@@ -25853,6 +25862,7 @@ nebo.app##.app-notifications
 neckermann.de##div[class^="cookieBanner__banner"]
 nederlandsebrouwers.nl,omaweetraad.nl,omdenken.nl,perfumesclub.nl,picnic.app,salusi.nl,universiteitleiden.nl##.cookies
 needrom.com###cookie_assistant_wrapper
+nefariousreviews.com,revelacionesvaliosas.com,wordpress.com###cmp-app-container
 nefisyemektarifleri.com###veriUyari
 nefisyemektarifleri.com###webpush-info-div
 nefisyemektarifleri.com##.stickyunit.hide-on-nyt-app
@@ -27703,7 +27713,6 @@ quora.com##.ViewInAppLink
 quora.com##div[class*="flex_wrapper"][class*="gray_ultralight"]
 quotev.com$$script[tag-content="document.body.ondragstart=function"][max-length="150"]
 quotidianodiragusa.it,ragusanews.com###barra
-qvc.it,gap.eu,disneyplusdayroom.com,sites.prh.com,khaleejtimes.com,tealium.com,robeco.com,totalenergies.de,centrum24.pl,hsbc.com,newbalance.*,sick.com,aktion-mensch.de,diesel.com,totalenergies.com,zurich.de,cineworld.co.uk,otterbox.de,dropbox.com,penguinrandomhouse.com,familienratgeber.de,barclaycard.co.uk,tuicruises.com,bahia-principe.com,open-telekom-cloud.com,t-systems.com,nh-hotels.de,magentasport.de,goertz.de,stepstone.de,smarthome.de,nuernberger.de,cloud.telekom-dienste.de,tui.com,france.tv,opendns.com,victoriassecret.com,huawei.com,argos.co.uk,tealiumiq.com,ti.com,disney.de,ups.com,macys.com,rakuten.de,telekom.de,trendmicro.com,epson.com,3m.com.tr,command.com.tr,virginmedia.com,francetvinfo.fr,greenmangaming.com,logitech.com,logitechg.com,webex.com###__tealiumGDPRecModal
 qvcuk.com,qvc.de##.footer-privacy-banner
 qyer.com###zpui-head-ad
 qyer.com###zpui-head-web-ad
@@ -28080,7 +28089,6 @@ reuters.com##div[class^="NewsletterSignup-container-"]
 reuters.com##div[class^="OldSiteBanner_"]
 reuters.com##section#hp-newsletters
 reveal-sound.com###rs_cookie_declaration
-revelacionesvaliosas.com,wordpress.com###cmp-app-container
 reverb.com##.intl-settings-nag
 reverbnation.com###dim_overlay
 reverbnation.com###download_song_step1_modal
@@ -31989,6 +31997,7 @@ www-cnet-com.cdn.ampproject.org$$div[class="c-reengageNewsletter"]
 www-cnet-com.cdn.ampproject.org$$div[class="newsletter"]
 www-kreiszeitung-de.cdn.ampproject.org#@#amp-consent
 www-livemint-com.cdn.ampproject.org,livemint.com##.openinApp
+www-techradar-com.cdn.ampproject.org##amp-jwplayer
 www-turn--on-de.cdn.ampproject.org###amp-cookie-hint
 www.chronicle.com##.micromodal-slide
 www.dmm.co.jp##.dmm-c-banner-tags
@@ -33029,7 +33038,7 @@ zysk.com.pl###pageUpperInfo
 ||consultsystems.ru^$third-party
 ||content.astro7.ru/js/chat-bot-
 ||content.gallup.com/ux/gcb/gcb.en-us.min.js
-||content.jwplatform.com^$domain=techradar.com|digitalcameraworld.com|loudersound.com|musicradar.com|gardeningetc.com|livingetc.com|tomshardware.com
+||content.jwplatform.com^$domain=techradar.com|digitalcameraworld.com|loudersound.com|musicradar.com|gardeningetc.com|livingetc.com|tomshardware.com|www-techradar-com.cdn.ampproject.org
 ||contributions.guardianapis.com^
 ||cookie-accept.com^$third-party
 ||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$script,redirect=noopjs,domain=leo.org
