@@ -3760,6 +3760,7 @@
 ###cp_cookie_bar
 ###cp_wrap
 ###cpnb_manager_wrap_close_bg
+###cpnb_warningBoxBgOverlay
 ###cpolicy-bar
 ###cpolicy-holder
 ###cpolicyHolder
@@ -7568,6 +7569,7 @@
 ##.c09--cookie
 ##.c24-cookie
 ##.c2g_daimler_cookie_dialog_overlay
+##.c62-cookies-bar
 ##.cAcceptBar
 ##.cGDPR
 ##.cGDPR_Notice_Community
@@ -15581,8 +15583,9 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=programme-television.org
 @@||sdk.privacy-center.org^$domain=seguro.elespanol.com
-@@||sdk.privacy-center.org^$script,domain=allocine.fr|corrieredellosport.it|franceculture.fr|franceinter.fr|francetvinfo.fr|gamestar.de|ivoox.com|jeuxvideo.com|lavanguardia.com|mundodeportivo.com|seguro.elespanol.com|tuttosport.com
+@@||sdk.privacy-center.org^$script,domain=allocine.fr|corrieredellosport.it|franceculture.fr|franceinter.fr|francetvinfo.fr|gamestar.de|ivoox.com|jeuxvideo.com|lavanguardia.com|mundodeportivo.com|seguro.elespanol.com|tuttosport.com|vecernji.hr
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
+@@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdk.privacy-center.org^*/loader.js$domain=filmweb.pl
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||secure-store.nike.com/*/nikestore/gadget/nike/gadget/CookieSettingsManager
@@ -25050,6 +25053,7 @@ memorialhenrykapuzonia.pl###sc-container
 memurlar.net###PersonalDataInfoBar
 mengen.gen.tr###whatsappIcon
 mens.tasclap.jp##.c-notice
+mens.tasclap.jp##.l-action-button-recommend
 menshealth.com##.pane-blocks-menshealth-ajax-newsletter
 menshealth.de##.article-box-extension[element-article-inlinepaidmobile]
 menshealth.de##.v-A_-article-box-extension[element-article-inlinepaid]
@@ -26677,6 +26681,8 @@ otempo.com.br##.adblock-info
 otempo.com.br##.barra-cookie
 otoagent.pl###gdpr-popup-container-id
 otodom.pl##.css-h7c6x6
+otomobilgunluklerim.com#@##adcontent
+otomobilgunluklerim.com,oyuncukuru.org,buneymis.net,siberkalem.com##.widget-mailchimp-subscribe
 otonomi.com##.footer-kvkk
 otopark.com,blackmod.net,synology-forum.de,forum.blackhatindia.ru,xenforo.pk,androidrepublic.org,nulledteam.com,forum.miuiturkiye.net,leakforums.co##.notice--cookie
 otosklep24.pl###dymek
@@ -26731,7 +26737,6 @@ oxfordlearnersdictionaries.com###ring-links-box
 oxfordlearning.com##.js-sticky-side-block
 oxfordlearning.com##.widget_olc_signup_widget
 oyuncubey.com##.noat-cookie__consent
-oyuncukuru.org,buneymis.net,siberkalem.com##.widget-mailchimp-subscribe
 oyungezer.com.tr###blocker
 oyungezer.com.tr#@#.adBanner
 oyunlarskor.com###cerez_kabul
@@ -26799,6 +26804,7 @@ papiroom.net##.HDO_wrapApp
 paquetaesportes.com.br##.whatsapp-contact
 parade.com###newsletter_container
 parade.com##.signup_module
+paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 paradigit.nl###acceptCookiesForm
 paradoxplaza.com###disablingDiv
 paradoxplaza.com##.cookie-image-wrapper
@@ -30533,6 +30539,8 @@ tout-debrid.net###cookiescript_injected
 towa-digital.com###Towa-Gdpr-Plugin
 townwork.net##.app-wide-wrap
 townwork.net##.jsc-hd-app-bnr
+toyokeizai.net###induction-banner
+toyokeizai.net##div[class^="SURVIN_GUIDE_"]
 toyota.astra.co.id#@##cookieSection
 tp-link.com###soho-market-consumer-survey-2019
 tp-link.com###tp-cookie
@@ -31174,7 +31182,6 @@ vaughnlive.tv##.abvsDynamic
 vaultproject.io##div[data-testid="consent-banner"]
 vauxhall.co.uk,seat.fr,mini.de###psyma_layer
 vavabid.be###wrapperCookieBar
-vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 vawoo.co.uk##.footer-stay-connected
 vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 vayamo.ch##.cookies_overlay_wrapper
@@ -34101,6 +34108,7 @@ zysk.com.pl###pageUpperInfo
 ||push-ad.com^$third-party
 ||push-centr.com^$third-party
 ||push-centr.net^$third-party
+||push-content.springernature.io^$script
 ||push-free.com^$third-party
 ||push-house.net^$third-party
 ||push-money.ru^$third-party
@@ -34168,6 +34176,7 @@ zysk.com.pl###pageUpperInfo
 ||rabbitbreath.com^$third-party
 ||rabbitrifle.com^$third-party
 ||rackcdn.com/stf.js$domain=rg.ru
+||radiko.jp/res/feed/
 ||radiko.jp/static/image/half_banner.gif
 ||radioroks.ua^$domain=megatrack.top
 ||railwayreason.com^$third-party
