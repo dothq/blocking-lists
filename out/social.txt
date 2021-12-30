@@ -702,7 +702,7 @@
 ##a[href^="//www.linkedin.com/shareArticle?"]
 ##a[href^="//www.stumbleupon.com/submit?url="]
 ##a[href^="http://connect.mail.ru/share"]
-##a[href^="http://line.naver.jp/R/msg/text/?"]
+##a[href^="http://line.naver.jp/R/msg/text/"]
 ##a[href^="http://m.facebook.com/sharer.php"]
 ##a[href^="http://odnoklassniki.ru/dk?st.cmd=addShare"]
 ##a[href^="http://www.odnoklassniki.ru/dk?st.cmd=addShare"]
@@ -873,7 +873,6 @@
 181fm.com##.button-dropdown.share
 185.145.131.204,pahe.stream,185.63.253.247,bioskopkaca21.com,filmblurayku.com,dewamovie.info,167.99.71.200,pusatfilm21.com,91.230.121.24,lk21n.fun,mkvzone.me,cafecinema.cc,lk21.cam##.idmuvi-social-share
 1cloud.ru##.oc-share
-1diziizle.com,dizihd2.org##.paylasma
 1password.com#@#.share-button
 1plus1.ua###footer-social-popup
 1plus1.ua##.article__footer-social
@@ -983,13 +982,11 @@
 @@||assets.pinterest.com/js/pinit_main.js$domain=freundin.de
 @@||blogspot.com^$~image,domain=9anime.to
 @@||buttons-config.sharethis.com/js^$domain=haberkibris.com
-@@||buttons-config.sharethis.com/js^$domain=odatv.com
 @@||cio.com.br/wp-content/plugins/add-to-any/addtoany.min.css
 @@||connect.facebook.net/*/sdk/vb.js$domain=deezer.com
 @@||connect.facebook.net/en_US/sdk.js$domain=agar.io
 @@||connect.mail.ru/proxy?resource=getLoginStatus$domain=fotostrana.ru
 @@||count-server.sharethis.com/*/get_counts$domain=haberkibris.com
-@@||count-server.sharethis.com/*/get_counts$domain=odatv.com
 @@||extrakupony.pl/js/zakladki.js
 @@||facebook.com/*/plugins/$domain=dlh.net
 @@||facebook.com/*/plugins/$domain=theidealist.ru
@@ -1042,7 +1039,6 @@
 @@||panzi.github.io/SocialSharePrivacy/
 @@||platform-api.sharethis.com/js/sharethis.js$domain=haberkibris.com
 @@||platform-api.sharethis.com/js/sharethis.js$domain=itsmycity.ru
-@@||platform-api.sharethis.com/js/sharethis.js$domain=odatv.com
 @@||platform.linkedin.com/in.js$domain=malaysianwireless.com
 @@||platform.linkedin.com/in.js$domain=youngliving.com
 @@||platform.twitter.com/js/button$domain=thehungryjpeg.com|softwarespro.net
@@ -1273,6 +1269,7 @@ analizmerkezi.com###cm-facetwit
 analogictips.com###text-15
 analyticsindiamag.com##.thb-fixed-shares-container
 analyticsindiamag.com##.thb-social-footer
+analyticsindiamag.com##div[data-id="46c0c321"]
 analyticsindiamag.com##div[id^="thb_twitter_widget-"]
 analyticsinsight.net##.share-article-body
 analyticssteps.com##.stick_lft_social
@@ -1519,6 +1516,8 @@ bbs.ruliweb.com##a[href^="javascript:app.sns_share"]
 be-in.ru##.thing-socials
 beauty.ua##.popup-instagramm
 beauty321.com##.socialmediapush
+beautyhack.ru##.art-controls
+beautyhack.ru,rlsnet.ru,culture.pl,transfermarkt.de,pclab.pl,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
 beautypageants.indiatimes.com##.photo_social
 bebeautiful.in###stickysocial
 bebeez.it,technuws.com##.jeg_share_float_container
@@ -1636,7 +1635,7 @@ blick.ch##div[onclick^="shareWith"]
 blickamabend.ch##.shareicons_wrapper
 blickamabend.ch##.socialNetwork-container
 blickamabend.ch##div[onclick^="shareWith"]
-blimey.pro,odatv.com##.st-sticky-share-buttons
+blimey.pro##.st-sticky-share-buttons
 blog.alexa.com##.sb_share
 blog.doist.com##.db-actionbar__toc-share
 blog.doist.com##.db-share
@@ -2268,6 +2267,7 @@ diyetkolik.com##.body_share_panel
 dizelyator.ru##.imgsoc
 dizibilgi.net,dizibilgi.tv,esekadam.com,kadinextra.com,sempatiklopedi.com##.sosyal_buton
 dizifilmsizle.com###custom_html-28
+dizihd2.org##.paylasma
 dizihit.co##.player-share
 diziizle.net###facebook-takipet
 diziizle.net###spopup
@@ -2679,7 +2679,6 @@ filmihemenizle.com##.post-sharrre
 filmindir.be##.show-us-love
 filmindirturkcedublaj.com##.mainSocial-Content
 filmizletv.pw##.video-social
-filmloves.com,hddiyari.net,hdeniyifilmler.com,sinemakeyfi.biz##.film-share
 filmmi.com##.social-share-options
 filmmovieizle.com,filmmovieizle.net##.begeni-social
 filmpro.ru##.b-content-share
@@ -3204,7 +3203,7 @@ hackr.io,last.fm##.share-footer
 hacksplaining.com#@#.fa-linkedin-square
 hackstime.com,myantispyware.com##.widget_easy_facebook_page_plugin
 hackstore.net##.lst-shrpst
-halktv.com.tr,alem.com.tr,tv8.com.tr,odatv.com,uzmantv.com,internethaber.com##.tooplay_share
+halktv.com.tr,alem.com.tr,tv8.com.tr,uzmantv.com,internethaber.com##.tooplay_share
 halle365.de##.views-field-field-sharelink
 hamburger-wochenblatt.de##.viralBar
 hand-store.ru##.row-share
@@ -3238,6 +3237,7 @@ hbr-russia.ru,mel.fm##.sharing-panel
 hbr.org##a[js-target$="-share"]
 hd720pfilmizle.com##.sociaPayLasimt
 hdblog.it##.leftsharebtn
+hddiyari.net,hdeniyifilmler.com,sinemakeyfi.biz##.film-share
 hdfullizle.org,verepeliculas.com,gudangmovies21.pro,movieworld.me##.ssocial
 hdgo.cc###hdplayer-video_share
 hdkinomax.tv##.fancybox-outer
@@ -3524,7 +3524,7 @@ inwepo.co##[class^="social-sharing"]
 inyourpocket.com##.header_socials
 iod.media##.social-item
 ioi.dk##.sbi_load_btn
-iol.co.za,znak.com,haberkibris.com,odatv.com,marketrealist.com##.sharethis-inline-share-buttons
+iol.co.za,znak.com,haberkibris.com,marketrealist.com##.sharethis-inline-share-buttons
 iopen.pl###facebook
 iosninja.io###social-modal
 ip.qip.ru##.ip_pip_button
@@ -4732,6 +4732,8 @@ news.ltn.com.tw##.shareline
 news.microsoft.com##.mt-social-links
 news.mtv.it##.socicon-container
 news.mynavi.jp##.articleSns
+news.nicovideo.jp#@#.share-facebook
+news.nicovideo.jp#@#.share-twitter
 news.obozrevatel.com##.reaction_item.--hotFacebook
 news.online.ua##.o-btn--share
 news.online.ua##.share-icons-sticky
@@ -5354,7 +5356,7 @@ qteck.ru##.widget_sidebar_vk_widget
 quad9.net##.base-share-buttons
 qualitydergisi.com##.post-sharing-tp-1
 qualitydergisi.com##.sharing-block
-queenbet4.tv,jojobet34.tv,hiltonbettv2.com,jokerbet27.tv,ligsenin1.com,tipobet1.tv,hiltonbettv1.com##.channel-share
+queenbet4.tv,jojobet34.tv,hiltonbettv2.com,ligsenin1.com,tipobet1.tv,hiltonbettv1.com##.channel-share
 queer.pl##a[href^="https://twitter.com/home?"]
 queer.pl,mangarock.com,broadwayworld.com##a[href^="https://www.facebook.com/sharer/sharer.php"]
 quillette.com,denzadnem.com.ua###custom_html-6
@@ -5532,7 +5534,6 @@ ringon.site##.share_btn
 ripten.com###leftcontainerBox
 rivegauche.ru,aydinlik.com.tr##share-buttons
 rivnepost.rv.ua##.sharing-links
-rlsnet.ru,culture.pl,transfermarkt.de,pclab.pl,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
 rmf24.pl###facebookFans
 rmfclassic.pl###fbSlider
 rmj.ru##.socials_recommend_block
@@ -5584,6 +5585,7 @@ rubiks-cube-solver.com###alertBox
 rubiks-cube-solver.com###alertShadow
 rueconomics.ru##.single_social
 rufilmtv.org##.social_rufilm
+rugbypass.com##span[onclick^="GlobalView.share"]
 ruhr24.de##a[data-id-ct*="clicked"]
 rumaysho.com##.facebook-widget
 rumaysho.com##.latest-tweets-widget
@@ -6535,6 +6537,7 @@ trip101.com##.section-social
 tripadvisor.de,tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.net,tripadvisor.nl,tripadvisor.se##div[class^="memx-facebook-onetap-Facebook"]
 tripeditor.com###facebook-main-btn
 tripeditor.com,mag2.com##.share-inc
+tripnote.jp###fb-like-box
 trkterra.ru###vk_invite_wrapper
 trollno.com##.facebook-btn
 trollno.com##.facebook-page
