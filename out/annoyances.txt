@@ -5154,6 +5154,7 @@
 ###lgpd_optall
 ###lh-consent-dialog
 ###light_cookies_bar
+###lightbox-gdpr
 ###lineCookieInfo
 ###lldcookiepop
 ###lm-cookie-policy
@@ -6766,6 +6767,7 @@
 ##.CookieDirectiveHeight
 ##.CookieDisclosure
 ##.CookieDiv
+##.CookieEButton
 ##.CookieHint
 ##.CookieInfo:not(html)
 ##.CookieInfoBar
@@ -7700,12 +7702,14 @@
 ##.center-gdpr
 ##.center_cookies
 ##.cerez-politikasi-container
+##.cerezPopupUyari
 ##.cf-annoying-eu-cookie-message
 ##.cf__main-block
 ##.cfmCookieLayer
 ##.cfrcookiebar
 ##.cg-cookie-warning
 ##.cg-cookies-banner
+##.cgu-cookie-overlay-shadow
 ##.ch-cookie-consent
 ##.change-cookie-settings
 ##.change-priv[href*="Cookiebot"]
@@ -8125,6 +8129,7 @@
 ##.cookie-consent-holder
 ##.cookie-consent-jolt
 ##.cookie-consent-manager
+##.cookie-consent-modal
 ##.cookie-consent-notice
 ##.cookie-consent-notify
 ##.cookie-consent-open
@@ -9181,6 +9186,7 @@
 ##.cookieconsent-container
 ##.cookieconsent-dialog
 ##.cookieconsent-popup
+##.cookieconsent-ru
 ##.cookieconsent-shade
 ##.cookieconsent-simple
 ##.cookieconsent:not(body):not(html)
@@ -9384,6 +9390,7 @@
 ##.cookies-footer-i
 ##.cookies-gdpr
 ##.cookies-gioodo-require
+##.cookies-gradient
 ##.cookies-handshake-wrapper
 ##.cookies-header
 ##.cookies-hint
@@ -9832,6 +9839,7 @@
 ##.customCookie
 ##.customCookieBackdrop
 ##.customer-info-block__coockie
+##.cv-cookie-banner
 ##.cv2-wrapper
 ##.cwcookielaw
 ##.cwcookielawbg
@@ -12600,6 +12608,7 @@
 ##[data-key="cookies-warning"]
 ##[data-module="cookies"]
 ##[data-name="cookieNotice"]
+##[data-name^="CookiesNotification"]
 ##[data-notification="CookiePolicyAgreement"]
 ##[data-qa="txtGdprCookiePopup"]
 ##[data-react-class="EUCookieBanner"]
@@ -14143,7 +14152,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 20min.ch##.loginPrompt-backdrop
 20min.ch,leo.org##.as-oil[data-qa="oil-Layer"]
 20minutes.fr###header_banner_serious
-21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
+21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
 237solution.net,bibleserver.com,history.vn.ua,iseyskyr.com##.cc-container
 23andme.com###js-gdpr-optin
 23andme.com,tunnelbear.com##.banner-wrap
@@ -18117,6 +18126,7 @@ bursa.ro###desprecookie
 bursadabugun.com###_re_cookie_policy
 burton.fr###cookiesReglement
 burusoku-vip.com##.headline
+buscojobs.com.uy##.Cookies_cookies__3XVxl
 buser.com.br##.cookie-policy-alert
 buser.com.br,belsat.eu##.banner-app
 business-class.su##.remove
@@ -18236,6 +18246,7 @@ calc-online.xyz##.privacy-cookie-banner
 calciomercato.com###dialog-push-notification
 calcolostipendio.it##.bold_text
 calcsbox.com###noticeWindow
+calendrier-lunaire.net###ezcc
 calkalasutasayrani.com##.bs-example-modal-lg
 callofduty.com##.atvi-banner-cmp
 callofwar.com,supremacy1914.com###cookieNotificationMain
@@ -18662,6 +18673,7 @@ cluber.com.ua##.popup-bg
 clubheldvanhetjaar.nl###did376362
 clutch.ua##.btn-ms
 cm.com##.s-cookie-popup
+cmegroup.com###cmePermissionQuestion
 cmjornal.pt,jornaldenegocios.pt###termos
 cmoto.ru###oct-policy
 cmoto.ru,stiltv.ru###oct-policy
@@ -19755,6 +19767,7 @@ dr-gumpert.de###cookie_modal_container
 dr.dk##.drc-cookie-policy
 dr.dk,sportdiver.com#@##CybotCookiebotDialog
 draeger.com###globalnotification
+draeger.com##dw-global-notification
 draeger.com#@#.cookie-consent:not(body):not(html)
 drakecircus.com##.ccc-widget
 drawnames.co.uk###cookie-backdrop
@@ -19840,7 +19853,7 @@ duh.de##.newsletter_reduced
 duh.de,johanneswerk.de##.cc
 dukechronicle.com###mc-container
 dummies.com##.related-book-image
-dumont.de,knowyourmeme.com##div[id^="sp_message_id"]
+dumont.de,knowyourmeme.com,theguardian.com##div[id^="sp_message_"]
 dumpert.nl#@#.ads_box
 duniaislamku.com#%#
 dunkindonuts.com##.alert-banner
@@ -20496,6 +20509,7 @@ examtray.com###block-playstore
 exawarosu.net##.l-rss-top
 exawarosu.net##.rss
 excalibour.com##.cookies-layer
+excellent-hemd.de##.fixed-bottom
 exchange.uk.com###ibox
 exe.io#%#
 exelab.ru##a[href="/videokurs.php"]
@@ -20594,6 +20608,7 @@ fairbinaryoptions.com##.popup-banner.overlay.normal
 fairgarage.com,koegel-touristik.de,liste-finanzamt.de,strabag-pfs.de###dsgvo
 fairmondo.de##.l-news-header
 fairobserver.com##.n-email-popup
+fairtrade-deutschland.de###cc
 fakeemail.de,amway.ru,wizaz.pl##.disclaimer-container
 faketaxi.com,girlfriends.xxx##.catfish-banner
 fakt.pl,medonet.pl##.facebookLikePopup
@@ -21754,6 +21769,7 @@ globo.com##.newsletter-link
 globo.com##.newsletterMCWrapper
 globport.com###kbCookiePolicy
 globus-baumarkt.de##.alpha-popup--wrapper
+glose.com##.style__root___1iz9s
 gloss.ua###disclaimer
 gloucestershire.gov.uk,portwell.com.tw##.ui-dialog
 gls-group.eu###cookiePopup
@@ -21808,6 +21824,7 @@ gog.com##._floating-banner[floating-banner-id="cookies"]
 gog.com##.ng-scope._floating-banner
 gog.com##div[data-editable="boxCookieNotification"]
 goimports.com.br###btnwhatsapp
+gol.ru##.material-content-adblock
 golbis.com##.dialog-social
 gold.de#%#AG_onLoad(function(){if(
 goldbecksolar.com###de-dookie
@@ -25820,6 +25837,8 @@ myks.com.ua##.social-statistics-widget
 mylifebox.com##.welcome-page__cookie-notif
 mylivecricket.info##footer~p+p+p
 mymemur.com.tr,coinotag.com,haberolduk.com###kanews-cookie-box
+mymuesli.com##.active.mask
+mymuesli.com##.main-element.popup
 mymuesli.com#@#.js-cookies-consent
 mymuesli.com#@#cookies_consent
 mymuesli.com,zoom.earth#@#.cookies-consent
@@ -28171,6 +28190,7 @@ reifendirekt.de###cookie-diss
 reimageplus.com###cookie-note
 reischmann.biz###global-loader-layer-background
 reitinvest.top###top_form
+rejestracja.makro.pl##.layout-mask
 rejuvenation.com##div[id^="email-signup-flyin"]
 relaxbanking.it##div[class^="cookies-consent-banner"]
 relic.com##.GdprCookieConsent-ConsentContainerOverlay
@@ -30952,6 +30972,7 @@ tutu.ru##div[data-ti="order-popper-container"]
 tutu.ru,tutu.travel##.style__disclaimer
 tutudao.net##a[href="/app/download/"]
 tv-phone.wixsite.com##.tpagw0
+tv-sport.de##.rcb-inner
 tv.golfnetwork.co.jp##.code-mc-container-panel
 tv.telia.fi##div[ng-show^="model.notifications"]
 tv.yahoo.co.jp###prm_Modal
@@ -32067,6 +32088,8 @@ wn.de###paywall_container
 woche-der-meinungsfreiheit.de,wolkenweit.de##.pixelmate-banner-bottom
 wochenanzeiger-muenchen.de##.alert-danger.alert
 wochenblick.at##img[title="newsletter"]
+wodka-gorbatschow.de##.blue-bg
+wodka-gorbatschow.de##.consent-manager-overlay
 wohnglueck.de##section[data-topic="consent"]
 wohnwagen-forum.de,pesgalaxy.com,forum.gameware.at##.userNotice
 wokularach.pl##aside[data-test-id="cookie-popup"]
@@ -32558,6 +32581,7 @@ zerohedge.com##div[class^="SidebarNewsletter"]
 zerolives.com##.naf-web-notifications-popup
 zerotothree.org##.GlobalAlert
 zeroturnaround.com##.hud
+zesty.tech##.cc-window
 zhangxinxu.com##.hd_remind
 zhihu.com##.AdblockBanner
 zhihu.com##.MobileAppHeader-downloadLink
@@ -33034,7 +33058,7 @@ zysk.com.pl###pageUpperInfo
 ||cdn.playwire.com/*/embed.js$domain=tasteofcinema.com|slant.co|gtplanet.net|readlightnovel.org|filehippo.com
 ||cdn.playwire.com/bolt/js/zeus^$domain=softonic.com
 ||cdn.pn.vg^$third-party
-||cdn.privacy-mgmt.com^$domain=jyllands-posten.dk|pricespy.co.uk|sky.com
+||cdn.privacy-mgmt.com^$domain=idealo.co.uk|jyllands-posten.dk|pricespy.co.uk|sky.com
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 ||cdn.privacy-mgmt.com^$third-party
 ||cdn.privacytools.com.br^$third-party
