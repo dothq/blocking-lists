@@ -1027,6 +1027,7 @@
 ###bottom_info_cookies
 ###box-alert-cookie
 ###box-cookie
+###box-cookie-01
 ###box-cookie-notice
 ###box-cookie-overlay
 ###box-cookies
@@ -5395,6 +5396,7 @@
 ###n2g_box_cookie_alerte_message
 ###nCookie
 ###nafets_imprint-cookie
+###name-ga-cookie-accept-bar
 ###nav-cookie
 ###navCookie
 ###navCookies
@@ -9474,6 +9476,7 @@
 ##.cookies-question
 ##.cookies-reminder
 ##.cookies-ribbon
+##.cookies-rodo
 ##.cookies-row
 ##.cookies-rules
 ##.cookies-scrollbar
@@ -10030,7 +10033,6 @@
 ##.elan42-disclaimer-banner
 ##.elca-gdpr
 ##.element-cookie-banner
-##.elementor-popup-modal.dialog-widget
 ##.elfsight-widget-cookie-consent
 ##.elisa-navi-cookie-and-consent-disclaimer
 ##.elxtr-consent
@@ -12517,6 +12519,7 @@
 ##.wrap-cookies
 ##.wrap-cookies-desktop
 ##.wrap-cookies-infos
+##.wrap-gdpr
 ##.wrap_cookie_policy
 ##.wrap_cookie_site
 ##.wrap_cookies
@@ -13506,10 +13509,6 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /cookies.dyn.
 /cookies/*/gdpr_
 /cookies/*/policy_
-/cookies/cookie-
-/cookies/cookie.
-/cookies/cookie_
-/cookies/cookies.
 /cookies/mpc_
 /cookies/pixel.
 /cookies/popup.
@@ -14055,7 +14054,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /wpmaster-cookie/*
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 /wrapperMessagingWithoutDetection.js$domain=bloomberg.com|businessinsider.com|computerworld.com|digitalartsonline.co.uk|greenbot.com|itworld.com|macworld.com|networkworld.com|pcwelt.de|pcworld.com|tecchannel.de|techadvisor.co.uk|techadvisor.com|techadvisor.fr|techhive.com|vkmag.com
-/wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de
+/wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com
 /wrappermessagingwithoutdetection.js$domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|parool.nl|pzc.nl|sky.com|techadvisor.com|trouw.nl|tubantia.nl|volkskrant.nl
 /wx-cookie-
 /x_cookie_
@@ -14126,7 +14125,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 17track.net##.jsAppDown
 17track.net#@##modal-gdpr
 181fm.com###ovgdpr
-18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,callcredit.co.uk,calvertjournal.com,cbeci.org,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gheed.com,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,samsunghealthcare.com,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,virgin-atlantic.com,wannawork.com,ytddownloader.com##.cookie
+18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,callcredit.co.uk,calvertjournal.com,cbeci.org,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gheed.com,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,samsunghealthcare.com,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,virgin-atlantic.com,wannawork.com,ytddownloader.com##.cookie
 1cloud.ru##.help__banner-webinar
 1cloud.ru##.sidebar__banner
 1fichier.com###cookie_box
@@ -14153,6 +14152,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 20min.ch,leo.org##.as-oil[data-qa="oil-Layer"]
 20minutes.fr###header_banner_serious
 21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
+21buttons.com,taylorandfrancis.com,cosmo.ru,goodhouse.ru,portmone.com.ua,vvdntools.com,bnews.com.br,winamp.com,apppay.com.br,doit.software,mini.lenta.com,markups.kdanmobile.com,blog.calltouch.ru,dille-kamille.de,hi-fi.ru,internxt.com,xlhome.co.id,expres.online,baza.io,newbalance.cz,singulart.com,aoc.com,rss.com,sigortacini.com.tr,bauprofessor.de,privatbank.ua,techmagic.co,tavyatirimholding.com,tse.jus.br,danwood.de,skillbox.ru,sas.am,321-weg.de,ver-television.online,medaboutme.ru,advstreet.ru,nedir.org,testfiltering.com,totalexpress.com.br,ebay.it,food.vkusvill.ru,hatsukimanga.com,anticor.hse.ru,classguru.ru,efeeme.com,auto10.com,bitfinex.com,homepedia.com.br,technolove.ru,itkkit.ru,leroymerlin.com.br,calameo.com,planeta.ru,orientsigorta.com.tr,play.pl,bocchi.com.tr,belarus24.by,compendium.com.ua,city-story.ru,gartic.io,telekom-dienste.de,iqos.com,d3o.com,dnews.dn.ua,befirst.info,eblocker.com,parapolitika.gr,makandracards.com,webtekno.com,2plus2.ua,unian.info,unian.net,unian.ua,cinemacity.hu,pepco.hu,pepco.pl,pepco.eu,pepco.sk,pepco.cz,pepco.ro,pepco.hr,pepco.lt,pepco.si,pepco.lv,pepco.ee,pepco.bg,1plus1.ua,otus.ru,astonmartin.com,sapphiretech.com,cbreaker.net,glavred.info,abarta.pl,alo.com.pl,universiteitleiden.nl,pap.pl,fly4free.pl,store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 237solution.net,bibleserver.com,history.vn.ua,iseyskyr.com##.cc-container
 23andme.com###js-gdpr-optin
 23andme.com,tunnelbear.com##.banner-wrap
@@ -14218,6 +14218,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 44.ua##.exp-line
 49.com.tr##.registeremail
 4900.co.jp###ouibounce-modal
+4900.co.jp##.fixedFooter
 4brain.ru###brmrk_pup
 4clik.com,arlestourisme.com,brain-magazine.fr,cer-eau.fr,colissimo.fr,edcom.fr,enmark2.com,feuvert.fr,gentside.com,gretel-box.com,jackpot-des-experts.fr,jules.com,laposte.fr,logistafrance.fr,lumiglobal.fr,maxisciences.com,my-meteo.com,mybiclighter.com,ohmymag.com,secu-independants.fr,showroomprive.com,solutions-numeriques.com,tourtel-twist.fr,ville-ideale.com,ville-ideale.fr,viously.com###cookies
 4esnok.by##a[href^="https://news.yandex.ru/index.html?"]
@@ -14379,7 +14380,6 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||adb.arcadeitalia.net/core/include_3rd/jquery.cookiesdirective.min.js
 @@||adblockplus.org/img/cookie-notice.svg$~third-party
 @@||adengine.snigelweb.com/aternos.org/*/adngin.js$domain=aternos.org
-@@||adobe.com/downloadcenter/*/cookies/cookies.js
 @@||ads.rubiconproject.com/ad/*$domain=diynetwork.com,important
 @@||adservice.google.*/adsid/integrator.js$domain=m.rp5.ru|m.rp5.ua|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
 @@||adservice.google.com/adsid/integrator.js$domain=next-episode.net
@@ -14989,7 +14989,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||gaua.hit.gemius.pl/xgemius.js$domain=1plus1.video
 @@||gawex.pl/assets/js/cookieinfo.js
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
-@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=nettivuokraus.com|parra.nu
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=freundin.de
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
@@ -15695,6 +15695,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||static*.avast.com/*/gdpr.js$domain=avast.com
 @@||static*.lacoste.com/static/on/demandware.static/Sites-*-Site/-/*/framework/components/cookie-consent.js
 @@||static.1tv.ru/player/config/banner.gif
+@@||static.ads-twitter.com/uwt.js$domain=simkl.com
 @@||static.adziff.com/ab/ads.js
 @@||static.ak.crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
 @@||static.apester.com/js/sdk/*/apester-javascript-sdk.min.js$domain=sport24.ru
@@ -16110,8 +16111,8 @@ acega.es,ildesertofiorira.org###system-message
 aceofhacking.com###tpbr_topbar
 acfun.cn###appguideBox
 acfun.cn##.app-guide
-acloudguru.com,appfairness.org,avlab.pl,versii.com#@#.elementor-popup-modal.dialog-widget
 aclu.org###block-aclu-promotions-aclu-promotions-banner
+acogo.pl,alcatelmobile.com,alpedhuez.com,audirvana.com,bearable.app,bebocommunication.fr,begindot.com,beyondthebox.it,blocksite.co,boulderholisticvet.com,budgetinsurance.com,codesignal.com,conjunctconsulting.org,correctiv.org,cover-4-less.com,dialdirect.co.uk,discoveryfrance.fr,dissept.com,droneacademy.com,dunense.com,easycookasia.de,editalo.pro,everydaymarksman.co,faktograf.hr,fortisclothing.co.uk,funnelytics.io,green.hr,hombresevolucionantes.com,howsmart.pl,leica-enthusiast.de,lemondeencommun.info,lionsroar.com,loading.com.br,mcg-digital.de,megasvet.cz,mekongpackraft.com,mondenissin.com,mudes.org.br,nineambell.com,paperlessmovement.com,po-bandzie.com.pl,porttechnology.org,rdlfitness.com,realitysandwich.com,reputationup.com,restaurant-tribeca.com,romo-tonder.dk,roonlabs.com,rse-get-it-right.org.uk,schwabenhaus.de,selle-proust.fr,spolem.olawa.pl,stoppub.fr,strasbourg-europe.eu,surfacescan.co.uk,thegapdecaders.com,tutolino.net,urbex-tour.com,vr-expert.nl,weglot.com,wolfgangkrebs.com,zencare.org##.elementor-popup-modal
 acom.pl,lantre.pl,maxsklep.pl,technikalia.pl###topInfoContainer1
 acorns.com##.sticky-action-button-container
 acortame.xyz#%#
@@ -16926,6 +16927,7 @@ askmen.com##.privacy_popup__container
 askona.ru###topbanner_wrapper
 askona.ru##.cookie-data-warning
 askoranswerme.com###amazon
+askpaccosi.com#%#
 askthepsych.com###cks
 aslimnica.lv##.cookies
 asmonaco.com##div[data-nqis="nq-rgpd-bar"]
@@ -18246,6 +18248,7 @@ calc-online.xyz##.privacy-cookie-banner
 calciomercato.com###dialog-push-notification
 calcolostipendio.it##.bold_text
 calcsbox.com###noticeWindow
+caldigit.com,whatson.is##.elementor-location-popup
 calendrier-lunaire.net###ezcc
 calkalasutasayrani.com##.bs-example-modal-lg
 callofduty.com##.atvi-banner-cmp
@@ -18468,10 +18471,6 @@ centrometeolombardo.com###cc_div
 centrum.cz##.CMP_app_gdpr
 centurion-magazine.com###simple-notification
 centurylink.net##.video-widgets-v2_video-hero_fromBottomRight
-ceogelisim.com#@#.ad-text
-ceogelisim.com#@#.adBlock
-ceogelisim.com#@#.adContent
-ceogelisim.com#@#.adSense
 ceptetamir.com##.frizbit-prompt
 cg-foto.jp,food-foto.jp,model-foto.jp,pro-foto.jp##.stock_bnr_block
 cgi.com#@#.eu-cookie-compliance-banner:not(body):not(html)
@@ -19351,6 +19350,7 @@ delovoymir.biz##.dmwomen_bl
 delta.com###ensModalWrapper
 deltainternet.net.br###div-cookie
 deluxe-marketing.com###dsgvo-cookie-container
+demae-can.com###line_popup
 demagog.org.pl##.popup-delay
 demaiogroup.it###normativa
 demandprogress.org##.email-footer
@@ -20383,6 +20383,8 @@ espanol.yahoo.com##.header-dialogue-container
 espn.com##.alert--fixed
 espn.com##.promo-banner-container
 esprit.de###policy_header
+esputnik.com##.intercom-lightweight-app
+esputnik.com##.webPushSubscriptionPreview--component
 esquire.com###journey-inline
 esquire.com##.policy-bar
 esquire.ru,popmech.ru,warhead.su##.subscription_block
@@ -20874,6 +20876,7 @@ firsatbufirsat.com##.login-modal
 firstcry.com##section[appdownload]
 firstsave.co.uk##.msgBox
 firstthings.com##.leaderboard
+firstvds.ru##.be-author-popup
 fish.shimano.com#@#.cookies-container
 fishki.net###chrome_popup
 fishki.net###fishki-prompt-widget
@@ -21243,6 +21246,7 @@ freepik.com###layer_coupon
 freepik.com##.spr--internal
 freepng.ru##.fot-fixd
 freepress.net##.join-us
+freeremarkabletools.com##.skin-option
 freesoft.ru##a[href="https://t.me/freesoftru"]
 freestudyweb.tumblr.com##.follow-teaser
 freetutorials.club###cookie-ify
@@ -21462,6 +21466,7 @@ gamewith.jp##.gdb-advertisement-in-article_heading
 gamewith.jp##.gdb-enquete-banner
 gamewith.jp##.gdb-game-header-follow-btn-only
 gamewith.jp##.to-btn--bookmark
+gamewith.jp##.to-btn--nps
 gamewith.jp#?#.walkthrough-recruit-banner:upward(1)
 gamezebo.com##.mail-form-container
 gamezop.com###cookieCard
@@ -23994,7 +23999,6 @@ lanacion.com.ar###notificacion-modal
 lanacion.com.ar##.mod-newsletter
 lanacion.com.ar##.notificacion-modal
 lancashiretelegraph.co.uk###bottom-expandable-wrapper
-lancashiretelegraph.co.uk###piano-message
 lancashiretelegraph.co.uk##div[data-block-pull="newsletter-interstitial"]
 lancashiretelegraph.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk,yeovilexpress.co.uk,worcesternews.co.uk,witneygazette.co.uk,wirralglobe.co.uk,windsorobserver.co.uk,wimbledonguardian.co.uk,wiltshiretimes.co.uk,wiltsglosstandard.co.uk,wilmslowguardian.co.uk,wharfedaleobserver.co.uk,westerntelegraph.co.uk,wearvalleyadvertiser.co.uk,watfordobserver.co.uk,warringtonguardian.co.uk,wandsworthguardian.co.uk,tivysideadvertiser.co.uk,times-series.co.uk,thurrockgazette.co.uk,thisisthewestcountry.co.uk,thewestmorlandgazette.co.uk,thevillager.co.uk,thetottenhamindependent.co.uk,thescottishfarmer.co.uk,thenorthernecho.co.uk,the-gazette.co.uk,tewkesburyadmag.co.uk,suttonguardian.co.uk,surreycomet.co.uk,stourbridgenews.co.uk,sthelensstar.co.uk,stalbansreview.co.uk,southwestfarmer.co.uk,southwalesguardian.co.uk,southendstandard.co.uk,somersetcountygazette.co.uk,smallholder.co.uk,sloughobserver.co.uk,salisburyjournal.co.uk,runcornandwidnesworld.co.uk,romseyadvertiser.co.uk,richmondandtwickenhamtimes.co.uk,redditchadvertiser.co.uk,readingchronicle.co.uk,prestwichandwhitefieldguide.co.uk,penarthtimes.co.uk,oxfordtimes.co.uk,northyorkshireadvertiser.co.uk,northwichguardian.co.uk,newsshopper.co.uk,milfordmercury.co.uk,middlewichguardian.co.uk,messengernewspapers.co.uk,malverngazette.co.uk,maldonandburnhamstandard.co.uk,ludlowadvertiser.co.uk,leighjournal.co.uk,ledburyreporter.co.uk,knutsfordguardian.co.uk,kidderminstershuttle.co.uk,keighleynews.co.uk,ilkleygazette.co.uk,hillingdontimes.co.uk,heraldseries.co.uk,helensburghadvertiser.co.uk,harwichandmanningtreestandard.co.uk,harrowtimes.co.uk,hampshirechronicle.co.uk,halsteadgazette.co.uk,halesowennews.co.uk,guardian-series.co.uk,greenocktelegraph.co.uk,gazetteseries.co.uk,gazetteherald.co.uk,gazette-news.co.uk,freepressseries.co.uk,falmouthpacket.co.uk,eveshamjournal.co.uk,troontimes.com,epsomguardian.co.uk,enfieldindependent.co.uk,thenational.scot,echo-news.co.uk,ealingtimes.co.uk,durhamadvertiser.co.uk,dumbartonreporter.co.uk,dudleynews.co.uk,droitwichadvertiser.co.uk,dorsetecho.co.uk,darlingtonandstocktontimes.co.uk,peeblesshirenews.com,croydonguardian.co.uk,creweguardian.co.uk,cravenherald.co.uk,cotswoldjournal.co.uk,consettstanleyadvertiser.co.uk,clydebankpost.co.uk,clactonandfrintongazette.co.uk,chorleycitizen.co.uk,chesterlestreetadvertiser.co.uk,chelmsfordweeklynews.co.uk,chardandilminsternews.co.uk,campaignseries.co.uk,burytimes.co.uk,burnhamandhighbridgeweeklynews.co.uk,bucksfreepress.co.uk,bromsgroveadvertiser.co.uk,bridportnews.co.uk,bridgwatermercury.co.uk,brentwoodlive.co.uk,braintreeandwithamtimes.co.uk,bracknellnews.co.uk,borehamwoodtimes.co.uk,basingstokegazette.co.uk,basildonstandard.co.uk,barryanddistrictnews.co.uk,banburycake.co.uk,asianimage.co.uk,andoveradvertiser.co.uk,largsandmillportnews.com,irvinetimes.com,impartialreporter.com,herefordtimes.com,heraldscotland.com,eastlothiancourier.com,dunfermlinepress.com,cumnockchronicle.com,centralfifetimes.com,carrickherald.com,bordertelegraph.com,bicesteradvertiser.net,barrheadnews.com,ayradvertiser.com,ardrossanherald.com,alloaadvertiser.com#$##bbpvos{position:absolute;left:-9999px;}
 landkarten-hofmann.de###cnb
@@ -24116,7 +24120,6 @@ leguide.com##.popup_policies
 lehtodigital.fi##[class^="__ld_cookie_"]
 leibniz.de#@##cookieModal
 leibniz.de#@#.cookieCompliance
-leica-enthusiast.de##.elementor-popup-modal
 leiderdorpsweekblad.nl###blocktekst
 leiderdorpsweekblad.nl#%#Object.defineProperty(window,'canRunAds',{value:true});
 leitner-reisen.de##.welcome-popup
@@ -25226,7 +25229,6 @@ mesosphere.com##.subscribe-post.js-subscriber-cookie
 mesto.de#@#.cookiebanner:not(body)
 meta.ua##.subscriptions
 metabomb.net,eurogamer.it,eurogamer.net,eurogamer.pl,eurogamer.pt,rtlnieuws.nl#@##onetrust-consent-sdk
-metacritic.com##.ot-sdk-show-settings
 metacritic.com#@##onetrust-consent-sdk
 metadefender.opswat.com,cimsa.com.tr,kabel.canaldigital.no##.cookieWrapper
 metadriveweb.com##.pum-overlay[data-popmake*="popup-newsletter"]
@@ -26590,6 +26592,7 @@ ok.ru##.__cookies
 ok.ru##.html5-vpl_info-panel
 ok.ru##.portlets_vk-branding-banner
 okal.de,allkauf-ausbauhaus.de##.tx-aecookies-show
+okanenews24.com,valorantchannel.livedoor.blog,vipperlog.com,vipstyle.tokyo,blue-archive.doorblog.jp,beikokukabu-etf-matome.com,pokemongo-kouryakumatome.net,doujin-rpgfan.com,nandemo-nadeshiko.blog.jp,samuraisoccer.doorblog.jp,gamehig.com,chomagireko.blog.jp,bybybicycle.blog.jp,animesoku.com,romiohan.com,moemoeanime.blog.jp,buzzral.com,2ch-uwaki.com,2chmatome.bloggeek.jp,2monkeys.jp,5ch-echiechi.doorblog.jp,5chmatome.blogo.jp,aburatanisannogamematome.blog.jp,addchannel.net,aiteesokuhou.blog.jp,akb48rompen.com,audioon.blog.jp,azurlane.doorblog.jp,babymetaltimes.com,bb.doorblog.jp,blog-mougenda.com,blog.game084.com,bm.2chblog.jp,chikakb.ldblog.jp,chomangasokuho.blog.jp,curationewsharp.blog.jp,curioso.blog.jp,dareda.net,db-gohan.blog.jp,dechisoku.com,ebitsu.net,ekurere3.com,ekuzodeerhand.blog.jp,everydayissunday.livedoor.blog,fate-go-grandorder.blog.jp,fate-go.blog.jp,fate-gok.blog.jp,fate-grandorder-go.blog.jp,fate-kouryakumaster.blog.jp,fireembs.blog.jp,gacha.blog.jp,gamejksokuhou.com,gazoua2meru.livedoor.blog,geinoutopics-plus.blog.jp,gensen2ch.com,gunji.blog.jp,hanshintigers1.blog.jp,heart-net.xyz,heartlife-matome.com,hero-news.com,hiraganakeyaki.blog.jp,honsoku.com,hoshujapan.jp,hrocks6969.xyz,ideal2ch.livedoor.biz,internet-game-lounge.blog.jp,jiwachan.net,kasegeru.blog.jp,katasumisokuhou.blog.jp,kazokuchannel.doorblog.jp,kijoden.com,kijonikki.net,kijyotsubu.net,kininaruero7.blog.jp,kinpira-san.com,kokoyakyumatomesokuho.blog.jp,koumuin-matome.blog.jp,labradorsokuho.net,maki7.dreamlog.jp,mashlife.doorblog.jp,matmebae.net,matomelotte.com,matomemo-ch.net,mhsoken.blog.jp,mindhack2ch.com,mirishita.2chblog.jp,moe-vip.com,money-life.doorblog.jp,nanj-push.blog.jp,nanj-short.net,nanj-world.blog.jp,nanjchallenge.net,narisoku.blog.jp,newsweb.blog.jp,nizigami.com,onosakaemiri.blog.jp,oomonoyoutubersokuhou.blogo.jp,orufemorufenz.com,oumaga-times.com,pachinko-next.blog.jp,pachinkolist.com,paranormal-ch.com,pawawa.sokuho.org,pinap.blog.jp,pokemon-goh.doorblog.jp,rakukan.net,romeodensetsu.com,ronsoku.com,sematome.com,setouchi48g.ldblog.jp,shironeko-guild.blog.jp,shumi-nikki.xyz,skematomemon.com,sontaku.info,sutekinakijo.com,syurabarabanba.blog.jp,tachiyomitoday.com,taorun.xyz,timely.blog.jp,torendoimasyun.blog.jp,tsubamesoku.blog.jp,uwakich.com,virtualyoutuber-matome.blog.jp,visual-matome.com,vrtuber-news.com,vtuber-densoku.blog.jp,yabesoku.blog.jp,yofukasi-susume.xxxblog.jp,yurukuyaru.com,zetusoku.net##.rss-blogroll
 okazii.ro#@##cookie-bar
 okazii.ro#@#.cookie-bar:not(body)
 okazii.ro#@#.cookie-content
@@ -28237,6 +28240,7 @@ researchaffiliates.com#@##cookieDialog
 researchgate.net###exit-modal
 researchgate.net###post-signup-modal
 researchgate.net##.research-detail-signup-promo
+resmed.com##.c-notifications-wrapper
 resolver.co.uk###resolver-subscription-popup
 resolver.co.uk##.subscription-popup
 respekt.cz##.adblocker
@@ -29919,6 +29923,8 @@ talktalk.co.uk##cookie
 talktofrank.com###cookies-information-bar
 taloon.com#@##gdprpopup
 tamaris.com###newsletter-in-body
+tamashii.jp###tw2019_bra_bnr_area
+tamashii.jp,metacritic.com##.ot-sdk-show-settings
 tamiltunes.live###fbslidebox
 tamiltunes.network,omgfoss.com,sleduizamnoi.com##.widget_bloomwidget
 tamindir.com##.ebulten-scroll
@@ -29969,7 +29975,6 @@ tatildekirala.com##.cookie-consent-alert
 tatilsepeti.com##.cookie-confirmation
 tatilsepeti.com#@#.cookies.active
 tausendkind.de##a[href="/service/newsletter"]
-taylorandfrancis.com,cosmo.ru,goodhouse.ru,portmone.com.ua,vvdntools.com,bnews.com.br,winamp.com,apppay.com.br,doit.software,mini.lenta.com,markups.kdanmobile.com,blog.calltouch.ru,dille-kamille.de,hi-fi.ru,internxt.com,xlhome.co.id,expres.online,baza.io,newbalance.cz,singulart.com,aoc.com,rss.com,sigortacini.com.tr,bauprofessor.de,privatbank.ua,techmagic.co,tavyatirimholding.com,tse.jus.br,danwood.de,skillbox.ru,sas.am,321-weg.de,ver-television.online,medaboutme.ru,advstreet.ru,nedir.org,testfiltering.com,totalexpress.com.br,ebay.it,food.vkusvill.ru,hatsukimanga.com,anticor.hse.ru,classguru.ru,efeeme.com,auto10.com,bitfinex.com,homepedia.com.br,technolove.ru,itkkit.ru,leroymerlin.com.br,calameo.com,planeta.ru,orientsigorta.com.tr,play.pl,bocchi.com.tr,belarus24.by,compendium.com.ua,city-story.ru,gartic.io,telekom-dienste.de,iqos.com,d3o.com,dnews.dn.ua,befirst.info,eblocker.com,parapolitika.gr,makandracards.com,webtekno.com,2plus2.ua,unian.info,unian.net,unian.ua,cinemacity.hu,pepco.hu,pepco.pl,pepco.eu,pepco.sk,pepco.cz,pepco.ro,pepco.hr,pepco.lt,pepco.si,pepco.lv,pepco.ee,pepco.bg,1plus1.ua,otus.ru,astonmartin.com,sapphiretech.com,cbreaker.net,glavred.info,abarta.pl,alo.com.pl,universiteitleiden.nl,pap.pl,fly4free.pl,store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 taylorfrancis.com##.tnf-cookie
 taz.de##div[id^="tzi-paywahl-"]
 tazedirekt.com##fe-product-cookie-indicator
@@ -30530,6 +30535,7 @@ tiktok.com##.download-container.card
 tiktok.com##.push-permission
 tiktok.com##.smart-container
 tiktok.com##[class*="-DivCookieBannerContainer"]
+tiktok.com##div[class*="DivCookieBannerContainer"]
 tilda.cc##div[data-storage-item*="cookiename"]
 tilelook.com###cl_banner
 tim.com.br###incentivo-app
@@ -30604,7 +30610,7 @@ today.com,nbcnews.com##.newsletter-signup__container
 today.it,tvtropes.org##.qc-cmp-showing
 today.ua##.politic_confidel
 toffeeweb.com###fixedFooter
-togetter.com##.appdl_header
+togetter.com###appdl_header
 toggl.com##.toggl-cw-body
 toggl.com##div[class*="-CookieWarningRoot"]
 toggo.de,superrtl.de###cookieInformation
@@ -31320,7 +31326,6 @@ valeoconfectionery.com##.cookie-strip
 valka.cz##.alert
 valleyvet.com###ToU_float
 valmano.de###privacy-disclaimer
-valorantchannel.livedoor.blog,vipperlog.com,vipstyle.tokyo,blue-archive.doorblog.jp,beikokukabu-etf-matome.com,pokemongo-kouryakumatome.net,doujin-rpgfan.com,nandemo-nadeshiko.blog.jp,samuraisoccer.doorblog.jp,gamehig.com,chomagireko.blog.jp,bybybicycle.blog.jp,animesoku.com,romiohan.com,moemoeanime.blog.jp,buzzral.com,2ch-uwaki.com,2chmatome.bloggeek.jp,2monkeys.jp,5ch-echiechi.doorblog.jp,5chmatome.blogo.jp,aburatanisannogamematome.blog.jp,addchannel.net,aiteesokuhou.blog.jp,akb48rompen.com,audioon.blog.jp,azurlane.doorblog.jp,babymetaltimes.com,bb.doorblog.jp,blog-mougenda.com,blog.game084.com,bm.2chblog.jp,chikakb.ldblog.jp,chomangasokuho.blog.jp,curationewsharp.blog.jp,curioso.blog.jp,dareda.net,db-gohan.blog.jp,dechisoku.com,ebitsu.net,ekurere3.com,ekuzodeerhand.blog.jp,everydayissunday.livedoor.blog,fate-go-grandorder.blog.jp,fate-go.blog.jp,fate-gok.blog.jp,fate-grandorder-go.blog.jp,fate-kouryakumaster.blog.jp,fireembs.blog.jp,gacha.blog.jp,gamejksokuhou.com,gazoua2meru.livedoor.blog,geinoutopics-plus.blog.jp,gensen2ch.com,gunji.blog.jp,hanshintigers1.blog.jp,heart-net.xyz,heartlife-matome.com,hero-news.com,hiraganakeyaki.blog.jp,honsoku.com,hoshujapan.jp,hrocks6969.xyz,ideal2ch.livedoor.biz,internet-game-lounge.blog.jp,jiwachan.net,kasegeru.blog.jp,katasumisokuhou.blog.jp,kazokuchannel.doorblog.jp,kijoden.com,kijonikki.net,kijyotsubu.net,kininaruero7.blog.jp,kinpira-san.com,kokoyakyumatomesokuho.blog.jp,koumuin-matome.blog.jp,labradorsokuho.net,maki7.dreamlog.jp,mashlife.doorblog.jp,matmebae.net,matomelotte.com,matomemo-ch.net,mhsoken.blog.jp,mindhack2ch.com,mirishita.2chblog.jp,moe-vip.com,money-life.doorblog.jp,nanj-push.blog.jp,nanj-short.net,nanj-world.blog.jp,nanjchallenge.net,narisoku.blog.jp,newsweb.blog.jp,nizigami.com,onosakaemiri.blog.jp,oomonoyoutubersokuhou.blogo.jp,orufemorufenz.com,oumaga-times.com,pachinko-next.blog.jp,pachinkolist.com,paranormal-ch.com,pawawa.sokuho.org,pinap.blog.jp,pokemon-goh.doorblog.jp,rakukan.net,romeodensetsu.com,ronsoku.com,sematome.com,setouchi48g.ldblog.jp,shironeko-guild.blog.jp,shumi-nikki.xyz,skematomemon.com,sontaku.info,sutekinakijo.com,syurabarabanba.blog.jp,tachiyomitoday.com,taorun.xyz,timely.blog.jp,torendoimasyun.blog.jp,tsubamesoku.blog.jp,uwakich.com,virtualyoutuber-matome.blog.jp,visual-matome.com,vrtuber-news.com,vtuber-densoku.blog.jp,yabesoku.blog.jp,yofukasi-susume.xxxblog.jp,yurukuyaru.com,zetusoku.net##.rss-blogroll
 valorinveste.globo.com##.section-assine-newsletter
 valueresearchonline.com###top-navigation-ad
 valueresearchonline.com###vr-bottom-bar
@@ -31621,6 +31626,7 @@ vogue.ru##.dfp-page-overlay
 vogue.ru##.ticker-view
 vogue.ru,gq.ru##div[class^="NewsletterStickyWrapper-"]
 vogue.ua##.subscribe_wrapper
+voima.fi##.spu-bg
 voka.tv##._3u9jqhQV
 vokrug.tv###sponsor
 vokrug.tv##.sponsor-false-bg
@@ -31760,6 +31766,7 @@ warnung.bund.de##.apphint
 warnung.bund.de##.datahint
 warrobots.com##._3oXMQ
 warszawa.pl##.JSWrapper
+warthunder.ru##.wt-cb
 wasd.tv##wasd-cookies-app
 wasd.tv##wasd-mobile-app
 wasd.tv##wasd-notification-app
@@ -32186,6 +32193,10 @@ wunderground.com##.alert-forecast
 wunderground.com##snack-bar-container
 wunderweib.de##.teaser_html
 wunschliste.de##.benachrichtigungsbox
+wvgazettemail.com,ceogelisim.com#@#.ad-text
+wvgazettemail.com,ceogelisim.com#@#.adBlock
+wvgazettemail.com,ceogelisim.com#@#.adContent
+wvgazettemail.com,ceogelisim.com#@#.adSense
 wwfmarket.com##.cookies-bar-layout
 www-cnet-com.cdn.ampproject.org##.newsletter
 www-cnet-com.cdn.ampproject.org$$div[class="c-reengageNewsletter"]
@@ -32408,6 +32419,7 @@ yeniisfikirleri.net##.scrollbox-popup
 yenisafak.com##.policy
 yenisafak.com##.subscribe-list
 yenisafak.com##.ys-push
+yeovilexpress.co.uk,lancashiretelegraph.co.uk###piano-message
 yeptube.com###abmessage
 yggtorrent.ch##.ad-alert-wrapper
 yggtorrent.li##.ad-alert-message
@@ -34608,6 +34620,7 @@ zysk.com.pl###pageUpperInfo
 ||sports-stream.net/livetvsx.png
 ||sports.ru/censusbarca/*.js
 ||sportsnet.ca/wp-content/themes/sportsnet-nhl/js/lib/snet.passive_display_adblock.js
+||sporx.com/_js/consent_check.php
 ||spreadshirt.de/resources/onetrust/js/consent.js
 ||sprosivracha.com/widget/js/init.js
 ||sputnik-*/js/pages/push.js
