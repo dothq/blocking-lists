@@ -1176,6 +1176,7 @@
 ###ccookie_base_stile2
 ###ccp-bnr-ck
 ###ccp-overlay
+###ccpa-alert
 ###ccpa-banner
 ###ccpa-consent-banner
 ###ccpa-cookie
@@ -1618,6 +1619,7 @@
 ###cookie-confirmation-dialog
 ###cookie-consent
 ###cookie-consent--js
+###cookie-consent--notice
 ###cookie-consent-actions
 ###cookie-consent-banner
 ###cookie-consent-bar
@@ -7696,6 +7698,7 @@
 ##.ccm-widget.ccm-modal
 ##.ccmcss_oic
 ##.ccp-overlay-fullscreen
+##.ccpa-alert
 ##.ccpa-banner-container
 ##.ccpa-consent-bar
 ##.ccpa-notice-wrapper
@@ -9827,6 +9830,7 @@
 ##.cpnb[data-cookie-name="cookiesDirective"]
 ##.cpolicy-warning
 ##.cps-banner
+##.cpt-cookie-banner
 ##.creatim-cookie-notice
 ##.creavea-banner-consentement-cookie
 ##.creavea-container-cookie-consent
@@ -13171,6 +13175,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /cc_cookie.
 /ccm19.js
 /ccm19/*
+/ccpa/prod/*
 /cdcookie/*
 /cdn-cgi/pe/bag2?r[]=*mailget.net
 /cdn/consent_
@@ -14083,7 +14088,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /wp-tarteaucitron-
 /wpmaster-cookie/*
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
-/wrapperMessagingWithoutDetection.js$domain=bloomberg.com|businessinsider.com|computerworld.com|digitalartsonline.co.uk|greenbot.com|itworld.com|macworld.com|networkworld.com|pcwelt.de|pcworld.com|rugbydump.com|scholieren.com|tecchannel.de|techadvisor.co.uk|techadvisor.com|techadvisor.fr|techhive.com|vkmag.com
+/wrapperMessagingWithoutDetection.js$domain=bloomberg.com|businessinsider.com|computerworld.com|digitalartsonline.co.uk|greenbot.com|itworld.com|justthenews.com|macworld.com|networkworld.com|pcwelt.de|pcworld.com|rugbydump.com|scholieren.com|tecchannel.de|techadvisor.co.uk|techadvisor.com|techadvisor.fr|techhive.com|vkmag.com
 /wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com
 /wrappermessagingwithoutdetection.js$domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|parool.nl|pzc.nl|sky.com|techadvisor.com|trouw.nl|tubantia.nl|volkskrant.nl|wisden.com
 /wx-cookie-
@@ -14129,6 +14134,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 104.com.tw###right_box_ad
 104.com.tw##.marketing_ad
 104.ua###cookie__page
+104.ua###privacy-policy
 104.ua##.b-newsletter-sub
 104.ua##.custom-popup
 10bis.co.il,just-eat.ch,just-eat.dk,just-eat.es,just-eat.fr,just-eat.ie,just-eat.it,just-eat.no,just-eat.uk,lieferando.at,lieferando.de,menulog.au,menulog.nz,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-settings"]
@@ -14762,7 +14768,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||cloudfront.net/a/ads/ad-block/ad/adblocker.js$domain=ispot.tv
 @@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=justeat.it
 @@||cmp-cdn.cookielaw.org^$domain=adshrink.it
-@@||cmp-consent-tool.privacymanager.io^$subdocument,domain=geenstijl.nl,geenstijl.nl,dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|kinuskikissa.fi|geenstijl.nl|dailybuzz.nl|rtvnoord.nl|omroepbrabant.nl|futurezone.at|profil.at|kurier.at|weeronline.nl|lablue.de|vesti.bg
+@@||cmp-consent-tool.privacymanager.io^$subdocument,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl
 @@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
 @@||cmp.dmgmediaprivacy.co.uk^$domain=metro.co.uk
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=omroepwest.nl
@@ -15022,7 +15028,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||gaua.hit.gemius.pl/xgemius.js$domain=1plus1.video
 @@||gawex.pl/assets/js/cookieinfo.js
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
-@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=geenstijl.nl,dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|kinuskikissa.fi|geenstijl.nl|dailybuzz.nl|rtvnoord.nl|omroepbrabant.nl|futurezone.at|profil.at|kurier.at|weeronline.nl|lablue.de|vesti.bg
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=freundin.de
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
@@ -15034,7 +15040,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||gdpr.privacymanager.io/1/gdpr.bundle.js$domain=geenstijl.nl
 @@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=freundin.de
 @@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=wienerin.at
-@@||gdpr.privacymanager.io^$script,domain=geenstijl.nl,geenstijl.nl,dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|kinuskikissa.fi|geenstijl.nl|dailybuzz.nl|rtvnoord.nl|omroepbrabant.nl|futurezone.at|profil.at|kurier.at|weeronline.nl|lablue.de|vesti.bg
+@@||gdpr.privacymanager.io^$script,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl
 @@||gelbeseiten.de/*/js/components/*.js
 @@||genesisowners.com/hyundai-genesis-forum/abp/adblock_detector.js
 @@||geo.de^$generichide
@@ -15884,7 +15890,6 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||usercentrics.eu^$domain=billiger-telefonieren.de
 @@||usercentrics.eu^$domain=handwerk-magazin.de
 @@||usercentrics.eu^$domain=hornbach.de
-@@||usercentrics.eu^$domain=onlinekosten.de
 @@||usercentrics.eu^$domain=webradio.de
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=immowelt.de
 @@||utopia.de/advertisement.js
@@ -20121,6 +20126,7 @@ eg.ru##.feed_sub
 eg.ru##.main2019_promocodes
 ege-study.ru##.m365-embeded-showed
 ege-study.ru##.m365-topbar-bottom-fixed
+eggs.mu##.mainappBtn
 egmnow.com##.bt-cookie-flyout
 egmnow.com##.egm-cookie-flyout
 egmont.com#@#.cookie-bar:not(body):not(html)
@@ -20396,12 +20402,14 @@ erkmann.de,hutstuebele.com###cookie2Wrapper
 erlangen.de##.cookie_richtlinien
 erlus.com#@##pc-cookie-notice
 ermenihaber.am##ul#fixed-list
+ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
 erogazo-ngo.com###text-18.free-widget
 erogazo-ngo.com###text-19.free-widget
 erogazo-ngo.com###text-36
 erogazopple.com###text-45
 erogazou-pinkline.com###adnex-text-widget
 erolub.com##.drop-shadow
+eromanga-cafe.com##.loop-single-widget
 eroskosmos.org##.subscribe-main
 erotik.quoka.de##.active-vip-status-ad
 erotov.ru##noindex
@@ -22503,6 +22511,7 @@ honeywellhome.com###HOMESEUCookie-Banner
 hongkiat.com##.sidebar-widget--subscribe
 honka.com,iga.net,symfonycasts.com,knpuniversity.com##.cookie-popup-container
 honor.ru##.cookie_notices
+honto.jp##.momRegBanner
 hootsuite.com##.gdpr-disclaimer
 hoper.pl,teroplan.*,e-podroznik.pl##.ep-cookies-info-wrapper
 hopkinssports.com##.sidearm-gdpr-modal
@@ -24918,6 +24927,7 @@ manchestereveningnews.co.uk##.top-sharebar
 manching.de##div[id^="digipublica-cookie-"]
 manga.club###adultConfirmModal
 manga.club##.modal-backdrop
+manga.line.me##.MdCMN09App
 mangacanblog.com###mta_bar
 mangacanblog.com##.mas_tamvan
 mangalatest.com,mangafeeds.com###bgdiv
@@ -26749,8 +26759,6 @@ online2pdf.com###privacy_msg
 online2pdf.com##div[class^="advertising_"]
 onlinekonto.de###modalBackground
 onlinekonto.de##.modalCookieAcceptanceSmall
-onlinekosten.de##.usercentrics-button
-onlinekosten.de,preis24.de###cms_dp_bar
 onlinelibrary.wiley.com##.js-module.notification
 onlinemarketingrockstars.de##.cp-info-bar-wrapper
 onlinemarketingrockstars.de##.newsletter-inner-post
@@ -27593,6 +27601,7 @@ praxistipps.chip.de##.Article__Promo
 praxisvita.de##.newsletter_subscribe
 prcm.jp,uol.com.br###smart-banner
 predesto.com###consent-wrapper
+preis24.de###cms_dp_bar
 preis24.de#@##bottomAd
 prelex.it##.rstboxes
 premier.ua###bpu_prem_side
@@ -28920,7 +28929,6 @@ sers.si#@##cc-notification
 server-setting.info###sc_bookmark
 serverprofis.de#@##cookie-law-info-bar
 serverschmiede.com###cookieCheck
-servicebund.com,negocio.site,car2go.com,business.site###cookieDialog
 servicebund.de###social-opt-in
 servihabitat.com##.modal-condiciones
 servustv.com##.CookiePrivacyBanner
@@ -29245,6 +29253,8 @@ smakizycia.pl###info-bar
 small-games.info##.top-ban
 smallbiztrends.com###sb-container
 smallbiztrends.com##.smb-subscribe-widget
+smallpdf.com##.iIYnHi
+smallpdf.com##.krHGwU
 smallseotools.com###cookie-bar
 smallseotools.com##.app_link_box
 smallseotools.com##.available_on
@@ -29296,6 +29306,7 @@ snob.ru##.entry__telegram
 snp.nl#@##cookieLayer
 snpro-expo.com###block-cookie
 sntch.com##.subscribe-inline-box
+so-net.ne.jp##.accessAd
 soakandsleep.com###wagento-cp-wrap
 soapandbeauty.com###cerez
 sobaka.ru##.b-post-view__telegram-promo
@@ -29993,6 +30004,7 @@ tampermonkey.net#@##cookies
 tamrieltradecentre.com###unblock-msg-alert
 tandarts.nl##.eu-cookie-info
 tandmore.de###cookie-master
+tani6torico.com,servicebund.com,negocio.site,car2go.com,business.site###cookieDialog
 tanierejsowanie.pl##.polityka_prywatnosciWrapper
 tanke-guenstig.de##.mod_subscribe.block
 tannheimertal.com#@#.cc-banner
@@ -33141,7 +33153,7 @@ zysk.com.pl###pageUpperInfo
 ||cdn.playwire.com/*/embed.js$domain=tasteofcinema.com|slant.co|gtplanet.net|readlightnovel.org|filehippo.com
 ||cdn.playwire.com/bolt/js/zeus^$domain=softonic.com
 ||cdn.pn.vg^$third-party
-||cdn.privacy-mgmt.com^$domain=idealo.co.uk|jyllands-posten.dk|pricespy.co.uk|sky.com
+||cdn.privacy-mgmt.com^$domain=idealo.co.uk|justthenews.com|jyllands-posten.dk|pricespy.co.uk|sky.com
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 ||cdn.privacy-mgmt.com^$third-party
 ||cdn.privacytools.com.br^$third-party
@@ -33540,6 +33552,8 @@ zysk.com.pl###pageUpperInfo
 ||erdbeerlounge.de/app/themes/erdbeerlounge/assets/img/whatsapp/v4/$image
 ||erdbeerlounge.de/app/themes/erdbeerlounge/component/social/whatsapp.js
 ||erihj.com^
+||ero-comic-hunter.net/sp_rss_iframe.html
+||eromanga-cafe.com/eromangacafe.left.$subdocument
 ||erotov.ru/tiz/
 ||esputnik.com^$third-party
 ||estaticos.novaescola.org.br/assets/js/modal-cadastro-v2.js
@@ -34079,6 +34093,7 @@ zysk.com.pl###pageUpperInfo
 ||mobitorg.phonet.com.ua/public/widget/call-catcher/
 ||mobzon.ru/adbp/adbp.js
 ||mod.calltouch.ru^$third-party
+||moeero-library.com/moeerolibrary.sprss002.html
 ||moengage.com^$third-party
 ||mogilev.online/uploads/images/*_read.jpg
 ||mogilev.online/wp-content/uploads/2021/01/telega.png
