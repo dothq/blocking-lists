@@ -8369,6 +8369,7 @@
 ##.cookie-min-panel
 ##.cookie-modal
 ##.cookie-modal-message
+##.cookie-mode__wrap
 ##.cookie-module
 ##.cookie-module-wrapper
 ##.cookie-monster
@@ -12613,8 +12614,10 @@
 ##[aria-describedby="cookieprivacy"]
 ##[aria-describedby="cookies-policy-message"]
 ##[aria-describedby="dialog-eu-cookie-law"]
+##[aria-describedby^="cookie-wall-"]
 ##[aria-label="cookieconsent"]
 ##[aria-labelledby="cookie-dialog"]
+##[aria-labelledby="cookie-wall-heading"]
 ##[aria-labelledby="ui-dialog-title-cookiebox"]
 ##[class^="CookieMessage_"]
 ##[class^="FooterGDPR"]
@@ -14868,6 +14871,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
 @@||cookiebot.com^$domain=danbolig.dk
+@@||cookiebot.com^$domain=egmont.com|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se
 @@||cookiebot.com^$domain=statisticshowto.com
 @@||cookiebot.com^$domain=webradio.de
 @@||cookieconsent.insites.com^
@@ -15653,6 +15657,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=marianne.net
 @@||sdk.privacy-center.org^$domain=programme-television.org
+@@||sdk.privacy-center.org^$domain=purepeople.com
 @@||sdk.privacy-center.org^$domain=seguro.elespanol.com
 @@||sdk.privacy-center.org^$domain=zive.cz
 @@||sdk.privacy-center.org^$script,domain=allocine.fr|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|ivoox.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|lequipe.fr|marianne.net|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|okdiario.com|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|telegraaf.nl|tuttosport.com|vecernji.hr
@@ -16447,6 +16452,7 @@ aliexpress.com###gdpr-new-container
 aliexpress.com###gdpr-section
 aliexpress.com###mobile-download
 aliexpress.com##.aliexpress-notice
+aliexpress.com##.drogue-poplayer-modal
 aliexpress.com,aliexpress.ru##.coupon-poplayer-modal
 aliexpress.ru###ae-ru-privacy-banner
 aliexpress.ru##.PrivacyPolicyBanner-styles_wrapper__1qbIl
@@ -16987,6 +16993,7 @@ askona.ru###topbanner_wrapper
 askona.ru##.cookie-data-warning
 askoranswerme.com###amazon
 askpaccosi.com#%#
+asksawal.com##.asksawal-join-option-box
 askthepsych.com###cks
 aslimnica.lv##.cookies
 asmonaco.com##div[data-nqis="nq-rgpd-bar"]
@@ -17045,6 +17052,7 @@ atresplayer.com##.capa_cookies
 atresplayer.com##.xrj25q-0.iMGYHZ
 atresplayer.com##aside[class^="app_gdpr"]
 atresplayer.com##div[class^="style__BreakSpace-"]
+atresplayer.com##div[class^="style__StyledBackground"]
 atresplayer.com,eskago.pl,pcgamesn.com,trueachievements.com,tvcatchup.com##div[class^="app_gdpr"]
 att.com##.cookie-disclaimer-component
 atutszkola.pl,meethue.com,mydziewczyny.pl,philips-hue.com,philips.ae,philips.am,philips.at,philips.az,philips.be,philips.bg,philips.by,philips.ca,philips.ch,philips.cl,philips.co.id,philips.co.il,philips.co.in,philips.co.jp,philips.co.ke,philips.co.kr,philips.co.nz,philips.co.th,philips.co.uk,philips.co.za,philips.com,philips.com.ar,philips.com.au,philips.com.bh,philips.com.br,philips.com.cn,philips.com.co,philips.com.eg,philips.com.ge,philips.com.gh,philips.com.hk,philips.com.kw,philips.com.lb,philips.com.mx,philips.com.my,philips.com.om,philips.com.pe,philips.com.ph,philips.com.pk,philips.com.qa,philips.com.sg,philips.com.tr,philips.com.tw,philips.com.uy,philips.com.vn,philips.cz,philips.de,philips.dk,philips.ee,philips.es,philips.fi,philips.fr,philips.gr,philips.hr,philips.hu,philips.ie,philips.iq,philips.it,philips.jo,philips.kz,philips.lt,philips.lv,philips.ma,philips.ng,philips.nl,philips.no,philips.pl,philips.pt,philips.ro,philips.rs,philips.ru,philips.sa,philips.se,philips.si,philips.sk,philips.ua,philips.uz#@#[data-cookie-id]
@@ -17623,6 +17631,7 @@ biglobe.ne.jp###spage-bnr
 bigmag.ua##.modal-backdrop
 bigmag.ua##button[data-target="#takeDiscount"]
 bignox.com##.egg-section
+bigpara.hurriyet.com.tr##.bigpara-banner-web
 bigpicture.ru###bigpicture-webpush-widget
 bigpicture.ru##.sticky-bar
 bihealth.org#@#.cookie-popup:not(body):not(html)
@@ -17805,7 +17814,6 @@ blog.goo.ne.jp###msg-box-app-recommend
 blog.goo.ne.jp##.app_induction
 blog.goo.ne.jp##.navbar__link--bottom
 blog.google##.uni-newsletter-toast
-blog.google#@##cookieBar
 blog.hatena.ne.jp##.edit-done-info-upgrade-to-pro
 blog.hatena.ne.jp##.gmo-campaign-banner
 blog.hatena.ne.jp##.upgrade-pro
@@ -17897,6 +17905,8 @@ bmeia.gv.at,nichtraucherhelden.de,aldi-sued.de,sued.aldi-liefert.de,enirocentrum
 bmel.de#@##cookiebanner
 bmel.de#@#.cookiebanner:not(body)
 bmi-online.pl##.cookies__info
+bmu.edu.in##.form-sec_popup
+bmu.edu.in##.form_common
 bmvg.de,bundeswehr.de##.c-privacy-protection-banner
 bmw-connecteddrive.de##cookie-drawer-container
 bmw.com.tr##.ds2-cookiedisclaimer
@@ -18337,6 +18347,7 @@ campaignindia.in##.bulletinModule
 campaignlive.co.uk##.modalOverlay
 campaignlive.co.uk##.modalWrap
 campaigntr.com,ogrenio.com,derstarih.com,justnerd.it##.more-stories
+campify.jp##.cv-fixed
 camping-and-co.com,nestpick.com###section-cookie
 camping.info#@#.cookie-layer
 cams.xnxx.com##.dad-vlac-notice
@@ -19597,9 +19608,10 @@ diggysadventure.com###gdpr-modal
 diggysadventure.com###gdpr-modal-backdrop
 digify.com###elementor-popup-modal-7782
 digimanie.cz,hsvetaudia.cz,svethardware.cz,tvfreak.cz###cfooter
-digimobil.es##.modal-overlay
+digimobil.es,youinvest.co.uk##.modal-overlay
 digimobil.it###sticky-popup
 digimparosec2.capitello.it##.shb-accept-cookies-box
+digiseller.market,plati.market,thefreedictionary.com,userway.org,royalenfield.com,oplata.info,gamehouse.com,phonemore.com,plati.ru,sputniknewslv.com,sputniknews.*,kosmogadka.pl,zwsoft.com,guneygundemi.com,spacex.com.pl,balen.com.tr,navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,sydsvenskan.se,theatlas.com##.gdpr
 digit-photo.be##p#messcookie
 digit-photo.com###TwGi0pOnXb-page
 digit-photo.com###messcookie
@@ -19611,7 +19623,6 @@ digitalcamerawarehouse.com.au,marketrealist.com,columbiaspectator.com###PopupSig
 digitalcameraworld.com#@#.googleAd
 digitalcameraworld.com,gamesradar.com##.box.newsletter-signup
 digitalcitizen.life###block-next-amp-user-notification-eu-cookies-consent
-digitalcitizen.life,steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
 digitalfoundry.net#@#.optanon-alert-box-wrapper
 digitalic.it,diariosanrafael.com.ar##.et_bloom_optin
 digitalidentity.co.jp##div[class^="bnr_contact"]:last-child
@@ -20181,6 +20192,7 @@ eiga.com###video_ad
 eiga.com##.cmnBnrBox
 eiga.com##.header-pure-banner
 eigene-ip.de#%#AG_onLoad(function(){if(
+eigo.plus###text-21
 eigo.plus###widget-fixed-footer
 eikaiwa.weblio.jp##.sideButton
 eindelijkglasvezel.nl##.notice-bar
@@ -20604,6 +20616,8 @@ exe.io#%#
 exelab.ru##a[href="/videokurs.php"]
 exelab.ru##div[id^="bnr"]
 exemproject.eu,kon-boot.com,tcf.org###myModal
+exkavator.ru##.news-bottom-blocks
+exkavator.ru,logincasino.com.ua,newinform.com,riafan.ru,liveposts.ru,320volt.com,versia.ru,neft.by,expert.ru,shopify.com,zoutons.com,myfreesoft.ru,maximonline.ru,woman.ru,parents.ru,vokrugsveta.ru,psychologies.ru,ellegirl.ru,wday.ru,elle.ru,marieclaire.ru,indiatimes.com,shopify.in,vz.ru,searchengineland.com,sport.segodnya.ua,vokrugsveta.ru,censor.net,fizzicseducation.com.au,fparf.ru,revouninstaller.com,logincasino.com,borsagundem.com,officelife.media,kod.ru,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,culture.ru,obozrevatel.com,blog.eva.ua,officiel-online.com,wccftech.com,ideanomics.ru,gazetki.by,goldsilver.com,kp.ru,infobus.eu,atorus.ru,castorama.ru,guzellikbulvari.com,marieclaire.ua,mvs.gov.ua,gadgets.ndtv.com,oneplus.com,tickets.ua,europaplus.ru,krossovki.com,belretail.by,thecollegefix.com,femmie.ru,prostofinovo.ru,mauijim.com,netpeak.net,wday.ru,buhgalteria.ru,ellegirl.ru,gameslog.ru,gizmag.com,healthhacks.ru,klerk.ru,menshealth.com,rbc.ru,snce.ru,turizm.ru,wegame.com.ua##.subscribe
 exodus.com##.x-cookies-banner
 expansion.com##.modulo.especial.newsletter
 expatforum.com###vspopup-overlay
@@ -20651,6 +20665,8 @@ extremetech.com,ign.com##.privacy-content
 extremetube.com##.attentionMsg
 eyestech.in,simpleflying.com,netpeak.net##.post-subscribe
 eyetvforum.com##.cAnnouncementPageTop
+ezcast.com###cookie_noti
+ezcast.com###idle_noti
 ezermester.hu##.alert
 ezoterikaved.ru###overlay
 f-b.no##amedia-privacybox
@@ -21719,6 +21735,7 @@ get.adobe.com###adChoice_div
 getabstract.com##.notifybar--note
 getdigital.de,mall.tv##.privacy-wrapper
 gethatch.com##.consently-bar
+getintocourse.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,unikampus.net,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,asksozlerimiz.com,hukukiblog.com,ankaram.net,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,geziseli.com,z-news.link###check-also-box
 getir.com##.luskN
 getmailbird.com##.navbar-cookie
 getmailbird.com##.post-floating-banner
@@ -21991,6 +22008,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###cnso
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###cnso._Fdi
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###consent-bump
+google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###stUuGf
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.pdp-psy.og-pdp
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.pdp-psyv
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.pmoabs
@@ -22242,8 +22260,6 @@ halkbank.com.tr###cookieCT
 hallhuber.com#@#.cookie-box:not(body):not(html)
 hamburg.de###cookieChoiceInfo
 hampel-auctions.com###consentmanager
-hamsterix.*,xhplanet1.com,xhamster13.*,xhamster4.com,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##[class*="cams-widget"]
-hamsterix.*,xhplanet1.com,xhamster13.*,xhamster4.com,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##div[class*="cams-thumb-"]
 hanavesi.fi,hanavesitesti.fi,kalkinpoisto.com,keskustaopiskelijat.fi,linseed.fi,mokkivesi.fi,nuudelit.fi,oivasivut.fi,paajala.fi,tuska.fi##.alert_banneri
 handballerd.hu##.facebookwidget
 handboll.ebiljett.nu###acceptcookiealert
@@ -23111,6 +23127,7 @@ intellicast.com###promoAd
 intellicast.com###stormLink
 intellipaat.com##.footer-sticky-cta-ds
 intellipaat.com##.recmnd-cours
+intellipaat.com##.sticky-whatsapp-wrapper
 intellipaat.com##.tutorial-cta-wrapper
 intent.msn.com###msccBanner
 inter.ua###popmechanic-snippet
@@ -24566,7 +24583,6 @@ logicconcept.eu###mc_top_bar
 login.concord.christianscience.com###cookieConsentPopup
 login.yahoo.co.jp###ads
 login.yahoo.co.jp###appAndroid
-logincasino.com.ua,newinform.com,riafan.ru,liveposts.ru,320volt.com,versia.ru,neft.by,expert.ru,shopify.com,zoutons.com,myfreesoft.ru,maximonline.ru,woman.ru,parents.ru,vokrugsveta.ru,psychologies.ru,ellegirl.ru,wday.ru,elle.ru,marieclaire.ru,indiatimes.com,shopify.in,vz.ru,searchengineland.com,sport.segodnya.ua,vokrugsveta.ru,censor.net,fizzicseducation.com.au,fparf.ru,revouninstaller.com,logincasino.com,borsagundem.com,officelife.media,kod.ru,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,culture.ru,obozrevatel.com,blog.eva.ua,officiel-online.com,wccftech.com,ideanomics.ru,gazetki.by,goldsilver.com,kp.ru,infobus.eu,atorus.ru,castorama.ru,guzellikbulvari.com,marieclaire.ua,mvs.gov.ua,gadgets.ndtv.com,oneplus.com,tickets.ua,europaplus.ru,krossovki.com,belretail.by,thecollegefix.com,femmie.ru,prostofinovo.ru,mauijim.com,netpeak.net,wday.ru,buhgalteria.ru,ellegirl.ru,gameslog.ru,gizmag.com,healthhacks.ru,klerk.ru,menshealth.com,rbc.ru,snce.ru,turizm.ru,wegame.com.ua##.subscribe
 logout.hu###rules_accept
 lojadomecanico.com.br##.box-termo-lgpd
 lojasrenner.com.br##div[class^="ReactFooterCivilMark_notification"]
@@ -24666,6 +24682,7 @@ lykke.com##.styled__Banner-hg6ib8-0
 lyonpeople.com##.widget_monarchwidget
 lyrsense.com##.puzzleUsach
 lysa.se##.snackbar-wrapper
+m-78.jp##.st-Footer_FixedBnr
 m-economictimes-com.cdn.ampproject.org###mappBanner
 m-timesofindia-com.cdn.ampproject.org##.newsletter_hook_content
 m.17track.net##.yq-panel-download
@@ -26569,6 +26586,7 @@ numbeo.com##div[aria-describedby="offerMembership"]
 numberempire.com###toplink
 numberempire.com##.perm_ad
 numberly.com##.cookie_banner.show_banner
+numbuster.com###page_cookie_menu
 numerama.com#%#document.cookie="euconsent-v2=1";
 numero.com##.component-cookie-bar
 numero.wiki###myCookieConsent
@@ -26822,6 +26840,7 @@ online-umwandeln.de##.ouibounce-modal
 online.business.ru##.savecook
 online.flippingbook.com##.banner-notice
 online.flippingbook.com#@#.cookie-notice:not(body):not(html)
+online.nmims.edu##.cookidiv
 online.no,telenor.no#@##__tealiumGDPRcpPrefs
 online.no,telenor.no#@#.privacy_prompt
 online2pdf.com###advertising_outer_horizontal
@@ -27096,6 +27115,7 @@ paradoxplaza.com###disablingDiv
 paradoxplaza.com##.cookie-image-wrapper
 paradoxplaza.com#@##cookies-info
 parallels.com##.notification.orange
+paramountplus.com###feedback-form
 parasportontario.ca,bikemania.org#@#.adg_row
 parasut.com##.signup-newsletter
 paratic.com,xhamster.com##.bottom_message
@@ -27422,7 +27442,6 @@ plastic-surgeon.ru##.this_site_uses_cookies
 plataformaarquitectura.cl##.kth-toast
 platformazakupowa.pl##.alert-info
 platformazakupowa.pl##.cookies-infobar
-plati.market,thefreedictionary.com,userway.org,royalenfield.com,oplata.info,gamehouse.com,phonemore.com,plati.ru,sputniknewslv.com,sputniknews.*,kosmogadka.pl,zwsoft.com,guneygundemi.com,spacex.com.pl,balen.com.tr,navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,sydsvenskan.se,theatlas.com##.gdpr
 platinmods.com##.notice--enablePush
 play-cricket.com###openglobal_privacy_widget
 play.anghami.com##.register-banner
@@ -27941,6 +27960,8 @@ puratos.co.jp#@##cookieInfo
 puratos.co.jp#@#.cookie-banner:not(body):not(html)
 pureinfotech.com###newswrapper
 purepc.pl##.cookiesinfo
+purepeople.com##.c-promo-app
+purepeople.com##.c-store-banner
 purevpn.com###email-box
 purevpn.com##.add-container
 purevpn.com##.form-serach-green
@@ -29340,6 +29361,7 @@ smallseotools.com##.app_link_box
 smallseotools.com##.available_on
 smart.com###cp-dialog
 smart.com###cp-overlay
+smartasset.com,digitalcitizen.life,steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
 smartbear.com##.cc-pop
 smartclient.com##.popupPolicies
 smartcockpit.com###adblocker
@@ -30453,7 +30475,6 @@ thedailybeast.com##.grecaptcha-badge[data-style="bottomright"]
 thedailystar.net###dsYoutubePopUPDIV
 thedenverchannel.com##.module--email-widget
 thedigitalfix.com###plead
-thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,unikampus.net,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,asksozlerimiz.com,hukukiblog.com,ankaram.net,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,geziseli.com,z-news.link###check-also-box
 thediplomat.com###td-box-newsletter
 thediplomat.com###td-share-bar
 thedrive.com##.newsletter-image
@@ -30888,6 +30909,7 @@ tpd.sk##.header__notice__content
 tproger.ru###cookie-notice-wrapper
 tproger.ru###float-otus
 tproger.ru##.yikes-mailchimp-container
+tproger.ru##div[id^="float-tproger_ads_widget-"]
 tr.braun.com,kizlararasinda.com,prima.com.tr##.dc-cookie-consent
 tr.link##.sweet-alert
 tr.link##.sweet-overlay
@@ -31169,6 +31191,8 @@ tvgids.nl###cmp-faktor-io
 tvgids.nl###cmp-faktor-io-parent
 tvgids.nl#@#.cookie-notice-container
 tvgids.nl#@#.cookie-notice:not(body):not(html)
+tvgo.orange.pl###analyticsModal
+tvgo.orange.pl##.landing-page-download-app_buttons
 tvguide.co.uk###cmpbox
 tvguru.ru##.c-modal
 tvigle.ru##.turn-off-ads
@@ -31661,6 +31685,7 @@ video.foxbusiness.com##.notification-banner
 video.komarovskiy.net##.rmp-ad-block-container
 video.repubblica.it###kw-cookie-policy
 video.sibnet.ru###vjs-overlayclip-container-box
+video.tv-tokyo.co.jp##.adApp-wrapper
 videobuster.de###notify-container
 videobuster.de###notify-label
 videoconverterfactory.com##.down-bannerbg
@@ -32435,6 +32460,8 @@ xgaytube.tv##.js-mobile-spots
 xhamster.com##.bottom_message
 xhamster.com##.premium-overlay
 xhamster.com##.welcome-dialog
+xhamster17.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster4.com,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##[class*="cams-widget"]
+xhamster17.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster4.com,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##div[class*="cams-thumb-"]
 xhamster4.*,xhamster2.com,xhamster10.com,xhamster.com##iframe[src^="https://xhamsterpremium.com/"]
 xi.express##span[class*="Footer_dislike__"]
 xi.express##span[class*="Footer_like__"]
@@ -32470,6 +32497,7 @@ xsport.ua##.bottom-social-share-holder
 xsport.ua##.google_news
 xtapes.to##.menu-item-2370
 xtapes.to##.menu-item-42861
+xtraining.kaspersky.com###cbanner
 xtrawine.com###div-confirm-privacy
 xtremetop100.com##a[href="/contact.php"][rel="nofollow"]
 xtube.com###nsfwWarningWrapper
@@ -34190,6 +34218,7 @@ zysk.com.pl###pageUpperInfo
 ||mirsmart.com.ua/image/catalog/bg/bg-sh-xiaomi-vivo.jpg
 ||missouristatebears.com/components/js/components/adblock-modal.js
 ||misumi-ec.com/operation/floating_bnr/
+||mitsuraku.jp/ajax/getCampaignModal?
 ||mmocs.com/templates/game/images/join_affiliate.jpg
 ||mms.cmpsky.com^
 ||mobitorg.phonet.com.ua/public/widget/call-catcher/
@@ -34457,6 +34486,7 @@ zysk.com.pl###pageUpperInfo
 ||policy*.cookieinformation.com^$third-party
 ||policy.app.cookieinformation.com^$domain=glamox.com|captureone.com
 ||politiken.dk/bruger/AdblockBlocker/?
+||popcard.unibuddy.co^$third-party
 ||popmech.ru/ajax/getDisclamer/
 ||popup*.lifterapps.com^$domain=linuxandubuntu.com
 ||popup.wisepops.com^$third-party
@@ -34862,6 +34892,7 @@ zysk.com.pl###pageUpperInfo
 ||static.riafan.ru/assets-mobile/*/smartbanner.
 ||static.shopback.net/tags/plugins/shoppush.js
 ||static.stirileprotv.ro/static/ro/microsites/stirileprotv/js/push-service.js
+||static.superbot.works^$third-party
 ||static.theprint.in/wp-content/uploads/*/newsletter_*.png
 ||static.theprint.in/wp-content/uploads/*/subscribe_*.png
 ||static.wbstatic.net/j/firebaseSubscribe.min.js
