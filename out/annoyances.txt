@@ -13739,7 +13739,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /cookiecompliance.
 /cookiecompliance/*$script
 /cookiecompliancy.
-/cookieconsent.$domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com
+/cookieconsent.$domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc
 /cookieconsent.$~stylesheet
 /cookieconsent/*
 /cookieconsent?
@@ -15789,6 +15789,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||pokemongopocket.com/advertisement.js
 @@||pole-emploi.fr/*/jquery-eu-cookie-law-popup.js
 @@||polenka.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
+@@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$script,domain=altibox.no
 @@||politainment.no/wp-content/plugins/complianz-gdpr/assets/*/cookieconsent.min.
 @@||politicalite.com/wp-content/plugins/simple-adblock-notice^
@@ -15870,7 +15871,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||quantcast.mgr.consensu.org^$domain=livescience.com
 @@||quantcast.mgr.consensu.org^$domain=pcgamer.com
 @@||quantcast.mgr.consensu.org^$domain=standard.co.uk
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|express.co.uk|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|protothema.gr|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|express.co.uk|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|protothema.gr|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whattowatch.com
 @@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|express.co.uk|fantacalcio.it|formulapassion.it|gianlucadimarzio.com|ilbianconero.com|money.it
 @@||questtime.net/js/adverts.js
 @@||qvc.de/wcsstore/*/content/javascript/gdpr.js
@@ -15897,6 +15898,8 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||redditstatic.com/desktop2x/js/ads.js
 @@||redeszone.net/app/themes/mykonos-child/assets/js/ads.min.js
 @@||renderer.apester.com^$domain=sport24.ru
+@@||reshade.me/media/plg_system_eprivacy/
+@@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||reveal.apxy.io/js/advert.js
 @@||revoblend.com/wp-content/plugins/complianz-gdpr/$domain=revoblend.com
 @@||richmond.com^$generichide
@@ -17408,6 +17411,7 @@ atutszkola.pl,meethue.com,mydziewczyny.pl,philips-hue.com,philips.ae,philips.am,
 atv.com.tr###push-notification
 atv.com.tr##.adPop
 atv.com.tr##.maskPop
+atvavrupa.tv,paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 au-checkliste.de##.showAGP
 au.ru##div[id^="au-mobile-app-teaser-modal"]
 aucfan.com##.subNaviPrBox
@@ -27663,7 +27667,6 @@ papiroom.net##.HDO_wrapApp
 paquetaesportes.com.br##.whatsapp-contact
 parade.com###newsletter_container
 parade.com##.signup_module
-paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 paradigit.nl###acceptCookiesForm
 paradoxplaza.com###disablingDiv
 paradoxplaza.com##.cookie-image-wrapper
@@ -29891,6 +29894,8 @@ sklum.com##.oct8ne-btn
 sklum.com,oggusto.com,tiojoao.com.br,qobuz.com,thryv.com,nordvpn.com,~connect.deezer.com,kiiw.icu,aipa551.com,aipa552.com,baba-mail.co.il,catwalkyourself.com,tfc.tv,ports.com.ua,deezer.com,bitdefender.com##.modal-backdrop
 skoda-avto.ru##div[class^="CookieAcceptBanner__"]
 skoda.hu##.skoda5-statisticsOptBox
+skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
+skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##coiOverlay[role="banner"][style*="flex"]
 skrastas.lt##.fc-consent-root
 sks-auto.ru##.fw-container__step__form__design-btn__body
 sks-auto.ru##.jllikeproSharesContayner
@@ -31744,6 +31749,7 @@ tune.pk##.cookiesBar-holder
 tunefind.com##div[class^="BlockedAd__blockedAd"]
 tunein.com##div[class^="violator__container"]
 tunein.com##div[data-testid="gdpr-violatorContainer-true"]
+tunepat.jp###youtubemusicconverter
 tunnelbear.com##.banner-wrap
 tunnelmb.net##.MqsPw
 tunnelmb.net##._23LkM
@@ -32371,6 +32377,8 @@ vimeo.com##.app_banner_container
 vimeo.com##.sc-btzYZH.kuVuKv
 vinbazar.com###parent-popup
 vinted.fr##.sticky-footer
+vinylgourmet.com##.blockrollingtext
+vinylgourmet.com##.icon_rollingtext
 violity.com###floating_agreement
 vip.tiin.vn##.BoxAdvB1Home
 viralnova.com##.cc-banner
@@ -35346,6 +35354,7 @@ zysk.com.pl###pageUpperInfo
 ||realpush.media^$third-party
 ||realt.by/uploads/pics/Plashka_
 ||recoprofile.rediff.com/news_recommendation/news_template.html
+||reddit.com/account/sso
 ||redditpagematrics.com/dads/$script
 ||redditstatic.com/*/PushNotifications.
 ||redecanais.com/imgs-videos/bannervip.jpg
@@ -35455,6 +35464,7 @@ zysk.com.pl###pageUpperInfo
 ||securitylab.ru/js/cpb.js
 ||segodnya.ua/pub/vogue.html
 ||sehrikeyif.com/ajax/bulten-kaydi-getir/
+||seiga.nicovideo.jp/manga/resources/viewer/dl_banner.png
 ||seitenbacher.de/sites/all/modules/custom/sb_cookie_compliance/
 ||selcdn.net/chatBot.js
 ||select5.realpush.network^$third-party
