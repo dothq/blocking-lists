@@ -8274,6 +8274,7 @@
 ##.cookie-block-visible
 ##.cookie-body-overlay
 ##.cookie-book
+##.cookie-bottom
 ##.cookie-box
 ##.cookie-box-en
 ##.cookie-box-wrapper
@@ -11236,6 +11237,7 @@
 ##.keksbar
 ##.keksbox-overlay
 ##.keksbox-overlay-layer
+##.keksikyselyModalElement
 ##.kia-cookie
 ##.kill-adblock-container
 ##.kitt-cookie-warning
@@ -14171,6 +14173,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 /js/uc_cookie_
 /jw.cookies.
 /kameleoon.js
+/keksikysely.min.js
 /klaro-cookie-consent/*$domain=calimove.com
 /klaro-no-css.
 /klaro-styles.min.
@@ -14622,8 +14625,8 @@ $script,redirect-rule=noopjs,domain=aternos.org
 3mdeutschland.de##div[class^="fancybox"]
 3q.video,mondaq.co.uk,mondaq.com,prevac.eu,vindy.com###privacy
 3sat.de#@##onetrust-consent-sdk
-3sat.de,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,eurogamer.it,eurogamer.pl,eurogamer.pt,geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,storia.ro,uefa.com,usgamer.net,wowbiz.ro,zdf.de,zdnet.com#@##onetrust-consent-sdk
-3sat.de,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,geizhals.de,gq-magazine.co.uk,mail.com,mtvuutiset.fi,rockpapershotgun.com,storia.ro,uefa.com,wowbiz.ro,zdf.de,zdnet.com#@##onetrust-banner-sdk
+3sat.de,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,eurogamer.it,eurogamer.pl,eurogamer.pt,geizhals.de,mail.com,mtvuutiset.fi,rockpapershotgun.com,storia.ro,uefa.com,usgamer.net,wowbiz.ro,zdf.de,zdnet.com#@##onetrust-consent-sdk
+3sat.de,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,geizhals.de,mail.com,mtvuutiset.fi,rockpapershotgun.com,storia.ro,uefa.com,wowbiz.ro,zdf.de,zdnet.com#@##onetrust-banner-sdk
 3sat.de,zdf.de,oe24.at#%#AG_onLoad(function(){if(
 3suisses.fr#%#
 4-4-2.com#@#amp-consent
@@ -16759,12 +16762,6 @@ airbnb.de##._yh24z1w
 airbus.com###MetrixLab_overlay
 aircon.pl,zymetric.pl##.cookies-stn
 airdroid.com##.mode-cookie-tip
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@##gdpr_popin
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-agree
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-content
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-panel
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn,gamewatcher.com,pekao.com.pl#@#.gdpr-modal
-airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn,myfitnesspal.com#@#.gdpr-container
 airfrance.com.tr,airfrance.am,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.com,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.eg,airfrance.com.hk,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.es,airfrance.fr,airfrance.gf,airfrance.gp,airfrance.ht,airfrance.hu,airfrance.id,airfrance.it,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.ru,airfrance.sa,airfrance.sg,airfrance.si,airfrance.tg,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-container
 airhdx.com,javengsub.com,vabstutorials.com,stiffgamerdown.com,televall.website,animeshouse.net,dzelectronic.com,hxload.io,animeunity.it,droidtk.com,themeslide.com,orangespotlight.com,magdyman.com,topflix.tv,sportsio.xyz,blackavelic.com,irisbuddies.ml,poisonous-raspberry-fields.blogspot.com,mangarock.com,redirdx.in,tmofans.com,thememazing.com,baan-series.com,baixarfilmetorrent.net,baixarfilmetorrent.com,mega-infonews1a.club,portaldoinvestidor.club,wikidoplaneta.club,kawanfilm21.pro,yourupload.com,hulkpop.top,wikitechy.com,windes.com.es,freecourser.com,audioreview.m1001.coreserver.jp,portalwrc.pl,newtoki51.com,themeslide.com#%#window.addEventListener("contextmenu",function(a){a.stopPropagation()},
 airindia.in##.popupGDPR
@@ -18095,6 +18092,7 @@ bikester.be##.cookieHeader
 bikifi.com##.mailerliteform
 bikroy.com##div[class^="cookie-consent-container"]
 bikutumutluluk.com###maillist.modal
+bild.de##.inactivity
 bild.de##.inactivity-layer
 bild.de,welt.de##.as-oil
 bildderfrau.de##div[id^="newsletter-weekly"]
@@ -18444,7 +18442,7 @@ book.dmm.co.jp###react-popup-parts-root
 booking.com###alertify-logs
 booking.com##div[data-item-id="gta_smart_banner"]
 booking.com,vivense.com##div[class^="cookie-warning-"]
-booking.pobeda.aero,coastalliving.com,commercialtrucktrader.com,cookinglight.com,esselunga.it,essence.com,ew.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,nytimes.com,people.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com#@#.gdpr:not(body):not(html)
+booking.pobeda.aero,coastalliving.com,commercialtrucktrader.com,cookinglight.com,esselunga.it,essence.com,ew.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,nytimes.com,people.com,realsimple.com,ria.com,si.com,southernliving.com,time.com,travelandleisure.com#@#.gdpr:not(body):not(html)
 bookmix.ru###regdiv
 bookrix.de###allowCookies
 books.google.*###gb-ogen-opt-in-banner
@@ -19259,7 +19257,6 @@ cmoto.ru,stiltv.ru###oct-policy
 cmp-sp.reisereporter.de#%#AG_onLoad(function(){if(
 cmp.fitforfun.de#%#AG_onLoad(function(){if(
 cmp.tag24.de#%#AG_onLoad(function(){if(
-cmp2.bild.de#%#AG_onLoad(function(){if(window.localStorage.cmp_ab_desc
 cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,alniaciklar.com,investors.atlassian.com,kocakademi.com,foxpost.hu,k-booster.info,sport1tv.cz,sport1tv.hu###cookieAcceptBar
 cna.com.tw##.qrcode_box
 cnbc.com###cnbcgdpr
@@ -22117,6 +22114,7 @@ gametwist.com##.message__container
 gamevicio.com###cookieMSGbx
 gamevicio.com##.header-logo-extra
 gamewatcher.com,ivoox.com,poszalu.pl,tappedout.net,visionexpress.pl#@##gdpr-modal
+gamewatcher.com,pekao.com.pl#@#.gdpr-modal
 gamewith.jp##.gdb-advertisement-in-article
 gamewith.jp##.gdb-advertisement-in-article_heading
 gamewith.jp##.gdb-enquete-banner
@@ -32217,6 +32215,7 @@ unirc.it##.content
 uniroyal.pl#@#.js-cookie-banner
 uniroyal.pl#@#.privacyhint
 united-domains.de###cookie-layer-protector
+unitedtalent.com##.compliance.banner
 unitrex.eu##.annoyerBar
 unity3diy.blogspot.com##.followbyemail
 unitymedia.de##.gdpr_main
