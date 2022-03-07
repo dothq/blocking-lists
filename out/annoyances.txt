@@ -119,6 +119,7 @@
 ###CookieBar
 ###CookieBox
 ###CookieButton
+###CookieCheck
 ###CookieCheck_injected
 ###CookieCon
 ###CookieConsent
@@ -1110,7 +1111,6 @@
 ###browser-cookie-warnin
 ###browser-cookie-warning
 ###brunelcookies
-###bs-gdpr-cookies-modal
 ###bsCookiesBanner
 ###bscookie
 ###bt-privacy-header
@@ -1175,6 +1175,7 @@
 ###capa_lopd_cookies
 ###capa_pol_cookies
 ###capaefectos-cookie
+###carrot-frame-bumperCookies
 ###cartelcookielegal
 ###caseys-cookie-modal
 ###caspian_cookiebar
@@ -1356,6 +1357,7 @@
 ###cmp-faktor-io-brand-consent-notice
 ###cmp-faktor-io-parent
 ###cmp-iframe
+###cmp-overlay.cmpoverlay
 ###cmp-ui-iframe
 ###cmp-widget-wrapper
 ###cmpBackdrop
@@ -6331,6 +6333,7 @@
 ###rodoinfo
 ###rodonf-app-ux
 ###root-cookie-notice
+###root-cookiebanner
 ###rqif_info_banner
 ###rs_cookie_manager_popup:not(.modal)
 ###rs_cookie_manager_popup_shadow
@@ -9941,6 +9944,7 @@
 ##.cookies--agree
 ##.cookies--bar
 ##.cookies--container
+##.cookies--info
 ##.cookies--notification
 ##.cookies--show
 ##.cookies--visible
@@ -10553,6 +10557,7 @@
 ##.d_co_box
 ##.daac-desktop-notice
 ##.dark.gdpr-settings
+##.das-cookie
 ##.data-privacy-banner
 ##.data-protection-notice
 ##.dataPrivacyOverlay
@@ -10693,6 +10698,7 @@
 ##.dtcookie__wrap
 ##.dtm-cookie-banner
 ##.duc-base_cookie-consent
+##.dv-cookie-banner
 ##.dv-cookies
 ##.dvcookies-banner-container
 ##.dvscookies-banner-contai
@@ -11642,6 +11648,7 @@
 ##.js-cookies-message
 ##.js-cookies-not-accepted
 ##.js-cookies-notice
+##.js-cookies-popup
 ##.js-cookiesAdv
 ##.js-cookies_informer
 ##.js-cookies_notice
@@ -12519,6 +12526,7 @@
 ##.policy-alert
 ##.policy-banner
 ##.policy-bar
+##.policy-bottom
 ##.policy-box
 ##.policy-cookie
 ##.policy-cookies
@@ -13074,6 +13082,7 @@
 ##.sqs-announcement-bar
 ##.sqs-cookie-banner-v2
 ##.src-components-CookiePolicy-__style__root
+##.src-containers-cookie-notice-style__cookieNoticeWrapper--1pQtK
 ##.srf-cookie-notice
 ##.ss-modal-cookies
 ##.ssf-cookie-banner
@@ -13092,6 +13101,7 @@
 ##.sticky-cookie-warning
 ##.sticky-cookielawbanner
 ##.sticky-cookies
+##.sticky-cookies-popup
 ##.sticky-footer-cookie-info
 ##.sticky_cookie
 ##.sticky_cookie_warning
@@ -16166,6 +16176,7 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@||kaspersky.com/content/en-global/about/stories/transparency/news/GDPR.json
 @@||kbb.com/wp-content/themes/Newspaper-child/assets/KBBLogoRefresh.svg$domain=kbb.com
 @@||kdn.cdnserv.pw/cnads.js
+@@||khl.ru^*/cookieconsent.min.js
 @@||kinokrad.co/templates/all/ads.js^
 @@||kizlarsoruyor.com^$generichide
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
@@ -20486,6 +20497,7 @@ darricau.com###popup
 darty.com,tf1.fr##.banner_cookies
 das-bier.com,bier-spezialitaeten.de###db-cookie-read
 dasding.de###modal-whatsapp
+dashlane.com##.privacy-consent-enter-done
 dashlane.com##div[data-testid="privacy-consent-content"]
 dasoertliche.de###banner-right
 dasoertliche.de##.tao-cookie-hint
@@ -20702,6 +20714,7 @@ destream.net,lalafo.gr##.we-use-cookie
 desu.me##.xyz_wrapper_inner
 detik.com##.new-breaking
 detik.com,cnbcindonesia.com##.smartbanner_new
+detmir.ru##.X
 detmold.de###cookieChecker
 detstrana.ru##.subscription_offer
 detstrana.ru##.tell_friends_subscription
@@ -21790,6 +21803,7 @@ eventbrite.com.au,eventbrite.com.br,eventbrite.de,eventbrite.com##.eds-notificat
 eventcairo.com#@#a[href^="https://form.typeform.com/"]
 everexam.in##a[href^="http://bit.ly/"]
 evermotion.org##.full-overlay
+everpharma.ru,hashrating.com,key-test.ru,narbutas.ru,onlinesim.ru,rutoken.ru,tw1.ru,yavitrina.ru,zettains.ru##.cookie
 every-tuesday.com###et-gdpr-popup
 everyeye.it##.social_containerx
 evhayat.com,thejewishvoice.com,proiezionidiborsa.it###snppopup-exit
@@ -23182,7 +23196,7 @@ gocards.nl,radioluisteren.fm###cbar
 gocart.jp##.p-footer-wego-app
 goccl.co.uk###divMessage
 gocomics.com#@##cookieconsent-container
-gocpa.ru###gdpr
+gocpa.ru,knoema.ru###gdpr
 godaddy.com###gtm_privacy
 godaddy.com###privacy_widget
 godbolt.org###simplecook
@@ -23361,7 +23375,7 @@ greeninfo.ru##.sm_sub
 greenmate.pl,negrasport.pl,sklep-muzyczny.com.pl,sporto.com.pl,srebrnystyl.pl,termokubki.com.pl###topInfoContainer0
 greenville.com##.adblock-detected
 gregorys.gr,lexus.gr##.disclaimer
-grenscorridorn69.nl##.cdk-overlay-container
+grenscorridorn69.nl,inshared.nl##.cdk-overlay-container
 greutol.ch,digital-x.eu##.cookie-consent-backdrop
 grilloagrigarden.ru,inscience.news,proglib.io###cookie
 grillofrance.fr###cookie
@@ -23580,7 +23594,6 @@ hashflare.io##.alert-dismissible:not(.alert-success)
 hashicorp.com###g-consent-manager
 hashicorp.com##div[class^="BlogNewsletterSignup_blogNewsletterSignup"]
 hashicorp.com##section[class^="newsletter-section_newsletterSection__"]
-hashrating.com,key-test.ru,narbutas.ru,onlinesim.ru,rutoken.ru,tw1.ru,yavitrina.ru,zettains.ru##.cookie
 hatalike.jp##.hdr_app_wrap
 hattatu-matome.ldblog.jp##[class^="rss"]
 haufe-akademie.de###modal-exit-intent
@@ -24065,8 +24078,6 @@ icc-austria.org###fxCookieInfoWindowBackground
 icc-cricket.com,marca.com##.js-mobile-banner
 icebug.se##.css-4uxznl
 icecat.biz##div[class^="src-containers-cookie-notice-"]
-icecat.fr##.src-containers-cookie-notice-style__cookieNoticeWrapper--1pQtK
-icecat.pt##.src-containers-cookie-notice-style__cookieNoticeWrapper--1pQtK
 icedrive.net###prompt-cookies
 icelandair.com##.assets_container__3EEp3
 icelandair.com##div[class^="StickyFooter_cookie_policy__"]
@@ -24360,6 +24371,7 @@ ingemecanica.com##.encabez
 ingenieurwesen-studieren.de,wegweiser-duales-studium.de,gesundheit-studieren.com,das-richtige-studieren.de###cookie-settings-wrapper
 ingentaconnect.com##.cornerPolicyTab
 ingentaconnect.com##.mainCookiesPopUp
+ingrad.ru##.styles-module__cookiesWarning--2mfHC
 ingsprinters.nl##.modal
 ingwb.com##ingwb-cookiebar
 ingyen-van.hu###figyu
@@ -27773,6 +27785,9 @@ newsnation.in##.app-ico
 newsnow.co.uk###pmbar
 newsnow.co.uk##.alertsscroll_container
 newsnow.co.uk##.rs-adblocker
+newspicks.com###top-premium-banner-area
+newspicks.com##.app-lead
+newspicks.com##.footer-app-lead
 newssky.com.ua##.bb1
 newssky.com.ua##.boxxx
 newstatesman.com##.newsletter-inner-container
@@ -27871,7 +27886,7 @@ nitro.download###superbox-overlay
 nitro.download###superbox-wrapper
 nitroflare.com##div[id^="superbox-"]
 nitrome.com###gdpr__container
-nius.doorblog.jp,pokemonunite.blog.jp,okanenews24.com,valorantchannel.livedoor.blog,vipperlog.com,vipstyle.tokyo,blue-archive.doorblog.jp,beikokukabu-etf-matome.com,pokemongo-kouryakumatome.net,doujin-rpgfan.com,nandemo-nadeshiko.blog.jp,samuraisoccer.doorblog.jp,gamehig.com,chomagireko.blog.jp,bybybicycle.blog.jp,animesoku.com,romiohan.com,moemoeanime.blog.jp,buzzral.com,2ch-uwaki.com,2chmatome.bloggeek.jp,2monkeys.jp,5ch-echiechi.doorblog.jp,5chmatome.blogo.jp,aburatanisannogamematome.blog.jp,addchannel.net,aiteesokuhou.blog.jp,akb48rompen.com,audioon.blog.jp,azurlane.doorblog.jp,babymetaltimes.com,bb.doorblog.jp,blog-mougenda.com,blog.game084.com,bm.2chblog.jp,chikakb.ldblog.jp,chomangasokuho.blog.jp,curationewsharp.blog.jp,curioso.blog.jp,dareda.net,db-gohan.blog.jp,dechisoku.com,ebitsu.net,ekurere3.com,ekuzodeerhand.blog.jp,everydayissunday.livedoor.blog,fate-go-grandorder.blog.jp,fate-go.blog.jp,fate-gok.blog.jp,fate-grandorder-go.blog.jp,fate-kouryakumaster.blog.jp,fireembs.blog.jp,gacha.blog.jp,gamejksokuhou.com,gazoua2meru.livedoor.blog,geinoutopics-plus.blog.jp,gensen2ch.com,gunji.blog.jp,hanshintigers1.blog.jp,heart-net.xyz,heartlife-matome.com,hero-news.com,hiraganakeyaki.blog.jp,honsoku.com,hoshujapan.jp,hrocks6969.xyz,ideal2ch.livedoor.biz,internet-game-lounge.blog.jp,jiwachan.net,kasegeru.blog.jp,katasumisokuhou.blog.jp,kazokuchannel.doorblog.jp,kijoden.com,kijonikki.net,kijyotsubu.net,kininaruero7.blog.jp,kinpira-san.com,kokoyakyumatomesokuho.blog.jp,koumuin-matome.blog.jp,labradorsokuho.net,maki7.dreamlog.jp,mashlife.doorblog.jp,matmebae.net,matomelotte.com,matomemo-ch.net,mhsoken.blog.jp,mindhack2ch.com,mirishita.2chblog.jp,moe-vip.com,money-life.doorblog.jp,nanj-push.blog.jp,nanj-short.net,nanj-world.blog.jp,nanjchallenge.net,narisoku.blog.jp,newsweb.blog.jp,nizigami.com,onosakaemiri.blog.jp,oomonoyoutubersokuhou.blogo.jp,orufemorufenz.com,oumaga-times.com,pachinko-next.blog.jp,pachinkolist.com,paranormal-ch.com,pawawa.sokuho.org,pinap.blog.jp,pokemon-goh.doorblog.jp,rakukan.net,romeodensetsu.com,ronsoku.com,sematome.com,setouchi48g.ldblog.jp,shironeko-guild.blog.jp,shumi-nikki.xyz,skematomemon.com,sontaku.info,sutekinakijo.com,syurabarabanba.blog.jp,tachiyomitoday.com,taorun.xyz,timely.blog.jp,torendoimasyun.blog.jp,tsubamesoku.blog.jp,uwakich.com,virtualyoutuber-matome.blog.jp,visual-matome.com,vrtuber-news.com,vtuber-densoku.blog.jp,yabesoku.blog.jp,yofukasi-susume.xxxblog.jp,yurukuyaru.com,zetusoku.net##.rss-blogroll
+nius.doorblog.jp,pokemonunite.blog.jp,okanenews24.com,valorantchannel.livedoor.blog,vipperlog.com,vipstyle.tokyo,blue-archive.doorblog.jp,beikokukabu-etf-matome.com,pokemongo-kouryakumatome.net,doujin-rpgfan.com,nandemo-nadeshiko.blog.jp,samuraisoccer.doorblog.jp,gamehig.com,chomagireko.blog.jp,bybybicycle.blog.jp,animesoku.com,moemoeanime.blog.jp,buzzral.com,2ch-uwaki.com,2chmatome.bloggeek.jp,2monkeys.jp,5ch-echiechi.doorblog.jp,5chmatome.blogo.jp,aburatanisannogamematome.blog.jp,addchannel.net,aiteesokuhou.blog.jp,akb48rompen.com,audioon.blog.jp,azurlane.doorblog.jp,babymetaltimes.com,bb.doorblog.jp,blog-mougenda.com,blog.game084.com,bm.2chblog.jp,chikakb.ldblog.jp,chomangasokuho.blog.jp,curationewsharp.blog.jp,curioso.blog.jp,dareda.net,db-gohan.blog.jp,dechisoku.com,ebitsu.net,ekurere3.com,ekuzodeerhand.blog.jp,everydayissunday.livedoor.blog,fate-go-grandorder.blog.jp,fate-go.blog.jp,fate-gok.blog.jp,fate-grandorder-go.blog.jp,fate-kouryakumaster.blog.jp,fireembs.blog.jp,gacha.blog.jp,gamejksokuhou.com,gazoua2meru.livedoor.blog,geinoutopics-plus.blog.jp,gensen2ch.com,gunji.blog.jp,hanshintigers1.blog.jp,heart-net.xyz,heartlife-matome.com,hero-news.com,hiraganakeyaki.blog.jp,honsoku.com,hoshujapan.jp,hrocks6969.xyz,ideal2ch.livedoor.biz,internet-game-lounge.blog.jp,jiwachan.net,kasegeru.blog.jp,katasumisokuhou.blog.jp,kazokuchannel.doorblog.jp,kijoden.com,kijonikki.net,kijyotsubu.net,kininaruero7.blog.jp,kinpira-san.com,kokoyakyumatomesokuho.blog.jp,koumuin-matome.blog.jp,labradorsokuho.net,maki7.dreamlog.jp,mashlife.doorblog.jp,matmebae.net,matomelotte.com,matomemo-ch.net,mhsoken.blog.jp,mindhack2ch.com,mirishita.2chblog.jp,moe-vip.com,money-life.doorblog.jp,nanj-push.blog.jp,nanj-short.net,nanj-world.blog.jp,nanjchallenge.net,narisoku.blog.jp,newsweb.blog.jp,nizigami.com,onosakaemiri.blog.jp,oomonoyoutubersokuhou.blogo.jp,orufemorufenz.com,oumaga-times.com,pachinko-next.blog.jp,pachinkolist.com,paranormal-ch.com,pawawa.sokuho.org,pinap.blog.jp,pokemon-goh.doorblog.jp,rakukan.net,romeodensetsu.com,ronsoku.com,sematome.com,setouchi48g.ldblog.jp,shironeko-guild.blog.jp,shumi-nikki.xyz,skematomemon.com,sontaku.info,sutekinakijo.com,syurabarabanba.blog.jp,tachiyomitoday.com,taorun.xyz,timely.blog.jp,tsubamesoku.blog.jp,uwakich.com,virtualyoutuber-matome.blog.jp,visual-matome.com,vrtuber-news.com,vtuber-densoku.blog.jp,yabesoku.blog.jp,yofukasi-susume.xxxblog.jp,yurukuyaru.com,zetusoku.net##.rss-blogroll
 niutrans.com##.diaBox
 niutrans.com##.sidebar.slider
 nivea.*,niveausa.com##.nx-cookie-policy-popup
@@ -30114,6 +30129,7 @@ rotadasbandeiras.com.br##.boxAlertas
 rotary.de###checkCookieOkBox
 rotaserve.com##.avg
 rothe-gartenbau.de###eu_opt_in_cookie_banner
+rottweil-ammunition.com##.BannerManager
 rougier-ple.fr###attentionCookies
 roussillhotel.com#@##cookie-banner
 routledge.com###cconsent-pop
@@ -33063,6 +33079,7 @@ unimoni.in##.sgpb-popup-overlay
 unina.it###infocookie
 uninove.br##.wrapper-cookie
 union-bulletin.com,timescall.com##.Mg2-connext.bottom
+uniprot.org##.privacy-panel
 uniqlo.com##.h-modal-cookie
 uniqlo.com##.newsletterOverlayOverride
 uniqlo.com##.newsletterPopupWrapperContainer
@@ -33556,6 +33573,7 @@ voxi.co.uk##div[class^="notification-container"]
 voyages-sncf.com###cookie-policy-popin
 voyeurhit.com#?#.heading:contains(Advertising)
 vozpopuli.com##.widget_sf_newsletter_form
+vplaboratory.ru##.top-message
 vpn-anbieter-vergleich-test.de##.pupop-wrapper
 vpncompare.co.uk,genbeta.com##.section-newsletter
 vpnmentor.com##.follow-experts
@@ -35718,6 +35736,7 @@ zylom.com###headerbar_privacy
 ||img.stripst.com/*/previews$domain=xhamster.com
 ||img1.infobank.by/images/imagesindb/banner-perevody-150419-3.png.aspx
 ||immohal.de/*/ext/nb_cookie_banner/Resources/Public/Scripts/cookie.js
+||immozentral.com/js/stylecc
 ||impossibleexpansion.com^$third-party
 ||impress.co.jp/sites/all/libraries/AlertifyJS/build/alertify.
 ||impressionen.de/entd/static/IM/newsletter-layer.*.js
