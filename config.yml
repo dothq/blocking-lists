@@ -1,58 +1,90 @@
-name: ShieldDB
-out: out
-
-header:
-  creator: Dot HQ
-  product: Dot Shield (adblocker)
-
 lists:
   - name: trackers
-    abp:
-      - 'https://easylist.to/easylist/easylist.txt'
-      - 'https://easylist.to/easylist/easyprivacy.txt'
-      - 'https://hosts.netlify.app/Pro/adblock.txt'
-      # - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/ultimate.txt'
-      - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/ads.txt'
-      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt'
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt'
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt'
+    data:
+      - name: EasyList
+        attribution: The EasyList authors (https://easylist.to/)
+        license: GPL-3.0
+        sources:
+          - 'https://easylist.to/easylist/easylist.txt'
+          - 'https://easylist.to/easylist/easyprivacy.txt'
 
-    hosts: []
+      - name: Energized Ultimate
+        attribution: https://github.com/EnergizedProtection/block/blob/master/LICENSE
+        license: MIT
+        sources:
+          - 'https://block.energized.pro/ultimate/formats/filter'
+
+      - name: Dot HQ Ad Blocking
+        attribution: https://github.com/dothq/blocking-lists/blob/main/lists/LICENSE
+        license: MPL-2.0
+        sources:
+          - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/ads.txt'
+
+      - name: uBO Lists
+        attribution: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+        license: GPL-3.0
+        sources:
+          - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt'
+          - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt'
+          - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt'
+      
+      - name: Adguard Filters
+        attribution: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+        license: GPL-3.0
+        sources:
+          - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt'
+          - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt'
 
   - name: social
-    abp:
-      - 'https://raw.githubusercontent.com/trickypr/energized-mirror/main/social.txt'
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt'
-      - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/social.txt'
+    data:
+      - name: Energized Social Extension
+        attribution: https://github.com/EnergizedProtection/block/blob/master/LICENSE
+        license: MIT
+        sources:
+          - 'https://block.energized.pro/extensions/social/formats/filter'
 
-    hosts: []
+      - name: Adguard Filters
+        attribution: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+        license: GPL-3.0
+        sources:
+          - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt'
 
-  - name: fake_news
-    abp: []
+      - name: Dot HQ Ad Blocking
+        attribution: https://github.com/dothq/blocking-lists/blob/main/lists/LICENSE
+        license: MPL-2.0
+        sources:
+          - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/social.txt'
 
-    hosts:
-      - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts'
+      - name: Fanboy Filters
+        attribution: http://creativecommons.org/licenses/by/3.0/
+        license: CC BY 3.0
+        sources:
+          - 'https://easylist.to/easylist/fanboy-social.txt'
 
   - name: annoyances
-    abp:
-      - 'https://secure.fanboy.co.nz/fanboy-cookiemonster.txt'
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt'
-      
-    hosts: []
+    data:
+      - name: Fanboy Filters
+        attribution: http://creativecommons.org/licenses/by/3.0/
+        license: CC BY 3.0
+        sources:
+          - 'https://secure.fanboy.co.nz/fanboy-annoyance.txt'
 
-  - name: clean_web
-    abp:
-      - 'https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt'      
-    hosts: []
+      - name: Adguard Filters
+        attribution: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+        license: GPL-3.0
+        sources:
+          - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt'
 
-  - name: gambling
-    abp: []
-
-    hosts:
-      - 'https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/gambling/hosts'
+      - name: Web Annoyances
+        attribution: https://creativecommons.org/licenses/by-sa/4.0
+        license: CC BY-SA 4.0
+        sources:
+          - 'https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt'
 
   - name: ip_grabbers
-    abp: []
-
-    hosts:
-      - 'https://raw.githubusercontent.com/ejaz4/hosts/main/IP%20loggers.txt'
+    data:
+      - name: Dot HQ IP Grabber Blocking
+        attribution: https://github.com/dothq/blocking-lists/blob/main/lists/LICENSE
+        license: MPL-2.0
+        sources:
+          - 'https://raw.githubusercontent.com/dothq-extensions/shield-db/main/lists/ip_grabbers.txt'
