@@ -1,7 +1,8 @@
 use std::{
     error::Error,
     fs::{self, create_dir, File, remove_dir_all},
-    io::Write,
+    io::Write, 
+    path::Path,
 };
 
 use linya::Progress;
@@ -37,7 +38,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
     println!("===============");
 
     // Create the out path
-    remove_dir_all("out")?;
+    if Path::new("out").is_dir() {
+        remove_dir_all("out")?;
+    }
+
     create_dir("out")?;
 
     // Create header template string
