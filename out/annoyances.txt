@@ -16643,6 +16643,7 @@
 ##.cookie_message_box
 ##.cookie_message_container
 ##.cookie_message_wrap
+##.cookie_modal_button_v5
 ##.cookie_modal_outer
 ##.cookie_module
 ##.cookie_monster
@@ -33215,6 +33216,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 /cookie-compliance.
 /cookie-consent-$domain=~cookielaw.org|~github.com|~gitlab.com
 /cookie-consent-manager.js
+/cookie-consent-tool/*
 /cookie-consent.
 /cookie-consent/*
 /cookie-consent/*$domain=~geenstijl.nl|~argeweb.nl|~europa.eu
@@ -33882,7 +33884,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 /files/social-
 /files/social/*
 /files/twitter-
-/firebase-messaging.js$domain=theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com
+/firebase-messaging.js$domain=theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de
 /firebase-messaging.js$script,domain=tribunnews.com
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua|astv.ru|pln-pskov.ru|aylink.co
 /firebox-gdpr.
@@ -36892,6 +36894,10 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 2chav.com##.plugin3_outline
 2chav.com##div[style^="width:100%;height:278px"]
 2chav.com##div[style^="width:682px;height:385px"]
+2chmatome2.jp##.adtext
+2chmatome2.jp##.appli-box-description
+2chmatome2.jp##.appli-view-box
+2chmatome2.jp##div[class^="app-dl"]
 2conv.com,flvto.biz,flv2mp3.by##.push-offer
 2day.kh.ua###block-reklamnyybanner
 2day.kh.ua###fb-likebox
@@ -38800,6 +38806,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||playep.pro/player/vendor/adblock.js
 @@||player.fm^*/social-icons/$image
 @@||playkeepout.com/img/common/sharing/
+@@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||playsaurus.com^*/ui/icons/$image,~third-party
 @@||pln-pskov.ru/js/ads.js
 @@||plus.im/static/img/facebook.png
@@ -40153,7 +40160,6 @@ acerta.be###modal-cookie
 aceshowbiz.com###siteMenuBar
 aceshowbiz.com##.theticker
 acf.international##div[class^="CookieConsentModal"]
-acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
 acfun.cn###appguideBox
 acfun.cn###btn-top-shortcut
 acfun.cn##.app-guide
@@ -42662,6 +42668,7 @@ bible.com###react-app-Footer
 biblegateway.com##.pub-bug-row
 biblesociety.bg###home-subscribe
 biblio.co.uk,comfortclick.com##.navbar-fixed-bottom.navbar
+biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
 bibliotecahispana.com###wab_cont
 biblioteka.shop##.banner-cookie
 biblioteka.wroc.pl#@#.cookie-btn
@@ -42856,6 +42863,7 @@ bitchmagazine.org,esetindia.com##.jqmWindow
 bitci.com##.bw-cnotify
 bitcoin-store.net##.CookiePopup_container__C7az6
 bitcoin.org##.donation-container
+bitcompiler.com##.bc-adblock-detector-wrapper
 bitdefender.co.uk###uk_cookie_container
 bitdefender.ru##.m365-popup
 bitdefender.ru##.mtsnb
@@ -43472,6 +43480,7 @@ brainstation.io,dnb.com,disturbia.co.uk,sling.com,tutorialspoint.com###privacy-b
 braintreepayments.com###gdprComponent
 bramanminiofmiami.com##.consumer-privacy-banner
 branchen-info.net###Layer2
+brandavenue.rakuten.co.jp##.rf-banner-app
 brandible.de,walbusch.de##.bannerNewsletter
 brandinginasia.com###icegram_messages_container
 brandvia.com###expander-header-teaser
@@ -43510,7 +43519,6 @@ brendon.hu##.position-fixed
 brennenstuhl.com##.gebaeck-notice
 bresc.com,bresculinair.com##.wall
 bresculinair.nl,energiedirect.nl##.wall
-brestcity.com###text-167
 bretagne-reisen.de,hippowaste.co.uk##.cookies-global
 breuninger.com##.cookieAcceptance
 breuninger.com##.suchen-cookie-privacy-toast
@@ -45301,6 +45309,7 @@ copaair.com,iata.org,foodallergy.org,livecareer.com,yengec.co,myconsult.de,maxil
 cope.es##.toolbar
 coppelaer.nl##.ct-modal
 coqueiro.com.br,camil.com.br##.cookies-msg-box
+coral.ru##.cookieAgreement
 coral.ru##.flexbox-newsletter-wrap
 coraltatil.com,decitre.fr##.notification-cookies
 cordis.europa.eu##app-cookies-consent
@@ -45758,6 +45767,7 @@ dahuasecurity.com##.top_tip_wrap
 daigobang.cn###sp-cc
 daikin.com.tr###KVK_Cerez
 daily.afisha.ru##.afisha-app
+daily.afisha.ru##.news-footer
 daily.afisha.ru##.subscribe-feed
 daily.jstor.org##.article-bottom-email-signup
 daily.jstor.org##.homepage-side-email-signup
@@ -46530,7 +46540,6 @@ disclose.tv###ccc-login-signup
 disclose.tv##.next_page
 disclose.tv##.prev_page
 disclose.tv,sendatext.co##.lb_overlay
-discord.com##div[class^="notice-"]
 discord.com,abus.com###onetrust-banner-sdk
 discord.me###homepageSearchBuffer
 discord.me##.header-fix
@@ -48569,6 +48578,7 @@ finanzen.net###finWebpushNotificationModal
 finanzen.net###showpopup2
 finanzen.net###template-popup-integration
 finanznachrichten.de###bookmarks_container
+finanznachrichten.de##.modal-scrollable
 finanztip.de##.ft-cnt-nl-container
 finanztip.de##.nl-box-inintrotext
 finanztip.de##.nl-box-intext
@@ -50193,6 +50203,7 @@ gog.com##div[data-editable="boxCookieNotification"]
 gog.com##div[gog-social="gplus"]
 gogameguru.com,tecmint.com,wpbeginner.com##.fixedBar
 gogoanime.in,gogoanimes.co##.croll
+gogoanime.mom,discord.com##div[class^="notice-"]
 goguynet.jp###async-ad_line2
 gohacking.com##.GH_sidebar_optin_inr
 goimports.com.br###btnwhatsapp
@@ -52306,7 +52317,7 @@ interiorarcade.com##.connectdaily
 intermedia.ru###subscribeForm
 intermedia.ru##.mainpage-subscribe-block
 intermedia.ru##.personaldata_notice
-intermedia.ru,coral.ru##.cookieAgreement
+intermedia.ru##.сookieAgreement
 intermiles.com###blogCompWrapper
 intermiles.com###gdprBand
 intermiles.com###signup_mobile_btn
@@ -56655,6 +56666,7 @@ muylinux.com##.et_bloom_flyin[data-success_action_details*="newsletter"]
 muylinux.com,em.com.br,4sysops.com##.newsletters
 muz-tv.ru###social_popup_window
 muzikasinstrumenti.lv###PrivacyPolicy
+muziker.si#@#.cookies-box
 muzikmp3indir.com##.facereklam
 muzofond.fm###sveta__muzika-banner
 muzofond.fm##.feedback-main-container
@@ -57542,6 +57554,7 @@ nhentai.net###chatbanner
 nhk.or.jp###appsbanner
 nhk.or.jp###bottom_optout_announce
 nhk.or.jp###nw_gdpr_view_id
+nhk.or.jp##.bottom_optout_announce
 nhk.or.jp,takashimaya.co.jp,webtsc.com###pagetop
 nhl.com##.btm-nhl-announcement-modal[data-cookie-id]
 nhs.uk###BannerDisplay
@@ -61383,6 +61396,7 @@ rzn.info###myNotification
 rzn.info##.panel-top-link
 rzn.info##.telegram_sub_href
 s-pankki.fi##.browser-consent
+s.cinemacafe.net###danglingList
 s.kakaku.com###priceMenuMakerSelect
 s.kakaku.com##.homebtnbnr
 s.kakaku.com##.p-ranking_link-feature
@@ -66887,6 +66901,7 @@ vz.ru##.up-page
 vzdusin.cz,wellmall.cz##.euc
 w-o-s.ru###social-subscribe
 w.atwiki.jp###tanuki-list
+w.grapps.me##.app-intro
 w24.co.za##.subscribe_wrapper
 w3cschool.cn###rfbanner
 w3schools.com###getdiploma
@@ -67455,6 +67470,7 @@ wineinvestmentfund.com###Contentplaceholder1_TAEB3815A051_Col00
 winhelp.us###cookie_consent
 winhelp.us###pleasehelp
 winnipegfreepress.com##.interactive
+winnipegfreepress.com##.non-subscriber-banner
 winphonemetro.com##a[href^="http://www.windowsphone.com/s?appid="]
 winsa.com.tr,egepen.com.tr,honda.com.tr##.kvvk-cookie
 wionews.com###livebtbox
@@ -69179,6 +69195,7 @@ zylom.com###headerbar_privacy
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/*consent_*.js
 ||clickiocdn.com/t/cmp/$third-party
+||clicktimes.bid^
 ||cliengo.com^$media
 ||client.crisp.chat^$third-party
 ||clients.streamwood.ru^$third-party
@@ -69334,7 +69351,7 @@ zylom.com###headerbar_privacy
 ||consentframework.com^$third-party
 ||consentmanager.firststars.io^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
-||consentmanager.net^$domain=tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de
+||consentmanager.net^$domain=tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|abendblatt.de|wolfsburger-nachrichten.de
 ||consentmanager.net^$third-party
 ||consorsbank.de/web-analytics/
 ||consultsystems.ru^$third-party
