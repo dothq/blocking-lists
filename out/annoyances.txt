@@ -14578,6 +14578,7 @@
 ##.c-footer-social-media
 ##.c-footer__back-to-top
 ##.c-footer__cookies
+##.c-footer__follow-us
 ##.c-footer__list--follow
 ##.c-footer__social
 ##.c-footer__social-links
@@ -27251,6 +27252,7 @@
 ##.shareits
 ##.sharekit
 ##.sharelcol
+##.sharelight
 ##.sharelike
 ##.shareline
 ##.sharelines
@@ -28993,6 +28995,7 @@
 ##.socialSharing__icons
 ##.socialSideBar
 ##.socialSidebar
+##.socialSite
 ##.socialSquare
 ##.socialSticky
 ##.socialStickyBanner
@@ -33019,9 +33022,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 -social-share_
 -social-sidebar.
 -social-slider/
--social-sprite-
--social-sprite.
--social-sprites.
 -social-tumblr-
 -social-twitter-
 -social-twitter.
@@ -36462,12 +36462,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 /social-sharing-
 /social-sharing.
 /social-signs.
-/social-sprite-
-/social-sprite.
-/social-sprite_
-/social-sprites-
-/social-sprites.
-/social-sprites2.
 /social-traffic-pop.$~stylesheet
 /social-traffic-pop/*
 /social-tumblr.
@@ -38661,7 +38655,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||gaua.hit.gemius.pl/xgemius.js$domain=1plus1.video
 @@||gawex.pl/assets/js/cookieinfo.js
 @@||gazetabilgoraj.pl/wp-content/plugins/uk-cookie-consent/
-@@||gcdn.co^*/social-sprite.webp$image,domain=tut.by
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
@@ -38962,6 +38955,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||lavocedimanduria.it/TemplateLive/app/assets/js/prebid-ads.js
 @@||lcdn.tsyndicate.com/sdk/*/ad.js
 @@||ldoceonline.com^$generichide
+@@||lecourrier-du-soir.com^*/uk-cookie-consent-js
 @@||lemaker.org/uploadfile/icon/google.jpg
 @@||leo.org^$generichide
 @@||leoconnacht.com/wp/wp-content/plugins/bwp-minify^
@@ -39965,7 +39959,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||transip.*/services/cookie-consent/
 @@||translate.googleusercontent.com^$generichide
 @@||trevisoairport.it^*/jquery.divascookies-$script
-@@||triangleoffense.com^*/triangle-offense-header-social-sprites.png
 @@||trib.com^$generichide
 @@||trinitymedia.ai/player/$script,subdocument
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
@@ -40421,7 +40414,6 @@ _social-bar/
 _social-google+
 _social-home-
 _social-media_
-_social-sprite.
 _social-twitter.
 _social/images/
 _socialBadges.
@@ -40804,8 +40796,8 @@ adlice.com###phantom
 adlittle.jp##.tarteaucitronBeforeVisible
 adlock.com##.adl__spec__disc
 adme.media##div[data-test-id="subscription-block"]
-adme.ru#@#.gallery-social
-adme.ru,pomponik.pl#@#.article-social
+adme.media#@#.gallery-social
+adme.media,pomponik.pl#@#.article-social
 admin.blog.fc2.com##.adimn_pr_txt
 admin.blog.fc2.com##.gtm-h_bnr
 administradores.com.br##.tulsa-campaign
@@ -41466,7 +41458,7 @@ amazon.de,amazon.co.uk###heroQuickPromo_feature_div
 amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-nav#afap-above-nav
 amazon.it###smart-app-banner
 amazon.jobs##.media-icons
-amazon.nl,amazon.pl,amazon.com.tr,amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it###sp-cc[action^="/cookieprefs"]
+amazon.nl,amazon.pl,amazon.com.tr,amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it###sp-cc
 ambcrypto.com##.mvp-nav-soc-wrap
 ambientedirect.com##.snippetNewsletterFlyIn
 ambipar.com#@#.cookies-policy
@@ -41844,6 +41836,7 @@ apkpure.com###policy-info
 apkpure.com##div[id^="ad-aegon-"]
 apkpure.com#@#.cp-banner
 aplus.com###beforeYouGo
+aplus.com##.c206
 aplus.com##.connecting-block
 apnews.com##.bellow-article
 apnews.com##.socials-0-2-26
@@ -45137,6 +45130,7 @@ chillinpanda.com##.scroll_top_wrap
 chillizet.pl,radiostacja.pl##div[class^="app_cmpAppGdpr"]
 chimica-online.it###cookieChoiceInfo
 china-certification.com##.blueline-content-popup
+china.com,hackingloops.com##.go_top
 china.org.cn###rightNav
 chinadaily.com.cn##.hui-dingbu
 chinadaily.com.cn##.three-right
@@ -51585,7 +51579,6 @@ hackerarsenal.com##.wheelio_holder
 hackernoon.com##.js-stickyFooter
 hackers.co.kr##.closing_banner_container
 hackers.co.kr##.floor_layer_pop
-hackingloops.com##.go_top
 hackmd.io,japantimes.co.jp#@#.back-to-top
 hackread.com###text-52.widget
 hacksleak.in,freesoff.com###discourse-modal:not(.login-modal):not(.create-account)
@@ -55312,7 +55305,6 @@ likeyouth.org##.policy-popup
 liliputing.com##.box3
 lillapois.com##.btt-button
 lilly.com,lilly.it##.lds-cookie-consent
-lillywhites.com###divCookieAcceptance
 lilsugar.com,tressugar.com###page-message
 limak.com.tr###CookieWarningPanel
 limakcement.com,limakcimento.com###divCerezUyarisi
@@ -64297,6 +64289,7 @@ sports24.*###ao
 sports24.*##.sp24
 sports24.*##h3
 sports4u.pro,wizistreams.xyz###floatLayer1
+sportsdirect.com,lillywhites.com###divCookieAcceptance
 sportskeeda.com##.app-download-modal
 sportskeeda.com##.consent-pop-up
 sportskeeda.com##.sidebar-app-download

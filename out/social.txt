@@ -4316,6 +4316,7 @@
 ##.c-footer-social-channels
 ##.c-footer-social-link
 ##.c-footer-social-media
+##.c-footer__follow-us
 ##.c-footer__list--follow
 ##.c-footer__social
 ##.c-footer__social-links
@@ -9829,6 +9830,7 @@
 ##.shareits
 ##.sharekit
 ##.sharelcol
+##.sharelight
 ##.sharelike
 ##.shareline
 ##.sharelines
@@ -11396,6 +11398,7 @@
 ##.socialSharing__icons
 ##.socialSideBar
 ##.socialSidebar
+##.socialSite
 ##.socialSquare
 ##.socialSticky
 ##.socialStickyBanner
@@ -13867,9 +13870,6 @@
 -social-share_
 -social-sidebar.
 -social-slider/
--social-sprite-
--social-sprite.
--social-sprites.
 -social-tumblr-
 -social-twitter-
 -social-twitter.
@@ -15645,12 +15645,6 @@
 /social-sharing-
 /social-sharing.
 /social-signs.
-/social-sprite-
-/social-sprite.
-/social-sprite_
-/social-sprites-
-/social-sprites.
-/social-sprites2.
 /social-traffic-pop.$~stylesheet
 /social-traffic-pop/*
 /social-tumblr.
@@ -16681,7 +16675,6 @@
 @@||friendfeed.com/static/images/icons/$~third-party
 @@||fyre.co/*/facebook_share_post.png
 @@||gamingsociety.pl/wp-content/themes/$image
-@@||gcdn.co^*/social-sprite.webp$image,domain=tut.by
 @@||ge.tt/s/images/twitter-extension-icon.png
 @@||ge.tt/s/images/twitter-signin.png
 @@||gearbest.com/imagecache/*/images/styleimg/share.png
@@ -17081,7 +17074,6 @@
 @@||torrentfreak.com/images/reddit$image
 @@||tosdr.org/logo/$image
 @@||transferwise.com^$generichide
-@@||triangleoffense.com^*/triangle-offense-header-social-sprites.png
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
 @@||tune.com/blog/wp-content/plugins/ultimate-social-deux/public/assets/css/style.css
@@ -17318,7 +17310,6 @@ _social-buttons-
 _social-google+
 _social-home-
 _social-media_
-_social-sprite.
 _social-twitter.
 _social/images/
 _socialBadges.
@@ -17478,9 +17469,9 @@ adiconsum.it#@#.content-social
 adilmedya.com#@#.addthis-smartlayers
 adizibey.com##.mag_post-share
 adme.media##div[data-test-id$="-sharing"]
+adme.media#@#.gallery-social
 adme.media,brightside.me##div[data-test-id^="share-button-"]
-adme.ru#@#.gallery-social
-adme.ru,pomponik.pl#@#.article-social
+adme.media,pomponik.pl#@#.article-social
 administrator.de###content-share-menu
 adobe.com#@#.SocialButtons
 adobe.com#@#.mod-facebook
