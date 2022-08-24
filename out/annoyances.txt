@@ -785,6 +785,7 @@
 ###_ghostery-message-row
 ###_iph_cp_popup
 ###_lcms_banerCookies
+###_nLoadCookies
 ###_orkla-cookie-disclaimer
 ###_prcy_info_bar
 ###_s-cookie-notification-container
@@ -2902,6 +2903,7 @@
 ###cookie-msg
 ###cookie-msg-bar
 ###cookie-msg-box
+###cookie-msg-wrapper
 ###cookie-nag
 ###cookie-navbar
 ###cookie-nb-msg
@@ -5625,6 +5627,7 @@
 ###dlgCookies
 ###dlg_cookie_frame
 ###dlicookieusagewarning
+###dm-cookie-popup-container
 ###dm_cookiela_bar
 ###dm_show_cookies
 ###dmg-social-share-vert
@@ -9154,6 +9157,7 @@
 ###pnlCookie
 ###pnlCookieBanner
 ###pnlCookieBar
+###pnlCookieConsent
 ###pnlCookieFooter
 ###pnlCookieInfo
 ###pnlCookieMessage
@@ -23465,6 +23469,7 @@
 ##.keksbar
 ##.keksbox-overlay
 ##.keksbox-overlay-layer
+##.keksi-banner
 ##.keksikyselyModalElement
 ##.kent-cookie-bar
 ##.kento-social-share
@@ -24466,6 +24471,7 @@
 ##.mobile-social-wrapper
 ##.mobile-socialshare-top
 ##.mobile-subscribeBox
+##.mobile-web-redirect-bar
 ##.mobileShare
 ##.mobile_footer_follow_btn
 ##.mobile_newsletter
@@ -26068,6 +26074,7 @@
 ##.patreon-button-twitter
 ##.paveCookies
 ##.pb-CookiesConsent
+##.pb-app__accept-cookie-banner
 ##.pb-back-to-top
 ##.pb-cookie-banner
 ##.pb-cookie-container
@@ -27396,7 +27403,6 @@
 ##.scroll-top-button
 ##.scroll-top-inner
 ##.scroll-top-wrapper
-##.scroll-top:not(body):not(html)
 ##.scroll-triggered-box
 ##.scroll-up-button
 ##.scroll-up-button-wrapper
@@ -31411,6 +31417,7 @@
 ##.titrewidgetnewsletter
 ##.tk-Footer-cc
 ##.tk-cookie-container
+##.tk-footer-social-icons
 ##.tkn-cookie-accept__area
 ##.tl-newsletter-widget
 ##.tl_share_button
@@ -31419,6 +31426,7 @@
 ##.tm-cookie-banner
 ##.tm-cookie-container
 ##.tm-cookie-dialog-root
+##.tm-cookies
 ##.tm-cookies-consent
 ##.tm-editoral-subscription
 ##.tm-follow-link
@@ -31442,6 +31450,7 @@
 ##.tm-totop-scroller
 ##.tmCookieBox
 ##.tmb-cookie-choice
+##.tmblr-iframe--app-cta-button
 ##.tmblr-iframe--follow-teaser
 ##.tmblr-iframe--gdpr-banner
 ##.tmcookienotice
@@ -39677,6 +39686,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||cgtn.com/static/public/web_share/css/shareStyle.css
 @@||cgtn.com/static/public/web_share/js/share-v2.js
 @@||chasecdn.com^*/cookie.js$script,domain=chase.com
+@@||chat.kuki.ai/*/cm-cookie-banner-
 @@||chefkoch.de/ads/werbe-banner/doubleclicktag.js
 @@||chiasenhac.vn/test_ads.html
 @@||chip.de^*/outbrain.js
@@ -42281,6 +42291,7 @@ adevarul.ro,fundatiacaleavictoriei.ro###newsletter
 adex.com,ralabs.org,socioinform.com,stoic.ai##.t886
 adexchanger.com##.adx-membership
 adf.ly###cookie_notice
+adguard-dns.io##.sticky-bar--cookie
 adguard-vpn.net,adguard-vpn.com,adguard.app,adguard.com##.annoyance
 adgully.com,chillitorun.pl,ecoustics.com,egyptianstreets.com,espansionetv.it,flyertalk.com,freemake.com,galaxydata.ru,ivid.it,laziopress.it,onovini.com,rta24.eu,salentolive24.com,saydigi-tech.com,saydigi.com,stw24.pl,torrechannel.it,vonguru.fr,wahl-o-mat.de#@#.social-bottom
 adiconsum.it#@#.content-social
@@ -42529,6 +42540,7 @@ aia.com.ph,bpi-aia.com.ph,privacy.gov.ph##.alert
 aicanet.it,eurojackpot.it##.yui3-widget-modal
 aicpa.org##.gRBzja
 aida.de###hfas782aj
+aida64.com###block-block-10
 aida64.com,nvidia.com,vchaspik.ua#@#.eu-cookie-compliance-popup-open
 aif.ru###subscription_item_widget
 aif.ru###subscription_sidebar_block
@@ -42860,6 +42872,7 @@ allrecipes.com###privacyNotification
 allrecipes.com##.goBack
 allrecipes.com##.goNext
 allrecipes.com##article.slidein[ng-class="slideOutClass"]
+allsaints.com##.sign-up-popup
 allsoft.ru##.b-footer-subscription--injected
 allsoppandallsopp.com###gdpr-modal-container
 allthatsinteresting.com##.__b-popup1__
@@ -43073,13 +43086,14 @@ amydiamond.se###main-bottom-center
 amydiamond.se###main-bottom-right
 anacap.doorblog.jp##.blogroll-list-wrap
 anacap.doorblog.jp##div[class^="anacap-roll"]
+anadibank.com#@##cookie_consent
+anadibank.com#@#.eu-cookie-compliance-banner:not(body):not(html)
 anadoluetap.com,bursagaz.com,mcdonalds.com.tr###toggle-notification
 anadolugazetesi.com,yenimarmaragazetesi.com,sonhaber.com.tr##.inginizicekebilirContiner
 anadolugrubu.com.tr###pnlCookie
 analdin.com##.cookies-line
 analdin.com,reverbpress.com##.arrow-up
 analog.com#@##cookie-consent-container
-analogictips.com,1000projects.org,hostdime.com,whatobuy.in,blog.alexa.com###text-6
 analyticsindiamag.com##div[data-id="1216dac"]
 analyticsindiamag.com##section[data-id="23d45d60"]
 analyticsindiamag.com##section[data-id="2438492"]
@@ -43448,6 +43462,7 @@ appledaily.com###div-GDPR-message
 appledaily.com###subscription_head_banner
 appledaily.com##.tw-mobile-social_container.sticky
 appledaily.com.tw##.adblock_splash
+appledaily.com.tw##a[href="https://feature.appledaily.com.tw/apppromo/"]
 applehousetravel.co.uk,e-sportsbetting.nl,flysharp.com,iddoberger.com,mandrarossatour.com,o-nine.co.uk,onetime.bet,onetimecasino.com,onetimecasinos.com,southalltravel.co.uk,stashdesign.dk,stfly.com,stsports.com,studio-eastwood.nl,theholidayteam.co.uk,thkarayannis.gr,toysupermarket.ie,utelindenberg.com,xn--studenterrdet-yfb.dk##.wrapperbtm
 appleinsider.ru###ioimedia_app_banner
 appleinsider.ru###pushbanner
@@ -43833,6 +43848,8 @@ atlantic.net##.smc-btn
 atlanticcouncil.org##.gravity-form
 atlanticleague.com##.incap_page-tooltip
 atlantico.fr#@##iubenda-cs-banner
+atlas.ru##.subscribe-sticky-wrapper
+atlas.ru,crm.ru,businesstech.co.za,tech.ssut.me,lsm.lv,biservis.com.tr,bigmag.ua,instyle.ru,blog.jetbrains.com,zr.ru,channelsstack.com,news.ifmo.ru,chita.ru,esquire.ru,liga.net,makeuseof.com,stopgame.ru##.subscribe-form
 atlasformen.co.uk###divBottomStickyLayer
 atlasformen.de##div[id^="divCookieStickyLayer"]
 atlasobscura.com###email-roadblock-topographic-modal
@@ -45720,6 +45737,7 @@ bozemandailychronicle.com###prev-next-nav
 bozemandailychronicle.com###side_icons
 bozemandailychronicle.com,denvergazette.com,fauquier.com,galvnews.com,herald-zeitung.com,heraldcourier.com,nashvillescene.com,psu.edu##.asset-paging
 bpb.de##.toolbar-content
+bpi.com.ph##.wid-cookie-bar
 bplans.com###footer-liveplan
 bpn.hu,zalaon.hu##.ZebraDialog
 bpn.hu,zalaon.hu##.ZebraDialogOverlay
@@ -46168,7 +46186,6 @@ bvpraevention.de,avolta.de,halle-entdecken.de###myModal
 bw-online-shop.com##.block-subscribe
 bw-online-shop.com##.modal-mask-class
 bw-online-shop.com##.newsletter_message_wrapper
-bwell-swiss.ru,channelnewsasia.com,dreamhost.com,kitacon.org,lampade.it,polskikoszyk.pl,posti.fi,redislabs.com#@#.scroll-top:not(body):not(html)
 bwin.com##.cookie-consent-message
 bwin.fr##.info-message
 bycontext.com###lcBar
@@ -46785,6 +46802,7 @@ charlott.fr###promote-panel
 chartable.com###cookie-footer
 charter97.org,regnum.ru##.telegram-banner
 chaser.com.au###fixed_footer
+chat.kuki.ai##.pb-app__accept-cookie-banner
 chat.mozilla.org##.mx_ToastContainer
 chatron.pt##.alert
 chaturbate.com##.HomeSignupPopup
@@ -47325,6 +47343,7 @@ cntraveler.com##.desktop.cm-placement
 cntraveler.com##.recirc-riser
 cntraveller.com##.js-c-nav__gallery.c-nav__gallery
 cnvinternationaal.nl#@#.cookiebar:not(body):not(html)
+cnyes.com##._1GCLL
 cnyes.com##.download-wrapper
 cnyfertility.com###popup-graphic
 cnyfertility.com##.banner
@@ -47416,6 +47435,8 @@ coinmarketcap.com##.cmc-cookie-policy-banner
 coinmarketcap.com##.cmc-newsletter-signup
 coinmarketcap.com##.js-platform-alert
 coinmarketcap.com,my.kaspersky.com##.js-cookie-policy-banner
+coinpaprika.com##.api-promo-banner
+coinpaprika.com##.banners-wrapper
 coinpedia.org##.google_news-space
 coinsbit.io,coraltatil.com,decitre.fr##.notification-cookies
 coinsutra.com###PE-chicklet
@@ -47770,7 +47791,6 @@ core77.com##.fade_in
 core77.com##div#full_bottom_pop
 corneey.com##.information-container
 corona-kvwl.de##.m-react-ccm
-corona-transition.org###collapse-newsletter
 coronavirus-control.ru##.tg-notification
 corporate.comcast.com##.c-top-banner
 corporate.dow.com##.screenBlockOverlay
@@ -47998,7 +48018,6 @@ crisisgroup.org,wired.co.uk,folha.uol.com.br##.c-newsletter
 crisistextline.org###accessible-dialog
 criticecho.com,javadecompilers.com###babasbmsgx
 criticker.com###i_cookies
-crm.ru,businesstech.co.za,tech.ssut.me,lsm.lv,biservis.com.tr,bigmag.ua,instyle.ru,blog.jetbrains.com,zr.ru,channelsstack.com,news.ifmo.ru,chita.ru,esquire.ru,liga.net,makeuseof.com,stopgame.ru##.subscribe-form
 crmbuyer.com,ecommercetimes.com,linuxinsider.com,technewsworld.com###story-nl
 crmbuyer.com,ecommercetimes.com,linuxinsider.com,technewsworld.com###story-toolbox1
 croatia.rit.edu###blockScrn
@@ -48229,7 +48248,6 @@ daan.dev##.halfway-post.widget-area
 dach.de##.cc-cover
 dadavidson.com##.popup-container-bottom
 daemmen-und-sanieren.de##.modal-dialog-vue
-daemmen-und-sanieren.de,maler-vergleich.com,kartonmodellbau.de,wvv.de##.ccm-root
 daenischesbettenlager.at,daenischesbettenlager.de,howtogeek.com,jysk-ks.com,jysk.al,jysk.am,jysk.ba,jysk.be,jysk.bg,jysk.by,jysk.ca,jysk.ch,jysk.co.id,jysk.co.uk,jysk.com,jysk.com.cy,jysk.com.kw,jysk.com.mt,jysk.cz,jysk.dk,jysk.ee,jysk.es,jysk.fi,jysk.fr,jysk.ge,jysk.gr,jysk.hr,jysk.hu,jysk.ie,jysk.it,jysk.kz,jysk.lt,jysk.lv,jysk.md,jysk.me,jysk.mk,jysk.nl,jysk.no,jysk.pl,jysk.pt,jysk.ro,jysk.rs,jysk.se,jysk.si,jysk.sk,jysk.ua,jysk.vn,jyskthailand.com,pisiffik.gl,rumfatalagerinn.is,skemman.fo#@#.social-share
 daenischesbettenlager.de###totop
 daf.es##.page-overlay
@@ -49197,7 +49215,6 @@ dlive.tv##.v-snack--bottom
 dll-files.com##.client-cta-box
 dllsearch.net,droidchart.com,exescan.net,go4mosaic.com,lcdchart.com,routerchart.com,slatechart.com###cw
 dls-logistics.de###footerlinks
-dm-autoteile.de,aixontec.com,led-konzept.de,stahlwerk-schweissgeraete.de,basari.de,der-roemer-shop.de,pflanzen-fuer-dich.de,muenzen-engel.de,mein-streu.de,dvs-beregnung.de,hollandshop24.de,asia-in.de,bike-store.de,berlinbottle.de,schraubenhandel24.de,fotomayrshop.de,mindtecstore.com,medplus24.de,spar-paradies.eu,belama.de,lf-textilhandel.de,uhr24.de,tedi.de,segment.com,sport-greifenberg.de,iffysonlinestore.com,victoriahealth.com###consent-manager
 dm-drogeriemarkt.it#@##cookie-bar
 dm.de##div[data-dmid="cookiebar-dm-overlay"]
 dm.de,telekom.de###cookiebar-wrapper
@@ -49924,6 +49941,7 @@ eff.org###site_banner
 eff.org##.pane-effector-signup
 effeweg.nl###mp-popupoverlay1
 effeweg.nl##.via-modal--consent
+effizienzhaus-online.de,daemmen-und-sanieren.de,maler-vergleich.com,kartonmodellbau.de,wvv.de##.ccm-root
 efkoart.cz,ellexgk.cz,eltasat.cz,kawio.cz,majkl3d.cz,marusik.cz,top-dent.cz##.CA
 efootwear.eu##.e-consents-alert
 eforms.com##.page-bottom-message-box
@@ -52401,6 +52419,7 @@ gamerant.com##.w-newsletter-signup
 gamerant.com,latestly.com##.social-list
 gamerant.com,therichest.com###js-gdprForm
 gamerant.ru,zirochka.ua##.widget-subscribe
+gamerch.com##.wiki-head__menu--guide
 gamereason.com##.notificationBlockContainer
 gamersbook.com##.gb-follow-tools
 gamersgate.com#@#.popup-gdpr
@@ -52561,6 +52580,7 @@ gazzetta.gr##.toolbar
 gazzetta.it###multifunctionBar-container
 gazzetta.it##.bck-tile-newsletter
 gbif.org###termsOfUse
+gbnews.uk##.social-button
 gcaptain.com###newsletterModal
 gcaptain.com##.textwidget
 gcds.com,great.gov.uk,ralb.ca,swapcard.com,tommy.com##.ReactModal__Overlay
@@ -53597,7 +53617,6 @@ haberay.com.tr,halktv.com.tr,61trabzonhaber.com,isilanlarikariyer.com,bolgegunde
 haberci-gazete.de##.gdpr_infobar_postion_bottom
 haberdairesi.com##.sagaltreklam
 haberglobal.com.tr##.open-in-application
-haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 haberinadresi.com##.hs-panel-social
 haberinadresi.com,minika.com.tr##.sosyal
 haberinkalemi.com###pg-8-1
@@ -55871,6 +55890,7 @@ javabusinesscompetition.id##div[class^="CookieBanner_"]
 javarchive.com##.box_exlogo_left
 javarchive.com##.box_right_exlogo_banner
 javarevisited.blogspot.com###HTML15
+javcc.com,analogictips.com,1000projects.org,hostdime.com,whatobuy.in,blog.alexa.com###text-6
 javlibrary.com###adultwarningmask
 javur.com###alertAdblock
 jawoll24.de,blumixx.de###footerColumnsTop
@@ -56642,6 +56662,7 @@ kolokolrussia.ru##.subscribeBox
 kolsuzkafasi.com,fmmods.com,dijitalgundem.net,teknotaci.com,lordiz.com###rb-cookie
 kom-dir.ru,firesticktricks.com##.warning
 kom-dir.ru,gd.ru,buhsoft.ru,rnk.ru,26-2.ru,pro-personal.ru,business.ru##.slideBannerContainer
+komandacard.ru,mitele.es,mrfdev.com##.cookies-consent
 komando.com##.k3-prefs-center-modal-background
 komando.com##.promo-cta
 komchadluek.net###accept-cookie-footer
@@ -56973,6 +56994,7 @@ lancom.si##.css-1e6ozjc
 landal.de##.c-consent-bar
 landian.vip##.icon-top.transition
 landkarten-hofmann.de###cnb
+landkreis-bautzen.de##.xm_matomo
 landkreis-landsberg.de,waldhaus-bier.de,barmer.de##.cookiehint
 landkreis-pfaffenhofen.de,landkreis-eichstaett.de#@##CookieConsent
 landkreis-sigmaringen.de###cCore_cookieNotice
@@ -57755,6 +57777,7 @@ lizenzking.de##.modulesden-cookies-bar
 lizhi.fm##.attentionUs
 lizipaina.es###additional
 ljutkeunvpn.blogspot.com#%#
+lk-row.de###nolis-cookie-consent
 lk.megafon.ru##div[class^="lk_banner"]
 lk.rt.ru##.site-footer-cookies
 lk.ukliga.ru##.cookies-notice-wrapper
@@ -58736,6 +58759,7 @@ mclaren.com##.messages
 mclaren.com##.messages.show
 mclaren.com##.show.messages
 mclaren.com##div[class*="-cookie-alert"]
+mconvert.net,mobiflip.de###cookieConsentModal
 mcqslearn.com##.android
 mcqslearn.com##.fbox-background
 mcqslearn.com##.knrdap
@@ -58962,6 +58986,7 @@ meilleurmobile.com##.mm_scrollable_bloc
 meilleurmobile.com#@#.social_tabs
 meilleurtaux.com#@#.ad-placement
 mein-eigenheim.de###cookieabfrage
+mein-eigenheim.de##.overlay_cookiebanner
 mein-gartenexperte.de##div[id^="flowin-exit"]
 mein-gartenshop24.de##.z-100.py-6
 mein-glueck.de##.c-cookiesBox
@@ -59446,7 +59471,6 @@ mistertennis.com#@#.banner_cokie
 mistore.jp##.js-lead-banner
 misumi-ec.com##.l-cookieWrapper
 mitani-visual.jp###c-modal
-mitele.es##.cookies-consent
 mitele.es##.mitele-consent
 mitsubishi-motors.com.tr##.kvkkDisplay
 mitsubishi.com##.l-cookieAlert
@@ -59514,7 +59538,6 @@ mobi.yahoo.com###header-2-GoldenGate-Proxy
 mobi.yahoo.com,delfi.ee,delfi.lt,delfi.lv##.smart-app-banner
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
-mobiflip.de###cookieConsentModal
 mobiget.net#%#
 mobihealthnews.com###boxes-box-subsctiption_middle
 mobiili.fi###text-15
@@ -59962,7 +59985,6 @@ mql5.com##.float-vertical-panel
 mrbigandtall.ca###joinTheClubPopupContainer
 mrctv.org##.signup-block
 mresell.at,mresell.co.uk,mresell.com.au,mresell.de,mresell.es,mresell.fi,mresell.it,mresell.nl,mresell.se###popup_wrapper
-mrfdev.com##.cookies-consent
 mrfood.com###viewportGreyout
 mri.co.jp###gdprArea
 mroauto.pl##.flex-cookies-statement
@@ -60476,6 +60498,8 @@ nationofchange.org##.emailSignupForm
 nationofchange.org##div[style="margin-top:-16px;"]
 nationthailand.com##.banner-special
 nationwide.com##.icon
+nato.int##.socialbar
+nato.int##.subscription-box
 natro.com###readed_contract_row
 naturalblaze.com###stb-overlay
 naturallycurly.com###suscribe-form
@@ -60544,7 +60568,6 @@ nazarenogabrielli.it##.footer_el
 nazarenogabrielli.it##.shopress_scroll
 nazology.net##.js-chase[data-content-piece="Googleニュース告知"]
 nazology.net##.post-googlenews
-nazwa.pl##.policy-box
 nazya.com##.jGrowl
 nb2.bicerovo.ru,ingrad.ru###scb_bg
 nba.com###nba_tos
@@ -60646,6 +60669,7 @@ neilpatel.com###bottom-box-cta
 neilpatel.com##.cta-consulting
 neilpatel.com##.widget-glbg
 neimanmarcus.com##.tooltipArrowDownLeft.tooltipHolder
+nejlevnejsi-barvy-laky.cz###Box1002
 nejm.org##.g-cta-subscribe
 nejm.org##.m-mini-promo-blank
 nejm.org##.pb-house-message
@@ -60704,6 +60728,7 @@ nestoria.de###wrap-cookies-gdpr
 net-s.pl##.regulations
 net-security.org##img[width="82"]
 net4energy.com,gurmeajanda.com##.leadinModal
+netart-registrar.com,nazwa.pl##.policy-box
 netbet.it###sec-banner-div
 netbridge.dk##.blockbkg
 netcarshow.com###cNag
@@ -62615,7 +62640,6 @@ pcworld.com##.delicious
 pcworld.com##.fb-login
 pcworld.com##.howto-video
 pcworld.com##.whitepapers
-pcworld.cz##.js-push-notifications-modal-dialog
 pcworld.hu###back_top
 pcworld.in###slide_box
 pcworld.in,portableapps.com##[alt="RSS"]
@@ -62650,6 +62674,7 @@ pekarstas.com##div[class^="share-block"]
 pekbook.com##.light-modal
 pelando.com.br##.cbZEFj
 pelisplus2.io##a[class*="index-module__telegram___"]
+pemi.cz###pnlCookieConsent
 pen4pals.com##.block-simplenews
 pendix.dk##.cc-dialog
 penguingroup.com###panelad2
@@ -62863,6 +62888,8 @@ picnic-supermarkt.nl###switch2
 picnic.app###modal
 picodi.com###oneSignalBell
 picrew.me##.st-Terms_Wrapper
+picsart.com##[class^="hintWrapper"]
+picsart.com##[class^="pa-monetization"]
 picshare.ru###sape
 picswan.com,pixsor.com,vippix.com##.bookmarks
 pictrs.com###alert-cookie-hint
@@ -63128,6 +63155,7 @@ podconsultsbutik.dk,ugenr.dk###gdpr-consent
 podcrto.si###cc-note
 podecomparar.com.br,gazelektrik.com,akillitarife.com###ac-cookie-compliance
 poder360.com.br##.mod-newsletter
+podnikatel.cz,mesec.cz##.js-push-notifications-modal-dialog--active
 podrobnosti.mk.ua##.social-bottom
 podrobnosti.mk.ua##a[href="tg://resolve?domain=pdnew"]
 podrozerowerowe.info##.appriseOuter
@@ -63157,7 +63185,9 @@ pokemongodb.net###rev-toaster
 pokemongolive.com##.nl-cpb
 pokemongolive.com,nianticlabs.com##ark-cookiebar
 pokemonmasters-game.com##.c-agree-cookie
+pokemonmasters-game.com##.c-modal[data-agree-pp-update]
 pokerist.com##.cookies_popup
+pokernews.com##.article__suggest
 pokernews.com##.suggestion
 pokeroff.ru##.top-banner
 pokewiki.de###gl-topbar-bg
@@ -65300,6 +65330,7 @@ s.tabelog.com##div[class^="p-global-footer__webtoapp"]
 s.tabelog.com##div[id^="js-webtoapp-floating-banner-overlay"]
 s0urce.io###window-msg2
 saabplanet.com###custom_html-30
+saarbruecker-zeitung.de##.park-floating-bell
 saashub.com##.featured-services-vertical
 saashub.com##.sponsored
 sabah.com.tr##.ilgi
@@ -66669,6 +66700,7 @@ sol.de##.dsgvo-container
 sol.no##div[data-testid="privacy-popup"]
 sol.no,dagbladet.no,dinside.no,seher.no##.css-pp-box
 solankowaaleja.com###privacybox
+solar-pac.de,dm-autoteile.de,aixontec.com,led-konzept.de,stahlwerk-schweissgeraete.de,basari.de,der-roemer-shop.de,pflanzen-fuer-dich.de,muenzen-engel.de,mein-streu.de,dvs-beregnung.de,hollandshop24.de,asia-in.de,bike-store.de,berlinbottle.de,schraubenhandel24.de,fotomayrshop.de,mindtecstore.com,medplus24.de,spar-paradies.eu,belama.de,lf-textilhandel.de,uhr24.de,tedi.de,segment.com,sport-greifenberg.de,iffysonlinestore.com,victoriahealth.com###consent-manager
 solarenvi.cz,zahradnikrby.cz###cs_bx
 solarisbank.com,risingstack.com##div[class^="CookieConsent__Container"]
 solarisbus.com##.l-sec--scroll-menu__btn
@@ -66932,7 +66964,7 @@ splenda.com.tr,imago-images.de##.cookieMsg
 splendido.hr##.o-data
 spletnik.ru##.block-subscribe
 spletnik.ru##.push-wrap
-spletnik.ru$$script[wildcard="*insertAfter*params*"][min-length="1000"][max-length="7000"]
+spletnik.ru$$script[wildcard="*insertAfter*params*"][min-length="500"][max-length="7000"]
 splice.com##a[data-qa="plugins-banner"]
 spliiit.com##.chat-in-live
 splitsider.com###facebook-fans
@@ -67157,6 +67189,7 @@ stanleytools.global##.fadeMePP
 stapety.cz##.site-msg
 staples.com##.footer-subscribe-form__formWrapper
 staples.de,staples.nl##.CookieMsg
+staprop.cz###_nLoadCookies
 star-telegram.com###story-cta-widget
 star.com.tr##.ebulletin
 staradvertiser.com###ToSPPAlert
@@ -67729,6 +67762,7 @@ tabletmag.com###slide_in
 tabletmag.com##.DonationPopup
 tabnine.com##.AdWrapper
 tacobell.co.uk##div[am-cookie]
+tacsafon.ru##.sample-popup
 tactxflashlights.com#@#.widget_subscribe
 tactxflashlights.com,undark.org##.boxzilla-container
 tada.com.tr###sfsi_floater
@@ -67886,6 +67920,7 @@ tbsnews.net###___tbspushdiv
 tbsnews.net###__subscribe
 tc.columbia.edu##.sticky-notice-wrap
 tc.columbia.edu##.sticky-notice-wrap[data-style="privacy"]
+tcc.ua##.tm-cookies
 tchibo.de,tchibo.com.tr##.appPromotionPanel
 tcl.com##.cookie-tips
 tcm.com##.universal-footer__ribbon
@@ -69583,6 +69618,8 @@ transformacni-technologie.cz##.upozorneni
 transgourmet.de#@#.cookie-notice:not(body):not(html)
 transip.nl##.one-alert--cookie
 transit.yahoo.co.jp##.mdSidePromo
+transition-news.org##.crayon.article-texte-1042
+transition-news.org,corona-transition.org###collapse-newsletter
 translate.google.ad,translate.google.ae,translate.google.al,translate.google.am,translate.google.as,translate.google.at,translate.google.az,translate.google.ba,translate.google.be,translate.google.bf,translate.google.bg,translate.google.bi,translate.google.bj,translate.google.bs,translate.google.bt,translate.google.by,translate.google.ca,translate.google.cat,translate.google.cd,translate.google.cf,translate.google.cg,translate.google.ch,translate.google.ci,translate.google.cl,translate.google.cm,translate.google.cn,translate.google.co.ao,translate.google.co.bw,translate.google.co.ck,translate.google.co.cr,translate.google.co.id,translate.google.co.il,translate.google.co.in,translate.google.co.jp,translate.google.co.ke,translate.google.co.kr,translate.google.co.ls,translate.google.co.ma,translate.google.co.mz,translate.google.co.nz,translate.google.co.th,translate.google.co.tz,translate.google.co.ug,translate.google.co.uk,translate.google.co.uz,translate.google.co.ve,translate.google.co.vi,translate.google.co.za,translate.google.co.zm,translate.google.co.zw,translate.google.com,translate.google.com.af,translate.google.com.ag,translate.google.com.ai,translate.google.com.ar,translate.google.com.au,translate.google.com.bd,translate.google.com.bh,translate.google.com.bn,translate.google.com.bo,translate.google.com.br,translate.google.com.bz,translate.google.com.co,translate.google.com.cu,translate.google.com.cy,translate.google.com.do,translate.google.com.ec,translate.google.com.eg,translate.google.com.et,translate.google.com.fj,translate.google.com.gh,translate.google.com.gi,translate.google.com.gt,translate.google.com.hk,translate.google.com.jm,translate.google.com.kh,translate.google.com.kw,translate.google.com.lb,translate.google.com.ly,translate.google.com.mm,translate.google.com.mt,translate.google.com.mx,translate.google.com.my,translate.google.com.na,translate.google.com.nf,translate.google.com.ng,translate.google.com.ni,translate.google.com.np,translate.google.com.om,translate.google.com.pa,translate.google.com.pe,translate.google.com.pg,translate.google.com.ph,translate.google.com.pk,translate.google.com.pr,translate.google.com.py,translate.google.com.qa,translate.google.com.sa,translate.google.com.sb,translate.google.com.sg,translate.google.com.sl,translate.google.com.sv,translate.google.com.tj,translate.google.com.tr,translate.google.com.tw,translate.google.com.ua,translate.google.com.uy,translate.google.com.vc,translate.google.com.vn,translate.google.cv,translate.google.cz,translate.google.de,translate.google.dj,translate.google.dk,translate.google.dm,translate.google.dz,translate.google.ee,translate.google.es,translate.google.fi,translate.google.fm,translate.google.fr,translate.google.ga,translate.google.ge,translate.google.gg,translate.google.gl,translate.google.gm,translate.google.gp,translate.google.gr,translate.google.gy,translate.google.hn,translate.google.hr,translate.google.ht,translate.google.hu,translate.google.ie,translate.google.im,translate.google.iq,translate.google.is,translate.google.it,translate.google.je,translate.google.jo,translate.google.kg,translate.google.ki,translate.google.kz,translate.google.la,translate.google.li,translate.google.lk,translate.google.lt,translate.google.lu,translate.google.lv,translate.google.md,translate.google.me,translate.google.mg,translate.google.mk,translate.google.ml,translate.google.mn,translate.google.ms,translate.google.mu,translate.google.mv,translate.google.mw,translate.google.ne,translate.google.nl,translate.google.no,translate.google.nr,translate.google.nu,translate.google.pl,translate.google.pn,translate.google.ps,translate.google.pt,translate.google.ro,translate.google.rs,translate.google.ru,translate.google.rw,translate.google.sc,translate.google.se,translate.google.sh,translate.google.si,translate.google.sk,translate.google.sm,translate.google.sn,translate.google.so,translate.google.sr,translate.google.st,translate.google.td,translate.google.tg,translate.google.tk,translate.google.tl,translate.google.tm,translate.google.tn,translate.google.to,translate.google.tt,translate.google.vg,translate.google.vu,translate.google.ws##.tlid-notification-container
 translate.google.ad,translate.google.ae,translate.google.al,translate.google.am,translate.google.as,translate.google.at,translate.google.az,translate.google.ba,translate.google.be,translate.google.bf,translate.google.bg,translate.google.bi,translate.google.bj,translate.google.bs,translate.google.bt,translate.google.by,translate.google.ca,translate.google.cat,translate.google.cd,translate.google.cf,translate.google.cg,translate.google.ch,translate.google.ci,translate.google.cl,translate.google.cm,translate.google.cn,translate.google.co.ao,translate.google.co.bw,translate.google.co.ck,translate.google.co.cr,translate.google.co.id,translate.google.co.il,translate.google.co.in,translate.google.co.jp,translate.google.co.ke,translate.google.co.kr,translate.google.co.ls,translate.google.co.ma,translate.google.co.mz,translate.google.co.nz,translate.google.co.th,translate.google.co.tz,translate.google.co.ug,translate.google.co.uk,translate.google.co.uz,translate.google.co.ve,translate.google.co.vi,translate.google.co.za,translate.google.co.zm,translate.google.co.zw,translate.google.com,translate.google.com.af,translate.google.com.ag,translate.google.com.ai,translate.google.com.ar,translate.google.com.au,translate.google.com.bd,translate.google.com.bh,translate.google.com.bn,translate.google.com.bo,translate.google.com.br,translate.google.com.bz,translate.google.com.co,translate.google.com.cu,translate.google.com.cy,translate.google.com.do,translate.google.com.ec,translate.google.com.eg,translate.google.com.et,translate.google.com.fj,translate.google.com.gh,translate.google.com.gi,translate.google.com.gt,translate.google.com.hk,translate.google.com.jm,translate.google.com.kh,translate.google.com.kw,translate.google.com.lb,translate.google.com.ly,translate.google.com.mm,translate.google.com.mt,translate.google.com.mx,translate.google.com.my,translate.google.com.na,translate.google.com.nf,translate.google.com.ng,translate.google.com.ni,translate.google.com.np,translate.google.com.om,translate.google.com.pa,translate.google.com.pe,translate.google.com.pg,translate.google.com.ph,translate.google.com.pk,translate.google.com.pr,translate.google.com.py,translate.google.com.qa,translate.google.com.sa,translate.google.com.sb,translate.google.com.sg,translate.google.com.sl,translate.google.com.sv,translate.google.com.tj,translate.google.com.tr,translate.google.com.tw,translate.google.com.ua,translate.google.com.uy,translate.google.com.vc,translate.google.com.vn,translate.google.cv,translate.google.cz,translate.google.de,translate.google.dj,translate.google.dk,translate.google.dm,translate.google.dz,translate.google.ee,translate.google.es,translate.google.fi,translate.google.fm,translate.google.fr,translate.google.ga,translate.google.ge,translate.google.gg,translate.google.gl,translate.google.gm,translate.google.gp,translate.google.gr,translate.google.gy,translate.google.hn,translate.google.hr,translate.google.ht,translate.google.hu,translate.google.ie,translate.google.im,translate.google.iq,translate.google.is,translate.google.it,translate.google.je,translate.google.jo,translate.google.kg,translate.google.ki,translate.google.kz,translate.google.la,translate.google.li,translate.google.lk,translate.google.lt,translate.google.lu,translate.google.lv,translate.google.md,translate.google.me,translate.google.mg,translate.google.mk,translate.google.ml,translate.google.mn,translate.google.ms,translate.google.mu,translate.google.mv,translate.google.mw,translate.google.ne,translate.google.nl,translate.google.no,translate.google.nr,translate.google.nu,translate.google.pl,translate.google.pn,translate.google.ps,translate.google.pt,translate.google.ro,translate.google.rs,translate.google.ru,translate.google.rw,translate.google.sc,translate.google.se,translate.google.sh,translate.google.si,translate.google.sk,translate.google.sm,translate.google.sn,translate.google.so,translate.google.sr,translate.google.st,translate.google.td,translate.google.tg,translate.google.tk,translate.google.tl,translate.google.tm,translate.google.tn,translate.google.to,translate.google.tt,translate.google.vg,translate.google.vu,translate.google.ws##iframe[src^="https://ogs.google."][src*="/widget/callout?prid="]
 translate.google.com###gt-bbar
@@ -69708,6 +69745,12 @@ tripadvisor.com##.ftr_mobile
 tripadvisor.com##.persistentCR
 tripadvisor.de,tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.net,tripadvisor.nl,tripadvisor.se##div[class^="memx-facebook-onetap-Facebook"]
 tripeditor.com##.official_mm_form
+tripmydream.com##.h-pricealert
+tripmydream.com##.mediaSubscribeAdware
+tripmydream.com##.mediaTelegram
+tripmydream.com##.tg-popup
+tripmydream.com##.wind-banner-place
+tripmydream.com##.wind-email-subscribe
 tripod.com###tb_container
 tripolo.pl###miastoszkolen
 tripsavvy.com###dropdown_1-0
@@ -70318,6 +70361,7 @@ unimore.it###InAlto
 unina.it###infocookie
 uninove.br##.wrapper-cookie
 union-bulletin.com,timescall.com##.Mg2-connext.bottom
+unionbankph.com##.cookie-pop-up
 uniprot.org##.privacy-panel
 uniqlo.com##.h-modal-cookie
 uniqlo.com##.newsletterOverlayOverride
@@ -71003,6 +71047,7 @@ vitacig.eu.com##.vctheme-cookies-popup
 vitacost.com###headerEmailSignUp
 vitaexpress.ru###subscribtion-form
 vitalchek.com##.Corpse_Sticky
+vitalia.cz,pcworld.cz##.js-push-notifications-modal-dialog
 vitalmtb.com###message_bar
 vitalmx.com###floatover
 vitalmx.com###message_bar
@@ -72012,6 +72057,7 @@ woocommerce.com###a8c-cookie-banner
 woodbrass.com###backgroundcookie
 woodbrass.com##.hidden-sm.hidden-md.row
 woodmac.com##.panel-cookie
+woodworkforinventor.com##.social_icons
 wook.pt,brother.com,brother.nl,infopedia.pt###cookieLawBar
 woolet.co##.ec-notices__wrap
 woolworth.de#@##cookieModal
@@ -72565,6 +72611,7 @@ youku.com##div[id$="_ykbanner"]
 youla.ru##.web_push_confirmation
 youm7.com##.topTop
 young-shine.com.tw###rot_ctr1_bod_blk6_custom
+young.scot,haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 youngcons.com##.o-responsive-text--desktop.o-responsive-text--tablet.o-responsive-text--mobile.o-responsive-text
 younow.com###modalWindow
 youporn.*###euCookieModal
@@ -73172,6 +73219,7 @@ zylom.com###headerbar_privacy
 ||app.getresponse.com/view_webform_*.js$domain=terenyinwestycyjne.info
 ||app.hubspot.com/conversations-visitor$third-party
 ||app.leadfox.co/js/api/leadfox.js$domain=avantages-familles.ch
+||app.livechatoo.com^$third-party
 ||app.livemarketshoppers.com^$script,third-party
 ||app.mailjet.com^$third-party
 ||app.mycountrytalks.org^$third-party
@@ -73535,6 +73583,7 @@ zylom.com###headerbar_privacy
 ||cdn.carrotquest.app^$third-party
 ||cdn.carrotquest.io^$domain=brutalshop.ru
 ||cdn.carrotquest.io^$third-party
+||cdn.complyauto.com/cookiebanner/banner.js
 ||cdn.concert.io/lib/adblock/sbnation.html
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||cdn.contentsitesrv.com/js/push/$third-party
@@ -73861,10 +73910,11 @@ zylom.com###headerbar_privacy
 ||consent.truste.com^$script,domain=docs.oracle.com
 ||consent.truste.com^$third-party
 ||consentag.eu^$third-party
+||consentement.ouest-france.fr^
 ||consentframework.com^$third-party
 ||consentmanager.firststars.io^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
-||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|abendblatt.de|wolfsburger-nachrichten.de|braunschweiger-zeitung.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|nrz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|waz.de|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de
+||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|abendblatt.de|wolfsburger-nachrichten.de|braunschweiger-zeitung.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|nrz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|waz.de|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de|teslamag.de
 ||consentmanager.net^$third-party
 ||consorsbank.de/web-analytics/
 ||consultsystems.ru^$third-party
@@ -74558,6 +74608,7 @@ zylom.com###headerbar_privacy
 ||glamour.de/*/jquery.adblockerlayer.js?^
 ||glamour.nl/js/partials/cookie-law.js
 ||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay.bundle.js
+||glassdoor.com/garnish/static/js/gd-user-hardsell-overlay.bundle.js
 ||glav-dostavka.ru/js/n-smartbanner.min.js
 ||glavbukh.ru/js/popupManager.js
 ||glisteningguide.com^$third-party
@@ -76041,6 +76092,7 @@ zylom.com###headerbar_privacy
 ||s3.amazonaws.com/mailmunch/
 ||s3.amazonaws.com/scripts.hellobar.com/$third-party
 ||s3.amazonaws.com/uploads/image/505544/33ab86499a.png$domain=nishinippon.co.jp
+||saarbruecker-zeitung.de/assets/widgets/consent-page.js
 ||sabcnews.com^*-iabsa-
 ||safewow.com^*/faceback.png
 ||sail-horizon.com/scout/$third-party
