@@ -14379,6 +14379,7 @@
 ##.barra-cookies
 ##.barra-cookies-modal
 ##.barra_cookie
+##.barra_cookies
 ##.barre-cookie
 ##.barre-info-cookies
 ##.barreInfoCookies2
@@ -14761,6 +14762,7 @@
 ##.blog_share_social_box
 ##.blog_signup_box
 ##.blog_subscription
+##.blogroll-wrapper
 ##.blogroll_wrapper
 ##.blogroll_wrapper2
 ##.blogroll_wrapper3
@@ -16586,7 +16588,6 @@
 ##.cookie-consent-embed-overlay
 ##.cookie-consent-flyout
 ##.cookie-consent-footer
-##.cookie-consent-header
 ##.cookie-consent-header-wrapper
 ##.cookie-consent-holder
 ##.cookie-consent-jolt
@@ -17095,6 +17096,7 @@
 ##.cookie-popup__content
 ##.cookie-popup__heading
 ##.cookie-pp
+##.cookie-preference-modal
 ##.cookie-preference__overlay
 ##.cookie-preferences-banner
 ##.cookie-privacy
@@ -40170,6 +40172,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||filecrypt.co/js/adblock_and_adguard_sucks.js
 @@||filecrypt.co/js/blockmefuckingadblock.js
 @@||filecrypt.co/js/muchmoreads.js
+@@||filemoon.sx/js/dnsads.js
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk|bbc.com
 @@||filmibeat.com^$generichide
@@ -40640,7 +40643,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||meetmecdna.com/images/Connect/btn_facebook_custom_text.png$domain=meetme.com
 @@||megagames.com^$generichide
 @@||megatv.com^$generichide
-@@||megaup.net^$generichide
 @@||mein.eon-energie.at/qpo/portal/eonat/frontend/css/cookiebar.css
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
 @@||melty.fr^$generichide
@@ -40726,6 +40728,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 @@||neckermann.de/static-assets/*/*/cookieBanner.
 @@||nectar.com/lib/cookieBanner.js
 @@||nectar.com/lib/cookieBanner.js$~third-party
+@@||neftyblocks.com/_nuxt/BackToTop.$script,~third-party
 @@||neowin.net/images/uploaded/$image
 @@||neowin.net^$generichide
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
@@ -43628,7 +43631,7 @@ appstorm.net,artnet.com,beforeitsnews.com,biographile.com,celebrity.red,codastor
 appsumo.com##.cc-header-form.text-left
 appszoom.com##.button-more-actions
 apptractor.ru###custom_html-30
-apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.fs-daily
+apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.fs-daily
 appuals.com##.wp-timed-p
 apracas.pt##div[style^="text-align:center;position:fixed;"]
 apricon.se###approvebox
@@ -49659,6 +49662,7 @@ donpatriot.news###bg_popup
 donpatriot.news##.wrapper__search
 donquijote.org###cookie-policy-consent
 donsje.com##.src-components-connected-dialog-dialog__root_open--1JzrN
+dontorrent.uno###DonTelegram
 dontpayfull.com##.cookies-gdpr
 dontpayfull.com##.sponsored
 doodle.com###d-cookiesWarning
@@ -49698,7 +49702,7 @@ douploads.com###news_last
 douyu.com###lifter
 douyutv.com,steampowered.com,vimeo.com#@#.follow_btn
 dovoba.de#@#.cookie-consent-v2
-dovoba.de#@#div.cookie-consent
+dovoba.de,forcetools-kepmar.eu#@#div.cookie-consent
 dovolena.cz##div[class^="Cookies_wrapper"]
 dowhan-nieruchomosci.pl###cookies_text
 down.mdiaload.com##a[href*="download"][href*=".html"]
@@ -50781,6 +50785,7 @@ eromanga-cafe.com###custom_html-4
 eromanga-cafe.com###custom_html-7
 eromanga-cafe.com##.loop-single-widget
 eromanga-castle.com##div[style^="overflow:auto;height:500px;"]
+eromazofu.com###left_sidebar
 eroskosmos.org##.subscribe-main
 erotik.com,flixone.com##.tc-cookie-compliance
 erotik.quoka.de##.active-vip-status-ad
@@ -51350,9 +51355,9 @@ fanpage.it##.overlay-content-wrapper
 fanpop.com###trophy_display_div
 fanpop.com##.fp_panel
 fansale.de###thirdPartyCookiesLayer
+fansided.com,hiddenremote.com,winteriscoming.net##.fixed-article-nav
 fansided.com,inneram.com,lastnighton.com,mp3juices.com,netflixlife.com,opensiteexplorer.org,saturn.de,winteriscoming.net##.gplus
 fansided.com,lastnighton.com,netflixlife.com,winteriscoming.net##.sub-footer-container
-fansided.com,winteriscoming.net##.fixed-article-nav
 fansshare.com###galemail
 fansshare.com###hang-lh
 fansshare.com##div[style="width:192px;height:90px;float:left;padding-left:6px;"]
@@ -52127,6 +52132,9 @@ forbesindia.com##.artical-controls
 forbiddenknowledgetv.net###vlog-module-0-0
 forbiddenplanet.com###gdpr-options
 forbiddenplanet.com##.see-us-on
+forcetools-kepmar.eu#%#AG_onLoad(function(){if(
+forcetools-kepmar.eu#@#.cookie-consent-content
+forcetools-kepmar.eu#@#.cookie-consent:not(body):not(html)
 ford.*##div[class^="cookie-disclaimer-"]
 ford.ca##.cookie-notice-overlay
 foreca.it,foreca.ru###ckieconsent
@@ -52834,6 +52842,7 @@ gamesresources.forumfree.it##.ads
 gamestar.de#%#AG_onLoad(function(){if(
 gamestar.hu,helloworldonline.hu,pcworld.hu###web-push-popup
 gamestop.com##.bttbtn
+gamestorrents.fm##.principio_plugin
 gamesubject.com##.headb
 gameswelt.de#@#.as-oil
 gametimers.it###eu-cookie-law
@@ -54508,6 +54517,7 @@ historyextra.com,newsok.com,tvland.com###leaderboard
 historytoday.com###content-bottom
 historytoday.com##.logo-bg
 historytoday.com##.mailchimp-block
+hitc.com,svd.se##div[id^="sp_message_container_"]
 hitfix.com###accordion
 hitfix.com###custom-alert-signup
 hitfix.com##.promoboxee
@@ -55852,6 +55862,7 @@ investec.com##.alerts-top
 investing.com###PromoteSignUpPopUp
 investing.com###consentWrapper
 investing.com###sideNotificationZone
+investing.com##.ad-free-stripe
 investing.com##.adsFreeSubscriptionMessage
 investing.com##.allow-notifications-popup-wrapper
 investing.com##.consentBarWrapper
@@ -56722,6 +56733,7 @@ kasikornbank.com###ex-app
 kasla.ru##.callback-button
 kaspersky.*##.promo-card
 kaspersky.*,start.me##.notification-bar
+kaspersky.com##[class*="CookiesAccept"]
 kaspersky.com##cookies-requirement
 kaspersky.com##section[data-at-selector="cookie-banner"]
 kaspersky.de,kaspersky.ru##div[class^="NotificationBar-"]
@@ -57460,6 +57472,7 @@ lanacion.com.ar,qmusica.tv##.compartir
 lancashiretelegraph.co.uk###bottom-expandable-wrapper
 lancashiretelegraph.co.uk##div[data-block-pull="newsletter-interstitial"]
 lancashiretelegraph.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk,yeovilexpress.co.uk,worcesternews.co.uk,witneygazette.co.uk,wirralglobe.co.uk,windsorobserver.co.uk,wimbledonguardian.co.uk,wiltshiretimes.co.uk,wiltsglosstandard.co.uk,wilmslowguardian.co.uk,wharfedaleobserver.co.uk,westerntelegraph.co.uk,wearvalleyadvertiser.co.uk,watfordobserver.co.uk,warringtonguardian.co.uk,wandsworthguardian.co.uk,tivysideadvertiser.co.uk,times-series.co.uk,thurrockgazette.co.uk,thisisthewestcountry.co.uk,thewestmorlandgazette.co.uk,thevillager.co.uk,thetottenhamindependent.co.uk,thescottishfarmer.co.uk,thenorthernecho.co.uk,the-gazette.co.uk,tewkesburyadmag.co.uk,suttonguardian.co.uk,surreycomet.co.uk,stourbridgenews.co.uk,sthelensstar.co.uk,stalbansreview.co.uk,southwestfarmer.co.uk,southwalesguardian.co.uk,southendstandard.co.uk,somersetcountygazette.co.uk,smallholder.co.uk,sloughobserver.co.uk,salisburyjournal.co.uk,runcornandwidnesworld.co.uk,romseyadvertiser.co.uk,richmondandtwickenhamtimes.co.uk,redditchadvertiser.co.uk,readingchronicle.co.uk,prestwichandwhitefieldguide.co.uk,penarthtimes.co.uk,oxfordtimes.co.uk,northyorkshireadvertiser.co.uk,northwichguardian.co.uk,newsshopper.co.uk,milfordmercury.co.uk,middlewichguardian.co.uk,messengernewspapers.co.uk,malverngazette.co.uk,maldonandburnhamstandard.co.uk,ludlowadvertiser.co.uk,leighjournal.co.uk,ledburyreporter.co.uk,knutsfordguardian.co.uk,kidderminstershuttle.co.uk,keighleynews.co.uk,ilkleygazette.co.uk,hillingdontimes.co.uk,heraldseries.co.uk,helensburghadvertiser.co.uk,harwichandmanningtreestandard.co.uk,harrowtimes.co.uk,hampshirechronicle.co.uk,halsteadgazette.co.uk,halesowennews.co.uk,guardian-series.co.uk,greenocktelegraph.co.uk,gazetteseries.co.uk,gazetteherald.co.uk,gazette-news.co.uk,freepressseries.co.uk,falmouthpacket.co.uk,eveshamjournal.co.uk,troontimes.com,epsomguardian.co.uk,enfieldindependent.co.uk,thenational.scot,echo-news.co.uk,ealingtimes.co.uk,durhamadvertiser.co.uk,dumbartonreporter.co.uk,dudleynews.co.uk,droitwichadvertiser.co.uk,dorsetecho.co.uk,darlingtonandstocktontimes.co.uk,peeblesshirenews.com,croydonguardian.co.uk,creweguardian.co.uk,cravenherald.co.uk,cotswoldjournal.co.uk,consettstanleyadvertiser.co.uk,clydebankpost.co.uk,clactonandfrintongazette.co.uk,chorleycitizen.co.uk,chesterlestreetadvertiser.co.uk,chelmsfordweeklynews.co.uk,chardandilminsternews.co.uk,campaignseries.co.uk,burytimes.co.uk,burnhamandhighbridgeweeklynews.co.uk,bucksfreepress.co.uk,bromsgroveadvertiser.co.uk,bridportnews.co.uk,bridgwatermercury.co.uk,brentwoodlive.co.uk,braintreeandwithamtimes.co.uk,bracknellnews.co.uk,borehamwoodtimes.co.uk,basingstokegazette.co.uk,barryanddistrictnews.co.uk,banburycake.co.uk,asianimage.co.uk,andoveradvertiser.co.uk,largsandmillportnews.com,irvinetimes.com,impartialreporter.com,herefordtimes.com,heraldscotland.com,eastlothiancourier.com,dunfermlinepress.com,cumnockchronicle.com,centralfifetimes.com,carrickherald.com,bordertelegraph.com,bicesteradvertiser.net,barrheadnews.com,ayradvertiser.com,ardrossanherald.com,alloaadvertiser.com#$##bbpvos{position:absolute;left:-9999px;}
+lancers.jp###js-work-detail-sign-up-footer
 lancom.si##.css-1e6ozjc
 landal.de##.c-consent-bar
 landian.vip##.icon-top.transition
@@ -62802,7 +62815,11 @@ ostatic.com##.opromo
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-notifications
 ostermann.eu##._2hGJl
 ostin.com##.o-cookies-notice__container
+ostrovok.ru##.homepage-mobile-wrapper
+ostrovok.ru##.mobileappbanner
 ostrovok.ru##.zen-privacypolicypopup
+ostrovok.ru##.zenorders-mobile
+ostrovok.ru##div[class^="MobileAppWidget-module__button-wrapper"]
 ostseebad-insel-poel.de##.stoerer_footer
 osu.cz###souhlas
 osvita.ua##.js-likebox
@@ -70091,6 +70108,7 @@ tokai.hostlove.com###sub
 tokar.ua##.bouncing-icon
 tokar.ua##.under-header
 tokfm.pl##.app-top-popup
+tokimeki-s.com###rss
 tokion.jp##.tkn-cookie-accept__area
 tokk-hankyu.jp##.ad_sideFixTop
 tokmanni.fi##.newsletter-modal
@@ -72510,6 +72528,7 @@ wesalhaq.tv##.yt
 weser-kurier.de##div[class^="webBanner"]
 wesh.com##iframe[src="https://link.watchstitch.com/join/5ed/signup-box-embed"]
 west-games.com#@##cookie-law-info-bar
+westchestermagazine.com##.cp-popup-container
 westend61.de###cookie_Modal
 westermann.de##.component-cookie-banner
 westernjournal.com###firefly-poll-container
@@ -74629,7 +74648,7 @@ zyro.com##.ebook-banner
 ||cmp.pcworld.pl^$script
 ||cmp.playpilot.com^
 ||cmp.quantcast.com/choice/*/wgospodarce.pl/choice.js
-||cmp.quantcast.com^$script,domain=9gag.com|agoravox.tv|auto1.fi|base64encode.org|blogit.fi|buzz.ie|century21.pt|dagospia.com|eurheilu.org|ezgif.com|foreca.fi|gekkonen.net|ilmainensanakirja.fi|inverse.com|irc-galleria.net|kilokalori.net|konsolifin.net|kotimaatutuksi.fi|lomamatkalle.fi|mamaclever.de|nordic.ign.com|nostemedia.fi|nylon.com|online-tech-tips.com|pienimatkaopas.com|potku.net|reader.gr|riemurasia.net|soccerway.com|suomi24.fi|suomikiekko.com|telsu.fi|testeri.fi|tilannehuone.fi|time.is|timeanddate.com|tmlcolorcodes.com|vau.fi|yourmoney.com
+||cmp.quantcast.com^$script,domain=9gag.com|agoravox.tv|auto1.fi|base64encode.org|blogit.fi|buzz.ie|century21.pt|dagospia.com|eurheilu.org|ezgif.com|foreca.fi|gekkonen.net|ilmainensanakirja.fi|inverse.com|irc-galleria.net|kilokalori.net|konsolifin.net|kotimaatutuksi.fi|lomamatkalle.fi|mamaclever.de|nordic.ign.com|nostemedia.fi|nylon.com|online-tech-tips.com|pienimatkaopas.com|potku.net|reader.gr|riemurasia.net|sapo.pt|soccerway.com|suomi24.fi|suomikiekko.com|telsu.fi|testeri.fi|tilannehuone.fi|time.is|timeanddate.com|tmlcolorcodes.com|vau.fi|yourmoney.com
 ||cmp.quantcast.com^$third-party
 ||cmp.seniorguide.jp^
 ||cmp.smartadserver.mgr.consensu.org^
@@ -77206,6 +77225,7 @@ zyro.com##.ebook-banner
 ||societe-des-avis-garantis.fr/wp-content/*/widgets/$third-party
 ||sodahead.com^$third-party
 ||softbesplatno.net/templates/FreeSoft/images/banner*.png
+||softpedia.com/zds.php
 ||softwebzone.com^$third-party
 ||sonnik.expert/wid4360.php
 ||sordidsmile.com^$third-party
